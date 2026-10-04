@@ -27,10 +27,16 @@ class ClienteHTTP:
             try:
                 r = self.sesion.get(url, params=params, headers=headers, timeout=self.timeout)
                 if r.status_code == 429 or r.status_code >= 500:
-                    pausa = float(r.headers.get("Retry-After", espera * 2))
+                    # CoinGecko a veces manda Retry-After: 0; ante un 429 se espera al menos 15 s y se duplica.
+                    minimo = espera * 7.5 if r.status_code == 429 else espera
+                    try:
+                        pedido = float(r.headers.get("Retry-After", 0))
+                    except ValueError:
+                        pedido = 0
+                    pausa = min(max(pedido, minimo), 90)
                     ultimo_error = f"HTTP {r.status_code}"
                     log.warning("%s en %s, espero %.0fs (intento %d)", ultimo_error, url, pausa, intento)
-                    time.sleep(min(pausa, 90))
+                    time.sleep(pausa)
                     espera *= 2
                     continue
                 if r.status_code >= 400:

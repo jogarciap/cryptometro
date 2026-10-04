@@ -37,4 +37,4 @@ reporte:
 red:
   timeout_seg: 20
   reintentos: 4
-  pausa_coingecko_seg: 2.5       # sin API key CoinGecko permite pocas llamadas por minuto
+  pausa_coingecko_seg: 6         # sin API key CoinGecko permite ~10 llamadas por minuto
