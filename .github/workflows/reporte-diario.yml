@@ -1,0 +1,54 @@
+name: Reporte diario
+
+on:
+  schedule:
+    - cron: "15 11 * * *"   # 11:15 UTC todos los días (08:15 en Argentina/Chile)
+  workflow_dispatch: {}     # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write   # guardar el histórico (datos/cripto.db) en el repositorio
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reporte-diario
+  cancel-in-progress: false
+
+jobs:
+  reporte:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Generar reporte
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
+          LUNARCRUSH_API_KEY: ${{ secrets.LUNARCRUSH_API_KEY }}
+          COINMARKETCAL_API_KEY: ${{ secrets.COINMARKETCAL_API_KEY }}
+        run: python run.py --no-abrir --sitio
+
+      - name: Guardar histórico
+        run: |
+          git config user.name "reporte-diario[bot]"
+          git config user.email "reporte-diario@users.noreply.github.com"
+          git add datos/ reportes/*.html
+          git diff --cached --quiet || git commit -m "Reporte $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: reportes
+      - id: deploy
+        uses: actions/deploy-pages@v4

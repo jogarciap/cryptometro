@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reporte cripto {{ fecha }}</title>
+<script src="plotly.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --fondo: #f6f5f2; --superficie: #fcfcfb; --borde: #e3e2dd;
+  --texto: #0b0b0b; --texto-2: #52514e; --texto-3: #7a7974;
+  --acento: #2a78d6; --sube: #0a7d3c; --baja: #c43030; --aviso-fondo: #fff4d6; --aviso-borde: #e2b33c;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --fondo: #121211; --superficie: #1a1a19; --borde: #2e2e2c;
+    --texto: #ffffff; --texto-2: #c3c2b7; --texto-3: #8f8e86;
+    --acento: #3987e5; --sube: #4cc47a; --baja: #ef6b6b; --aviso-fondo: #2e2610; --aviso-borde: #8a6a12;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --fondo: #121211; --superficie: #1a1a19; --borde: #2e2e2c;
+  --texto: #ffffff; --texto-2: #c3c2b7; --texto-3: #8f8e86;
+  --acento: #3987e5; --sube: #4cc47a; --baja: #ef6b6b; --aviso-fondo: #2e2610; --aviso-borde: #8a6a12;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto);
+       font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
+main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+h2 { font-size: 18px; margin: 32px 0 12px; }
+.sub { color: var(--texto-3); font-size: 13px; }
+.tarjeta { background: var(--superficie); border: 1px solid var(--borde); border-radius: 10px; padding: 16px; }
+.resumen li { margin: 6px 0; }
+.fuente { color: var(--texto-3); font-size: 12px; }
+.aviso { background: var(--aviso-fondo); border: 1px solid var(--aviso-borde); border-radius: 8px;
+         padding: 10px 14px; margin: 12px 0; font-size: 14px; }
+.tabla-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 8px; border-bottom: 1px solid var(--borde); text-align: right; white-space: nowrap; }
+th { color: var(--texto-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0;
+     background: var(--superficie); }
+th:hover { color: var(--acento); }
+td.izq, th.izq { text-align: left; }
+td.anom { text-align: left; white-space: normal; min-width: 200px; color: var(--texto-2); }
+.pos { color: var(--sube); } .neg { color: var(--baja); }
+.oculta { display: none; }
+button { background: none; border: 1px solid var(--borde); color: var(--acento); border-radius: 6px;
+         padding: 6px 12px; margin-top: 10px; cursor: pointer; font: inherit; }
+.graficos { display: grid; gap: 16px; }
+footer { margin-top: 40px; color: var(--texto-3); font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Reporte cripto del {{ fecha }}</h1>
+<div class="sub">Generado {{ generado }} (hora local). Velas diarias al último cierre UTC. Etapa 1: precios y mercado; noticias, sentimiento y puntaje llegan en etapas siguientes.</div>
+
+{% for a in avisos %}<div class="aviso">{{ a }}</div>{% endfor %}
+
+<h2>Resumen del mercado</h2>
+<div class="tarjeta resumen"><ol>
+{% for l in resumen %}<li>{{ l.texto }} <span class="fuente">Fuente: {{ l.fuente }}</span></li>{% endfor %}
+</ol></div>
+
+<h2>Anomalías del día</h2>
+<div class="tarjeta">
+{% if anomalias %}
+<p class="sub">Volumen de la última vela mayor a {{ umbral_vol }}x su promedio de 30 días, o movimiento diario mayor a {{ umbral_sd }} desviaciones estándar de los últimos 90 días. Son hechos medidos, no señales de compra o venta.</p>
+<div class="tabla-wrap"><table>
+<tr><th class="izq">Moneda</th><th>Precio</th><th>24 h</th><th>Vol. relativo</th><th class="izq">Qué pasó</th></tr>
+{% for f in anomalias %}
+<tr><td class="izq"><b>{{ f.simbolo }}</b> {{ f.nombre }}</td><td>{{ f.precio }}</td>
+<td class="{{ 'pos' if f.c24_n is not none and f.c24_n > 0 else 'neg' }}">{{ f.c24 }}</td><td>{{ f.volrel }}</td>
+<td class="anom">{{ f.anomalias }}</td></tr>
+{% endfor %}
+</table></div>
+{% else %}<p>Sin anomalías en la última vela cerrada.</p>{% endif %}
+</div>
+
+<h2>Gráficos</h2>
+<div class="graficos">
+{% if grafico_btc %}<div class="tarjeta"><b>BTC: precio con medias móviles y volumen diario</b>
+<div class="fuente">Fuente: velas diarias de Binance (o CoinGecko si Binance no respondió)</div>{{ grafico_btc | safe }}</div>
+{% else %}<div class="aviso">Sin velas de BTC: no se pudo dibujar el gráfico de precio.</div>{% endif %}
+{% if grafico_fg %}<div class="tarjeta"><b>Índice Fear &amp; Greed, últimos 30 días</b>
+<div class="fuente">Fuente: alternative.me</div>{{ grafico_fg | safe }}</div>{% endif %}
+</div>
+
+<h2>Universo del día ({{ universo.en_universo }} monedas)</h2>
+<p class="sub">Top {{ universo.top_leido }} por capitalización en CoinGecko; excluidas {{ universo.excluidas_stable_envueltas }} stablecoins/envueltas/staking líquido
+{% if universo.ejemplos_excluidas %}({{ universo.ejemplos_excluidas | join(", ") }}…){% endif %}
+y {{ universo.excluidas_poco_volumen }} con volumen menor al mínimo. Haz clic en un encabezado para ordenar. "s/d" = sin datos suficientes.</p>
+<div class="tarjeta tabla-wrap">
+<table id="tabla">
+<thead><tr>
+<th data-k="n">#</th><th class="izq" data-k="s">Moneda</th><th data-k="n">Precio USD</th>
+<th data-k="n">24 h</th><th data-k="n">7 d</th><th data-k="n">30 d</th><th data-k="n">Volumen 24 h</th>
+<th data-k="n">Vol. rel. 30 d</th><th data-k="n">vs SMA 50</th><th data-k="n">vs SMA 200</th>
+<th data-k="n">Volat. 30 d (anual.)</th><th data-k="n">Caída máx 90 d</th><th class="izq" data-k="s">Velas</th>
+</tr></thead>
+<tbody>
+{% macro c(txt, n) %}<td data-v="{{ n if n is not none else '' }}" class="{{ 'pos' if n is not none and n > 0 else ('neg' if n is not none and n < 0 else '') }}">{{ txt }}</td>{% endmacro %}
+{% for f in filas %}
+<tr class="{{ 'oculta' if loop.index > filas_visibles else '' }}">
+<td data-v="{{ f.rank }}">{{ f.rank }}</td>
+<td class="izq" data-v="{{ f.simbolo }}"><b>{{ f.simbolo }}</b> <span class="sub">{{ f.nombre }}</span></td>
+<td data-v="{{ f.precio_n if f.precio_n is not none else '' }}">{{ f.precio }}</td>
+{{ c(f.c24, f.c24_n) }}{{ c(f.c7, f.c7_n) }}{{ c(f.c30, f.c30_n) }}
+<td data-v="{{ f.vol_n if f.vol_n is not none else '' }}">{{ f.vol }}</td>
+<td data-v="{{ f.volrel_n if f.volrel_n is not none else '' }}">{{ f.volrel }}</td>
+{{ c(f.s50, f.s50_n) }}{{ c(f.s200, f.s200_n) }}
+<td data-v="{{ f.volat_n if f.volat_n is not none else '' }}">{{ f.volat }}</td>
+<td data-v="{{ f.dd_n if f.dd_n is not none else '' }}">{{ f.dd }}</td>
+<td class="izq" data-v="{{ f.fuente }}">{{ f.fuente }} <span class="sub">({{ f.dias }} d)</span></td>
+</tr>
+{% endfor %}
+</tbody></table>
+{% if filas | length > filas_visibles %}<button id="ver-todas">Ver las {{ filas | length }} monedas</button>{% endif %}
+</div>
+
+<footer>
+Este reporte es material de apoyo para investigar. No es una recomendación de inversión ni promete ganancias.
+Los datos pueden tener retrasos o errores de las fuentes; verifica antes de decidir.
+</footer>
+</main>
+<script>
+(function () {
+  const tabla = document.getElementById("tabla");
+  const cuerpo = tabla.tBodies[0];
+  let mostrarTodas = false;
+  const btn = document.getElementById("ver-todas");
+  function aplicarVisibles() {
+    [...cuerpo.rows].forEach((r, i) => r.classList.toggle("oculta", !mostrarTodas && i >= {{ filas_visibles }}));
+  }
+  if (btn) btn.addEventListener("click", () => {
+    mostrarTodas = !mostrarTodas;
+    btn.textContent = mostrarTodas ? "Ver menos" : "Ver las {{ filas | length }} monedas";
+    aplicarVisibles();
+  });
+  [...tabla.tHead.rows[0].cells].forEach((th, idx) => {
+    let asc = idx === 0;
+    th.addEventListener("click", () => {
+      asc = !asc;
+      const num = th.dataset.k === "n";
+      const filas = [...cuerpo.rows].sort((a, b) => {
+        const va = a.cells[idx].dataset.v, vb = b.cells[idx].dataset.v;
+        if (va === "" && vb !== "") return 1;
+        if (vb === "" && va !== "") return -1;
+        const d = num ? parseFloat(va) - parseFloat(vb) : va.localeCompare(vb);
+        return asc ? d : -d;
+      });
+      filas.forEach(r => cuerpo.appendChild(r));
+      aplicarVisibles();
+    });
+  });
+})();
+</script>
+</body>
+</html>

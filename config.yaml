@@ -1,0 +1,40 @@
+# =====================================================================
+# Configuración del Investigador Cripto
+# Edita los valores y vuelve a ejecutar; no hace falta tocar el código.
+# =====================================================================
+
+universo:
+  top_n: 200                     # monedas por capitalización que se miran
+  volumen_minimo_usd: 5000000    # volumen 24 h mínimo (USD) para quedar en el universo
+  # Categorías de CoinGecko que se excluyen (stablecoins, envueltos, staking líquido)
+  categorias_excluidas:
+    - stablecoins
+    - wrapped-tokens
+    - liquid-staking-tokens
+    - bridged-tokens
+  # Respaldo por si una categoría no responde: símbolos que siempre se excluyen
+  simbolos_excluidos: [usdt, usdc, dai, fdusd, tusd, usde, usds, pyusd, usdd, busd, usd1,
+                       wbtc, weth, steth, wsteth, weeth, cbbtc, cbeth, reth, wbeth, bsc-usd,
+                       susde, lbtc, solvbtc, wbnb, meth, ezeth, rseth, jitosol, msol]
+  # Si el nombre contiene alguna de estas palabras, se excluye
+  palabras_excluidas: [wrapped, bridged, staked, "liquid staking"]
+
+velas:
+  dias: 365                      # historial diario a mantener (SMA 200 necesita >= 200)
+  par_cotizacion: USDT           # se busca SIMBOLO+USDT en Binance
+  tolerancia_precio: 0.30        # si el cierre de ayer en Binance difiere >30% del precio en CoinGecko,
+                                 # se asume que es otra moneda con el mismo símbolo
+  max_respaldo_coingecko: 40     # máx. monedas sin par en Binance a descargar de CoinGecko por día
+
+anomalias:
+  volumen_vs_promedio_30d: 2.0   # volumen del día > 2x su promedio de 30 días
+  desviaciones_precio: 2.0       # movimiento diario > 2 desviaciones estándar (90 días)
+
+reporte:
+  filas_tabla: 25                # filas visibles por defecto en la tabla principal
+  abrir_navegador: true          # abrir el reporte al terminar
+
+red:
+  timeout_seg: 20
+  reintentos: 4
+  pausa_coingecko_seg: 2.5       # sin API key CoinGecko permite pocas llamadas por minuto
