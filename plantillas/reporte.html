@@ -114,6 +114,14 @@ h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
 .chip { padding: 2px 8px; border-radius: 999px; font-size: 12.5px; font-weight: 600; background: var(--superficie-2); color: var(--texto-2); }
 .chip.up { background: var(--sube-suave); color: var(--sube); }
 .chip.down { background: var(--baja-suave); color: var(--baja); }
+.vivo { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--texto-3); margin: -6px 0 14px; }
+.vivo .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--texto-3); flex: none; }
+.vivo.on .punto { background: var(--sube); box-shadow: 0 0 0 0 var(--sube); animation: latido 2s infinite; }
+@keyframes latido { 0% { box-shadow: 0 0 0 0 var(--sube-suave); } 70% { box-shadow: 0 0 0 7px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+.precio { transition: color .6s; }
+.precio.flash-up { color: var(--sube); }
+.precio.flash-down { color: var(--baja); }
+@media (prefers-reduced-motion: reduce) { .vivo.on .punto { animation: none; } .precio { transition: none; } }
 .spark { display: block; margin-left: auto; }
 .barras { display: grid; grid-template-columns: auto 1fr auto; gap: 5px 10px; align-items: center; padding: 10px 18px;
           background: var(--superficie-2); border-top: 1px solid var(--borde); border-bottom: 1px solid var(--borde); font-size: 12.5px; }
@@ -244,9 +252,10 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 
 <h2 id="destacadas">Las {{ fichas | length }} monedas con mejor puntaje</h2>
 <p class="bajada">El puntaje (0 a 100) compara cada moneda con el resto del universo de hoy en tendencia, momentum y riesgo{% if not con_sentimiento %}; el sentimiento se suma en la próxima etapa{% endif %}. Un puntaje alto indica qué investigar primero, no qué comprar.</p>
+<div class="vivo" id="vivo" aria-live="polite"><span class="punto"></span><span id="vivo-txt">Precios del último reporte</span></div>
 <div class="fichas">
 {% for f in fichas %}
-<article class="tarjeta ficha">
+<article class="tarjeta ficha" data-id="{{ f.coin_id }}"{% if f.fuente == "binance" %} data-par="{{ f.simbolo | upper }}USDT"{% endif %}>
   <div class="ficha-cab">
     <span class="pos">#{{ f.pos }}</span>
     <div class="moneda">
@@ -256,9 +265,9 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
     <div class="anillo" style="--p: {{ f.pt_n or 0 }}" title="Puntaje {{ f.pt }} de 100"><span class="num">{{ f.pt }}</span></div>
   </div>
   <div class="ficha-datos num">
-    <span class="precio">US$ {{ f.precio }}</span>
+    <span class="precio" data-precio="{{ f.precio_n if f.precio_n is not none else '' }}">US$ {{ f.precio }}</span>
     {% for etiqueta, txt, n in [("24 h", f.c24, f.c24_n), ("7 d", f.c7, f.c7_n), ("30 d", f.c30, f.c30_n)] %}
-      <span class="chip {{ 'up' if n is not none and n >= 0 else ('down' if n is not none else '') }}">{{ etiqueta }} {{ txt }}</span>
+      <span class="chip {{ 'up' if n is not none and n >= 0 else ('down' if n is not none else '') }}"{% if loop.first %} data-c24{% endif %}>{{ etiqueta }} {{ txt }}</span>
     {% endfor %}
     {{ f.spark | safe }}
   </div>
@@ -566,6 +575,87 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
     const ro = new ResizeObserver(entradas => entradas.forEach(e => ajustar(e.target.querySelector(".js-plotly-plot"))));
     graficos.forEach(g => ro.observe(g.parentElement));
   }
+})();
+// Precios en vivo del top 10 mientras la página está abierta (el análisis se recalcula 4 veces por día).
+// Binance para las que tienen par en USDT; CoinGecko para el resto o si Binance no responde.
+(function () {
+  const fichas = [...document.querySelectorAll(".ficha[data-id]")];
+  const caja = document.getElementById("vivo"), txt = document.getElementById("vivo-txt");
+  if (!fichas.length || !caja || !window.fetch) return;
+  const CADA = 30;  // segundos entre actualizaciones
+  let ultima = null, timer = null;
+
+  const formato = x => x >= 1000 ? x.toLocaleString("en-US", { maximumFractionDigits: 0 })
+    : x >= 1 ? x.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+    : Number(x.toPrecision(4)).toString();
+
+  async function json(url) {
+    const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), 8000);
+    try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) throw new Error(r.status); return await r.json(); }
+    finally { clearTimeout(t); }
+  }
+
+  async function desdeBinance(pares) {
+    if (!pares.length) return {};
+    const q = encodeURIComponent(JSON.stringify(pares));
+    const datos = await json(`https://data-api.binance.vision/api/v3/ticker/24hr?symbols=${q}`);
+    const out = {};
+    datos.forEach(d => { out[d.symbol] = { precio: +d.lastPrice, c24: +d.priceChangePercent }; });
+    return out;
+  }
+
+  async function desdeCoinGecko(ids) {
+    if (!ids.length) return {};
+    const d = await json(`https://api.coingecko.com/api/v3/simple/price?ids=${ids.join(",")}&vs_currencies=usd&include_24hr_change=true`);
+    const out = {};
+    for (const id in d) if (d[id].usd) out[id] = { precio: d[id].usd, c24: d[id].usd_24h_change };
+    return out;
+  }
+
+  function pintar(ficha, v) {
+    if (!v || !isFinite(v.precio)) return false;
+    const p = ficha.querySelector(".precio"), antes = parseFloat(p.dataset.precio);
+    p.textContent = "US$ " + formato(v.precio);
+    p.dataset.precio = v.precio;
+    if (isFinite(antes) && v.precio !== antes) {
+      p.classList.add(v.precio > antes ? "flash-up" : "flash-down");
+      setTimeout(() => p.classList.remove("flash-up", "flash-down"), 1200);
+    }
+    const c = ficha.querySelector("[data-c24]");
+    if (c && isFinite(v.c24)) {
+      c.textContent = "24 h " + (v.c24 >= 0 ? "+" : "") + v.c24.toFixed(1) + "%";
+      c.classList.toggle("up", v.c24 >= 0); c.classList.toggle("down", v.c24 < 0);
+    }
+    return true;
+  }
+
+  async function actualizar() {
+    const conPar = fichas.filter(f => f.dataset.par);
+    let bn = {}, pendientes = fichas;
+    try {
+      bn = await desdeBinance(conPar.map(f => f.dataset.par));
+      pendientes = fichas.filter(f => !(f.dataset.par && bn[f.dataset.par]));
+    } catch (e) { /* sin Binance: todo por CoinGecko */ }
+    let cg = {};
+    try { cg = await desdeCoinGecko(pendientes.map(f => f.dataset.id)); } catch (e) { /* sin CoinGecko */ }
+    let ok = 0;
+    fichas.forEach(f => { if (pintar(f, (f.dataset.par && bn[f.dataset.par]) || cg[f.dataset.id])) ok++; });
+    if (ok) { ultima = Date.now(); caja.classList.add("on"); }
+    mostrar(ok);
+  }
+
+  function mostrar(ok) {
+    if (!ultima) { txt.textContent = "Precios del último reporte (no se pudo conectar para actualizarlos)"; return; }
+    const seg = Math.round((Date.now() - ultima) / 1000);
+    txt.textContent = `Precios en vivo · actualizados hace ${seg < 5 ? "un momento" : seg + " s"} · se refrescan cada ${CADA} s`;
+  }
+
+  function iniciar() { actualizar(); clearInterval(timer); timer = setInterval(actualizar, CADA * 1000); }
+  setInterval(() => { if (ultima) mostrar(); }, 1000);
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) clearInterval(timer); else iniciar();  // en pestañas ocultas no se consulta
+  });
+  iniciar();
 })();
 </script>
 </body>
