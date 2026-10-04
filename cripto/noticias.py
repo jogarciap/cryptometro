@@ -35,7 +35,15 @@ AMBIGUOS = {"quant", "just", "sui", "avalanche", "near", "flow", "graph", "maker
             "story", "ondo", "aptos", "celestia", "algo", "mantra", "theta", "core", "kaia", "stacks"}
 # Símbolos que en mayúsculas también son palabras o siglas comunes en inglés
 SIMBOLOS_AMBIGUOS = {"BTW", "ONE", "GAS", "PUMP", "JUST", "NEAR", "FLOW", "CORE", "AI", "IT", "ME", "SUN",
-                     "GOLD", "MOVE", "TRUMP", "ZRO", "IP", "OM", "S", "W", "G", "T", "CAT", "DOG", "BIO"}
+                     "GOLD", "MOVE", "TRUMP", "ZRO", "IP", "OM", "S", "W", "G", "T", "CAT", "DOG", "BIO",
+                     "JST", "EST", "PST", "CET", "UTC", "ATH", "CEO", "API", "NFT", "ETF", "SEC"}
+# En redes un nombre puede significar otra cosa (AAVE también es un dialecto del inglés): se exige contexto cripto
+CONTEXTO_CRIPTO = re.compile(
+    r"\$[A-Za-z]{2,10}\b|\b(crypto|cripto|token|coin|blockchain|defi|altcoin|bitcoin|btc|eth|ethereum|price|chart|"
+    r"bull(ish)?|bear(ish)?|staking|exchange|wallet|trading|hodl|market ?cap|tvl|protocol|lending|airdrop|"
+    r"binance|coinbase|solana|web3|onchain|on-chain|dex|yield|validator|node|mainnet|testnet)\b", re.I)
+GROSERIAS = re.compile(r"fuck|shit|dildo|bitch|cunt|retard|nigg|fag|porn|whore|slut", re.I)
+CASHTAG = re.compile(r"\$[A-Za-z]{2,10}(\.X)?\b")
 
 
 def _ahora() -> datetime:
@@ -60,6 +68,13 @@ def _fecha(valor: str | None) -> datetime | None:
         except ValueError:
             return None
     return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+
+
+def _social_valido(texto: str) -> bool:
+    """Descarta listas de cashtags, mensajes casi vacíos y groserías."""
+    if GROSERIAS.search(texto) or len(CASHTAG.findall(texto)) > 4:
+        return False
+    return len(CASHTAG.sub("", texto).strip()) >= 25
 
 
 def _patron(m: dict) -> re.Pattern:
@@ -133,7 +148,7 @@ class Recolector:
         r = self._get(f"https://api.stocktwits.com/api/2/streams/symbol/{m['simbolo'].upper()}.X.json")
         for msg in r.json().get("messages", [])[:30]:
             cuerpo = _texto(msg.get("body"))
-            if len(cuerpo) < 25:  # descarta mensajes de una palabra o solo emojis
+            if not _social_valido(cuerpo):
                 continue
             postura = ((msg.get("entities") or {}).get("sentiment") or {}).get("basic")
             usuario = (msg.get("user") or {}).get("username", "")
@@ -150,7 +165,7 @@ class Recolector:
         p = _patron(m)
         for post in r.json().get("posts", []):
             texto = _texto((post.get("record") or {}).get("text"))
-            if not p.search(texto) or len(texto) < 30:
+            if not (p.search(texto) and CONTEXTO_CRIPTO.search(texto) and _social_valido(texto)):
                 continue
             autor = (post.get("author") or {}).get("handle", "")
             rkey = post.get("uri", "").rsplit("/", 1)[-1]
@@ -172,8 +187,12 @@ class Recolector:
             titulo = _texto(e.findtext("a:title", namespaces=ns), 220)
             enlace = e.find("a:link", ns)
             sub = e.find("a:category", ns)
+            if GROSERIAS.search(titulo):
+                continue
+            sub_nombre = sub.get("term", "") if sub is not None else ""
             for sim, p in patrones.items():
-                if p.search(titulo):
+                if p.search(titulo) and (CONTEXTO_CRIPTO.search(titulo) or CONTEXTO_CRIPTO.search(sub_nombre)
+                                         or sub_nombre.lower() in {m["nombre"].lower() for m in self.monedas}):
                     self._agregar(tipo="social", red="Reddit", via="Reddit", moneda=sim, titulo=titulo,
                                   autor=f"r/{sub.get('term')}" if sub is not None else "",
                                   url=enlace.get("href") if enlace is not None else "",
