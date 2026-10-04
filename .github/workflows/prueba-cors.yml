@@ -1,0 +1,10 @@
+name: Prueba CORS (temporal)
+on: push
+jobs:
+  cors:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          O="Origin: https://jogarciap.github.io"
+          echo "== binance"; curl -s -D - -o /tmp/b.json -H "$O" 'https://data-api.binance.vision/api/v3/ticker/24hr?symbols=%5B%22QNTUSDT%22%2C%22AAVEUSDT%22%5D' | grep -i "^HTTP\|access-control"; head -c 300 /tmp/b.json; echo
+          echo "== coingecko"; curl -s -D - -o /tmp/c.json -H "$O" 'https://api.coingecko.com/api/v3/simple/price?ids=bitway,aave&vs_currencies=usd&include_24hr_change=true' | grep -i "^HTTP\|access-control"; cat /tmp/c.json; echo
