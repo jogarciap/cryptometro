@@ -54,6 +54,7 @@ reporte:
   volatiles: 10                  # monedas en cada lista de "más y menos volátiles"
   filas_tabla: 25                # filas visibles por defecto en la tabla principal
   abrir_navegador: true          # abrir el reporte al terminar
+  repositorio: jogarciap/cryptometro   # de aquí lee la página las noticias (rama "noticias")
 
 red:
   timeout_seg: 20

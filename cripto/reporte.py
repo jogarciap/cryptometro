@@ -1,6 +1,8 @@
 """Arma el reporte HTML diario a partir de los datos ya calculados."""
 from __future__ import annotations
 
+import json
+import os
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -173,6 +175,20 @@ def _fila(f: pd.Series) -> dict:
     return {k: (_num(v) if k.endswith("_n") else v) for k, v in d.items()}
 
 
+def seleccionar_top(monedas: pd.DataFrame, cfg: dict) -> pd.DataFrame:
+    """Las N monedas con mejor puntaje (a igual puntaje, la de mayor capitalización)."""
+    m = monedas.dropna(subset=["puntaje"]).sort_values(["puntaje", "rank"], ascending=[False, True])
+    return m.head(cfg["puntaje"]["top"])
+
+
+def guardar_top(monedas: pd.DataFrame, cfg: dict, ruta: Path, fecha: str) -> None:
+    """Deja el top en JSON para el flujo de noticias, que corre aparte y sin pandas."""
+    top = seleccionar_top(monedas, cfg)
+    datos = {"fecha": fecha, "monedas": [{"coin_id": f["coin_id"], "simbolo": str(f["simbolo"]).upper(),
+                                          "nombre": f["nombre"]} for _, f in top.iterrows()]}
+    ruta.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg: pd.DataFrame,
             monedas: pd.DataFrame, serie_btc: pd.DataFrame | None, resumen_universo: dict,
             avisos: list[str], cfg: dict, cambios: dict | None = None) -> Path:
@@ -187,8 +203,7 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
         if c not in monedas.columns:
             monedas[c] = pd.NA
     m = monedas.sort_values("rank")
-    n_top = cfg["puntaje"]["top"]
-    top = m.dropna(subset=["puntaje"]).sort_values("puntaje", ascending=False).head(n_top)
+    top = seleccionar_top(m, cfg)
     anom = m[m["anomalias"].fillna("") != ""].sort_values("vol_relativo", ascending=False)
 
     # Más y menos volátiles (solo monedas con al menos 30 días de datos)
@@ -224,6 +239,7 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
         fecha=fecha,
         fecha_larga=_fecha_larga(fecha),
         generado=_ahora(cfg),
+        noticias_url=_url_noticias(cfg),
         mas_volatiles=mas_volatiles, menos_volatiles=menos_volatiles,
         vol_mediana=vol_mediana, mov_mediano=(vol_mediana / 365 ** 0.5) if vol_mediana else None,
         kpis=_kpis(mercado, anterior, fg, m),
@@ -244,7 +260,7 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
         con_sentimiento=con_sent,
         dias_minimos=cfg["puntaje"]["dias_minimos"],
         rsi_ideal=cfg["puntaje"]["rsi_ideal"],
-        n_top=n_top,
+        n_top=cfg["puntaje"]["top"],
         universo=resumen_universo,
         umbral_vol=cfg["anomalias"]["volumen_vs_promedio_30d"],
         umbral_sd=cfg["anomalias"]["desviaciones_precio"],
@@ -256,6 +272,13 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
 
 
 NOMBRES_ZONA = {"America/New_York": "Nueva York", "UTC": "UTC"}
+
+
+def _url_noticias(cfg: dict) -> str:
+    """Dónde lee la página las noticias: la rama "noticias" del repositorio (la actualiza cada 10 minutos
+    el flujo .github/workflows/noticias.yml). En GitHub Actions se toma el nombre real del repositorio."""
+    repo = os.getenv("GITHUB_REPOSITORY") or cfg["reporte"].get("repositorio", "")
+    return f"https://raw.githubusercontent.com/{repo}/noticias/noticias.json" if repo else ""
 
 
 def _ahora(cfg: dict) -> str:

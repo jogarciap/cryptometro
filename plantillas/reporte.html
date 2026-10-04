@@ -121,6 +121,20 @@ h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
 .precio { transition: color .6s; }
 .precio.flash-up { color: var(--sube); }
 .precio.flash-down { color: var(--baja); }
+.not-filtros { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.not-filtros .filtro .c { opacity: .7; font-weight: 400; margin-left: 3px; }
+.posturas { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--texto-3); margin: 0 0 12px; }
+.posturas b { color: var(--texto-2); }
+.lista-not { list-style: none; margin: 0; padding: 0; }
+.lista-not li { padding: 10px 0; border-top: 1px solid var(--borde); }
+.lista-not li:first-child { border-top: 0; padding-top: 4px; }
+.lista-not a.t { color: var(--texto); font-size: 14.5px; line-height: 1.4; display: block; overflow-wrap: anywhere; }
+.lista-not a.t:hover { color: var(--acento); text-decoration: none; }
+.lista-not .m { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 4px; font-size: 12px; color: var(--texto-3); }
+.lista-not .sim { font-weight: 700; color: var(--texto-2); }
+.lista-not .chip { font-size: 11px; padding: 1px 7px; }
+.lista-vacia { color: var(--texto-3); font-size: 14px; padding: 6px 0; }
+.ver-mas { margin-top: 8px; }
 @media (prefers-reduced-motion: reduce) { .vivo.on .punto { animation: none; } .precio { transition: none; } }
 .spark { display: block; margin-left: auto; }
 .barras { display: grid; grid-template-columns: auto 1fr auto; gap: 5px 10px; align-items: center; padding: 10px 18px;
@@ -218,7 +232,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 <header class="barra"><div class="barra-in">
   <span class="marca">Cryptometro</span>
   <nav class="nav">
-    <a href="#resumen">Resumen</a><a href="#destacadas">Destacadas</a><a href="#cambios">Cambios</a>
+    <a href="#resumen">Resumen</a><a href="#destacadas">Destacadas</a><a href="#noticias">Noticias</a><a href="#cambios">Cambios</a>
     <a href="#mapa">Mapa</a><a href="#volatilidad">Volatilidad</a><a href="#mercado">Mercado</a><a href="#anomalias">Anomalías</a>
     <a href="#tabla-sec">Todas</a><a href="#como-leer">Cómo leer</a><a href="historial.html">Historial</a>
   </nav>
@@ -290,6 +304,16 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 {% endfor %}
 </div>
 
+<h2 id="noticias">Noticias y redes del top 10</h2>
+<p class="bajada">Titulares y comentarios públicos que mencionan a las {{ fichas | length }} destacadas, de Google News, Cointelegraph, Decrypt, The Block, StockTwits, Reddit y Bluesky (X no ofrece acceso gratuito). Se revisan cada 10 minutos. Son textos de terceros, casi todos en inglés: sirven para saber de qué se habla, no están verificados y no son recomendaciones.</p>
+<div class="vivo" id="not-estado" aria-live="polite"><span class="punto"></span><span id="not-txt">Cargando noticias…</span></div>
+<div class="not-filtros" id="not-filtros" role="group" aria-label="Filtrar por moneda"></div>
+<div class="posturas" id="not-posturas"></div>
+<div class="dos">
+  <div class="tarjeta"><div class="graf-t">Noticias</div><ul class="lista-not" id="not-noticias"></ul></div>
+  <div class="tarjeta"><div class="graf-t" style="display:flex;justify-content:space-between;align-items:center">Redes <button type="button" class="info" data-ayuda="StockTwits es una red de traders parecida a X: cada usuario puede marcar su mensaje como alcista o bajista. Esa postura es la opinión de quien escribe, no un dato." aria-label="Qué significa">?</button></div><ul class="lista-not" id="not-redes"></ul></div>
+</div>
+
 <h2 id="cambios">Qué cambió desde el reporte anterior</h2>
 <p class="bajada">{% if cambios.fecha_anterior %}Comparado con el reporte del {{ cambios.fecha_anterior }}.{% else %}Se compara cada día con el anterior.{% endif %}</p>
 <div class="tarjeta">
@@ -305,7 +329,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 </div>
 
 <h2 id="mapa">Mapa del mercado</h2>
-<p class="bajada">Cada punto es una moneda: a la derecha, más alcista respecto de su media de 200 días; arriba, más volátil. El tamaño refleja la capitalización y las azules son las destacadas de hoy. Pasá el mouse o tocá un punto para ver el detalle.</p>
+<p class="bajada">Cada punto es una moneda: a la derecha, más alcista respecto de su media de 200 días; arriba, más volátil. El tamaño refleja la capitalización y las azules son las destacadas de hoy. Pasa el mouse o toca un punto para ver el detalle.</p>
 <div class="dos">
   {% if grafico_mapa %}<div class="tarjeta"><div class="graf-t">Tendencia contra riesgo</div>
     <div class="graf-d">Línea vertical: SMA 200. Línea punteada: volatilidad mediana del universo.</div>{{ grafico_mapa | safe }}</div>{% endif %}
@@ -361,7 +385,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 </div>
 
 <h2 id="tabla-sec">Todas las monedas</h2>
-<p class="bajada">Top {{ universo.top_leido }} por capitalización en CoinGecko, sin {{ universo.excluidas_stable_envueltas }} stablecoins y tokens envueltos ni {{ universo.excluidas_poco_volumen }} con poco volumen. Hacé clic en un encabezado para ordenar; tocá los <b>?</b> para ver qué significa cada columna.</p>
+<p class="bajada">Top {{ universo.top_leido }} por capitalización en CoinGecko, sin {{ universo.excluidas_stable_envueltas }} stablecoins y tokens envueltos ni {{ universo.excluidas_poco_volumen }} con poco volumen. Haz clic en un encabezado para ordenar; toca los <b>?</b> para ver qué significa cada columna.</p>
 <div class="tarjeta">
 <div class="controles">
   <input id="buscar" type="search" placeholder="Buscar moneda (ej. SOL, Cardano)" aria-label="Buscar moneda">
@@ -510,8 +534,8 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
   }
   btn.addEventListener("click", () => { mostrarTodas = !mostrarTodas; aplicar(); });
   buscar.addEventListener("input", aplicar);
-  document.querySelectorAll(".filtro").forEach(b => b.addEventListener("click", () => {
-    document.querySelectorAll(".filtro").forEach(x => x.classList.remove("activo"));
+  document.querySelectorAll(".controles .filtro").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".controles .filtro").forEach(x => x.classList.remove("activo"));
     b.classList.add("activo"); filtro = b.dataset.f; aplicar();
   }));
 
@@ -656,6 +680,116 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
     if (document.hidden) clearInterval(timer); else iniciar();  // en pestañas ocultas no se consulta
   });
   iniciar();
+})();
+// Noticias y redes: un flujo aparte las junta cada 10 minutos y las deja en la rama "noticias" del repo.
+(function () {
+  const URL_NOT = {{ noticias_url | tojson }};
+  const caja = document.getElementById("not-estado"), txt = document.getElementById("not-txt");
+  const filtros = document.getElementById("not-filtros"), posturasEl = document.getElementById("not-posturas");
+  const listas = { noticia: document.getElementById("not-noticias"), social: document.getElementById("not-redes") };
+  if (!caja || !URL_NOT || !window.fetch) return;
+  const CADA = 10 * 60;  // segundos
+  const VISIBLES = 12;
+  let datos = null, elegida = "todas", abiertas = { noticia: false, social: false }, ultimaCarga = null;
+
+  function hace(iso) {
+    const s = Math.max(0, (Date.now() - new Date(iso)) / 1000);
+    if (s < 90) return "hace un momento";
+    if (s < 3600) return `hace ${Math.round(s / 60)} min`;
+    if (s < 86400) return `hace ${Math.round(s / 3600)} h`;
+    return `hace ${Math.round(s / 86400)} d`;
+  }
+  const el = (tag, cls, texto) => { const e = document.createElement(tag); if (cls) e.className = cls; if (texto != null) e.textContent = texto; return e; };
+
+  function pintarFiltros() {
+    filtros.replaceChildren();
+    const cuenta = {};
+    datos.items.forEach(i => { cuenta[i.moneda] = (cuenta[i.moneda] || 0) + 1; });
+    const opciones = [["todas", "Todas", datos.items.length]].concat(datos.monedas.map(m => [m.simbolo, m.simbolo, cuenta[m.simbolo] || 0]));
+    opciones.forEach(([v, etq, n]) => {
+      const b = el("button", "filtro" + (v === elegida ? " activo" : ""), etq);
+      b.type = "button"; b.append(el("span", "c", String(n)));
+      b.setAttribute("aria-pressed", v === elegida);
+      b.addEventListener("click", () => { elegida = v; abiertas = { noticia: false, social: false }; pintar(); });
+      filtros.append(b);
+    });
+  }
+
+  function pintarPosturas() {
+    posturasEl.replaceChildren();
+    const p = datos.posturas_stocktwits || {};
+    const sims = elegida === "todas" ? datos.monedas.map(m => m.simbolo) : [elegida];
+    const con = sims.filter(s => p[s] && (p[s].Bullish + p[s].Bearish) > 0);
+    if (!con.length) return;
+    posturasEl.append(el("span", null, "Postura declarada en StockTwits:"));
+    con.forEach(s => {
+      const a = p[s].Bullish, b = p[s].Bearish, pct = Math.round(100 * a / (a + b));
+      const span = el("span"); span.append(el("b", null, s + " "), document.createTextNode(`${pct}% alcista (${a} de ${a + b})`));
+      posturasEl.append(span);
+    });
+  }
+
+  function item(i) {
+    const li = el("li");
+    const a = el("a", "t", i.titulo);
+    a.href = i.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+    const m = el("div", "m");
+    m.append(el("span", "sim", (i.monedas || [i.moneda]).join(" · ")), el("span", null, i.red + (i.autor ? " · " + i.autor : "")), el("span", null, hace(i.fecha)));
+    if (i.postura === "Bullish") m.append(el("span", "chip up", "Alcista"));
+    if (i.postura === "Bearish") m.append(el("span", "chip down", "Bajista"));
+    li.append(a, m);
+    return li;
+  }
+
+  function pintarLista(tipo) {
+    const ul = listas[tipo]; ul.replaceChildren();
+    const lista = [], porUrl = {};
+    datos.items.filter(i => i.tipo === tipo && (elegida === "todas" || i.moneda === elegida)).forEach(i => {
+      if (porUrl[i.url]) { if (!porUrl[i.url].monedas.includes(i.moneda)) porUrl[i.url].monedas.push(i.moneda); return; }
+      porUrl[i.url] = Object.assign({}, i, { monedas: [i.moneda] }); lista.push(porUrl[i.url]);  // misma nota para varias monedas: una sola fila
+    });
+    if (!lista.length) { ul.append(el("li", "lista-vacia", tipo === "noticia" ? "Sin noticias recientes para esta selección." : "Sin comentarios recientes para esta selección.")); return; }
+    lista.slice(0, abiertas[tipo] ? lista.length : VISIBLES).forEach(i => ul.append(item(i)));
+    if (lista.length > VISIBLES && !abiertas[tipo]) {
+      const li = el("li", "ver-mas"), b = el("button", "filtro", `Ver ${lista.length - VISIBLES} más`);
+      b.type = "button"; b.addEventListener("click", () => { abiertas[tipo] = true; pintarLista(tipo); });
+      li.append(b); ul.append(li);
+    }
+  }
+
+  function pintar() { pintarFiltros(); pintarPosturas(); pintarLista("noticia"); pintarLista("social"); estado(); }
+
+  function estado() {
+    if (!datos) return;
+    let t = `Noticias revisadas ${hace(datos.generado)} · se revisan cada 10 minutos`;
+    if (datos.fallas && datos.fallas.length) t += ` · sin respuesta de: ${datos.fallas.map(f => f.split(":")[0]).join(", ")}`;
+    txt.textContent = t;
+    caja.classList.toggle("on", (Date.now() - new Date(datos.generado)) / 1000 < 40 * 60);
+  }
+
+  async function cargar() {
+    try {
+      const r = await fetch(URL_NOT + "?t=" + Math.floor(Date.now() / 60000), { cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      const nuevo = await r.json();
+      if (!nuevo || !Array.isArray(nuevo.items)) throw new Error("formato");
+      nuevo.items = nuevo.items.filter(i => /^https:\/\//.test(i.url || ""));
+      datos = nuevo; ultimaCarga = Date.now();
+      if (elegida !== "todas" && !datos.monedas.some(m => m.simbolo === elegida)) elegida = "todas";
+      pintar();
+    } catch (e) {
+      if (!datos) {
+        txt.textContent = "No se pudieron cargar las noticias en este momento; se vuelve a intentar en 10 minutos.";
+        listas.noticia.replaceChildren(el("li", "lista-vacia", "Sin datos por ahora."));
+        listas.social.replaceChildren(el("li", "lista-vacia", "Sin datos por ahora."));
+      }
+    }
+  }
+
+  cargar();
+  setInterval(() => { if (!document.hidden) cargar(); }, CADA * 1000);
+  setInterval(estado, 30 * 1000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && ultimaCarga && Date.now() - ultimaCarga > CADA * 1000) cargar(); });
 })();
 </script>
 </body>

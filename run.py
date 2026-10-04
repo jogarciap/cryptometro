@@ -161,6 +161,7 @@ def ejecutar(cfg: dict, abrir: bool, sitio: bool = False) -> int:
         ruta = reporte.generar(REPORTES, fecha, mercado, almacen.mercado_anterior(fecha), fg,
                                monedas, serie_btc, res_univ, avisos, cfg, cambios)
         log.info("Reporte listo: %s", ruta)
+        reporte.guardar_top(monedas, cfg, DATOS / "top.json", fecha)
         if sitio:
             publicar_sitio(ruta)
         almacen.registrar_corrida(inicio.isoformat(), datetime.now().isoformat(), fecha, "ok", "; ".join(avisos))

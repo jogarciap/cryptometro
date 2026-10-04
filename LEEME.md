@@ -11,6 +11,8 @@ Este repositorio corre solo 4 veces por día con GitHub Actions (`.github/workfl
 - Para correrlo a mano: pestaña **Actions** > **Reporte diario** > **Run workflow**.
 - Keys opcionales: **Settings > Secrets and variables > Actions > New repository secret** con el nombre `COINGECKO_API_KEY` (y las demás de `.env.example` cuando se usen).
 - El histórico (`datos/cripto.db` y los CSV) se guarda en el propio repositorio después de cada corrida.
+- Noticias y redes del top 10: otro flujo, `.github/workflows/noticias.yml`, corre cada 10 minutos. Junta titulares (Google News, Cointelegraph, Decrypt, The Block) y comentarios (StockTwits, Reddit, Bluesky) y los deja en la rama `noticias` como `noticias.json`; la página los lee de ahí. X/Twitter no tiene acceso gratuito, por eso no está.
+- Los precios del top 10 se actualizan en la página cada 30 segundos mientras está abierta (Binance o CoinGecko, desde el navegador).
 
 ## En tu PC (opcional)
 
