@@ -48,3 +48,14 @@ assert {"LTC", "SUI"} <= {i["moneda"] for i in r["items"] if i["red"] == "Cointe
 assert not any("quant trading" in i["titulo"] for i in r["items"]), "Quant/Just no deben coincidir como palabras sueltas"
 assert r["posturas_stocktwits"]["AAVE"] == {"Bullish": 1, "Bearish": 1}
 print("OK    prueba de noticias sin internet")
+
+# Lo de la corrida anterior se conserva y no se duplica
+previo = {"items": [{"tipo": "noticia", "red": "Medio", "via": "Google News", "moneda": "AAVE", "titulo": "Nota de antes",
+                     "url": "https://ejemplo.com/antes", "fecha": iso(5).replace("Z", "+00:00")}] + r["items"],
+          "posturas_stocktwits": {"AAVE": {"Bullish": 9, "Bearish": 9}}}
+r2 = noticias.Recolector(monedas, pausa=0).recolectar(previo)
+assert any(i["titulo"] == "Nota de antes" for i in r2["items"]), "debe conservar lo anterior"
+assert len({(i["moneda"], i["url"]) for i in r2["items"]}) == len(r2["items"]), "sin duplicados"
+assert r2["posturas_stocktwits"]["AAVE"] == {"Bullish": 1, "Bearish": 1}, "la postura nueva reemplaza a la vieja"
+assert not any("fecha_previa" in i for i in r2["items"])
+print("OK    conserva la corrida anterior sin duplicar")

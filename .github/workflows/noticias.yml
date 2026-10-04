@@ -32,7 +32,10 @@ jobs:
       - run: pip install -q "requests>=2.31"
 
       - name: Juntar noticias del top 10
-        run: python noticias.py --salida salida/noticias.json
+        run: |
+          # lo de la corrida anterior se conserva, por si alguna fuente no responde esta vez
+          git fetch -q --depth 1 origin noticias && git show FETCH_HEAD:noticias.json > anterior.json || echo "sin corrida anterior"
+          python noticias.py --salida salida/noticias.json --anterior anterior.json
 
       - name: Publicar en la rama noticias
         working-directory: salida
