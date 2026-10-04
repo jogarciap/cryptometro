@@ -234,6 +234,8 @@ class Recolector:
             return
         sims = {m["simbolo"] for m in self.monedas}
         for it in anterior.get("items", []):
+            if it.get("tipo") == "social" and not _social_valido(it.get("titulo", "")):
+                continue  # los filtros nuevos también limpian lo guardado
             if it.get("moneda") in sims and str(it.get("url", "")).startswith("https://") and it.get("fecha"):
                 self.items.append(dict(it, fecha_previa=True))
         self._posturas_previas = {s: v for s, v in (anterior.get("posturas_stocktwits") or {}).items() if s in sims}
