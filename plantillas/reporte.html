@@ -141,6 +141,8 @@ h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
 
 /* Gráficos */
 .dos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 14px; }
+.dos > * { min-width: 0; }
+.tarjeta .js-plotly-plot { max-width: 100%; }
 .graf-t { font-weight: 650; }
 .graf-d { color: var(--texto-3); font-size: 13px; margin: 2px 0 4px; }
 
@@ -552,6 +554,18 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
   window.addEventListener("scroll", () => { if (!pendiente) { pendiente = true; requestAnimationFrame(marcar); } }, { passive: true });
   window.addEventListener("resize", marcar);
   marcar();
+})();
+// Gráficos: Plotly mide el ancho al dibujarse, cuando la tarjeta de al lado todavía no existe.
+// Se vuelven a medir al terminar de cargar y cada vez que cambia el tamaño de su tarjeta.
+(function () {
+  if (!window.Plotly) return;
+  const graficos = [...document.querySelectorAll(".js-plotly-plot")];
+  const ajustar = g => { if (g.offsetParent) Plotly.Plots.resize(g); };
+  window.addEventListener("load", () => graficos.forEach(ajustar));
+  if ("ResizeObserver" in window) {
+    const ro = new ResizeObserver(entradas => entradas.forEach(e => ajustar(e.target.querySelector(".js-plotly-plot"))));
+    graficos.forEach(g => ro.observe(g.parentElement));
+  }
 })();
 </script>
 </body>
