@@ -1,6 +1,7 @@
 """Arma el reporte HTML diario a partir de los datos ya calculados."""
 from __future__ import annotations
 
+import shutil
 from datetime import datetime
 from pathlib import Path
 
@@ -10,6 +11,11 @@ from plotly.offline import get_plotlyjs
 
 from . import graficos, interpretacion, puntaje
 from .config import PLANTILLAS
+
+ICONOS = ("icono.svg", "icono-32.png", "icono-180.png")
+ICONO_HEAD = ('<link rel="icon" href="icono.svg" type="image/svg+xml">'
+              '<link rel="icon" href="icono-32.png" sizes="32x32" type="image/png">'
+              '<link rel="apple-touch-icon" href="icono-180.png">')
 
 
 def _nan(x) -> bool:
@@ -174,6 +180,8 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     js = carpeta / "plotly.min.js"
     if not js.exists():
         js.write_text(get_plotlyjs(), encoding="utf-8")
+    for icono in ICONOS:  # ícono de la pestaña del navegador
+        shutil.copyfile(PLANTILLAS / icono, carpeta / icono)
 
     for c in ("cambio_24h", "vol_relativo", "dist_sma200", "anomalias", "puntaje", "vs_btc_30d", "mcap"):
         if c not in monedas.columns:
