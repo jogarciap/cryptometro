@@ -105,11 +105,13 @@ def main() -> int:
         "corrida sin errores": codigo == 0,
         "USDT y WBTC excluidas": ">USDT<" not in html and ">WBTC<" not in html,
         "moneda de bajo volumen excluida": ">CHICO<" not in html,
-        "SOL marcada como anomalía": ">SOL<" in html.split("Anomalías del día")[1].split("Gráficos")[0],
+        "SOL marcada como anomalía": ">SOL<" in html.split('id="anomalias"')[1].split('id="tabla-sec"')[0],
         "sin monedas descartadas por precio": "parece otra moneda" not in log_txt(),
         "moneda sin par en Binance usa CoinGecko": "coingecko" in html,
         "gráfico de BTC presente": "SMA 200" in html,
         "aviso de no recomendación": "No es una recomendación" in html,
+        "fichas con puntaje e interpretación": html.count('class="tarjeta ficha"') >= 3 and "Qué la pone en riesgo" in html,
+        "mapa y comparación vs BTC": "Tendencia contra riesgo" in html and "contra Bitcoin" in html,
     }
     for k, ok in chequeos.items():
         print(f"  {'OK   ' if ok else 'FALLA'} {k}")

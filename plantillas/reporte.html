@@ -8,155 +8,461 @@
 <style>
 :root {
   color-scheme: light;
-  --fondo: #f6f5f2; --superficie: #fcfcfb; --borde: #e3e2dd;
-  --texto: #0b0b0b; --texto-2: #52514e; --texto-3: #7a7974;
-  --acento: #2a78d6; --sube: #0a7d3c; --baja: #c43030; --aviso-fondo: #fff4d6; --aviso-borde: #e2b33c;
+  --fondo: #f4f3ef; --superficie: #ffffff; --superficie-2: #f8f7f4; --borde: #e4e2dc;
+  --texto: #141413; --texto-2: #4f4e4a; --texto-3: #7c7a74;
+  --acento: #2a78d6; --acento-suave: rgba(42,120,214,.10);
+  --sube: #13804a; --sube-suave: rgba(19,128,74,.10); --baja: #c53a3a; --baja-suave: rgba(197,58,58,.10);
+  --alerta: #a86b00; --alerta-suave: rgba(237,161,0,.14);
+  --sombra: 0 1px 2px rgba(20,20,19,.05), 0 2px 8px rgba(20,20,19,.04);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --fondo: #121211; --superficie: #1a1a19; --borde: #2e2e2c;
-    --texto: #ffffff; --texto-2: #c3c2b7; --texto-3: #8f8e86;
-    --acento: #3987e5; --sube: #4cc47a; --baja: #ef6b6b; --aviso-fondo: #2e2610; --aviso-borde: #8a6a12;
+    --fondo: #111110; --superficie: #1a1a19; --superficie-2: #21211f; --borde: #2f2f2c;
+    --texto: #f5f4ef; --texto-2: #c3c2b7; --texto-3: #8f8e86;
+    --acento: #4a94ec; --acento-suave: rgba(74,148,236,.14);
+    --sube: #4cc47a; --sube-suave: rgba(76,196,122,.13); --baja: #ef6b6b; --baja-suave: rgba(239,107,107,.13);
+    --alerta: #e0a63a; --alerta-suave: rgba(224,166,58,.14);
+    --sombra: none;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --fondo: #121211; --superficie: #1a1a19; --borde: #2e2e2c;
-  --texto: #ffffff; --texto-2: #c3c2b7; --texto-3: #8f8e86;
-  --acento: #3987e5; --sube: #4cc47a; --baja: #ef6b6b; --aviso-fondo: #2e2610; --aviso-borde: #8a6a12;
+  --fondo: #111110; --superficie: #1a1a19; --superficie-2: #21211f; --borde: #2f2f2c;
+  --texto: #f5f4ef; --texto-2: #c3c2b7; --texto-3: #8f8e86;
+  --acento: #4a94ec; --acento-suave: rgba(74,148,236,.14);
+  --sube: #4cc47a; --sube-suave: rgba(76,196,122,.13); --baja: #ef6b6b; --baja-suave: rgba(239,107,107,.13);
+  --alerta: #e0a63a; --alerta-suave: rgba(224,166,58,.14);
+  --sombra: none;
 }
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 64px; }
 body { margin: 0; background: var(--fondo); color: var(--texto);
-       font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
-main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
-h1 { font-size: 24px; margin: 0 0 4px; }
-h2 { font-size: 18px; margin: 32px 0 12px; }
-.sub { color: var(--texto-3); font-size: 13px; }
-.tarjeta { background: var(--superficie); border: 1px solid var(--borde); border-radius: 10px; padding: 16px; }
-.resumen li { margin: 6px 0; }
+       font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: var(--acento); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Barra superior */
+.barra { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--fondo) 88%, transparent);
+         backdrop-filter: blur(8px); border-bottom: 1px solid var(--borde); }
+.barra-in { max-width: 1240px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 16px; }
+.marca { font-weight: 700; white-space: nowrap; }
+.nav { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; }
+.nav::-webkit-scrollbar { display: none; }
+.nav a { color: var(--texto-2); padding: 5px 10px; border-radius: 999px; font-size: 13.5px; white-space: nowrap; }
+.nav a:hover { background: var(--superficie-2); text-decoration: none; color: var(--texto); }
+.tema { border: 1px solid var(--borde); background: var(--superficie); color: var(--texto-2); border-radius: 999px;
+        width: 32px; height: 32px; cursor: pointer; flex: none; display: grid; place-items: center; }
+
+main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; }
+.cabecera h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.01em; }
+.cabecera p { margin: 0; color: var(--texto-3); font-size: 14px; }
+h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
+.bajada { color: var(--texto-3); margin: 0 0 14px; font-size: 14px; max-width: 820px; }
+.tarjeta { background: var(--superficie); border: 1px solid var(--borde); border-radius: 14px; padding: 18px; box-shadow: var(--sombra); }
 .fuente { color: var(--texto-3); font-size: 12px; }
-.aviso { background: var(--aviso-fondo); border: 1px solid var(--aviso-borde); border-radius: 8px;
-         padding: 10px 14px; margin: 12px 0; font-size: 14px; }
-.tabla-wrap { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
-th, td { padding: 6px 8px; border-bottom: 1px solid var(--borde); text-align: right; white-space: nowrap; }
-th { color: var(--texto-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0;
-     background: var(--superficie); }
-th:hover { color: var(--acento); }
+.aviso { background: var(--alerta-suave); border: 1px solid color-mix(in srgb, var(--alerta) 40%, transparent);
+         border-radius: 10px; padding: 10px 14px; margin: 12px 0 0; font-size: 14px; }
+.aviso b { color: var(--alerta); }
+
+/* Indicadores clave */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 20px; }
+.kpi { padding: 16px; }
+.kpi .t { color: var(--texto-3); font-size: 13px; display: flex; justify-content: space-between; gap: 6px; }
+.kpi .v { font-size: 28px; font-weight: 700; margin: 4px 0 2px; letter-spacing: -.02em; }
+.kpi .v small { display: block; font-size: 13px; font-weight: 500; color: var(--texto-2); letter-spacing: 0; margin-top: -2px; }
+.kpi .d { font-size: 13px; color: var(--texto-2); }
+.kpi .d.sube { color: var(--sube); } .kpi .d.baja { color: var(--baja); }
+.info { cursor: help; color: var(--texto-3); border: 1px solid var(--borde); border-radius: 50%; width: 18px; height: 18px;
+        display: inline-grid; place-items: center; font-size: 11px; flex: none; }
+.medidor { height: 6px; border-radius: 3px; margin-top: 10px; position: relative;
+           background: linear-gradient(90deg, var(--baja), #e0a63a 50%, var(--sube)); opacity: .85; }
+.medidor i { position: absolute; top: -4px; width: 4px; height: 14px; border-radius: 2px; background: var(--texto);
+             transform: translateX(-2px); box-shadow: 0 0 0 2px var(--superficie); }
+
+/* Resumen */
+.resumen { display: grid; grid-template-columns: 1fr; gap: 0; }
+.resumen ol { margin: 0; padding-left: 22px; }
+.resumen li { margin: 7px 0; }
+.lectura { margin-top: 14px; padding: 12px 14px; border-radius: 10px; background: var(--acento-suave); font-size: 14.5px; }
+.etq { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase;
+       padding: 2px 7px; border-radius: 999px; margin-right: 6px; vertical-align: 1px; }
+.etq.op { background: var(--acento); color: #fff; }
+.etq.hecho { background: var(--superficie-2); color: var(--texto-2); border: 1px solid var(--borde); }
+
+/* Fichas */
+.fichas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 540px), 1fr)); gap: 14px; }
+.ficha { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.ficha-cab { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 16px 18px 12px; }
+.pos { font-size: 13px; font-weight: 700; color: var(--texto-3); width: 22px; }
+.moneda { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.moneda img { width: 30px; height: 30px; border-radius: 50%; background: var(--superficie-2); flex: none; }
+.moneda .s { font-weight: 700; font-size: 17px; }
+.moneda .n { color: var(--texto-3); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.anillo { --p: 0; width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center;
+          background: conic-gradient(var(--acento) calc(var(--p) * 1%), var(--superficie-2) 0); }
+.anillo span { width: 46px; height: 46px; border-radius: 50%; background: var(--superficie); display: grid; place-items: center;
+               font-weight: 700; font-size: 17px; }
+.ficha-datos { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 0 18px 12px; font-size: 13px; }
+.ficha-datos .precio { font-size: 18px; font-weight: 700; }
+.chip { padding: 2px 8px; border-radius: 999px; font-size: 12.5px; font-weight: 600; background: var(--superficie-2); color: var(--texto-2); }
+.chip.up { background: var(--sube-suave); color: var(--sube); }
+.chip.down { background: var(--baja-suave); color: var(--baja); }
+.spark { display: block; margin-left: auto; }
+.barras { display: grid; grid-template-columns: auto 1fr auto; gap: 5px 10px; align-items: center; padding: 10px 18px;
+          background: var(--superficie-2); border-top: 1px solid var(--borde); border-bottom: 1px solid var(--borde); font-size: 12.5px; }
+.barras .l { color: var(--texto-2); }
+.barras .b { height: 7px; background: var(--borde); border-radius: 4px; overflow: hidden; }
+.barras .b i { display: block; height: 100%; background: var(--acento); border-radius: 4px; }
+.barras .v { color: var(--texto-2); text-align: right; min-width: 28px; }
+.ficha-cuerpo { padding: 14px 18px 16px; display: grid; gap: 10px; font-size: 14px; }
+.ficha-cuerpo h4 { margin: 0 0 3px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--texto-3); }
+.ficha-cuerpo ul { margin: 0; padding-left: 18px; }
+.ficha-cuerpo li { margin: 2px 0; }
+.bloque.respalda li::marker { color: var(--sube); }
+.bloque.riesgo li::marker { color: var(--baja); }
+.ficha-pie { margin-top: auto; padding: 10px 18px; border-top: 1px solid var(--borde); display: flex; justify-content: space-between;
+             gap: 10px; flex-wrap: wrap; font-size: 12.5px; color: var(--texto-3); }
+
+/* Cambios */
+.cambios { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.cambios li { display: flex; gap: 10px; align-items: baseline; }
+.ic { width: 22px; height: 22px; border-radius: 6px; display: inline-grid; place-items: center; font-size: 12px; flex: none; font-weight: 700; }
+.ic.entra, .ic.sube { background: var(--sube-suave); color: var(--sube); }
+.ic.sale, .ic.baja { background: var(--baja-suave); color: var(--baja); }
+.ic.anomalia { background: var(--alerta-suave); color: var(--alerta); }
+.ic.universo { background: var(--superficie-2); color: var(--texto-2); }
+
+/* Gráficos */
+.dos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 14px; }
+.graf-t { font-weight: 650; }
+.graf-d { color: var(--texto-3); font-size: 13px; margin: 2px 0 4px; }
+
+/* Tablas */
+.tabla-wrap { overflow-x: auto; border-radius: 10px; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 10px; border-bottom: 1px solid var(--borde); text-align: right; white-space: nowrap; }
+thead th { color: var(--texto-2); font-weight: 600; font-size: 12px; position: sticky; top: 0; background: var(--superficie); z-index: 1; }
+#tabla thead th { cursor: pointer; user-select: none; }
+#tabla thead th:hover { color: var(--acento); }
+#tabla thead th.orden::after { content: " ▾"; } #tabla thead th.orden.asc::after { content: " ▴"; }
+th abbr { text-decoration: none; border-bottom: 1px dotted var(--texto-3); cursor: help; }
 td.izq, th.izq { text-align: left; }
-td.anom { text-align: left; white-space: normal; min-width: 200px; color: var(--texto-2); }
-.pos { color: var(--sube); } .neg { color: var(--baja); }
+tbody tr:hover td { background: var(--superficie-2); }
+.fija { position: sticky; left: 0; background: var(--superficie); z-index: 1; }
+thead .fija { z-index: 2; }
+td.anom { text-align: left; white-space: normal; min-width: 240px; color: var(--texto-2); }
+.pos-t { color: var(--sube); } .neg-t { color: var(--baja); }
+.celda-pt { display: inline-flex; align-items: center; gap: 6px; }
+.celda-pt i { display: inline-block; width: 40px; height: 6px; border-radius: 3px; background: var(--borde); overflow: hidden; }
+.celda-pt i b { display: block; height: 100%; background: var(--acento); }
+.marca-rsi.alto { color: var(--alerta); font-weight: 600; } .marca-rsi.bajo { color: var(--acento); font-weight: 600; }
+.mini-logo { width: 16px; height: 16px; border-radius: 50%; vertical-align: -3px; margin-right: 6px; }
 .oculta { display: none; }
-button { background: none; border: 1px solid var(--borde); color: var(--acento); border-radius: 6px;
-         padding: 6px 12px; margin-top: 10px; cursor: pointer; font: inherit; }
-.graficos { display: grid; gap: 16px; }
-footer { margin-top: 40px; color: var(--texto-3); font-size: 12px; }
+.controles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.controles input { flex: 1 1 220px; max-width: 320px; padding: 8px 12px; border-radius: 9px; border: 1px solid var(--borde);
+                   background: var(--superficie); color: var(--texto); font: inherit; }
+.filtro { border: 1px solid var(--borde); background: var(--superficie); color: var(--texto-2); border-radius: 999px;
+          padding: 6px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+.filtro.activo { background: var(--acento); border-color: var(--acento); color: #fff; }
+.boton { background: none; border: 1px solid var(--borde); color: var(--acento); border-radius: 9px;
+         padding: 8px 14px; margin-top: 12px; cursor: pointer; font: inherit; }
+.contador { color: var(--texto-3); font-size: 13px; margin-left: auto; }
+
+/* Glosario */
+.glosario { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 12px 24px; font-size: 14px; }
+.glosario dt { font-weight: 650; margin-top: 6px; }
+.glosario dd { margin: 2px 0 0; color: var(--texto-2); }
+.pesos { display: flex; height: 26px; border-radius: 8px; overflow: hidden; margin: 8px 0 6px; font-size: 12px; font-weight: 600; color: #fff; }
+.pesos div { display: grid; place-items: center; white-space: nowrap; overflow: hidden; }
+footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde); color: var(--texto-3); font-size: 13px; }
+@media (max-width: 640px) {
+  .cabecera h1 { font-size: 23px; }
+  .kpi .v { font-size: 24px; }
+  .marca { display: none; }
+  .spark { display: none; }
+}
 </style>
 </head>
 <body>
+<header class="barra"><div class="barra-in">
+  <span class="marca">Investigador cripto</span>
+  <nav class="nav">
+    <a href="#resumen">Resumen</a><a href="#destacadas">Destacadas</a><a href="#cambios">Cambios</a>
+    <a href="#mapa">Mapa</a><a href="#mercado">Mercado</a><a href="#anomalias">Anomalías</a>
+    <a href="#tabla-sec">Todas</a><a href="#como-leer">Cómo leer</a><a href="historial.html">Historial</a>
+  </nav>
+  <button class="tema" id="tema" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div></header>
+
 <main>
-<h1>Reporte cripto del {{ fecha }}</h1>
-<div class="sub">Generado {{ generado }} (hora local). Velas diarias al último cierre UTC. Etapa 1: precios y mercado; noticias, sentimiento y puntaje llegan en etapas siguientes.</div>
+<section class="cabecera" id="resumen">
+  <h1>{{ fecha_larga }}</h1>
+  <p>Datos al último cierre diario (UTC) · generado {{ generado }} · {{ universo.en_universo }} monedas analizadas. Material de investigación, no recomendación de inversión.</p>
+  {% for a in avisos %}<div class="aviso"><b>Aviso:</b> {{ a }}</div>{% endfor %}
+</section>
 
-{% for a in avisos %}<div class="aviso">{{ a }}</div>{% endfor %}
+<div class="kpis">
+{% for k in kpis %}
+  <div class="tarjeta kpi">
+    <div class="t"><span>{{ k.titulo }}</span><span class="info" title="{{ k.ayuda }}">i</span></div>
+    <div class="v num">{{ k.valor }}{% if k.unidad %} <small>{{ k.unidad }}</small>{% endif %}</div>
+    <div class="d {{ k.tono }}">{{ k.detalle }}</div>
+    {% if k.medidor is defined %}<div class="medidor" aria-hidden="true"><i style="left: {{ k.medidor }}%"></i></div>{% endif %}
+  </div>
+{% endfor %}
+</div>
 
-<h2>Resumen del mercado</h2>
-<div class="tarjeta resumen"><ol>
-{% for l in resumen %}<li>{{ l.texto }} <span class="fuente">Fuente: {{ l.fuente }}</span></li>{% endfor %}
-</ol></div>
+<h2>El día en cinco líneas</h2>
+<p class="bajada">Cada línea es un dato medido, con su fuente al lado.</p>
+<div class="tarjeta resumen">
+  <ol>{% for l in resumen %}<li>{{ l.texto }} <span class="fuente">· {{ l.fuente }}</span></li>{% endfor %}</ol>
+  {% if lectura %}<div class="lectura"><span class="etq op">Opinión</span>{{ lectura }}</div>{% endif %}
+</div>
 
-<h2>Anomalías del día</h2>
+<h2 id="destacadas">Las {{ fichas | length }} monedas con mejor puntaje</h2>
+<p class="bajada">El puntaje (0 a 100) compara cada moneda con el resto del universo de hoy en tendencia, momentum y riesgo{% if not con_sentimiento %}; el sentimiento se suma en la próxima etapa{% endif %}. Un puntaje alto indica qué investigar primero, no qué comprar.</p>
+<div class="fichas">
+{% for f in fichas %}
+<article class="tarjeta ficha">
+  <div class="ficha-cab">
+    <span class="pos">#{{ f.pos }}</span>
+    <div class="moneda">
+      {% if f.imagen %}<img src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}
+      <div style="min-width:0"><div class="s">{{ f.simbolo }}</div><div class="n">{{ f.nombre }} · puesto {{ f.rank }} por capitalización</div></div>
+    </div>
+    <div class="anillo" style="--p: {{ f.pt_n or 0 }}" title="Puntaje {{ f.pt }} de 100"><span class="num">{{ f.pt }}</span></div>
+  </div>
+  <div class="ficha-datos num">
+    <span class="precio">US$ {{ f.precio }}</span>
+    {% for etiqueta, txt, n in [("24 h", f.c24, f.c24_n), ("7 d", f.c7, f.c7_n), ("30 d", f.c30, f.c30_n)] %}
+      <span class="chip {{ 'up' if n is not none and n >= 0 else ('down' if n is not none else '') }}">{{ etiqueta }} {{ txt }}</span>
+    {% endfor %}
+    {{ f.spark | safe }}
+  </div>
+  <div class="barras num">
+    {% for etiqueta, n in [("Tendencia", f.pt_t_n), ("Momentum", f.pt_m_n), ("Riesgo controlado", f.pt_r_n)] %}
+      <span class="l">{{ etiqueta }}</span><span class="b"><i style="width: {{ n or 0 }}%"></i></span><span class="v">{{ '%.0f' % n if n is not none else 's/d' }}</span>
+    {% endfor %}
+  </div>
+  <div class="ficha-cuerpo">
+    {% if f.por_que %}<div class="bloque"><h4>Por qué aparece</h4><ul>{% for x in f.por_que %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if f.respalda %}<div class="bloque respalda"><h4>Qué la respalda</h4><ul>{% for x in f.respalda %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+    <div class="bloque riesgo"><h4>Qué la pone en riesgo</h4><ul>{% for x in f.riesgos %}<li>{{ x }}</li>{% endfor %}</ul></div>
+    <div class="lectura"><span class="etq op">Opinión</span>{{ f.lectura }}</div>
+  </div>
+  <div class="ficha-pie">
+    <span>{% if f.insuficiente %}Datos limitados: {{ f.insuficiente | join(" ") }}{% else %}RSI {{ f.rsi }} · vs BTC 30 d {{ f.vsbtc }} · volumen {{ f.vol }}{% endif %}</span>
+    <a href="https://www.coingecko.com/es/monedas/{{ f.coin_id }}" target="_blank" rel="noopener">Ver en CoinGecko ↗</a>
+  </div>
+</article>
+{% endfor %}
+</div>
+
+<h2 id="cambios">Qué cambió desde el reporte anterior</h2>
+<p class="bajada">{% if cambios.fecha_anterior %}Comparado con el reporte del {{ cambios.fecha_anterior }}.{% else %}Se compara cada día con el anterior.{% endif %}</p>
+<div class="tarjeta">
+  {% if cambios.nota %}<p class="fuente" style="margin-top:0">{{ cambios.nota }}</p>{% endif %}
+  {% if cambios["items"] %}
+  <ul class="cambios">
+  {% for c in cambios["items"] %}
+    {% set icono = {"entra": "↑", "sube": "+", "sale": "↓", "baja": "−", "anomalia": "!", "universo": "·"}[c.tipo] %}
+    <li><span class="ic {{ c.tipo }}">{{ icono }}</span><span>{% if c.simbolo %}<b>{{ c.simbolo }}</b> {% endif %}{{ c.texto }}</span></li>
+  {% endfor %}
+  </ul>
+  {% elif not cambios.nota %}<p style="margin:0">Sin cambios relevantes.</p>{% endif %}
+</div>
+
+<h2 id="mapa">Mapa del mercado</h2>
+<p class="bajada">Cada punto es una moneda: a la derecha, más alcista respecto de su media de 200 días; arriba, más volátil. El tamaño refleja la capitalización y las azules son las destacadas de hoy. Pasá el mouse por encima para ver el detalle.</p>
+<div class="dos">
+  {% if grafico_mapa %}<div class="tarjeta"><div class="graf-t">Tendencia contra riesgo</div>
+    <div class="graf-d">Línea vertical: SMA 200. Línea punteada: volatilidad mediana del universo.</div>{{ grafico_mapa | safe }}</div>{% endif %}
+  {% if grafico_vsbtc %}<div class="tarjeta"><div class="graf-t">Destacadas contra Bitcoin, últimos 30 días</div>
+    <div class="graf-d">Diferencia de rendimiento en puntos porcentuales. Positivo: le ganó a BTC.</div>{{ grafico_vsbtc | safe }}</div>{% endif %}
+</div>
+
+<h2 id="mercado">Bitcoin y sentimiento</h2>
+<p class="bajada">BTC marca el pulso del resto del mercado: su tendencia y el ánimo general dan contexto a cualquier señal individual.</p>
+{% if grafico_btc %}<div class="tarjeta"><div class="graf-t">BTC: precio, medias móviles, volumen y RSI</div>
+  <div class="graf-d">Volumen verde en días de suba, rojo en días de baja. RSI sobre 70 = sobrecompra, bajo 30 = sobreventa.</div>{{ grafico_btc | safe }}</div>
+{% else %}<div class="aviso">Sin velas de BTC: no se pudo dibujar el gráfico de precio.</div>{% endif %}
+{% if grafico_fg %}<div class="tarjeta" style="margin-top:14px"><div class="graf-t">Índice Fear &amp; Greed, últimos 30 días</div>
+  <div class="graf-d">Fuente: alternative.me. Zonas extremas sombreadas.</div>{{ grafico_fg | safe }}</div>{% endif %}
+
+<h2 id="anomalias">Anomalías del día</h2>
+<p class="bajada">Volumen mayor a {{ umbral_vol }}x su promedio de 30 días o movimiento diario mayor a {{ umbral_sd }} desviaciones estándar. Son hechos medidos que piden una explicación (noticia, listado, desbloqueo), no señales de compra o venta.</p>
 <div class="tarjeta">
 {% if anomalias %}
-<p class="sub">Volumen de la última vela mayor a {{ umbral_vol }}x su promedio de 30 días, o movimiento diario mayor a {{ umbral_sd }} desviaciones estándar de los últimos 90 días. Son hechos medidos, no señales de compra o venta.</p>
 <div class="tabla-wrap"><table>
-<tr><th class="izq">Moneda</th><th>Precio</th><th>24 h</th><th>Vol. relativo</th><th class="izq">Qué pasó</th></tr>
+<thead><tr><th class="izq">Moneda</th><th>Precio</th><th>24 h</th><th>Vol. relativo</th><th>Puntaje</th><th class="izq">Qué pasó</th></tr></thead>
+<tbody>
 {% for f in anomalias %}
-<tr><td class="izq"><b>{{ f.simbolo }}</b> {{ f.nombre }}</td><td>{{ f.precio }}</td>
-<td class="{{ 'pos' if f.c24_n is not none and f.c24_n > 0 else 'neg' }}">{{ f.c24 }}</td><td>{{ f.volrel }}</td>
+<tr><td class="izq">{% if f.imagen %}<img class="mini-logo" src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}<b>{{ f.simbolo }}</b> <span class="fuente">{{ f.nombre }}</span></td>
+<td>{{ f.precio }}</td>
+<td class="{{ 'pos-t' if f.c24_n is not none and f.c24_n > 0 else 'neg-t' }}">{{ f.c24 }}</td><td>{{ f.volrel }}</td><td>{{ f.pt }}</td>
 <td class="anom">{{ f.anomalias }}</td></tr>
 {% endfor %}
-</table></div>
-{% else %}<p>Sin anomalías en la última vela cerrada.</p>{% endif %}
+</tbody></table></div>
+{% else %}<p style="margin:0">Sin anomalías en la última vela cerrada.</p>{% endif %}
 </div>
 
-<h2>Gráficos</h2>
-<div class="graficos">
-{% if grafico_btc %}<div class="tarjeta"><b>BTC: precio con medias móviles y volumen diario</b>
-<div class="fuente">Fuente: velas diarias de Binance (o CoinGecko si Binance no respondió)</div>{{ grafico_btc | safe }}</div>
-{% else %}<div class="aviso">Sin velas de BTC: no se pudo dibujar el gráfico de precio.</div>{% endif %}
-{% if grafico_fg %}<div class="tarjeta"><b>Índice Fear &amp; Greed, últimos 30 días</b>
-<div class="fuente">Fuente: alternative.me</div>{{ grafico_fg | safe }}</div>{% endif %}
+<h2 id="tabla-sec">Todas las monedas</h2>
+<p class="bajada">Top {{ universo.top_leido }} por capitalización en CoinGecko, sin {{ universo.excluidas_stable_envueltas }} stablecoins y tokens envueltos ni {{ universo.excluidas_poco_volumen }} con poco volumen. Hacé clic en un encabezado para ordenar; pasá el mouse por los encabezados subrayados para ver qué significan.</p>
+<div class="tarjeta">
+<div class="controles">
+  <input id="buscar" type="search" placeholder="Buscar moneda (ej. SOL, Cardano)" aria-label="Buscar moneda">
+  <button class="filtro activo" data-f="todas">Todas</button>
+  <button class="filtro" data-f="top">Puntaje ≥ 70</button>
+  <button class="filtro" data-f="alcista">Sobre SMA 200</button>
+  <button class="filtro" data-f="anom">Con anomalía</button>
+  <button class="filtro" data-f="rsi">RSI extremo</button>
+  <span class="contador" id="contador"></span>
 </div>
-
-<h2>Universo del día ({{ universo.en_universo }} monedas)</h2>
-<p class="sub">Top {{ universo.top_leido }} por capitalización en CoinGecko; excluidas {{ universo.excluidas_stable_envueltas }} stablecoins/envueltas/staking líquido
-{% if universo.ejemplos_excluidas %}({{ universo.ejemplos_excluidas | join(", ") }}…){% endif %}
-y {{ universo.excluidas_poco_volumen }} con volumen menor al mínimo. Haz clic en un encabezado para ordenar. "s/d" = sin datos suficientes.</p>
-<div class="tarjeta tabla-wrap">
+<div class="tabla-wrap">
 <table id="tabla">
 <thead><tr>
-<th data-k="n">#</th><th class="izq" data-k="s">Moneda</th><th data-k="n">Precio USD</th>
-<th data-k="n">24 h</th><th data-k="n">7 d</th><th data-k="n">30 d</th><th data-k="n">Volumen 24 h</th>
-<th data-k="n">Vol. rel. 30 d</th><th data-k="n">vs SMA 50</th><th data-k="n">vs SMA 200</th>
-<th data-k="n">Volat. 30 d (anual.)</th><th data-k="n">Caída máx 90 d</th><th class="izq" data-k="s">Velas</th>
+<th data-k="n">#</th>
+<th class="izq fija" data-k="s">Moneda</th>
+<th data-k="n" class="orden"><abbr title="0 a 100. Combina tendencia, momentum y riesgo frente al resto del universo.">Puntaje</abbr></th>
+<th data-k="n">Precio US$</th><th data-k="n">24 h</th><th data-k="n">7 d</th><th data-k="n">30 d</th>
+<th data-k="n"><abbr title="Diferencia de rendimiento contra BTC en 30 días, en puntos porcentuales.">vs BTC</abbr></th>
+<th data-k="n"><abbr title="Índice de fuerza relativa de 14 días. Más de 70: sobrecompra. Menos de 30: sobreventa.">RSI</abbr></th>
+<th data-k="n"><abbr title="Distancia del precio a su media de 50 días.">vs SMA 50</abbr></th>
+<th data-k="n"><abbr title="Distancia del precio a su media de 200 días. Positivo: tendencia de largo plazo alcista.">vs SMA 200</abbr></th>
+<th data-k="n">Volumen 24 h (M US$)</th>
+<th data-k="n"><abbr title="Volumen del último día dividido por su promedio de 30 días. 2x = el doble de lo habitual.">Vol. rel.</abbr></th>
+<th data-k="n"><abbr title="Desviación estándar de los retornos diarios de 30 días, anualizada. Más alto = más riesgo.">Volatilidad</abbr></th>
+<th data-k="n"><abbr title="Mayor caída desde un máximo dentro de los últimos 90 días.">Caída máx. 90 d</abbr></th>
+<th class="izq">90 días</th>
 </tr></thead>
 <tbody>
-{% macro c(txt, n) %}<td data-v="{{ n if n is not none else '' }}" class="{{ 'pos' if n is not none and n > 0 else ('neg' if n is not none and n < 0 else '') }}">{{ txt }}</td>{% endmacro %}
+{% macro c(txt, n) %}<td data-v="{{ n if n is not none else '' }}" class="{{ 'pos-t' if n is not none and n > 0 else ('neg-t' if n is not none and n < 0 else '') }}">{{ txt }}</td>{% endmacro %}
 {% for f in filas %}
-<tr class="{{ 'oculta' if loop.index > filas_visibles else '' }}">
+<tr data-pt="{{ f.pt_n if f.pt_n is not none else '' }}" data-s200="{{ f.s200_n if f.s200_n is not none else '' }}"
+    data-anom="{{ 1 if f.anomalias else 0 }}" data-rsi="{{ f.rsi_n if f.rsi_n is not none else '' }}"
+    data-busca="{{ (f.simbolo ~ ' ' ~ f.nombre) | lower }}">
 <td data-v="{{ f.rank }}">{{ f.rank }}</td>
-<td class="izq" data-v="{{ f.simbolo }}"><b>{{ f.simbolo }}</b> <span class="sub">{{ f.nombre }}</span></td>
+<td class="izq fija" data-v="{{ f.simbolo }}">{% if f.imagen %}<img class="mini-logo" src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}<b>{{ f.simbolo }}</b> <span class="fuente">{{ f.nombre }}</span>{% if f.anomalias %} <span title="{{ f.anomalias }}" style="color:var(--alerta)">●</span>{% endif %}</td>
+<td data-v="{{ f.pt_n if f.pt_n is not none else '' }}"><span class="celda-pt"><b>{{ f.pt }}</b>{% if f.pt_n is not none %}<i><b style="width: {{ f.pt_n }}%"></b></i>{% endif %}</span></td>
 <td data-v="{{ f.precio_n if f.precio_n is not none else '' }}">{{ f.precio }}</td>
-{{ c(f.c24, f.c24_n) }}{{ c(f.c7, f.c7_n) }}{{ c(f.c30, f.c30_n) }}
-<td data-v="{{ f.vol_n if f.vol_n is not none else '' }}">{{ f.vol }}</td>
-<td data-v="{{ f.volrel_n if f.volrel_n is not none else '' }}">{{ f.volrel }}</td>
+{{ c(f.c24, f.c24_n) }}{{ c(f.c7, f.c7_n) }}{{ c(f.c30, f.c30_n) }}{{ c(f.vsbtc, f.vsbtc_n) }}
+<td data-v="{{ f.rsi_n if f.rsi_n is not none else '' }}"><span class="marca-rsi {{ 'alto' if f.rsi_n is not none and f.rsi_n > 70 else ('bajo' if f.rsi_n is not none and f.rsi_n < 30 else '') }}">{{ f.rsi }}</span></td>
 {{ c(f.s50, f.s50_n) }}{{ c(f.s200, f.s200_n) }}
+<td data-v="{{ f.vol_n if f.vol_n is not none else '' }}">{{ f.vol_m }}</td>
+<td data-v="{{ f.volrel_n if f.volrel_n is not none else '' }}">{{ f.volrel }}</td>
 <td data-v="{{ f.volat_n if f.volat_n is not none else '' }}">{{ f.volat }}</td>
 <td data-v="{{ f.dd_n if f.dd_n is not none else '' }}">{{ f.dd }}</td>
-<td class="izq" data-v="{{ f.fuente }}">{{ f.fuente }} <span class="sub">({{ f.dias }} d)</span></td>
+<td class="izq">{{ f.spark_mini | safe }}</td>
 </tr>
 {% endfor %}
 </tbody></table>
-{% if filas | length > filas_visibles %}<button id="ver-todas">Ver las {{ filas | length }} monedas</button>{% endif %}
+</div>
+<button class="boton" id="ver-todas">Ver las {{ filas | length }} monedas</button>
+</div>
+
+<h2 id="como-leer">Cómo leer este reporte</h2>
+<p class="bajada">Qué significa cada medida y cómo se arma el puntaje. Los pesos se cambian en <code>config.yaml</code>.</p>
+<div class="tarjeta">
+  <b>Pesos aplicados hoy</b>
+  <div class="pesos">
+    {% set colores = {"tendencia": "#2a78d6", "momentum": "#eb6834", "sentimiento": "#1baf7a", "riesgo": "#7d6fd8"} %}
+    {% for k, v in pesos.items() %}<div style="width: {{ v }}%; background: {{ colores[k] }}">{{ k | capitalize }} {{ '%.0f' % v }}%</div>{% endfor %}
+  </div>
+  <p class="fuente" style="margin:0">{% if not con_sentimiento %}El sentimiento (peso {{ pesos_config.sentimiento }} en la configuración) todavía no tiene datos, así que su peso se repartió entre los demás. {% endif %}Cada medida se convierte en percentil dentro del universo del día: 100 = la mejor de hoy, 0 = la peor. Monedas con menos de {{ dias_minimos }} días de historial quedan sin puntaje.</p>
+  <dl class="glosario" style="margin-top:14px">
+    <div><dt>Tendencia</dt><dd>Distancia del precio a sus medias de 50 y 200 días, si la SMA 50 está sobre la SMA 200 (cruce alcista) y el histograma del MACD.</dd></div>
+    <div><dt>Momentum</dt><dd>Rendimiento de 7 y 30 días, volumen relativo y RSI: puntúa mejor un RSI cerca de {{ rsi_ideal }} y peor uno en sobrecompra o sobreventa.</dd></div>
+    <div><dt>Riesgo controlado</dt><dd>Menor volatilidad, menor caída máxima en 90 días y mayor volumen (liquidez) suman. Un valor alto significa menos riesgo.</dd></div>
+    <div><dt>Sentimiento</dt><dd>Tono y cantidad de noticias y menciones en redes. Se agrega en la etapa de noticias.</dd></div>
+    <div><dt>SMA 20 / 50 / 200</dt><dd>Media del precio de cierre de los últimos 20, 50 o 200 días. Sobre la SMA 200 suele considerarse tendencia alcista de largo plazo.</dd></div>
+    <div><dt>RSI 14</dt><dd>Mide la fuerza de las subidas frente a las bajadas en 14 días (0 a 100). Más de 70: sobrecompra. Menos de 30: sobreventa.</dd></div>
+    <div><dt>MACD</dt><dd>Diferencia entre medias exponenciales de 12 y 26 días comparada con su señal de 9. Sobre la señal: impulso positivo.</dd></div>
+    <div><dt>Volumen relativo</dt><dd>Volumen del último día dividido por el promedio de los 30 anteriores.</dd></div>
+    <div><dt>Hechos y opiniones</dt><dd>Las listas de cada ficha son datos medidos. Lo marcado como <span class="etq op">Opinión</span> es una lectura por reglas fijas y puede estar equivocada.</dd></div>
+  </dl>
 </div>
 
 <footer>
 Este reporte es material de apoyo para investigar. No es una recomendación de inversión ni promete ganancias.
-Los datos pueden tener retrasos o errores de las fuentes; verifica antes de decidir.
+Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, alternative.me); verificá antes de decidir.
+· <a href="historial.html">Reportes anteriores</a>
 </footer>
 </main>
 <script>
 (function () {
+  // Tema claro/oscuro (recordado en este navegador)
+  const raiz = document.documentElement;
+  try { const t = localStorage.getItem("tema"); if (t) raiz.dataset.theme = t; } catch (e) {}
+  document.getElementById("tema").addEventListener("click", () => {
+    const oscuro = raiz.dataset.theme ? raiz.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    raiz.dataset.theme = oscuro ? "light" : "dark";
+    try { localStorage.setItem("tema", raiz.dataset.theme); } catch (e) {}
+  });
+
   const tabla = document.getElementById("tabla");
   const cuerpo = tabla.tBodies[0];
-  let mostrarTodas = false;
+  const LIMITE = {{ filas_visibles }};
   const btn = document.getElementById("ver-todas");
-  function aplicarVisibles() {
-    [...cuerpo.rows].forEach((r, i) => r.classList.toggle("oculta", !mostrarTodas && i >= {{ filas_visibles }}));
+  const buscar = document.getElementById("buscar");
+  const contador = document.getElementById("contador");
+  let mostrarTodas = false, filtro = "todas";
+
+  function pasa(r) {
+    const q = buscar.value.trim().toLowerCase();
+    if (q && !r.dataset.busca.includes(q)) return false;
+    const n = k => r.dataset[k] === "" ? null : parseFloat(r.dataset[k]);
+    if (filtro === "top") return n("pt") !== null && n("pt") >= 70;
+    if (filtro === "alcista") return n("s200") !== null && n("s200") > 0;
+    if (filtro === "anom") return r.dataset.anom === "1";
+    if (filtro === "rsi") return n("rsi") !== null && (n("rsi") > 70 || n("rsi") < 30);
+    return true;
   }
-  if (btn) btn.addEventListener("click", () => {
-    mostrarTodas = !mostrarTodas;
-    btn.textContent = mostrarTodas ? "Ver menos" : "Ver las {{ filas | length }} monedas";
-    aplicarVisibles();
-  });
-  [...tabla.tHead.rows[0].cells].forEach((th, idx) => {
-    let asc = idx === 0;
+  function aplicar() {
+    let vistas = 0, total = 0;
+    const filtrando = filtro !== "todas" || buscar.value.trim();
+    [...cuerpo.rows].forEach(r => {
+      const ok = pasa(r);
+      if (ok) total++;
+      const ver = ok && (mostrarTodas || filtrando || vistas < LIMITE);
+      if (ver) vistas++;
+      r.classList.toggle("oculta", !ver);
+    });
+    contador.textContent = total + (total === 1 ? " moneda" : " monedas");
+    btn.style.display = filtrando || total <= LIMITE ? "none" : "";
+    btn.textContent = mostrarTodas ? "Ver menos" : "Ver las " + total + " monedas";
+  }
+  btn.addEventListener("click", () => { mostrarTodas = !mostrarTodas; aplicar(); });
+  buscar.addEventListener("input", aplicar);
+  document.querySelectorAll(".filtro").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".filtro").forEach(x => x.classList.remove("activo"));
+    b.classList.add("activo"); filtro = b.dataset.f; aplicar();
+  }));
+
+  const cab = [...tabla.tHead.rows[0].cells];
+  function ordenar(idx, asc) {
+    const num = cab[idx].dataset.k === "n";
+    const filas = [...cuerpo.rows].sort((a, b) => {
+      const va = a.cells[idx].dataset.v, vb = b.cells[idx].dataset.v;
+      if (va === "" && vb !== "") return 1;
+      if (vb === "" && va !== "") return -1;
+      const d = num ? parseFloat(va) - parseFloat(vb) : va.localeCompare(vb);
+      return asc ? d : -d;
+    });
+    filas.forEach(r => cuerpo.appendChild(r));
+    cab.forEach(c => c.classList.remove("orden", "asc"));
+    cab[idx].classList.add("orden"); if (asc) cab[idx].classList.add("asc");
+    aplicar();
+  }
+  cab.forEach((th, idx) => {
+    if (!th.dataset.k) return;
     th.addEventListener("click", () => {
-      asc = !asc;
-      const num = th.dataset.k === "n";
-      const filas = [...cuerpo.rows].sort((a, b) => {
-        const va = a.cells[idx].dataset.v, vb = b.cells[idx].dataset.v;
-        if (va === "" && vb !== "") return 1;
-        if (vb === "" && va !== "") return -1;
-        const d = num ? parseFloat(va) - parseFloat(vb) : va.localeCompare(vb);
-        return asc ? d : -d;
-      });
-      filas.forEach(r => cuerpo.appendChild(r));
-      aplicarVisibles();
+      const asc = th.classList.contains("orden") ? !th.classList.contains("asc") : idx <= 1;
+      ordenar(idx, asc);
     });
   });
+  ordenar(2, false);  // por defecto: mayor puntaje primero
 })();
 </script>
 </body>

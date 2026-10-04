@@ -27,7 +27,7 @@ for flujo in (sys.stdout, sys.stderr):
 
 import pandas as pd
 
-from cripto import indicadores, reporte
+from cripto import alertas, indicadores, puntaje, reporte
 from cripto.almacen import Almacen, exportar_csv
 from cripto.config import DATOS, LOGS, REPORTES, cargar_config
 from cripto.fuentes import feargreed
@@ -135,26 +135,31 @@ def ejecutar(cfg: dict, abrir: bool, sitio: bool = False) -> int:
             avisos.append(f"{len(sin_datos)} monedas sin velas hoy (se completan en próximas corridas): "
                           + ", ".join(sin_datos[:20]) + ("…" if len(sin_datos) > 20 else ""))
 
-        log.info("4/5 Indicadores y anomalías…")
+        log.info("4/5 Indicadores, puntaje y anomalías…")
         desde = (datetime.now(timezone.utc) - timedelta(days=cfg["velas"]["dias"] + 5)).strftime("%Y-%m-%d")
+        velas_btc = almacen.velas("bitcoin", desde)
+        velas_btc = velas_btc[velas_btc["fecha"] < fecha]
+        btc = velas_btc.set_index("fecha")["close"] if len(velas_btc) else None
+        serie_btc = indicadores.series_para_grafico(velas_btc) if len(velas_btc) else None
         metricas = []
-        serie_btc = None
         for _, f in universo.iterrows():
             velas = almacen.velas(f["coin_id"], desde)
             velas = velas[velas["fecha"] < fecha]
-            metricas.append(indicadores.calcular(velas, cfg) if len(velas) else {"dias_historial": 0})
-            if f["coin_id"] == "bitcoin" and len(velas):
-                serie_btc = indicadores.series_para_grafico(velas)
+            metricas.append(indicadores.calcular(velas, cfg, btc) if len(velas) else {"dias_historial": 0})
         monedas = pd.concat([universo.reset_index(drop=True), pd.DataFrame(metricas)], axis=1)
-        if "anomalias" not in monedas:
-            monedas["anomalias"] = ""
+        for col in ("anomalias", "dist_sma200", "dist_sma50", "macd_hist_pct", "rsi14", "ret_7d", "ret_30d",
+                    "vol_relativo", "volatilidad_30d", "caida_max_90d", "cruce_50_200", "vs_btc_30d"):
+            if col not in monedas:
+                monedas[col] = "" if col == "anomalias" else None
+        monedas = puntaje.calcular(monedas, cfg)
+        cambios = alertas.comparar(monedas, almacen.monedas_anteriores(fecha), cfg["puntaje"]["top"])
         almacen.guardar_monedas(fecha, monedas)
-        csv = exportar_csv(monedas.drop(columns=["image"], errors="ignore"), DATOS / "csv", fecha)
+        csv = exportar_csv(monedas.drop(columns=["image", "spark"], errors="ignore"), DATOS / "csv", fecha)
         log.info("Datos guardados en %s y %s", DATOS / "cripto.db", csv)
 
         log.info("5/5 Generando reporte…")
         ruta = reporte.generar(REPORTES, fecha, mercado, almacen.mercado_anterior(fecha), fg,
-                               monedas, serie_btc, res_univ, avisos, cfg)
+                               monedas, serie_btc, res_univ, avisos, cfg, cambios)
         log.info("Reporte listo: %s", ruta)
         if sitio:
             publicar_sitio(ruta)

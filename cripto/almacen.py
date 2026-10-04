@@ -27,10 +27,24 @@ CREATE TABLE IF NOT EXISTS corridas (
 """
 
 
+# Columnas agregadas después de la etapa 1: se suman a bases ya existentes.
+COLUMNAS_NUEVAS = {
+    "monedas_diario": ["rsi14 REAL", "macd_hist_pct REAL", "ret_7d REAL", "ret_30d REAL", "ret_90d REAL",
+                       "vs_btc_30d REAL", "dist_max_90d REAL", "p_tendencia REAL", "p_momentum REAL",
+                       "p_sentimiento REAL", "p_riesgo REAL", "puntaje REAL"],
+}
+
+
 class Almacen:
     def __init__(self, ruta: Path):
         self.con = sqlite3.connect(ruta)
         self.con.executescript(ESQUEMA)
+        for tabla, columnas in COLUMNAS_NUEVAS.items():
+            existentes = {r[1] for r in self.con.execute(f"PRAGMA table_info({tabla})")}
+            for col in columnas:
+                if col.split()[0] not in existentes:
+                    self.con.execute(f"ALTER TABLE {tabla} ADD COLUMN {col}")
+        self.con.commit()
 
     def cerrar(self):
         self.con.commit()
@@ -85,6 +99,13 @@ class Almacen:
         fila = pd.read_sql_query("SELECT * FROM mercado WHERE fecha<? ORDER BY fecha DESC LIMIT 1",
                                  self.con, params=[fecha])
         return None if fila.empty else fila.iloc[0].to_dict()
+
+    def monedas_anteriores(self, fecha: str) -> pd.DataFrame:
+        """Snapshot del último día anterior a `fecha` (para comparar y armar alertas)."""
+        fila = self.con.execute("SELECT MAX(fecha) FROM monedas_diario WHERE fecha<?", (fecha,)).fetchone()
+        if not fila or not fila[0]:
+            return pd.DataFrame()
+        return pd.read_sql_query("SELECT * FROM monedas_diario WHERE fecha=?", self.con, params=[fila[0]])
 
     def registrar_corrida(self, inicio: str, fin: str, fecha: str, estado: str, notas: str):
         self.con.execute("INSERT OR REPLACE INTO corridas VALUES (?,?,?,?,?)",

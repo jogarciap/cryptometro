@@ -30,6 +30,24 @@ anomalias:
   volumen_vs_promedio_30d: 2.0   # volumen del día > 2x su promedio de 30 días
   desviaciones_precio: 2.0       # movimiento diario > 2 desviaciones estándar (90 días)
 
+# ---------------------------------------------------------------------
+# Puntaje de 0 a 100
+# Cada componente se calcula como percentil dentro del universo del día
+# (0 = la peor del día, 100 = la mejor) y luego se combina con estos pesos.
+# Los pesos son relativos: no hace falta que sumen 100. Si un componente no
+# tiene datos (por ejemplo, sentimiento antes de la etapa 3), su peso se
+# reparte entre los demás y el reporte lo indica.
+# ---------------------------------------------------------------------
+puntaje:
+  pesos:
+    tendencia: 30      # precio vs SMA 50 y 200, cruce SMA 50/200, MACD
+    momentum: 25       # rendimiento 7 y 30 días, RSI, volumen relativo
+    sentimiento: 20    # noticias y redes (se activa en la etapa 3)
+    riesgo: 25         # menor volatilidad, menor caída máxima y más liquidez puntúan mejor
+  dias_minimos: 60     # menos historial que esto: sin puntaje (datos insuficientes)
+  rsi_ideal: 60        # RSI más cercano a este valor puntúa mejor; lejos (sobrecompra/sobreventa) resta
+  top: 10              # monedas que se muestran con ficha e interpretación
+
 reporte:
   filas_tabla: 25                # filas visibles por defecto en la tabla principal
   abrir_navegador: true          # abrir el reporte al terminar
