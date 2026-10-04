@@ -82,10 +82,10 @@ def publicar_sitio(ruta) -> None:
     (REPORTES / "historial.html").write_text(
         '<!doctype html><html lang="es"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
-        '<title>Historial de reportes</title><style>body{font:16px/1.6 system-ui,sans-serif;'
+        '<title>Cryptometro · historial</title><style>body{font:16px/1.6 system-ui,sans-serif;'
         'max-width:640px;margin:0 auto;padding:24px 16px;background:#fcfcfb;color:#0b0b0b}'
         '@media (prefers-color-scheme:dark){body{background:#1a1a19;color:#fff}a{color:#3987e5}}</style>'
-        f'</head><body><h1>Reportes anteriores</h1><p><a href="index.html">Último reporte</a></p><ul>{items}</ul>'
+        f'</head><body><h1>Cryptometro: reportes anteriores</h1><p><a href="index.html">Último reporte</a></p><ul>{items}</ul>'
         '</body></html>', encoding="utf-8")
 
 

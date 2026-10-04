@@ -1,4 +1,4 @@
-# Investigador cripto (etapa 1)
+# Cryptometro (investigador cripto)
 
 Herramienta de investigación: junta precios y datos de mercado, marca lo que se sale de lo normal y arma un reporte HTML diario. No opera ni pide claves de exchange. No es una recomendación de inversión.
 
