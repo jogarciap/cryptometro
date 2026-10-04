@@ -74,6 +74,8 @@ def _social_valido(texto: str) -> bool:
     """Descarta listas de cashtags, mensajes casi vacíos y groserías."""
     if GROSERIAS.search(texto) or len(CASHTAG.findall(texto)) > 4:
         return False
+    if len(re.findall(r"\$\s?[\d][\d,.]*\s?[KMB]?\b", texto)) > 3:  # tablas automáticas de bots (TVL, rankings)
+        return False
     return len(CASHTAG.sub("", texto).strip()) >= 25
 
 
