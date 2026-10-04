@@ -243,13 +243,17 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     return ruta
 
 
+NOMBRES_ZONA = {"America/New_York": "Nueva York", "UTC": "UTC"}
+
+
 def _ahora(cfg: dict) -> str:
     """Hora de generación en la zona horaria del lector (config.yaml > reporte > zona_horaria)."""
     zona = cfg["reporte"].get("zona_horaria", "UTC")
     try:
         from zoneinfo import ZoneInfo
         ahora = datetime.now(ZoneInfo(zona))
-        return ahora.strftime("%d/%m %H:%M") + f" (hora de {zona.split('/')[-1].replace('_', ' ')})"
+        nombre = NOMBRES_ZONA.get(zona, zona.split("/")[-1].replace("_", " "))
+        return ahora.strftime("%d/%m %H:%M") + f" {ahora.tzname()} (hora de {nombre})"
     except Exception:  # noqa: BLE001
         return datetime.utcnow().strftime("%d/%m %H:%M") + " UTC"
 

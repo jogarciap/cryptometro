@@ -4,7 +4,7 @@ Herramienta de investigación: junta precios y datos de mercado, marca lo que se
 
 ## En la nube (sin instalar nada)
 
-Este repositorio corre solo 4 veces por día con GitHub Actions (`.github/workflows/reporte-diario.yml`: 09:00, 13:00, 17:00 y 21:15 hora de Argentina) y publica el último reporte en GitHub Pages:
+Este repositorio corre solo 4 veces por día con GitHub Actions (`.github/workflows/reporte-diario.yml`: 08:00, 12:00, 16:00 y 20:15 hora de Nueva York, una hora antes en invierno) y publica el último reporte en GitHub Pages:
 
 - Último reporte: https://jogarciap.github.io/cryptometro/
 - Reportes anteriores: https://jogarciap.github.io/cryptometro/historial.html

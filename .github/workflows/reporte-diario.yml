@@ -2,9 +2,10 @@ name: Reporte diario
 
 on:
   schedule:
-    # 4 veces por día (hora de Argentina = UTC-3):
-    - cron: "15 0 * * *"          # 21:15 ARG, apenas cierra la vela diaria
-    - cron: "0 12,16,20 * * *"    # 09:00, 13:00 y 17:00 ARG
+    # 4 veces por día. GitHub usa UTC; entre paréntesis, hora de Nueva York (EDT, UTC-4).
+    # Con el horario de invierno (EST, UTC-5) todo corre una hora antes.
+    - cron: "15 0 * * *"          # 20:15 ET, apenas cierra la vela diaria (00:00 UTC)
+    - cron: "0 12,16,20 * * *"    # 08:00, 12:00 y 16:00 ET
   workflow_dispatch: {}     # botón "Run workflow" para correrlo a mano
 
 permissions:
