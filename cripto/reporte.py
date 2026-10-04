@@ -200,9 +200,13 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     vol_mediana = con_vol["volatilidad_30d"].median() if len(con_vol) else None
 
     fichas = []
-    for pos, (_, f) in enumerate(top.iterrows(), start=1):
+    puestos_btc = m["vs_btc_30d"].rank(ascending=False, method="min")
+    total_btc = int(m["vs_btc_30d"].notna().sum())
+    for pos, (i, f) in enumerate(top.iterrows(), start=1):
         fila = _fila(f)
-        fila.update(interpretacion.ficha(f))
+        ctx = {"vol_mediana": vol_mediana, "vs_btc_total": total_btc,
+               "vs_btc_puesto": puestos_btc.get(i) if i in puestos_btc.index else None}
+        fila.update(interpretacion.ficha(f, ctx))
         fila["pos"] = pos
         fichas.append(fila)
 

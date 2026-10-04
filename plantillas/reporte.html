@@ -52,6 +52,7 @@ a:hover { text-decoration: underline; }
 .nav::-webkit-scrollbar { display: none; }
 .nav a { color: var(--texto-2); padding: 5px 10px; border-radius: 999px; font-size: 13.5px; white-space: nowrap; }
 .nav a:hover { background: var(--superficie-2); text-decoration: none; color: var(--texto); }
+.nav a.aqui { background: var(--acento-suave); color: var(--acento); font-weight: 600; }
 .tema { border: 1px solid var(--borde); background: var(--superficie); color: var(--texto-2); border-radius: 999px;
         width: 32px; height: 32px; cursor: pointer; flex: none; display: grid; place-items: center; }
 
@@ -523,6 +524,31 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
     });
   });
   ordenar(2, false);  // por defecto: mayor puntaje primero
+})();
+// Menú superior: resalta la sección que se está leyendo
+(function () {
+  const nav = document.querySelector(".nav");
+  const enlaces = [...nav.querySelectorAll('a[href^="#"]')]
+    .map(a => ({ a, sec: document.getElementById(a.getAttribute("href").slice(1)) }))
+    .filter(x => x.sec);
+  let actual = null, pendiente = false;
+  function marcar() {
+    pendiente = false;
+    const linea = 90;  // justo debajo de la barra fija
+    let elegido = enlaces[0];
+    for (const x of enlaces) if (x.sec.getBoundingClientRect().top - linea <= 0) elegido = x;
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) elegido = enlaces[enlaces.length - 1];
+    if (elegido === actual) return;
+    if (actual) { actual.a.classList.remove("aqui"); actual.a.removeAttribute("aria-current"); }
+    elegido.a.classList.add("aqui"); elegido.a.setAttribute("aria-current", "true");
+    actual = elegido;
+    // en pantallas angostas el menú se desliza para que la sección activa quede a la vista
+    const r = elegido.a.getBoundingClientRect(), n = nav.getBoundingClientRect();
+    if (r.left < n.left || r.right > n.right) nav.scrollTo({ left: nav.scrollLeft + r.left - n.left - 16, behavior: "smooth" });
+  }
+  window.addEventListener("scroll", () => { if (!pendiente) { pendiente = true; requestAnimationFrame(marcar); } }, { passive: true });
+  window.addEventListener("resize", marcar);
+  marcar();
 })();
 </script>
 </body>

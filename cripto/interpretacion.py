@@ -9,12 +9,15 @@ import pandas as pd
 
 NOMBRES = {"tendencia": "Tendencia", "momentum": "Momentum", "sentimiento": "Sentimiento", "riesgo": "Riesgo controlado"}
 
+FUERTE = {"tendencia": "la tendencia", "momentum": "el impulso reciente", "riesgo": "el riesgo controlado"}
+DEBIL = {"tendencia": "la tendencia de fondo", "momentum": "el impulso reciente", "riesgo": "el riesgo"}
+
 
 def _ok(x) -> bool:
     return x is not None and not (isinstance(x, float) and pd.isna(x)) and not pd.isna(x)
 
 
-def ficha(f: pd.Series) -> dict:
+def ficha(f: pd.Series, ctx: dict | None = None) -> dict:
     """Devuelve {'por_que': [...], 'respalda': [...], 'riesgos': [...], 'lectura': str, 'insuficiente': [...]}"""
     por_que, respalda, riesgos, insuf = [], [], [], []
 
@@ -71,7 +74,128 @@ def ficha(f: pd.Series) -> dict:
         insuf.append(f["nota_puntaje"])
 
     return {"por_que": por_que, "respalda": respalda, "riesgos": riesgos,
-            "lectura": lectura(f), "insuficiente": insuf}
+            "lectura": opinion(f, ctx or {}), "insuficiente": insuf}
+
+
+def _abajo(dist: float) -> float:
+    """Cuánto tendría que caer el precio (en %) para tocar una media que está dist% por debajo."""
+    return (1 - 1 / (1 + dist / 100)) * 100
+
+
+def _arriba(dist: float) -> float:
+    """Cuánto tendría que subir el precio (en %) para recuperar una media que está por encima."""
+    return (1 / (1 + dist / 100) - 1) * 100
+
+
+def _usd(x: float) -> str:
+    if x >= 1000:
+        return f"US$ {x:,.0f}"
+    if x >= 1:
+        return f"US$ {x:,.2f}"
+    return f"US$ {x:.4g}"
+
+
+def _situacion(f: pd.Series) -> str:
+    """Primera frase: en qué etapa está el precio, con los números que la sostienen."""
+    s = f.get("simbolo", "").upper()
+    r30, r7, d200 = f.get("ret_30d"), f.get("ret_7d"), f.get("dist_sma200")
+    if not _ok(d200) and _ok(f.get("dias_historial")):
+        return (f"{s} tiene solo {int(f['dias_historial'])} días de historial, así que su tendencia "
+                f"de largo plazo todavía no se puede medir.")
+    if _ok(r30) and _ok(r7) and r30 > 40:
+        if r7 > 5:
+            return f"{s} sigue en plena subida: {r30:+.0f}% en 30 días y todavía {r7:+.1f}% en la última semana."
+        if r7 < -5:
+            return (f"{s} subió {r30:.0f}% en 30 días, pero la última semana devolvió {r7:.1f}%: "
+                    f"la subida se está enfriando.")
+        return (f"{s} subió {r30:.0f}% en 30 días y en la última semana casi no se movió ({r7:+.1f}%): "
+                f"está asentando la suba.")
+    if _ok(d200) and d200 < 0:
+        if _ok(r30) and r30 > 10:
+            return (f"{s} rebota ({r30:+.0f}% en 30 días) pero sigue {d200:.0f}% bajo su SMA 200: "
+                    f"todavía no es una tendencia alcista.")
+        return f"{s} sigue en tendencia bajista ({d200:.0f}% bajo su SMA 200) y entra al top por otros factores."
+    if _ok(d200) and f.get("cruce_50_200") is True:
+        extra = f" y {r30:+.0f}% en 30 días" if _ok(r30) else ""
+        return f"{s} mantiene una tendencia alcista ordenada: {d200:+.0f}% sobre su SMA 200{extra}."
+    if _ok(d200):
+        return (f"{s} está {d200:+.0f}% sobre su SMA 200, pero la SMA 50 aún no cruzó por encima de la 200: "
+                f"la recuperación es reciente.")
+    return f"{s} aparece por su combinación de indicadores."
+
+
+def _balance(f: pd.Series, ctx: dict) -> str:
+    """Segunda frase: el componente más fuerte contra el más flojo, traducido a algo concreto."""
+    comps = [(f.get(f"p_{k}"), k) for k in ("tendencia", "momentum", "riesgo")]
+    comps = [(v, k) for v, k in comps if _ok(v)]
+    if len(comps) < 2:
+        return ""
+    comps.sort(reverse=True)
+    (vb, kb), (vw, kw) = comps[0], comps[-1]
+    if vb - vw < 10:
+        return f"Sus tres componentes están parejos (entre {vw:.0f} y {vb:.0f}/100): no depende de un solo factor."
+    if vw >= 65:
+        return (f"Es pareja en todo: su punto fuerte es {FUERTE[kb]} ({vb:.0f}/100) y hasta su componente "
+                f"más bajo, {DEBIL[kw]} ({vw:.0f}/100), supera a la mayoría del universo.")
+    detalle = ""
+    vol, med = f.get("volatilidad_30d"), ctx.get("vol_mediana")
+    if kw == "riesgo" and _ok(vol):
+        mov = vol / 365 ** 0.5
+        veces = f", {vol / med:.1f} veces la mediana del universo" if med else ""
+        detalle = f": se mueve ±{mov:.1f}% en un día típico{veces}"
+    elif kw == "momentum" and _ok(f.get("ret_7d")):
+        detalle = f": en la última semana hizo {f['ret_7d']:+.1f}%"
+    elif kw == "tendencia" and _ok(f.get("dist_sma50")):
+        detalle = f": está {f['dist_sma50']:+.1f}% respecto de su SMA 50"
+    return (f"Su punto fuerte es {FUERTE[kb]} ({vb:.0f}/100) y el más flojo, "
+            f"{DEBIL[kw]} ({vw:.0f}/100){detalle}.")
+
+
+def _contexto(f: pd.Series, ctx: dict) -> str:
+    """Tercera frase: lo más llamativo entre su tamaño y su comparación con BTC (o nada, si no destaca)."""
+    rank, vol24, vsb = f.get("rank"), f.get("volumen_24h"), f.get("vs_btc_30d")
+    puesto, total = ctx.get("vs_btc_puesto"), ctx.get("vs_btc_total")
+    if _ok(rank) and rank > 150:
+        return (f"Es una moneda chica (puesto {int(rank)} por capitalización), así que pocas órdenes "
+                f"pueden moverla mucho.")
+    if _ok(vol24) and vol24 < 20e6:
+        return (f"Tiene poca liquidez (US$ {vol24 / 1e6:.0f} M negociados en 24 h), así que pocas órdenes "
+                f"pueden moverla mucho.")
+    if _ok(vsb) and vsb > 0 and puesto and total and puesto <= 10:
+        cual = "la que más" if puesto == 1 else f"la {int(puesto)}.ª que más"
+        return (f"Es {cual} le gana a BTC de las {total} monedas analizadas ({vsb:+.0f} pp en 30 días): "
+                f"su movimiento es propio, no solo arrastre del mercado.")
+    if _ok(vsb) and vsb < 0:
+        return f"Aun así va detrás de BTC ({vsb:+.1f} pp en 30 días), es decir, sube menos que la referencia del mercado."
+    if _ok(rank) and rank <= 25:
+        return f"Es de las grandes (puesto {int(rank)} por capitalización): hace falta mucho dinero para moverla."
+    return ""
+
+
+def _a_vigilar(f: pd.Series) -> str:
+    """Última frase: qué nivel concreto confirmaría o rompería esta lectura."""
+    rsi, precio = f.get("rsi14"), f.get("precio")
+    sma20, sma50, d20, d50 = f.get("sma20"), f.get("sma50"), f.get("dist_sma20"), f.get("dist_sma50")
+    if _ok(rsi) and rsi > 70 and _ok(sma20) and _ok(d20):
+        return (f"Con el RSI en {rsi:.0f} está recalentada: yo esperaría a que se calme antes de sacar conclusiones, "
+                f"y una primera señal de debilidad sería perder la SMA 20 ({_usd(sma20)}, "
+                f"{_abajo(d20):.0f}% por debajo del precio).")
+    if _ok(sma50) and _ok(d50) and d50 > 0:
+        return (f"El nivel a vigilar es la SMA 50 ({_usd(sma50)}, {_abajo(d50):.0f}% por debajo del precio): "
+                f"mientras se mantenga arriba, esta lectura sigue en pie.")
+    if _ok(sma50) and _ok(d50):
+        return (f"Lo que mejoraría el panorama es recuperar la SMA 50 ({_usd(sma50)}, "
+                f"{_arriba(d50):.0f}% arriba del precio).")
+    return ""
+
+
+def opinion(f: pd.Series, ctx: dict) -> str:
+    """Opinión por reglas, armada con los datos propios de la moneda (no una frase genérica)."""
+    partes = [_situacion(f), _balance(f, ctx), _contexto(f, ctx), _a_vigilar(f)]
+    if f.get("anomalias"):
+        partes.append(f"Hoy además marca una anomalía: {f['anomalias'][0].lower()}{f['anomalias'][1:]}. "
+                      f"Conviene buscar la noticia detrás.")
+    return " ".join(p for p in partes if p)
 
 
 def lectura(f: pd.Series) -> str:
