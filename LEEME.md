@@ -6,8 +6,8 @@ Herramienta de investigación: junta precios y datos de mercado, marca lo que se
 
 Este repositorio corre solo todos los días con GitHub Actions (`.github/workflows/reporte-diario.yml`, 11:15 UTC) y publica el último reporte en GitHub Pages:
 
-- Último reporte: https://jogarciap.github.io/investigador-cripto/
-- Reportes anteriores: https://jogarciap.github.io/investigador-cripto/historial.html
+- Último reporte: https://jogarciap.github.io/cryptometro/
+- Reportes anteriores: https://jogarciap.github.io/cryptometro/historial.html
 - Para correrlo a mano: pestaña **Actions** > **Reporte diario** > **Run workflow**.
 - Keys opcionales: **Settings > Secrets and variables > Actions > New repository secret** con el nombre `COINGECKO_API_KEY` (y las demás de `.env.example` cuando se usen).
 - El histórico (`datos/cripto.db` y los CSV) se guarda en el propio repositorio después de cada corrida.
