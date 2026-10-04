@@ -1,10 +1,25 @@
-name: Prueba CORS (temporal)
+name: Prueba fuentes (temporal)
 on: push
 jobs:
-  cors:
+  fuentes:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          O="Origin: https://jogarciap.github.io"
-          echo "== binance"; curl -s -D - -o /tmp/b.json -H "$O" 'https://data-api.binance.vision/api/v3/ticker/24hr?symbols=%5B%22QNTUSDT%22%2C%22AAVEUSDT%22%5D' | grep -i "^HTTP\|access-control"; head -c 300 /tmp/b.json; echo
-          echo "== coingecko"; curl -s -D - -o /tmp/c.json -H "$O" 'https://api.coingecko.com/api/v3/simple/price?ids=bitway,aave&vs_currencies=usd&include_24hr_change=true' | grep -i "^HTTP\|access-control"; cat /tmp/c.json; echo
+          UA="Mozilla/5.0 (cryptometro research bot)"
+          t() { echo "== $1"; curl -s -m 15 -A "$UA" -o /tmp/r -w "HTTP %{http_code} %{size_download}B %{content_type}\n" "$2"; head -c ${3:-400} /tmp/r | tr '\n' ' '; echo; }
+          t googlenews 'https://news.google.com/rss/search?q=aave+crypto+when:2d&hl=en-US&gl=US&ceid=US:en' 700
+          t googlenews-es 'https://news.google.com/rss/search?q=aave+cripto+when:3d&hl=es-419&gl=AR&ceid=AR:es-419' 500
+          t coindesk 'https://www.coindesk.com/arc/outboundfeeds/rss/'
+          t cointelegraph 'https://cointelegraph.com/rss'
+          t decrypt 'https://decrypt.co/feed'
+          t theblock 'https://www.theblock.co/rss.xml'
+          t bitcoinmagazine 'https://bitcoinmagazine.com/.rss/full/'
+          t reddit-search 'https://www.reddit.com/search.json?q=aave&sort=new&limit=3'
+          t reddit-rss 'https://www.reddit.com/r/CryptoCurrency/search.rss?q=aave&restrict_sr=1&sort=new'
+          t bluesky 'https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=aave&limit=3&sort=latest' 700
+          t bluesky2 'https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=aave&limit=3&sort=latest' 300
+          t mastodon 'https://mastodon.social/api/v1/timelines/tag/aave?limit=3' 500
+          t cryptopanic 'https://cryptopanic.com/api/free/v1/posts/?currencies=AAVE&public=true' 300
+          t stocktwits 'https://api.stocktwits.com/api/2/streams/symbol/AAVE.X.json' 500
+          t hn 'https://hn.algolia.com/api/v1/search_by_date?query=aave&tags=story&hitsPerPage=3' 300
+          echo "== CORS raw"; curl -s -I -H "Origin: https://jogarciap.github.io" https://raw.githubusercontent.com/jogarciap/cryptometro/main/README.md | grep -i "^HTTP\|access-control-allow-origin\|cache-control"
