@@ -15,7 +15,8 @@ universo:
   # Respaldo por si una categoría no responde: símbolos que siempre se excluyen
   simbolos_excluidos: [usdt, usdc, dai, fdusd, tusd, usde, usds, pyusd, usdd, busd, usd1,
                        wbtc, weth, steth, wsteth, weeth, cbbtc, cbeth, reth, wbeth, bsc-usd,
-                       susde, lbtc, solvbtc, wbnb, meth, ezeth, rseth, jitosol, msol]
+                       susde, lbtc, solvbtc, wbnb, meth, ezeth, rseth, jitosol, msol,
+                       paxg, xaut]   # oro tokenizado: sigue al oro, no al mercado cripto
   # Si el nombre contiene alguna de estas palabras, se excluye
   palabras_excluidas: [wrapped, bridged, staked, "liquid staking"]
 
@@ -49,6 +50,8 @@ puntaje:
   top: 10              # monedas que se muestran con ficha e interpretación
 
 reporte:
+  zona_horaria: America/Argentina/Buenos_Aires   # para mostrar la hora de actualización
+  volatiles: 10                  # monedas en cada lista de "más y menos volátiles"
   filas_tabla: 25                # filas visibles por defecto en la tabla principal
   abrir_navegador: true          # abrir el reporte al terminar
 

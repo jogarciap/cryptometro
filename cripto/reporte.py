@@ -183,6 +183,22 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     top = m.dropna(subset=["puntaje"]).sort_values("puntaje", ascending=False).head(n_top)
     anom = m[m["anomalias"].fillna("") != ""].sort_values("vol_relativo", ascending=False)
 
+    # Más y menos volátiles (solo monedas con al menos 30 días de datos)
+    con_vol = m.dropna(subset=["volatilidad_30d"])
+    vol_max = con_vol["volatilidad_30d"].max() if len(con_vol) else 1
+    def _vol(df):
+        out = []
+        for _, f in df.iterrows():
+            fila = _fila(f)
+            fila["mov_diario"] = f"±{f['volatilidad_30d'] / 365 ** 0.5:.1f}%"
+            fila["barra"] = round(f["volatilidad_30d"] / vol_max * 100, 1)
+            out.append(fila)
+        return out
+    n_vol = cfg["reporte"].get("volatiles", 10)
+    mas_volatiles = _vol(con_vol.sort_values("volatilidad_30d", ascending=False).head(n_vol))
+    menos_volatiles = _vol(con_vol.sort_values("volatilidad_30d").head(n_vol))
+    vol_mediana = con_vol["volatilidad_30d"].median() if len(con_vol) else None
+
     fichas = []
     for pos, (_, f) in enumerate(top.iterrows(), start=1):
         fila = _fila(f)
@@ -195,7 +211,9 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     html = env.get_template("reporte.html").render(
         fecha=fecha,
         fecha_larga=_fecha_larga(fecha),
-        generado=datetime.now().strftime("%Y-%m-%d %H:%M"),
+        generado=_ahora(cfg),
+        mas_volatiles=mas_volatiles, menos_volatiles=menos_volatiles,
+        vol_mediana=vol_mediana, mov_mediano=(vol_mediana / 365 ** 0.5) if vol_mediana else None,
         kpis=_kpis(mercado, anterior, fg, m),
         resumen=resumen_mercado(mercado, anterior, fg, m),
         lectura=interpretacion.lectura_mercado(mercado, m),
@@ -223,6 +241,17 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
     ruta = carpeta / f"reporte_{fecha}.html"
     ruta.write_text(html, encoding="utf-8")
     return ruta
+
+
+def _ahora(cfg: dict) -> str:
+    """Hora de generación en la zona horaria del lector (config.yaml > reporte > zona_horaria)."""
+    zona = cfg["reporte"].get("zona_horaria", "UTC")
+    try:
+        from zoneinfo import ZoneInfo
+        ahora = datetime.now(ZoneInfo(zona))
+        return ahora.strftime("%d/%m %H:%M") + f" (hora de {zona.split('/')[-1].replace('_', ' ')})"
+    except Exception:  # noqa: BLE001
+        return datetime.utcnow().strftime("%d/%m %H:%M") + " UTC"
 
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",

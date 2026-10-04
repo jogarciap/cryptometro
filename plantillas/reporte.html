@@ -74,8 +74,9 @@ h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
 .kpi .v small { display: block; font-size: 13px; font-weight: 500; color: var(--texto-2); letter-spacing: 0; margin-top: -2px; }
 .kpi .d { font-size: 13px; color: var(--texto-2); }
 .kpi .d.sube { color: var(--sube); } .kpi .d.baja { color: var(--baja); }
-.info { cursor: help; color: var(--texto-3); border: 1px solid var(--borde); border-radius: 50%; width: 18px; height: 18px;
-        display: inline-grid; place-items: center; font-size: 11px; flex: none; }
+.info { cursor: pointer; color: var(--texto-3); border: 1px solid var(--borde); border-radius: 50%; width: 20px; height: 20px;
+        display: inline-grid; place-items: center; font: 600 11px/1 system-ui, sans-serif; flex: none; background: var(--superficie); padding: 0; }
+.info:hover, .info[aria-expanded="true"] { color: var(--acento); border-color: var(--acento); }
 .medidor { height: 6px; border-radius: 3px; margin-top: 10px; position: relative;
            background: linear-gradient(90deg, var(--baja), #e0a63a 50%, var(--sube)); opacity: .85; }
 .medidor i { position: absolute; top: -4px; width: 4px; height: 14px; border-radius: 2px; background: var(--texto);
@@ -147,7 +148,11 @@ thead th { color: var(--texto-2); font-weight: 600; font-size: 12px; position: s
 #tabla thead th { cursor: pointer; user-select: none; }
 #tabla thead th:hover { color: var(--acento); }
 #tabla thead th.orden::after { content: " ▾"; } #tabla thead th.orden.asc::after { content: " ▴"; }
-th abbr { text-decoration: none; border-bottom: 1px dotted var(--texto-3); cursor: help; }
+.info.chica { width: 15px; height: 15px; font-size: 10px; vertical-align: 1px; margin-left: 2px; }
+.punto-anom { border: 0; background: none; color: var(--alerta); cursor: pointer; padding: 0 2px; font-size: 13px; }
+#ayuda { position: absolute; z-index: 50; max-width: 280px; padding: 10px 12px; border-radius: 10px; font-size: 13px; line-height: 1.45;
+         background: var(--texto); color: var(--fondo); box-shadow: 0 6px 24px rgba(0,0,0,.25); white-space: normal; text-align: left; }
+#ayuda[hidden] { display: none; }
 td.izq, th.izq { text-align: left; }
 tbody tr:hover td { background: var(--superficie-2); }
 .fija { position: sticky; left: 0; background: var(--superficie); z-index: 1; }
@@ -170,6 +175,16 @@ td.anom { text-align: left; white-space: normal; min-width: 240px; color: var(--
          padding: 8px 14px; margin-top: 12px; cursor: pointer; font: inherit; }
 .contador { color: var(--texto-3); font-size: 13px; margin-left: auto; }
 
+/* Volatilidad */
+.vol-tabla td, .vol-tabla th { padding: 7px 6px; }
+.vol-celda { display: flex; align-items: center; gap: 8px; }
+.vol-celda .num { line-height: 1.2; text-align: left; }
+.vol-celda .num .fuente { display: block; }
+.vol-barra { width: 44px; height: 7px; border-radius: 4px; background: var(--borde); overflow: hidden; flex: none; }
+.vol-barra i { display: block; height: 100%; border-radius: 4px; }
+.vol-barra.alta i { background: var(--alerta); }
+.vol-barra.baja i { background: var(--acento); }
+
 /* Glosario */
 .glosario { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 12px 24px; font-size: 14px; }
 .glosario dt { font-weight: 650; margin-top: 6px; }
@@ -190,7 +205,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
   <span class="marca">Cryptometro</span>
   <nav class="nav">
     <a href="#resumen">Resumen</a><a href="#destacadas">Destacadas</a><a href="#cambios">Cambios</a>
-    <a href="#mapa">Mapa</a><a href="#mercado">Mercado</a><a href="#anomalias">Anomalías</a>
+    <a href="#mapa">Mapa</a><a href="#volatilidad">Volatilidad</a><a href="#mercado">Mercado</a><a href="#anomalias">Anomalías</a>
     <a href="#tabla-sec">Todas</a><a href="#como-leer">Cómo leer</a><a href="historial.html">Historial</a>
   </nav>
   <button class="tema" id="tema" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
@@ -199,14 +214,14 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 <main>
 <section class="cabecera" id="resumen">
   <h1>{{ fecha_larga }}</h1>
-  <p>Datos al último cierre diario (UTC) · generado {{ generado }} · {{ universo.en_universo }} monedas analizadas. Material de investigación, no recomendación de inversión.</p>
+  <p>Actualizado {{ generado }} · se actualiza 4 veces por día · {{ universo.en_universo }} monedas analizadas. Precios y variaciones al momento de la actualización; indicadores técnicos al último cierre diario (00:00 UTC). Material de investigación, no recomendación de inversión.</p>
   {% for a in avisos %}<div class="aviso"><b>Aviso:</b> {{ a }}</div>{% endfor %}
 </section>
 
 <div class="kpis">
 {% for k in kpis %}
   <div class="tarjeta kpi">
-    <div class="t"><span>{{ k.titulo }}</span><span class="info" title="{{ k.ayuda }}">i</span></div>
+    <div class="t"><span>{{ k.titulo }}</span><button type="button" class="info" data-ayuda="{{ k.ayuda }}" aria-label="Qué es {{ k.titulo }}">?</button></div>
     <div class="v num">{{ k.valor }}{% if k.unidad %} <small>{{ k.unidad }}</small>{% endif %}</div>
     <div class="d {{ k.tono }}">{{ k.detalle }}</div>
     {% if k.medidor is defined %}<div class="medidor" aria-hidden="true"><i style="left: {{ k.medidor }}%"></i></div>{% endif %}
@@ -275,12 +290,34 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 </div>
 
 <h2 id="mapa">Mapa del mercado</h2>
-<p class="bajada">Cada punto es una moneda: a la derecha, más alcista respecto de su media de 200 días; arriba, más volátil. El tamaño refleja la capitalización y las azules son las destacadas de hoy. Pasá el mouse por encima para ver el detalle.</p>
+<p class="bajada">Cada punto es una moneda: a la derecha, más alcista respecto de su media de 200 días; arriba, más volátil. El tamaño refleja la capitalización y las azules son las destacadas de hoy. Pasá el mouse o tocá un punto para ver el detalle.</p>
 <div class="dos">
   {% if grafico_mapa %}<div class="tarjeta"><div class="graf-t">Tendencia contra riesgo</div>
     <div class="graf-d">Línea vertical: SMA 200. Línea punteada: volatilidad mediana del universo.</div>{{ grafico_mapa | safe }}</div>{% endif %}
   {% if grafico_vsbtc %}<div class="tarjeta"><div class="graf-t">Destacadas contra Bitcoin, últimos 30 días</div>
     <div class="graf-d">Diferencia de rendimiento en puntos porcentuales. Positivo: le ganó a BTC.</div>{{ grafico_vsbtc | safe }}</div>{% endif %}
+</div>
+
+<h2 id="volatilidad">Las más y menos volátiles</h2>
+<p class="bajada">Volatilidad anualizada de los últimos 30 días. Debajo de cada valor, el movimiento diario típico: una moneda con ±5% suele moverse hasta 5% en un día normal, para arriba o para abajo. La mediana del universo es {{ '%.0f' % vol_mediana if vol_mediana else 's/d' }}% ({{ '±%.1f' % mov_mediano if mov_mediano else 's/d' }}% por día). Más volatilidad no es mejor ni peor: significa más ganancia o pérdida posible en menos tiempo.</p>
+<div class="dos">
+{% for titulo, lista, clase, ayuda in [("Más volátiles", mas_volatiles, "alta", "Movimientos grandes y rápidos: más oportunidad y más riesgo. Suelen ser monedas chicas, nuevas o con noticias."), ("Menos volátiles", menos_volatiles, "baja", "Movimientos más estables. Suelen ser las de mayor capitalización y liquidez.")] %}
+<div class="tarjeta">
+  <div class="graf-t" style="display:flex;justify-content:space-between;align-items:center">{{ titulo }} <button type="button" class="info" data-ayuda="{{ ayuda }}" aria-label="Qué significa">?</button></div>
+  <div class="tabla-wrap"><table class="vol-tabla">
+  <thead><tr><th class="izq">Moneda</th><th class="izq">Volatilidad</th><th>30 d</th><th>Caída 90 d</th></tr></thead>
+  <tbody>
+  {% for f in lista %}
+  <tr>
+    <td class="izq">{% if f.imagen %}<img class="mini-logo" src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}<b title="{{ f.nombre }}">{{ f.simbolo }}</b></td>
+    <td class="izq"><div class="vol-celda"><span class="vol-barra {{ clase }}"><i style="width: {{ f.barra }}%"></i></span><span class="num"><b>{{ f.volat }}</b> <span class="fuente">{{ f.mov_diario }}/día</span></span></div></td>
+    <td class="{{ 'pos-t' if f.c30_n is not none and f.c30_n > 0 else ('neg-t' if f.c30_n is not none and f.c30_n < 0 else '') }}">{{ f.c30 }}</td>
+    <td>{{ f.dd }}</td>
+  </tr>
+  {% endfor %}
+  </tbody></table></div>
+</div>
+{% endfor %}
 </div>
 
 <h2 id="mercado">Bitcoin y sentimiento</h2>
@@ -309,7 +346,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 </div>
 
 <h2 id="tabla-sec">Todas las monedas</h2>
-<p class="bajada">Top {{ universo.top_leido }} por capitalización en CoinGecko, sin {{ universo.excluidas_stable_envueltas }} stablecoins y tokens envueltos ni {{ universo.excluidas_poco_volumen }} con poco volumen. Hacé clic en un encabezado para ordenar; pasá el mouse por los encabezados subrayados para ver qué significan.</p>
+<p class="bajada">Top {{ universo.top_leido }} por capitalización en CoinGecko, sin {{ universo.excluidas_stable_envueltas }} stablecoins y tokens envueltos ni {{ universo.excluidas_poco_volumen }} con poco volumen. Hacé clic en un encabezado para ordenar; tocá los <b>?</b> para ver qué significa cada columna.</p>
 <div class="tarjeta">
 <div class="controles">
   <input id="buscar" type="search" placeholder="Buscar moneda (ej. SOL, Cardano)" aria-label="Buscar moneda">
@@ -325,16 +362,16 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 <thead><tr>
 <th data-k="n">#</th>
 <th class="izq fija" data-k="s">Moneda</th>
-<th data-k="n" class="orden"><abbr title="0 a 100. Combina tendencia, momentum y riesgo frente al resto del universo.">Puntaje</abbr></th>
+<th data-k="n" class="orden">Puntaje <button type="button" class="info chica" data-ayuda="0 a 100. Combina tendencia, momentum y riesgo frente al resto del universo." aria-label="Qué es Puntaje">?</button></th>
 <th data-k="n">Precio US$</th><th data-k="n">24 h</th><th data-k="n">7 d</th><th data-k="n">30 d</th>
-<th data-k="n"><abbr title="Diferencia de rendimiento contra BTC en 30 días, en puntos porcentuales.">vs BTC</abbr></th>
-<th data-k="n"><abbr title="Índice de fuerza relativa de 14 días. Más de 70: sobrecompra. Menos de 30: sobreventa.">RSI</abbr></th>
-<th data-k="n"><abbr title="Distancia del precio a su media de 50 días.">vs SMA 50</abbr></th>
-<th data-k="n"><abbr title="Distancia del precio a su media de 200 días. Positivo: tendencia de largo plazo alcista.">vs SMA 200</abbr></th>
+<th data-k="n">vs BTC <button type="button" class="info chica" data-ayuda="Diferencia de rendimiento contra BTC en 30 días, en puntos porcentuales." aria-label="Qué es vs BTC">?</button></th>
+<th data-k="n">RSI <button type="button" class="info chica" data-ayuda="Índice de fuerza relativa de 14 días. Más de 70: sobrecompra. Menos de 30: sobreventa." aria-label="Qué es RSI">?</button></th>
+<th data-k="n">vs SMA 50 <button type="button" class="info chica" data-ayuda="Distancia del precio a su media de 50 días." aria-label="Qué es vs SMA 50">?</button></th>
+<th data-k="n">vs SMA 200 <button type="button" class="info chica" data-ayuda="Distancia del precio a su media de 200 días. Positivo: tendencia de largo plazo alcista." aria-label="Qué es vs SMA 200">?</button></th>
 <th data-k="n">Volumen 24 h (M US$)</th>
-<th data-k="n"><abbr title="Volumen del último día dividido por su promedio de 30 días. 2x = el doble de lo habitual.">Vol. rel.</abbr></th>
-<th data-k="n"><abbr title="Desviación estándar de los retornos diarios de 30 días, anualizada. Más alto = más riesgo.">Volatilidad</abbr></th>
-<th data-k="n"><abbr title="Mayor caída desde un máximo dentro de los últimos 90 días.">Caída máx. 90 d</abbr></th>
+<th data-k="n">Vol. rel. <button type="button" class="info chica" data-ayuda="Volumen del último día dividido por su promedio de 30 días. 2x = el doble de lo habitual." aria-label="Qué es Vol. rel.">?</button></th>
+<th data-k="n">Volatilidad <button type="button" class="info chica" data-ayuda="Desviación estándar de los retornos diarios de 30 días, anualizada. Más alto = más riesgo." aria-label="Qué es Volatilidad">?</button></th>
+<th data-k="n">Caída máx. 90 d <button type="button" class="info chica" data-ayuda="Mayor caída desde un máximo dentro de los últimos 90 días." aria-label="Qué es Caída máx. 90 d">?</button></th>
 <th class="izq">90 días</th>
 </tr></thead>
 <tbody>
@@ -344,7 +381,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
     data-anom="{{ 1 if f.anomalias else 0 }}" data-rsi="{{ f.rsi_n if f.rsi_n is not none else '' }}"
     data-busca="{{ (f.simbolo ~ ' ' ~ f.nombre) | lower }}">
 <td data-v="{{ f.rank }}">{{ f.rank }}</td>
-<td class="izq fija" data-v="{{ f.simbolo }}">{% if f.imagen %}<img class="mini-logo" src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}<b>{{ f.simbolo }}</b> <span class="fuente">{{ f.nombre }}</span>{% if f.anomalias %} <span title="{{ f.anomalias }}" style="color:var(--alerta)">●</span>{% endif %}</td>
+<td class="izq fija" data-v="{{ f.simbolo }}">{% if f.imagen %}<img class="mini-logo" src="{{ f.imagen }}" alt="" loading="lazy">{% endif %}<b>{{ f.simbolo }}</b> <span class="fuente">{{ f.nombre }}</span>{% if f.anomalias %} <button type="button" class="punto-anom" data-ayuda="{{ f.anomalias }}" aria-label="Ver anomalía">●</button>{% endif %}</td>
 <td data-v="{{ f.pt_n if f.pt_n is not none else '' }}"><span class="celda-pt"><b>{{ f.pt }}</b>{% if f.pt_n is not none %}<i><b style="width: {{ f.pt_n }}%"></b></i>{% endif %}</span></td>
 <td data-v="{{ f.precio_n if f.precio_n is not none else '' }}">{{ f.precio }}</td>
 {{ c(f.c24, f.c24_n) }}{{ c(f.c7, f.c7_n) }}{{ c(f.c30, f.c30_n) }}{{ c(f.vsbtc, f.vsbtc_n) }}
@@ -390,8 +427,31 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
 · <a href="historial.html">Reportes anteriores</a>
 </footer>
 </main>
+<div id="ayuda" role="tooltip" hidden></div>
 <script>
 (function () {
+  // Globo de ayuda para los botones "?" (clic o toque; Esc o clic afuera lo cierra)
+  const globo = document.getElementById("ayuda");
+  let abierto = null;
+  function cerrar() { globo.hidden = true; if (abierto) abierto.setAttribute("aria-expanded", "false"); abierto = null; }
+  function abrir(b) {
+    globo.textContent = b.dataset.ayuda; globo.hidden = false;
+    const r = b.getBoundingClientRect(), g = globo.getBoundingClientRect();
+    let x = r.left + window.scrollX + r.width / 2 - g.width / 2;
+    x = Math.max(8, Math.min(x, document.documentElement.clientWidth - g.width - 8));
+    let y = r.bottom + window.scrollY + 8;
+    if (r.bottom + g.height + 16 > window.innerHeight) y = r.top + window.scrollY - g.height - 8;
+    globo.style.left = x + "px"; globo.style.top = y + "px";
+    b.setAttribute("aria-expanded", "true"); abierto = b;
+  }
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-ayuda]");
+    if (b) { e.stopPropagation(); e.preventDefault(); if (abierto === b) cerrar(); else { cerrar(); abrir(b); } return; }
+    if (!e.target.closest("#ayuda")) cerrar();
+  }, true);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") cerrar(); });
+  window.addEventListener("resize", cerrar);
+
   // Tema claro/oscuro (recordado en este navegador)
   const raiz = document.documentElement;
   try { const t = localStorage.getItem("tema"); if (t) raiz.dataset.theme = t; } catch (e) {}
