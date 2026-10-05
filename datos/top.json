@@ -17,11 +17,6 @@
    "nombre": "Algorand"
   },
   {
-   "coin_id": "litecoin",
-   "simbolo": "LTC",
-   "nombre": "Litecoin"
-  },
-  {
    "coin_id": "quant-network",
    "simbolo": "QNT",
    "nombre": "Quant"
@@ -37,19 +32,24 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "sui",
-   "simbolo": "SUI",
-   "nombre": "Sui"
+   "coin_id": "litecoin",
+   "simbolo": "LTC",
+   "nombre": "Litecoin"
   },
   {
    "coin_id": "sky",
    "simbolo": "SKY",
    "nombre": "Sky"
+  },
+  {
+   "coin_id": "internet-computer",
+   "simbolo": "ICP",
+   "nombre": "Internet Computer"
+  },
+  {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
   }
  ]
 }
