@@ -1,45 +1,15 @@
 {
- "fecha": "2026-10-04",
+ "fecha": "2026-10-05",
  "monedas": [
-  {
-   "coin_id": "quant-network",
-   "simbolo": "QNT",
-   "nombre": "Quant"
-  },
   {
    "coin_id": "aave",
    "simbolo": "AAVE",
    "nombre": "Aave"
   },
   {
-   "coin_id": "litecoin",
-   "simbolo": "LTC",
-   "nombre": "Litecoin"
-  },
-  {
-   "coin_id": "sui",
-   "simbolo": "SUI",
-   "nombre": "Sui"
-  },
-  {
-   "coin_id": "pump-fun",
-   "simbolo": "PUMP",
-   "nombre": "Pump.fun"
-  },
-  {
-   "coin_id": "worldcoin-wld",
-   "simbolo": "WLD",
-   "nombre": "Worldcoin"
-  },
-  {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
-   "coin_id": "avalanche-2",
-   "simbolo": "AVAX",
-   "nombre": "Avalanche"
+   "coin_id": "thorchain",
+   "simbolo": "RUNE",
+   "nombre": "THORChain"
   },
   {
    "coin_id": "algorand",
@@ -47,9 +17,39 @@
    "nombre": "Algorand"
   },
   {
-   "coin_id": "bitway",
-   "simbolo": "BTW",
-   "nombre": "Bitway"
+   "coin_id": "litecoin",
+   "simbolo": "LTC",
+   "nombre": "Litecoin"
+  },
+  {
+   "coin_id": "quant-network",
+   "simbolo": "QNT",
+   "nombre": "Quant"
+  },
+  {
+   "coin_id": "pump-fun",
+   "simbolo": "PUMP",
+   "nombre": "Pump.fun"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
+   "coin_id": "sui",
+   "simbolo": "SUI",
+   "nombre": "Sui"
+  },
+  {
+   "coin_id": "sky",
+   "simbolo": "SKY",
+   "nombre": "Sky"
   }
  ]
 }
