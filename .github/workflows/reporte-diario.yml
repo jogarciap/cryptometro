@@ -15,8 +15,6 @@ on:
 permissions:
   actions: write    # disparar el flujo de noticias al terminar
   contents: write   # guardar el histórico (datos/cripto.db) en el repositorio
-  pages: write
-  id-token: write
 
 concurrency:
   group: reporte-diario
@@ -27,7 +25,7 @@ jobs:
   # seguidas al trabajo con el entorno github-pages, mientras otros flujos sí corrían. Así, aunque
   # la publicación se trabe, los datos del reporte quedan guardados en el repositorio.
   reporte:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       seguir: ${{ steps.falta.outputs.seguir }}
     steps:
@@ -88,7 +86,10 @@ jobs:
   publicar:
     needs: reporte
     if: needs.reporte.outputs.seguir == 'si'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
