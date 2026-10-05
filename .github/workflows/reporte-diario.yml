@@ -23,11 +23,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Generar y publicar van en trabajos separados: el 5/10/2026 GitHub no le asignó máquina tres veces
+  # seguidas al trabajo con el entorno github-pages, mientras otros flujos sí corrían. Así, aunque
+  # la publicación se trabe, los datos del reporte quedan guardados en el repositorio.
   reporte:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    outputs:
+      seguir: ${{ steps.falta.outputs.seguir }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -72,18 +74,25 @@ jobs:
           git pull --rebase -q origin main || true
           git push
 
-      - uses: actions/configure-pages@v5
-        if: steps.falta.outputs.seguir == 'si'
       - uses: actions/upload-pages-artifact@v3
         if: steps.falta.outputs.seguir == 'si'
         with:
           path: reportes
-      - id: deploy
-        if: steps.falta.outputs.seguir == 'si'
-        uses: actions/deploy-pages@v4
 
       - name: Actualizar noticias con el top nuevo
         if: steps.falta.outputs.seguir == 'si'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run noticias.yml --ref main || echo "No se pudo disparar noticias.yml"
+
+  publicar:
+    needs: reporte
+    if: needs.reporte.outputs.seguir == 'si'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deploy
+        uses: actions/deploy-pages@v4
