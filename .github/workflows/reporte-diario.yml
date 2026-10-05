@@ -4,11 +4,16 @@ on:
   schedule:
     # 4 veces por día. GitHub usa UTC; entre paréntesis, hora de Nueva York (EDT, UTC-4).
     # Con el horario de invierno (EST, UTC-5) todo corre una hora antes.
-    - cron: "15 0 * * *"          # 20:15 ET, apenas cierra la vela diaria (00:00 UTC)
-    - cron: "0 12,16,20 * * *"    # 08:00, 12:00 y 16:00 ET
+    # GitHub no garantiza los horarios programados: con carga alta los atrasa o los salta, sobre todo
+    # en la hora en punto. Por eso los minutos son "raros" y cada horario tiene un respaldo una hora
+    # y media después, que no hace nada si ya hay un reporte de las últimas 2,5 horas.
+    - cron: "17 0 * * *"          # 20:17 ET, apenas cierra la vela diaria (00:00 UTC)
+    - cron: "7 12,16,20 * * *"    # 08:07, 12:07 y 16:07 ET
+    - cron: "41 1,13,17,21 * * *" # respaldos
   workflow_dispatch: {}     # botón "Run workflow" para correrlo a mano
 
 permissions:
+  actions: write    # disparar el flujo de noticias al terminar
   contents: write   # guardar el histórico (datos/cripto.db) en el repositorio
   pages: write
   id-token: write
@@ -25,15 +30,31 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 30
+
+      - name: Ver si hace falta un reporte nuevo
+        id: falta
+        run: |
+          edad=$(( $(date +%s) - $(git log -1 --format=%ct -- reportes/index.html 2>/dev/null || echo 0) ))
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$edad" -lt 9000 ]; then
+            echo "Ya hay un reporte de hace $((edad / 60)) minutos: no hace falta otro."
+            echo "seguir=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "seguir=si" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-python@v5
+        if: steps.falta.outputs.seguir == 'si'
         with:
           python-version: "3.12"
           cache: pip
 
       - run: pip install -r requirements.txt
+        if: steps.falta.outputs.seguir == 'si'
 
       - name: Generar reporte
+        if: steps.falta.outputs.seguir == 'si'
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
@@ -42,6 +63,7 @@ jobs:
         run: python run.py --no-abrir --sitio
 
       - name: Guardar histórico
+        if: steps.falta.outputs.seguir == 'si'
         run: |
           git config user.name "reporte-diario[bot]"
           git config user.email "reporte-diario@users.noreply.github.com"
@@ -51,8 +73,17 @@ jobs:
           git push
 
       - uses: actions/configure-pages@v5
+        if: steps.falta.outputs.seguir == 'si'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.falta.outputs.seguir == 'si'
         with:
           path: reportes
       - id: deploy
+        if: steps.falta.outputs.seguir == 'si'
         uses: actions/deploy-pages@v4
+
+      - name: Actualizar noticias con el top nuevo
+        if: steps.falta.outputs.seguir == 'si'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run noticias.yml --ref main || echo "No se pudo disparar noticias.yml"

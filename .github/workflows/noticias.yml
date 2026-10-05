@@ -5,7 +5,9 @@ name: Noticias
 # el sitio ni llenar el historial de main con commits.
 on:
   schedule:
-    - cron: "*/10 * * * *"   # GitHub puede demorar unos minutos los flujos programados
+    # GitHub puede atrasar o saltarse corridas programadas cuando tiene mucha carga (sobre todo en la
+    # hora en punto); por eso empieza en el minuto 4. El reporte diario también la dispara al terminar.
+    - cron: "4-59/10 * * * *"
   workflow_dispatch: {}
 
 permissions:

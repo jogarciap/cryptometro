@@ -239,6 +239,7 @@ def generar(carpeta: Path, fecha: str, mercado: dict, anterior: dict | None, fg:
         fecha=fecha,
         fecha_larga=_fecha_larga(fecha),
         generado=_ahora(cfg),
+        generado_iso=datetime.now().astimezone().isoformat(timespec="seconds"),
         noticias_url=_url_noticias(cfg),
         mas_volatiles=mas_volatiles, menos_volatiles=menos_volatiles,
         vol_mediana=vol_mediana, mov_mediano=(vol_mediana / 365 ** 0.5) if vol_mediana else None,

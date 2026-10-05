@@ -114,6 +114,7 @@ h2 { font-size: 20px; margin: 40px 0 4px; letter-spacing: -.01em; }
 .chip { padding: 2px 8px; border-radius: 999px; font-size: 12.5px; font-weight: 600; background: var(--superficie-2); color: var(--texto-2); }
 .chip.up { background: var(--sube-suave); color: var(--sube); }
 .chip.down { background: var(--baja-suave); color: var(--baja); }
+.aviso[hidden] { display: none; }
 .vivo { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--texto-3); margin: -6px 0 14px; }
 .vivo .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--texto-3); flex: none; }
 .vivo.on .punto { background: var(--sube); box-shadow: 0 0 0 0 var(--sube); animation: latido 2s infinite; }
@@ -242,6 +243,7 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--borde)
 <main>
 <section class="cabecera" id="resumen">
   <h1>{{ fecha_larga }}</h1>
+  <div class="aviso" id="atraso" data-generado="{{ generado_iso }}" hidden></div>
   <p>Actualizado {{ generado }} · se actualiza 4 veces por día · {{ universo.en_universo }} monedas analizadas. Precios y variaciones al momento de la actualización; indicadores técnicos al último cierre diario (00:00 UTC). Material de investigación, no recomendación de inversión.</p>
   {% for a in avisos %}<div class="aviso"><b>Aviso:</b> {{ a }}</div>{% endfor %}
 </section>
@@ -790,6 +792,21 @@ Los datos pueden tener retrasos o errores de las fuentes (CoinGecko, Binance, al
   setInterval(() => { if (!document.hidden) cargar(); }, CADA * 1000);
   setInterval(estado, 30 * 1000);
   document.addEventListener("visibilitychange", () => { if (!document.hidden && ultimaCarga && Date.now() - ultimaCarga > CADA * 1000) cargar(); });
+})();
+// Si la actualización programada se atrasó, decirlo arriba en vez de mostrar datos viejos como si fueran de hoy
+(function () {
+  const p = document.getElementById("atraso");
+  if (!p || !p.dataset.generado) return;
+  function revisar() {
+    const horas = (Date.now() - new Date(p.dataset.generado)) / 3.6e6;
+    if (!(horas >= 7)) { p.hidden = true; return; }
+    p.replaceChildren();
+    const b = document.createElement("b"); b.textContent = "Datos atrasados: ";
+    p.append(b, `este análisis tiene ${Math.floor(horas)} horas porque la actualización automática de GitHub se atrasó. ` +
+      "El puntaje y los indicadores son de ese momento; los precios del top 10 se cargan aparte y sí están al día.");
+    p.hidden = false;
+  }
+  revisar(); setInterval(revisar, 10 * 60 * 1000);
 })();
 </script>
 </body>
