@@ -17,14 +17,14 @@
    "nombre": "Quant"
   },
   {
-   "coin_id": "internet-computer",
-   "simbolo": "ICP",
-   "nombre": "Internet Computer"
-  },
-  {
    "coin_id": "cardano",
    "simbolo": "ADA",
    "nombre": "Cardano"
+  },
+  {
+   "coin_id": "internet-computer",
+   "simbolo": "ICP",
+   "nombre": "Internet Computer"
   },
   {
    "coin_id": "sui",
@@ -32,9 +32,9 @@
    "nombre": "Sui"
   },
   {
-   "coin_id": "decentraland",
-   "simbolo": "MANA",
-   "nombre": "Decentraland"
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   },
   {
    "coin_id": "pump-fun",
@@ -42,9 +42,9 @@
    "nombre": "Pump.fun"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "decentraland",
+   "simbolo": "MANA",
+   "nombre": "Decentraland"
   },
   {
    "coin_id": "filecoin",
