@@ -2,6 +2,11 @@
  "fecha": "2026-10-06",
  "monedas": [
   {
+   "coin_id": "orca",
+   "simbolo": "ORCA",
+   "nombre": "Orca"
+  },
+  {
    "coin_id": "aave",
    "simbolo": "AAVE",
    "nombre": "Aave"
@@ -37,19 +42,14 @@
    "nombre": "Pump.fun"
   },
   {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
-  },
-  {
-   "coin_id": "thorchain",
-   "simbolo": "RUNE",
-   "nombre": "THORChain"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
   }
  ]
 }
