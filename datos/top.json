@@ -37,9 +37,9 @@
    "nombre": "Pump.fun"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
   },
   {
    "coin_id": "thorchain",
@@ -47,9 +47,9 @@
    "nombre": "THORChain"
   },
   {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   }
  ]
 }
