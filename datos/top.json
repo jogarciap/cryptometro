@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-05",
+ "fecha": "2026-10-06",
  "monedas": [
   {
    "coin_id": "aave",
@@ -7,19 +7,29 @@
    "nombre": "Aave"
   },
   {
-   "coin_id": "thorchain",
-   "simbolo": "RUNE",
-   "nombre": "THORChain"
-  },
-  {
-   "coin_id": "algorand",
-   "simbolo": "ALGO",
-   "nombre": "Algorand"
-  },
-  {
    "coin_id": "quant-network",
    "simbolo": "QNT",
    "nombre": "Quant"
+  },
+  {
+   "coin_id": "internet-computer",
+   "simbolo": "ICP",
+   "nombre": "Internet Computer"
+  },
+  {
+   "coin_id": "cardano",
+   "simbolo": "ADA",
+   "nombre": "Cardano"
+  },
+  {
+   "coin_id": "sui",
+   "simbolo": "SUI",
+   "nombre": "Sui"
+  },
+  {
+   "coin_id": "decentraland",
+   "simbolo": "MANA",
+   "nombre": "Decentraland"
   },
   {
    "coin_id": "pump-fun",
@@ -32,24 +42,14 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "litecoin",
-   "simbolo": "LTC",
-   "nombre": "Litecoin"
+   "coin_id": "thorchain",
+   "simbolo": "RUNE",
+   "nombre": "THORChain"
   },
   {
-   "coin_id": "sky",
-   "simbolo": "SKY",
-   "nombre": "Sky"
-  },
-  {
-   "coin_id": "internet-computer",
-   "simbolo": "ICP",
-   "nombre": "Internet Computer"
-  },
-  {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
   }
  ]
 }
