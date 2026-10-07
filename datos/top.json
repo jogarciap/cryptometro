@@ -22,11 +22,6 @@
    "nombre": "Cardano"
   },
   {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
    "coin_id": "avalanche-2",
    "simbolo": "AVAX",
    "nombre": "Avalanche"
@@ -35,6 +30,11 @@
    "coin_id": "quant-network",
    "simbolo": "QNT",
    "nombre": "Quant"
+  },
+  {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   },
   {
    "coin_id": "filecoin",
@@ -47,9 +47,9 @@
    "nombre": "Grass"
   },
   {
-   "coin_id": "sentient",
-   "simbolo": "SENT",
-   "nombre": "Sentient"
+   "coin_id": "decentraland",
+   "simbolo": "MANA",
+   "nombre": "Decentraland"
   }
  ]
 }
