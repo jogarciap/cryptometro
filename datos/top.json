@@ -1,35 +1,10 @@
 {
- "fecha": "2026-10-06",
+ "fecha": "2026-10-07",
  "monedas": [
-  {
-   "coin_id": "orca",
-   "simbolo": "ORCA",
-   "nombre": "Orca"
-  },
   {
    "coin_id": "aave",
    "simbolo": "AAVE",
    "nombre": "Aave"
-  },
-  {
-   "coin_id": "quant-network",
-   "simbolo": "QNT",
-   "nombre": "Quant"
-  },
-  {
-   "coin_id": "cardano",
-   "simbolo": "ADA",
-   "nombre": "Cardano"
-  },
-  {
-   "coin_id": "internet-computer",
-   "simbolo": "ICP",
-   "nombre": "Internet Computer"
-  },
-  {
-   "coin_id": "sui",
-   "simbolo": "SUI",
-   "nombre": "Sui"
   },
   {
    "coin_id": "just",
@@ -37,19 +12,44 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "pump-fun",
-   "simbolo": "PUMP",
-   "nombre": "Pump.fun"
+   "coin_id": "layerzero",
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
   },
   {
-   "coin_id": "decentraland",
-   "simbolo": "MANA",
-   "nombre": "Decentraland"
+   "coin_id": "cardano",
+   "simbolo": "ADA",
+   "nombre": "Cardano"
+  },
+  {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
+  },
+  {
+   "coin_id": "avalanche-2",
+   "simbolo": "AVAX",
+   "nombre": "Avalanche"
+  },
+  {
+   "coin_id": "quant-network",
+   "simbolo": "QNT",
+   "nombre": "Quant"
   },
   {
    "coin_id": "filecoin",
    "simbolo": "FIL",
    "nombre": "Filecoin"
+  },
+  {
+   "coin_id": "grass",
+   "simbolo": "GRASS",
+   "nombre": "Grass"
+  },
+  {
+   "coin_id": "sentient",
+   "simbolo": "SENT",
+   "nombre": "Sentient"
   }
  ]
 }
