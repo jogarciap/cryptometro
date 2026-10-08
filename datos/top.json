@@ -17,11 +17,6 @@
    "nombre": "OKB"
   },
   {
-   "coin_id": "decentraland",
-   "simbolo": "MANA",
-   "nombre": "Decentraland"
-  },
-  {
    "coin_id": "avalanche-2",
    "simbolo": "AVAX",
    "nombre": "Avalanche"
@@ -30,6 +25,11 @@
    "coin_id": "jupiter-exchange-solana",
    "simbolo": "JUP",
    "nombre": "Jupiter"
+  },
+  {
+   "coin_id": "decentraland",
+   "simbolo": "MANA",
+   "nombre": "Decentraland"
   },
   {
    "coin_id": "layerzero",
@@ -42,14 +42,14 @@
    "nombre": "Meteora"
   },
   {
-   "coin_id": "raydium",
-   "simbolo": "RAY",
-   "nombre": "Raydium"
-  },
-  {
    "coin_id": "cardano",
    "simbolo": "ADA",
    "nombre": "Cardano"
+  },
+  {
+   "coin_id": "pump-fun",
+   "simbolo": "PUMP",
+   "nombre": "Pump.fun"
   }
  ]
 }
