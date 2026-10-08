@@ -7,14 +7,14 @@
    "nombre": "Aave"
   },
   {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   },
   {
    "coin_id": "decentraland",
@@ -37,9 +37,9 @@
    "nombre": "LayerZero"
   },
   {
-   "coin_id": "cardano",
-   "simbolo": "ADA",
-   "nombre": "Cardano"
+   "coin_id": "meteora",
+   "simbolo": "MET",
+   "nombre": "Meteora"
   },
   {
    "coin_id": "raydium",
@@ -47,9 +47,9 @@
    "nombre": "Raydium"
   },
   {
-   "coin_id": "meteora",
-   "simbolo": "MET",
-   "nombre": "Meteora"
+   "coin_id": "cardano",
+   "simbolo": "ADA",
+   "nombre": "Cardano"
   }
  ]
 }
