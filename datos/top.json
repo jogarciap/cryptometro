@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-07",
+ "fecha": "2026-10-08",
  "monedas": [
   {
    "coin_id": "aave",
@@ -7,9 +7,29 @@
    "nombre": "Aave"
   },
   {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "decentraland",
+   "simbolo": "MANA",
+   "nombre": "Decentraland"
+  },
+  {
+   "coin_id": "avalanche-2",
+   "simbolo": "AVAX",
+   "nombre": "Avalanche"
+  },
+  {
+   "coin_id": "jupiter-exchange-solana",
+   "simbolo": "JUP",
+   "nombre": "Jupiter"
   },
   {
    "coin_id": "layerzero",
@@ -22,34 +42,14 @@
    "nombre": "Cardano"
   },
   {
-   "coin_id": "avalanche-2",
-   "simbolo": "AVAX",
-   "nombre": "Avalanche"
+   "coin_id": "raydium",
+   "simbolo": "RAY",
+   "nombre": "Raydium"
   },
   {
-   "coin_id": "quant-network",
-   "simbolo": "QNT",
-   "nombre": "Quant"
-  },
-  {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
-  },
-  {
-   "coin_id": "grass",
-   "simbolo": "GRASS",
-   "nombre": "Grass"
-  },
-  {
-   "coin_id": "decentraland",
-   "simbolo": "MANA",
-   "nombre": "Decentraland"
+   "coin_id": "meteora",
+   "simbolo": "MET",
+   "nombre": "Meteora"
   }
  ]
 }
