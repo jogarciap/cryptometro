@@ -2,14 +2,14 @@
  "fecha": "2026-10-09",
  "monedas": [
   {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   },
   {
    "coin_id": "aave",
@@ -42,14 +42,14 @@
    "nombre": "Starknet"
   },
   {
-   "coin_id": "sentient",
-   "simbolo": "SENT",
-   "nombre": "Sentient"
-  },
-  {
    "coin_id": "monero",
    "simbolo": "XMR",
    "nombre": "Monero"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   }
  ]
 }
