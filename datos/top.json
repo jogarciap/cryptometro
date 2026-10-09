@@ -1,10 +1,10 @@
 {
- "fecha": "2026-10-08",
+ "fecha": "2026-10-09",
  "monedas": [
   {
-   "coin_id": "aave",
-   "simbolo": "AAVE",
-   "nombre": "Aave"
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   },
   {
    "coin_id": "just",
@@ -12,24 +12,14 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
-   "coin_id": "avalanche-2",
-   "simbolo": "AVAX",
-   "nombre": "Avalanche"
+   "coin_id": "aave",
+   "simbolo": "AAVE",
+   "nombre": "Aave"
   },
   {
    "coin_id": "jupiter-exchange-solana",
    "simbolo": "JUP",
    "nombre": "Jupiter"
-  },
-  {
-   "coin_id": "decentraland",
-   "simbolo": "MANA",
-   "nombre": "Decentraland"
   },
   {
    "coin_id": "layerzero",
@@ -42,14 +32,24 @@
    "nombre": "Meteora"
   },
   {
-   "coin_id": "cardano",
-   "simbolo": "ADA",
-   "nombre": "Cardano"
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   },
   {
-   "coin_id": "pump-fun",
-   "simbolo": "PUMP",
-   "nombre": "Pump.fun"
+   "coin_id": "sentient",
+   "simbolo": "SENT",
+   "nombre": "Sentient"
+  },
+  {
+   "coin_id": "starknet",
+   "simbolo": "STRK",
+   "nombre": "Starknet"
+  },
+  {
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   }
  ]
 }
