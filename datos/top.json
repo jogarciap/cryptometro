@@ -17,6 +17,11 @@
    "nombre": "Aave"
   },
   {
+   "coin_id": "meteora",
+   "simbolo": "MET",
+   "nombre": "Meteora"
+  },
+  {
    "coin_id": "jupiter-exchange-solana",
    "simbolo": "JUP",
    "nombre": "Jupiter"
@@ -27,24 +32,19 @@
    "nombre": "LayerZero"
   },
   {
-   "coin_id": "meteora",
-   "simbolo": "MET",
-   "nombre": "Meteora"
-  },
-  {
    "coin_id": "pyth-network",
    "simbolo": "PYTH",
    "nombre": "Pyth Network"
   },
   {
-   "coin_id": "sentient",
-   "simbolo": "SENT",
-   "nombre": "Sentient"
-  },
-  {
    "coin_id": "starknet",
    "simbolo": "STRK",
    "nombre": "Starknet"
+  },
+  {
+   "coin_id": "sentient",
+   "simbolo": "SENT",
+   "nombre": "Sentient"
   },
   {
    "coin_id": "monero",
