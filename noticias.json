@@ -1,0 +1,1335 @@
+{
+ "generado": "2026-10-10T21:08:31+00:00",
+ "monedas": [
+  {
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "simbolo": "JUP",
+   "nombre": "Jupiter"
+  },
+  {
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
+  },
+  {
+   "simbolo": "MET",
+   "nombre": "Meteora"
+  },
+  {
+   "simbolo": "AAVE",
+   "nombre": "Aave"
+  },
+  {
+   "simbolo": "STRK",
+   "nombre": "Starknet"
+  },
+  {
+   "simbolo": "OKB",
+   "nombre": "OKB"
+  },
+  {
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
+  },
+  {
+   "simbolo": "XMR",
+   "nombre": "Monero"
+  },
+  {
+   "simbolo": "QNT",
+   "nombre": "Quant"
+  }
+ ],
+ "items": [
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZRO",
+   "titulo": "$ICP.X $KTA.X $QUBIC.X $ZRO.X Qubic will surprise many. And Keeta too. I am resigned to ICP being a mediocre play this bull run. But Qubic and Keeta will be the next NEAR.",
+   "autor": "CryptoAtlas",
+   "postura": null,
+   "url": "https://stocktwits.com/CryptoAtlas/message/666226409",
+   "fecha": "2026-10-10T21:04:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$STRK.X fibonacci says we keep going...",
+   "autor": "IgotdaD",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/IgotdaD/message/666226368",
+   "fecha": "2026-10-10T21:01:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$JEANPHIL.X $SOL.X $STRK.X Belgium news agency https://www.vrt.be/vrtnws/nl/2026/10/08/jean-philanthrope-ai-influencer/",
+   "autor": "AXMO",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/AXMO/message/666226043",
+   "fecha": "2026-10-10T20:43:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$STRK.X @RatSloth outperforming your precious 💩 token",
+   "autor": "SirThorilium",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/SirThorilium/message/666225772",
+   "fecha": "2026-10-10T20:27:48+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$STRK.X looking to break .105-.11 for another",
+   "autor": "Calida760",
+   "postura": null,
+   "url": "https://stocktwits.com/Calida760/message/666225728",
+   "fecha": "2026-10-10T20:25:31+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "@Darthtrader06 only 10million coins too….. it will pull a $QNT.X move",
+   "autor": "Brettcb45",
+   "postura": null,
+   "url": "https://stocktwits.com/Brettcb45/message/666225594",
+   "fecha": "2026-10-10T20:18:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$RARI.X $RLC.X $STRK.X all garbage Dear take profit",
+   "autor": "Tradingistheway",
+   "postura": "Bearish",
+   "url": "https://stocktwits.com/Tradingistheway/message/666225480",
+   "fecha": "2026-10-10T20:13:07+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$STRK.X $JEANPHIL.X You know him, you love him. Only 7 watchers, 5 days old on this app…. Get ready",
+   "autor": "hughesry",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/hughesry/message/666225426",
+   "fecha": "2026-10-10T20:10:01+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$AMFN $RNBW.X $STRK.X Imagine it in a year. Dream Biggggggger",
+   "autor": "___dog___",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/___dog___/message/666225198",
+   "fecha": "2026-10-10T19:55:42+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "STRK",
+   "titulo": "$STRK.X a little stop loss raid before next leg up💰💰💰",
+   "autor": "Goldminer49",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Goldminer49/message/666225181",
+   "fecha": "2026-10-10T19:54:29+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "Astrology transiting aspects 11th October 2026 Moon 21 degrees 18 minutes Libra sextile Jupiter 21 degrees 18 minutes Leo 12.08 am BST. Moon 27 degrees 10 minutes Libra trine North Node 27 degrees 10 minutes Aquarius 10.02 am GMT 11.02 am BST.",
+   "autor": "sarahsastrology.bsky.social",
+   "url": "https://bsky.app/profile/sarahsastrology.bsky.social/post/3mxkb664iek2c",
+   "fecha": "2026-10-10T19:50:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X Just imagine the first quarter of 2027 as Quant starts officially plugging in all of these assets and the connections with some to biggest banking Giants in the world go live. Then comes the initial number reporting…… She Gone! This is right around the corner. Not…",
+   "autor": "LakeFrontInvesting",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/LakeFrontInvesting/message/666224716",
+   "fecha": "2026-10-10T19:28:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X pretty detailed. https://youtu.be/J8k_a2maMlk?si=GZCowKEYtq-kUjHQ",
+   "autor": "DW65",
+   "postura": null,
+   "url": "https://stocktwits.com/DW65/message/666224643",
+   "fecha": "2026-10-10T19:24:45+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X just added 4 more, 240 QNT seems like a good number",
+   "autor": "DW65",
+   "postura": null,
+   "url": "https://stocktwits.com/DW65/message/666224606",
+   "fecha": "2026-10-10T19:22:28+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "🔥 Jupiter Buys Its Own Token Jupiter spends half of all its revenue on buying the JUP token, about 3 million dollars per month. Every swap and every futures trade pays a fee, and half of that revenue goes into a buyback on… #jup #solana #defi Try Premium for 7 days:…",
+   "autor": "thebitcoinstrategy.bsky.social",
+   "url": "https://bsky.app/profile/thebitcoinstrategy.bsky.social/post/3mxk6feept42i",
+   "fecha": "2026-10-10T19:01:13+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X $1 maybe i don’t know looks more like .09",
+   "autor": "Tradingistheway",
+   "postura": "Bearish",
+   "url": "https://stocktwits.com/Tradingistheway/message/666224025",
+   "fecha": "2026-10-10T18:54:37+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "The risk is real though. Over 1.1 billion paused tokens could return with a single community vote. January is historically when Jupiter holds its airdrop votes. If holders flip, the seller comes back.",
+   "autor": "thebitcoinstrategy.bsky.social",
+   "url": "https://bsky.app/profile/thebitcoinstrategy.bsky.social/post/3mxk2krvv5y2d",
+   "fecha": "2026-10-10T17:52:39+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X https://quant.network/use-cases/why-institutions-need-layer-2-5-and-why-we-built-it/",
+   "autor": "DataDaddy2020",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/DataDaddy2020/message/666222693",
+   "fecha": "2026-10-10T17:48:10+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "US stock markets are closed, and tokenized Mag 7 stocks on @aave v4 on @base still work as collateral. @LlamaRisk tracks it on a public dashboard. It works like every other market on Aave: live. If the price drops, you get liquidated, weekend or not.",
+   "autor": "cryptodarklordgr.bsky.social",
+   "url": "https://bsky.app/profile/cryptodarklordgr.bsky.social/post/3mxjz67o7xy2i",
+   "fecha": "2026-10-10T17:27:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$BTC.X Just started my Tao (bittensor) investment today. $TAO.X $QNT.X $XRP.X",
+   "autor": "TaoBRO",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/TaoBRO/message/666222276",
+   "fecha": "2026-10-10T17:26:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "QNT",
+   "titulo": "$QNT.X Buy the dips, be patient, and stay bullish. We’re just going through a healthy consolidation period. All of the puzzle pieces are coming together. 🧩 Even the bears are adding more to their bags.",
+   "autor": "NotYourBuddyGuy",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/NotYourBuddyGuy/message/666222244",
+   "fecha": "2026-10-10T17:25:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Volatility: 100% Buyback Rule Drives PYTH Swings",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14YUNCc2xqVDAzTDhCclNWWTZ2d1RHWkhObTJLZERiQUtsV01mc3pXM2RzajNPd1N5NG9aU3FURkNIZGJPai1OVFdwb3VBeGI5OWdLYWdEd1JXdTRvSGQwUFBLcWhUZ1RCNWNmOGl1MUg?oc=5",
+   "fecha": "2026-10-10T17:04:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PYTH",
+   "titulo": "💰 Pyth Network: 100% Is 60 Cents Pyth Network customers pay about $11.5 million per annum for price data, and the new 100 % rule puts the DAO income into buying PYTH. The DAO only receives roughly 60 cents of each… #pyth #defi #crypto Try Premium for 7 days:…",
+   "autor": "thebitcoinstrategy.bsky.social",
+   "url": "https://bsky.app/profile/thebitcoinstrategy.bsky.social/post/3mxjxpdnouw2v",
+   "fecha": "2026-10-10T17:01:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Aave Price Prediction Points to $230 as AlphaPepe Offers the Exchange-Token Entry Early BNB Buyers Once Had",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUsyVTVkTTZhZDFGenJ6UTdMNUNucVBuLVpvNXFJS2ZkTWM5cUo0RW02TmhmbUo2WFJQeTZmdkZ3MUtEZzlVSUJJa3pFV1l1dDM3dlppU2RoeE91dVBlZEJQV09DclRrcmVCUV95QUQyQml1anpodXRNY2k2NDJpSmVQY2JYNzFwRERDM2I4MXJjWFlzWHc?oc=5",
+   "fecha": "2026-10-10T16:41:17+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "AAVE",
+   "titulo": "AAVE Jumps After Citrini Research Bets On DeFi Tokens’ $157T Tokenization Opportunity",
+   "autor": "r/RWATimes",
+   "url": "https://www.reddit.com/r/RWATimes/comments/1x2j6j5/aave_jumps_after_citrini_research_bets_on_defi/",
+   "fecha": "2026-10-10T16:15:09+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "portalcripto.com.br",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Starknet price today: (STRK) is up +29% in the last 24 hours",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTm5pLXBUa0huWFFQQUs3b0w0Q2NvQVQtY2ozaTZNT1dEYjR5cmVYTE5wdFZ0MTUwcW5hUmVwYlExdGJ1eGJaU01MVDF0c2xJTGxSelJILUp2ejFEUEJ5VEtjVUdJeGlLUHVDZks3dkFWY01aX1VRakNoSnVscHZlUnhFcG1ua1VBQ0ZXVndxQQ?oc=5",
+   "fecha": "2026-10-10T16:14:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Hokanews",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "StarkWare Backs Starknet Layer 1 Shift as Path to Greater Independence",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTWRDdGFYdlN4LVJZSm1jeGxJa0ZLRjdManZKcmZSbm55SkJuSE96MnliUV8wZWhlR3Jja0N4OTgxWkdZWm1lanJXZzFTMkpyZEVzM21Id1NKTkJHODFhbmgxbl95a1QwWnVGdG5MWFNoRm9LNndMZUVXVGtTTFgzYk1n?oc=5",
+   "fecha": "2026-10-10T15:18:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "eGamers.io",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Starknet Surges 20% on Plans to Become an L1",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zMWx5SUZiWVhqX2pBNVNjdXE1QUNQZ1ZqZzE3Yzd5NVlTVkVEU3ZNQnlLTFZ5ekxFUk52NllIT0FiNUN3Q2VlYXZOWW0wNDhzTnN2OERzOFJsdTVtV3NPck9vWWRTcldSZ1FIWkgtREg?oc=5",
+   "fecha": "2026-10-10T15:05:52+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Starknet's STRK token jumps over 10% amid risin...",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSEpwQVkyMTdNTEhhbWYxdWJva0VNanRIeHRVSnM0VHVaemNLRTRwNXdRYXZKdlhJc1FmSHZ1NXRuWVlRTjJldXZYbXJqbzViZ0RteHRuRE5UMlpNMVBYUmxtMmk4RnMzQ0VNVWNUYTZ4dklDQkxndERWYkktaWtPZVNQRVVUVTN4SW9r?oc=5",
+   "fecha": "2026-10-10T15:03:14+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero Price Today: XMR to IDR = Rp1.93M",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yTGhTRDJRVWtQdG5qeEkzaGFrR1owODNQS0NQSVhncFRFY2RvVlpfdFZGdUNPWm9YMlVpMDZkakVYOFlEU0NjWC1XT3Z4VWRUcVJ1WEpqVQ?oc=5",
+   "fecha": "2026-10-10T15:01:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Seeking Alpha",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Bloom Energy: Oracle's Project Jupiter Is Not What Keeps Me Up At Night (Rating Downgrade)",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPay1wVzFhQk1pMEVtME80a1dOb3pJT3dSVlBEUV82cjBOU000WHN5REJlZWlIQk1FNk1hbXZCZTlYRV9keC1ycnlHUXZPR1BlaFJLam1JVnZQMjh5QkFHNUdQcUNpVnBjOThtNWl2alZCZkw0elYyX1hxZTJjclowX1B1bVl1VlY4ZXhZMWV5UzYyNl9LNVpxVy1QN1MxYmJhVzBNMWNzc0pWR25SNmlv?oc=5",
+   "fecha": "2026-10-10T14:57:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Crypto Basic",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant (QNT) Price Prediction: Trader Sees Final Dump Before $1,000 Rally, Marks $173 as Key Level",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRUtaRS10X056RThaT19LalVXMFVEY0JWQTJhV2JmOEd6SGsyb19ibHV6MDU0Ukk3T3pLQmsyLWoySTZYbDdVdDVMWlhQbW1hNk9obEx6dVlWRmEzdHAtU1dRODFESWVaYTFsYlFydk1JRy1Ib2xsV2VPLVZMQWNRWHR2M0lQRkExb1dSaEZxUlpfY1NqRGJKb1lhT214X0hEcXh2ZjhhUUhMcEhkejdEbFRmMlg0RUtBWnlJaVNyMzhJVzdRU2VjcQ?oc=5",
+   "fecha": "2026-10-10T14:48:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "StarkWare Calls Starknet L1 Shift Its 'Clearest Path Forward'",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vYnd2YldjQnFMY0pEMDdLUl9FeFBsbmlxYlBpWjJJUHJqZWkwR3VHenFGbDZOSVhxSXpqS2V3bWJpTVZkdTZ6MTUwU3Q1aXBydERLakZELWR0QQ?oc=5",
+   "fecha": "2026-10-10T14:46:11+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Best Crypto To Buy: Quantus Rallied 462%, Starknet Surged 39%, and AlphaPepe Has Yet to Start Public Trading",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTC1zUW14cllXaGcxeTR2RkNha1Y0Z2x1NnVyN1BReG9vR3dObEJvVUV5OFQyRTdjYUVDV0xPUmQyZnpDeGYyMXVQMHVjbHR5eDdHSjRrNi1MdEVCQ2FuLUkzZ01GbWI3Q2RJeWtPOVNxbVZ1R2ZxNXd6bHVxeEVERzJabTZPeTRvVFMyTS1wSkxjcllYMXltSQ?oc=5",
+   "fecha": "2026-10-10T14:14:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero Price Today: ZRO to IDR = Rp36,061",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RdlJtNjNTVWYzVjZTdmpEeXdpRTVkN3BZZFpON0ZYeEo4cDJGS2tiSW1HMENObnV5b1h1allkNkw5blFtc2FXOExlOHhXc1ZYTHVsYUdFTQ?oc=5",
+   "fecha": "2026-10-10T14:01:13+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "When the Curves Line Up",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "2026, October 19: Jupiter and Mars Before Sunrise, Saturn After Sunset",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUUZ3U3BIcU1mVWQ3TVNjRmM1R1V3enM1QWxyRC1SWHl5T0xObFZRbkRBR2hONEtCQzh5cjF3S0p0ZEFOVlJMM1I0WnM4YVZpaDh3ZVVLLWNzLUVtclZuN3lQX2otc2thTUlzemJiNmZ5MFRfbHcyUGhEMEl5eWxXMy1PakxqVHB5cjlnQi1YVERrUmZXbzZacDhoWF91YUlVZHZ4MDNnZkJ3UkQzczZHVA?oc=5",
+   "fecha": "2026-10-10T13:45:42+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "Is it possible to mine monero and to send the mining rewards to a totally anonymous wallet for full privacy ?",
+   "autor": "r/AskMonero",
+   "url": "https://www.reddit.com/r/AskMonero/comments/1x2fchu/is_it_possible_to_mine_monero_and_to_send_the/",
+   "fecha": "2026-10-10T13:29:17+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "AAVE rises 4.51% to $174.38, holding above key moving averages amid mixed momentum signals.",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUYxR3NSVV9CX0pMTVduS1VJNTIwMnNaemRIeVJWS21LQmZfUmpseTNleldQbnY2a1FlcVNmN3VheFBKcUxHVk9ka0NmdGVlcmJQMUFGVGFtMWxSdmVuMlFuMDlkMDM1SXJ6bG1OQUJPRWxqYmtmTkJqWXBtN1YtQTNQb3NOTUVpYU1HS1I5XzFiR3NtckJ3Umk5RTl2dy1s?oc=5",
+   "fecha": "2026-10-10T13:07:25+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Cardano Just Delivered Two Bullish Signals at TOKEN2049 as ADA Rebounds",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONHFiTk9RVGdFaEJUNjFuTTV4NmNDNHFyVXk3eE9uQTNoZ1dqUzlZM1Jaakg3Y0RpQTFKcURjWVhaSzNkZElGU1l4Ui0zVjh6c0N4WHYwQmNOMW8zM1ZvZFluZ1J4elp2d19Ib184SlJWQ3o1ZmpKT3FmMktrRmFSLUpaak10ak9KSlE4UkZwT3NlTHAwTGtrbUtRQUZEOGdueEFYdHdUeEpBSmJ0OXc?oc=5",
+   "fecha": "2026-10-10T12:56:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Bitcoin dips 3.6% weekly but rebounds above $83K; NEAR and Monero show resilience amid volatile crypto market.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSVNpYW9aMW9mOW1ZbzJkQ2pyR3VIZ01mNWF6Y2kxZENXeFZNcXFEZmVlT0ljSmc4UUZXTF9mZ3V6ZXBsempzdGhwTDQwQmE0cmg0Z2tZWDJiU015aGFsSVVQMjJER3dhWnVJcWdnaU14aWFKQjVRZkt4RDQzMGc5eGhiVjRBN2stSnJwVUJDcEVlTXI0?oc=5",
+   "fecha": "2026-10-10T12:44:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero unlocks 23.63M ZRO tokens on Oct 20, ...",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmhrS2JzdlBneGZlbHZpWmtmSjJNUndVOWd1WUktTENfUWdSMnRHUmFyem1fYi1zQzRhVjliX3NvLU9xTWpacXBmM29UX1I2N0JZNzNXVklnWVF5Y1kwTWhoYTAzV2x3dFZ2U21EUFFZQ1REVTBGVE9WRDl2V3c5amFPT21XZw?oc=5",
+   "fecha": "2026-10-10T12:24:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoTicker",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "ZRO Unlock October 20: 5.92% Goes to Insiders",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vdUZUNy1SMEp2S0o3S01QUm0wdXZqTmh5VGZ3TVRWMk1SSUpRTVJwMGY2bFFKNVlBdjkwZVJDN2Vfcm96bzZZcE0tMXE1SS1YOGVMY3dVYjBqLTdyOWZ1U0RuOUFmckZpNGpIUC1idWstdmFybUNXUDh3?oc=5",
+   "fecha": "2026-10-10T12:15:18+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Blockchain News",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "AAVE Price Prediction: Bulls Hold the Moving Average Stack as MACD Flatlines at a Crossover",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ09FRFY3TlZIZ3hzZ3poNG5IUW5zX3J0NEVLZGpaQ3NXb3NYdkVqeXJOdkZaN3E3UTF5YlNYMnZQOEU5YnE2ekttQmtyZUN4a0oydG5DNDl5SlExOHotdnlxY0pTTzJneHRKVm1UbF9BNXJyQkpEYWdxZ0lLd1U2bDNveDh6NTdQeDV2Rjg0UHd1Nk1sUl9oU0pGSQ?oc=5",
+   "fecha": "2026-10-10T11:38:19+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "Salut Kitty et Snowfloe Token 1 Je suis disco! Bottin feat Jupiter - Sage Comme Une Image youtu.be/yd8XpTpxRVM?...",
+   "autor": "danpopomatic.bsky.social",
+   "url": "https://bsky.app/profile/danpopomatic.bsky.social/post/3mxjcrcwpbc2n",
+   "fecha": "2026-10-10T10:46:50+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "LUMIA +43% and DRV +21% are today’s rockets 🚀 NEAR +10% to $5.28, BAT +15% waking up. SUI and AAVE green while ZEC and HYPE cool off. #cryptoBluesky #crypto",
+   "autor": "onchainoracle.bsky.social",
+   "url": "https://bsky.app/profile/onchainoracle.bsky.social/post/3mxja5tk5sm2m",
+   "fecha": "2026-10-10T10:00:07+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "Whale moves 10M POL to Binance, facing ~$400K loss. Bought 25M POL at ~$0.12, used as collateral for a $1.4M loan on Aave. After price drop, repaid loan, withdrew POL, and sent 10M to Binance. Potential loss if sold now. #crypto #blockchain #news",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3mxj6hbqk6u2o",
+   "fecha": "2026-10-10T09:29:37+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "KuCoin Has Temporarily Closed the Deposit Service of Monero (XMR)",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNl9XTUFVbWpiSl9wclc2ZHptMk5rbnJ0dlB3NVhrVVJuZTU2aWRJQTkyV05ZUm1uUTlWT2pQQWc2czNjd1piWmZva2Vrb1hnS1F5SUVLeTFIX21ZZW1aT2JsdWRCRl9OTE4zeGZjbTl6a2M0ajVCS3BlVDgzeThyQVNUcGRlV2Z4WDhRMGwwZVVGeUZUMGlDV3pPM0ZkZEEtUVNMUnBDWVZSMGktQzQ3ZA?oc=5",
+   "fecha": "2026-10-10T08:32:50+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TronWeekly",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Aave Expands DeFi TVL Growth As AAVE Price Setup Draws Attention",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SMHFXbzdhaVJzMkJvV2Q3TTFaMjdIUU9qRU91czduM2VNOUw0Vm02U210Ukx1dEhzMzNLdGxRUGxKbl9pbWJ0SUNXcEtBWHQ1X2lsUzV1U0xPMnI0U0pnVENWTkxSZW15UkdIcEFOVnVJc2JfSHNGTzdR?oc=5",
+   "fecha": "2026-10-10T08:30:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "News From The States",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "New Mexico AG challenges federal commission’s review of proposed Project Jupiter gas pipeline",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT2ZlYlFiaDVPQXVGU1BsQlk4VkVFVElaVF9OUkRQWEY0YjB2NHFoY3dUeXpTNHRjaWxwRmlXMVdvSEF4TTR1R0c1QU9WeXZISDRMV0Y4Ry1xTnpEVUFHMDVya2JIMGhVNWN2VVo5NThEeDh3M2VOUkY1aDBrM1B4N0Y3V01BZXhDN092WEt5Qnhlc0tYZTd4WWh4RVg2eUw3T2pWWlhJVUxtenUtczVsb2xWaWNWdFVYUVpTb01YVGJXZVpXSTZGRGp3dw?oc=5",
+   "fecha": "2026-10-10T07:32:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero Price Prediction: XMR Holds Above $550 as AlphaPepe Buyers Hunt the Bigger Pre-Listing Breakout",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcmp4YVZLRjdTYXctal9Td0RyLVdKMXJjYkRpdG94YmdXeEl0MU1iSnF6blZXSmVpOUdyNXJsdWV3aFlDQkVCWk9LNFZrZ3R3VjN0dm9iNlZ4ODU3YmgwcGF4UEc2bGZNZU9vMTNQMVZUUmFhbXIyZ1dqaElXaU1fQ0N4aXBEUVR0MHY1TVJnaXZiUFBHa3BJ?oc=5",
+   "fecha": "2026-10-10T07:24:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Vocal",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Oracle Issues Force Majeure Notice for Project Jupiter Amid Delays and Scrutiny",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcFhibERycFpENWpYSm1oR0pRaDFOamJsbnU4WmJoYnRpeUpiaDNNVDRrRHNGLXNKMGg4aF9UbVV5UUUwdW9UT0ZUN1JYS2llLXJzdlBCOVBGdFhUdWZXOTNGVGd6OGs3MVRiM0lOcTJYMXgzeXhHRTd0ZEs0UjRFay1yY1k5T1RTbmc2Q1B3X1FLc09XNy1hMTJGeGpEdXlWWC1TeA?oc=5",
+   "fecha": "2026-10-10T07:04:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "/r/Monero Weekly Discussion – October 10, 2026 - Use this thread for general chatter, basic questions, and if you're new to Monero",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1x28n02/rmonero_weekly_discussion_october_10_2026_use/",
+   "fecha": "2026-10-10T07:01:14+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Aave weekly forecast: Holds gains as buyers stay in control",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXJNN3I4cXBkN2F2M2pXMjdmV0dtQVZmcHBoQkV2YUFjY3BXTDJpWG5wd25fWkNnczNMM3Y1SkRvNWFCMzR3dlhxb1hmcWp6V0h2UWg3b04zWlV2eUpXME9PRlRBRUdUZXNqY1NCRkJwZVVsNlQwNmZFQ0NCaHRydV9QaUhPQ1F3cWlSdkZMdmlTSWlfRzVpUmtkQQ?oc=5",
+   "fecha": "2026-10-10T06:33:50+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bhaskar English",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Couple’s unique chemistry to ‘Meldi Ramti Aave’ leaves spectators spellbound",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeFBUYm9GT2hyUXhJdFpESUhRY3hWVFNfWXVIRGd6T0c4MS1wMml0VGdsMHlkazZkaXBSc21MUHFjUHFyY3ItNmV1TjRXcEVCMGNwbmtnVjJVV2JQZVlrX3FwVWE1V1ZGaDgyaGVPQ0lnMHIta3NzM20wdnY0d09ZYlMwaGRGYTJEM2J2a2U2Q055NlJCZWc5Ml95c2ZLM2xzaElLdXA5STlmcWJpNzBGLTBSb2Fqcy1ZY3EwZmtyTUhXbHpUVzJkQWU1dlRna3Y0SEtoQVRn?oc=5",
+   "fecha": "2026-10-10T06:02:13+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "Love a Leo Jupiter. Happy Jupiter return! I’m a 9th house Gemini Sun / eclipse windower with Mercury, Jupiter, Uranus and Neptune angular in my chart 🙂‍↕️",
+   "autor": "spicygemini.bsky.social",
+   "url": "https://bsky.app/profile/spicygemini.bsky.social/post/3mxiqyq6gnk2h",
+   "fecha": "2026-10-10T05:28:50+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "RISEx Integrates Order Book into Ethereum Virtual Machine for Sub-Millisecond On-Chain Trading",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYkNEb2NOMFBzSEx2MHJXYlJ6blZBTkUyQnVvdlhob0VDdndqMUQ1V1prRDJESTduZmU5WWFBRzhjU3Z6bkpVX1IySk12cFBjN2YyV0N5UFlZMm9YaTdlSTBTZ28tdDRtczZ0M1Y4bm5DV05XLTZqRHluOHd2LXZFa3l3RXd6TWhkVVhYdWEwVXpTeTM1YWFjcmdlaHE1dWJCYWszZGVmR2I5Rlk3aFduR0czT2F3MlFFNjl5bGhnbUlVNjc5RUkw?oc=5",
+   "fecha": "2026-10-10T04:49:12+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Canadian Baseball Network",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Hudel, Nolet, Reason, Walker help Canadian Premier win its Jupiter pool",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZUo3LXlMdFBUZFR5eEw1S0dZN2JsenBUcVBaTm9hazVUa3hueU1Bb1VKLWxzVS1vYmJld1RBNTc2Vi1fTWFhb3luZEhMVWhfZHVXOVNUX2xHWF9SUy1NSG02am9mU3RyS1p0QmNJLW1NS2s5bmVXVDcwSWhCWmxkX3l4ZDFkNXRFUE9Oa3dYc1NKV0JETDhoVWxRWVQtY2VYOXI3Ti1xT0JQeVc5WXVnUjdGSnRQUXdkbkdMNGk1b2tyV1YyeHJISmpBdC1lNEJYVEE2Y1U4ZlQxUzA?oc=5",
+   "fecha": "2026-10-10T04:29:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "Filecoin leads crypto gains with 11.1% rise; Po...",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXNYbXVYQ2VUSm0zclN2S1Voc29GQ2tPQVFXVU85OVNsUGVRMklCSnE0SmFjb1RhTTB5YlhUNnNfLVI4TVFyNTdzUTF6YzlVb2FmT1FmeEktX19rbE5jSTNQVzdnXzJQTjZ3a09XZ3ljT0ttUFRQZUd5dHhYY1pOXzhnM1k4TDJYR0ZQR3R3cEJpWm9PcHpfd05R?oc=5",
+   "fecha": "2026-10-10T04:16:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "深潮TechFlow",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Research Report: Q3 Recurring Revenue Up 86.5% Quarter-over-Quarter to $11.49 Million, DAO Approves '100% Rule' fo…",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0MXBFTXUyM3g2YU5lMVhNelZKTS02UEIwTHhILTQtOWh2TEJKR0tNdXB0SXZIVnJxWWMwNWUzN0xCYVk1aUdncU0wcFNVYVpaX1liUV9zOWVPSGJk?oc=5",
+   "fecha": "2026-10-10T04:13:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant (QNT) Price Holds Steady at $248 Amid $221-$277 Trading Range",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdjUxeGZSTlZRRHpRWEIwYjN6VWFFVV9PRmtLSUU2SEI4Y1lfbnhGamFPdnVTNS10MUlmQUpVTFpvS2N6TF9nX1JyX2Rrd1pYdFM1NFhXekN2b0Zhb0RDYjIwaFNjY0tLYzBfSzItUWxEMUpfM19lYzlmZ3JTb0p1QmVGZlV4Zk9iUnZWV3ZIVkM3cE56U3VxSWhFakU?oc=5",
+   "fecha": "2026-10-10T03:39:12+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Palm Beach Post",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Palm Beach Central gets revenge on Santaluces, eyes Jupiter matchup",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNkp0WlNOblhvOE1YTmgzN2VseXV6eEg5d1FtRVpoUTdONzNReHltTHN6VkdqeHZTbE5PVy1Fam1SY2JoQU1mcUFNeUVhZWFySGIzQTZWdHFKdUh0WUhqSmZ5ZXlONnJYemcxbmV4ZW1VQUZwaWhlVU1UNDRraWQxU3pmTFhkTnRYZS1NNVpOMEZ3d0czcEdYU1VPYVlnLS0xUDA3NzhaZERXdzE1WGpMNDhuQTFSUWszODB6Y04yR0F1aFZjTXFTMGtUZVloMmlhMV9uMzZET2g1bl81UnVsQWlTMWF5ZUY1ZHc?oc=5",
+   "fecha": "2026-10-10T03:39:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant (QNT) price stabilizes between $221 and $277 after sharp rise and fall triggered by US payment system mandate.",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5d3RNVnFVbGJUYUc4ODRjS3I3SW9MdE41YmxWOXA3QzlTcXgzTWM4N3lMMzhKSUhMa1ViYld2RlFZTGxKODR6TnQ5bmduS0xkWWJGN0c1RnY2SUFjVVc4OUI1R0VVZ3RyZWdBeDl5ZFdSRy1fb2tncm1R?oc=5",
+   "fecha": "2026-10-10T03:26:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoTicker",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant Price Prediction: QNT Range $221 to $277",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13ZjBRTkFKRFhjdDVXd0xVQ2x1a2UwNlRKTWQ2V3FiQ3lPNnM5SklfekhDOGM2V19LSkcyelRhQXlZOVV6ZnF4Z3k0eXRfUGh1OFZ5ck1wYncta0IzYWprMmR0dGVySGgySUFpRUVaUVhxMVVoNW5TU2pfNmpPVTA?oc=5",
+   "fecha": "2026-10-10T03:14:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TechBullion",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Best Crypto To Invest In: Starknet Surges 39% as $2.9M Presale AlphaPepe Builds Toward Its First Listing",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeUdLMzM3eFh5eF83RjFSaVVrNnV2dnduUGpQQVVzYktyNURRRWgxM1lTMlQ1UnhqeGZ4WHdrR0c2M2JwcENJMWR3OUZXM1BlZzJCek1wdi1tWDQ4bjlEckVDVDZUOFNXenpQN1lqaVl3T0lvaHdwTEgzVmt0VTk2MDYzS2FsV0xPM2N2TlgwYWwyZ3FobGhuakw3QlFFNkl3RXMzV0lEeUptSThTY1lXY0FBWXBDX05pdHM4RjFwY1N1VVdr?oc=5",
+   "fecha": "2026-10-10T03:13:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Big News Network.com",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Next Crypto to Explode: Meteora Rips 51%, but Solana and XRP Traders Are Eyeing Pepeto's Free Bridge",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkU4UmF5bmhnY0JEcWtaaFdhaTNQemF1R1gzeEJ2TFB6Y2FTRHlsQjFrOGctLVJRekczaXBHdlR5cUlPXzFwX1lUdUZXTEh1SWk1RkFsY0J0UndnNHNRVUY4X0Nlc1J0TjZTWHE0Q2NFRVRoOFpESXJwbFpySFd2Qk0zT2NKZDZid2lGakpsY2FOTGlsOFRoTkp0U19NNlVqaUxQOXA0Wm1ETkt4Yk94UjVESVpwYktXWlFMOWxPdlRhZ1RDbWNSdi14dkFYS2ZhM2kxbUlud0s?oc=5",
+   "fecha": "2026-10-10T03:04:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "🚨 Top100 Largest Losers (Today): ・1. Monero $XMR: -4.9%. ・2. MemeCore $M: -3.0%. ・3. Algorand $ALGO: -2.9%. ・4. Figure Heloc $FIGR_HELOC: -2.8%. ・5. Aerodrome Finance $AERO: -2.4%.",
+   "autor": "zonecrypto.bsky.social",
+   "url": "https://bsky.app/profile/zonecrypto.bsky.social/post/3mxihpejcal2m",
+   "fecha": "2026-10-10T02:42:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "STRK",
+   "titulo": "Derive and Starknet lead crypto gains with 14.8...",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGhaTmkwblpPMkpXeUQtV2gtNG5jY2ZtR3BFSUlGbjZja2RVZElINE1Ed3Z0SVkwbkl5S3hyQldpZ0JMS2JuZVJReTBhaER0UDNmckdjblRROVlYejVsSWxOXzNEUDB1NlIxaG5HdVJMTEVzRFF6a3FkX1ZQVkVmLTdTTUhrYzBLdjZzeWctQWF6aWw1SzBrSXAzNA?oc=5",
+   "fecha": "2026-10-10T02:19:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "Bitkub to facilitate Stargate Finance (STG) conversion into LayerZero (ZRO)",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTE5DWFVjS1ZEZHAzREVwWXoxc0QtRDltd3NleWtnZjZTLTFLZkw4S1RJYXlxTWY4ZlpkVUVwWUptUFFZek02SUQyeWtReEFwUXREclcycWN2WElmRzRoX0NUU2R3YzVfLXBSSGdBSGxaQm5XbkM2S0pSNW5zWER0R0p6TWZBTFBH?oc=5",
+   "fecha": "2026-10-10T02:13:20+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Big News Network.com",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Aave Price Prediction: AAVE Eyes $200 as Pepeto's Live Safety Scanner Looks Like October's Moonshot",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaDNYbU92dUxNREVqeDZUV1gwVXpodWg0R1ZqTldQTHdrdGFvY0dBU0JvU0ZmRnBmbGJjNkhYc29LcDk0TWNaZmNOSVVwQWhKSlZQdk5heV9MUUJQd0dRLXhhakJ0c1pBQUVFQlphSVBzM0c0SWU1bFNyTGNBMGx3NkpoWWYwVlFqMzRFU3hOOGo3ZE8wc3pyeWdfRjZwMlpBeTZUT2xmOFJOZ2xLXy0zdnFiUnB3R3NJbENVcjFNREJUdURtdUNHMzJXaDdZOHpqM3k1eER3?oc=5",
+   "fecha": "2026-10-10T01:03:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Cosmos Hub leads crypto gains with a 17% rise as most tokens climb on Oct. 9.",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQXy1hSzNHd0FsRzlhb0pWSFBNM1NFRzBTam1mY2lvbC1SSG1ic2hEdTJrYkloWmFnbXpLRU5hMDdOOWJ5d3lURjhobVlEUk5Ec21TaGh4SjZvWllGZF84YWpvdERSOHZjXzNmTExERjFvNFZmZWxQTTNWT3EyVjc4VjZSTW9xcWsxVXc?oc=5",
+   "fecha": "2026-10-10T00:24:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "FXStreet",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Top 7 weekly crypto performers: ATOM, JUP, JUST lead crypto market as altcoins defy Bitcoin weakness",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNnhqVWtQaDJ1UkFFQmpwa2VJN0ZJVVlveVQ0V3B4bHZ2Wnh4Ukx5STA0Y2Y4dUVQTEJKVE95UkZJM0llTlZzeXdTeGhsYW5BMGhKZXJVNGtjOXZHYzI5aGtDdk9JbmxueGRJcFp6SFNMQUtOa0Nxc2tlTGxXTEtCYlFNQ21McVI4aER2ekdFdlRKdGRleUJjYVNJQWNNRHdoTzFxV1J0RVdBYm8zVEFEZXhxSGdlbm5YOThaNWhfUHZRdEdKM0NwUDZwZEVlenNsTW5ITzlYUnB6MFJYSEU4UGFubTJhUjR4OFFMelBn?oc=5",
+   "fecha": "2026-10-10T00:15:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "FXStreet",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Top 7 weekly crypto performers: ATOM, JUP, JUST lead crypto market as altcoins defy Bitcoin weakness",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNnhqVWtQaDJ1UkFFQmpwa2VJN0ZJVVlveVQ0V3B4bHZ2Wnh4Ukx5STA0Y2Y4dUVQTEJKVE95UkZJM0llTlZzeXdTeGhsYW5BMGhKZXJVNGtjOXZHYzI5aGtDdk9JbmxueGRJcFp6SFNMQUtOa0Nxc2tlTGxXTEtCYlFNQ21McVI4aER2ekdFdlRKdGRleUJjYVNJQWNNRHdoTzFxV1J0RVdBYm8zVEFEZXhxSGdlbm5YOThaNWhfUHZRdEdKM0NwUDZwZEVlenNsTW5ITzlYUnB6MFJYSEU4UGFubTJhUjR4OFFMelBn?oc=5",
+   "fecha": "2026-10-10T00:15:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "ZRO Drops 3.19% Amid KuCoin Migration and Market Correction",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5reGc0TGt5ejJEd200SUozcjFkTEcyRExWX3BQUWQxN2Q3LU9xVVhKaWtxOGpLNncxcEMtVldsWThRVW0zeGFlS1VRRTY0SkdvZ0RFZVIwZTdsMUE4Y18yVnRMWWVYM2o4VDBCMVZrV2U?oc=5",
+   "fecha": "2026-10-10T00:05:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "Aave listed Pendle's PT-AUSD-17DEC2026 as collateral on Monad in stablecoin eMode, at 93% LTV and 95% liquidation threshold. The 30 million token supply cap filled almost right away, with about $29.67 million supplied.",
+   "autor": "cryptodarklordgr.bsky.social",
+   "url": "https://bsky.app/profile/cryptodarklordgr.bsky.social/post/3mxhzcuzwrz2m",
+   "fecha": "2026-10-09T22:25:01+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "🐳 9.54M USDC ($9.5M) wallet-to-wallet EU3X4i…XExS → FrRqBZ…cf4P. Could be market-maker rebalancing between DEX pools (Jupiter, Orca, Raydium). ◎ https://swisswhaleintelligence.com/sol/ #Solana #USDC #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3mxhyr4t5pi2u",
+   "fecha": "2026-10-09T22:15:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "AAVE",
+   "titulo": "Aave Launches Integration with MetaMask Agent Wallet",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0LW5wZzhXOW9YTWM0d3NGZ1VxTk9feDZZRS1vcV95OUNVZE42ZlFYZDRHeGF2NDU5Y00zLVhsT2JTdUhaOS14N2YtODE1RlIwMFBWbQ?oc=5",
+   "fecha": "2026-10-09T22:07:01+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "In a total hypothetical situation, what can someone do if $30,000 worth of Monero were sent to their cryptocurrency wallet out of the blue?",
+   "autor": "r/answers",
+   "url": "https://www.reddit.com/r/answers/comments/1x1y96y/in_a_total_hypothetical_situation_what_can/",
+   "fecha": "2026-10-09T21:58:57+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "Stargate Finance Completes Merge with LayerZero, Says KuCoin",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjZElNR2cwazRJSkxyZ29KUEcyUFJiTXVwNFNIYTU1SWFUWTE3bGxiT1Q0Q2liR0pHdi0wc21qejR2OUhsTFlJUE5BZ2YwYlZkdG5EYUY4TFNudw?oc=5",
+   "fecha": "2026-10-09T21:56:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X this gonna pop over the weekend 🙏",
+   "autor": "Ver13",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Ver13/message/666200926",
+   "fecha": "2026-10-09T21:26:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "PYTH crypto could extend its 11% rally toward $0.089 – Here’s why",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc0U2d2o4VDFPSmV6bXI2ZWVFTlRwcHhjaE0zOHdLN0VOZUhEYXJhMnRjdWkxMnlQSldtQmg1NXcydE5FWlB0VWlfRGRENzVsLThUZXl2S2ItTWRpOVlidm1Tbk1TRzlhQjhGSERrXzFtV2VPX0NwY3RWUE05T3FkejZOd3N2TV9aMXR3?oc=5",
+   "fecha": "2026-10-09T20:00:30+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "CME Launches Emerging Crypto Index: Discover the Selected Coins",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcnFkM0NDR3JVS0I0OEVuWEJ4OWNXcTBCOXpCUlRPWGk1aXFLLUotMEhsb3BmS2dMeDh2T2tvS1Q1MDBxdEtpQTlqWHNzME9TU0pnalRuWXZka21LZFZTcHJIWEwyMGNwd2h1STVMTVNxUU82ZHB0WG9HR2ZvaDJNMEZZVllGRF9QVng1UDNwWjJES1pTb1RNZzRUX2NPbGVfcENvYV8zVUNIV2k2RWpqbzlLdGozdUlOVEMxaGtR?oc=5",
+   "fecha": "2026-10-09T19:18:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Big News Network.com",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "XRP, Dogecoin or Pepeto? Best Crypto to Buy Now After Meteora's 51% Jump, and Only One Eyes 500x Gains",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeXh6dlF0cWNyUVJPRVFXSEMySDRSY04wVC1NbE04VndQbk1sc0toaTh4QlRtOXlsRGc0dVp5Wm5uUlVlend4dHc0Y2k1Q3U0OWk5VTlXdGRLbURlTnF6R2RmUlNhOS14cngxVEFnenZDcG1TMFlNaFJZblg3Ql92Z0xQNWFGbUVqV2pnZXFQTm1iUkxicGRuNk1SRl9DcFdxam5nTU5zU29YT1ZfMEdsOVJtNFJvdjRpRXU0aUhXeEpLZ1cyUWRFNGEyc1laaUEtZTVMUXdtMl9mQQ?oc=5",
+   "fecha": "2026-10-09T19:03:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "95.9 The RAT",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Linkin Park’s ‘Meteora’ Earns Diamond Certification, Joins ‘Hybrid Theory’",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcVg0RmRadTROeUNrV0RTLTFZX3hqVzAtTTIwV00ybDFYeDU1RTZ2YXV2b0JqLUY3NXllNEMwMGlmR2dzM1hXdVJUcFA1Y0x0eWF2bHBOWVlyaTdYSGlPUGw3VncxNl82ZzNnbTlVX1RqUm9CSWlfNEw5R0JnQWludTB3Y3JLWkJKbVhJVG9fcEpXdGYzb2lZN0F4MnZKdw?oc=5",
+   "fecha": "2026-10-09T18:39:46+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PYTH",
+   "titulo": "🔥 Every Pyth Dollar Buys PYTH Pyth Network now spends every dollar its DAO earns on buying the PYTH token. Banks and trading firms pay Pyth about $11.5 million per annum for price data, roughly 60 % of that goes to the… #pyth #defi #crypto Ask Gerhard AI For Free:…",
+   "autor": "thebitcoinstrategy.bsky.social",
+   "url": "https://bsky.app/profile/thebitcoinstrategy.bsky.social/post/3mxhmbfp3tp2u",
+   "fecha": "2026-10-09T18:31:35+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitcoin Foundation",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "How to Buy Monero with a Debit Card Without Verification",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQelpnVnFHVHpUUUdMbE40SDAyb252NXBIUWRyNU9YUUpCN19iS0xWcEtvdURPZ1RJUzZ3ZkVVSmRnTDRhOFAwZjhCZXV5RWEtd2JIaEpFZUwxSlIzMXJ4MUZTRFl0V0t0a2JRU0ZZWVlVd05hdjh0RE5lOXk5OThNMVgxSFNLNFdkck1PcC1ZX2o?oc=5",
+   "fecha": "2026-10-09T18:25:35+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "finance.biggo.com",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Surges 14% as DAO Commits All Product Revenue to PYTH Buybacks",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWdDE5VEFIZlNEdGZqZkJlWGFFQld5c2E0VzFSNHRiTlM1N0M5T0lIZTlJTVdrcXU1VThJMlBsdFl3cDRhc291VnlUcFo4ZURzT3liNjg5djVDaEhZSW83MlMyUjFlVUdhUEZocU1xSmRzWWd5UkE?oc=5",
+   "fecha": "2026-10-09T18:22:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "nerdbot",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "How to Swap Crypto to Monero From Your Phone: A Beginner’s Guide",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG1IdEtTR3JyaGo4bXpjX0lMVjF2RVhlMktURUwyZ3kwamVPYjBTeDFmWjAxWVJIZm5LRUtLM0NpMUp5dUZ2Q0VGWXNLcjBCM3g0UHBBUjFSeEhpWVFuNlA4T0Z2anRZMmRhS2d2QVFmV2ZOMjFRRVZtWDFOZlc2WW4zdFMyTWM0d0JOREpqZ2J1T1BnekJBTWRB?oc=5",
+   "fecha": "2026-10-09T18:18:29+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinDCX",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "PYTH DAO Buyback Proposal Drives the Pyth Rally and Sends Price Up 15%",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObjN0Y1BHRTNmTXkwTDVGOWdEN2MzYXR2Y3BWUHF1bkFOUXVHSVRhVGhOaV9maG5pTko0TVk5Q05yeEFmSzFyMXh0V1Q3RHpPVFZrZDBHQjVXUjlyQUxXQUZEdXV0RW5DSjlhZWk1VjFYTkVNUFNrQUJKWEhva1hvTHBoUHp2YUswLVpMZmJGWVQ?oc=5",
+   "fecha": "2026-10-09T18:06:14+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Brave New Coin",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant (QNT) Price Prediction: $258 Resistance Holds as Pullback Puts $179 Fibonacci Support in Focus",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY1N0cUJyYnFaM3l0ci0weVI1ajJBdVJFYkNSUUZFM3ZLcENtMG82am1DS0xiQTdyRW5MWWRENHN2bVBoXzlQckJPb0pFcG8zTkhXdFliU0U2blJlOHJ5MTFKNVNrckJYUkJQRjZLdTJqaVh4OVQ2M3BXRWg4T21jNklCOXNoeV9YcnJBUk4zSGJ5YndCV2R6WnZnTmZwNG5aR080RnFRMkpPMHl3MFlwMVFqa0ExOS1Td1YtMzBGZ0w4a18yRWxPag?oc=5",
+   "fecha": "2026-10-09T17:20:09+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X what is this? I don’t ever remember clicking the watch button on this stock",
+   "autor": "wantahotdog",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/wantahotdog/message/666173905",
+   "fecha": "2026-10-09T17:13:45+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "El índice de altcoins marca 52/100. #jupiter #crypto Datos de mercado en tiempo real. No es asesoramiento financiero.",
+   "autor": "criptosvip.bsky.social",
+   "url": "https://bsky.app/profile/criptosvip.bsky.social/post/3mxhhaygiod22",
+   "fecha": "2026-10-09T17:01:50+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "AAVE",
+   "titulo": "95 people have already qualified for the KCEX AAVE Hot Coin pool. Here is what it takes, and the math on your share",
+   "autor": "r/KCEX",
+   "url": "https://www.reddit.com/r/KCEX/comments/1x1pv7g/95_people_have_already_qualified_for_the_kcex/",
+   "fecha": "2026-10-09T16:26:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "thinking about the prospect of harvesting solar energy to power a linux server that does nothing but fire off alerts when the price of monero is dropping and getting so turned on i pass out",
+   "autor": "coyotestail.bsky.social",
+   "url": "https://bsky.app/profile/coyotestail.bsky.social/post/3mxhf74ecv22z",
+   "fecha": "2026-10-09T16:24:59+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "JUP",
+   "titulo": "$JUP.X Still in play. the scam dump yesterday didnt hold",
+   "autor": "SargeMaximus2",
+   "postura": null,
+   "url": "https://stocktwits.com/SargeMaximus2/message/666167673",
+   "fecha": "2026-10-09T16:24:25+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Cosmos Hub leads crypto gains with 18.13% rise, while Bitcoin and Ether also climb.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRVJMbTh3LWVtVGN5Z190UUIxZWR0TmdOaEZjdDBxWHpvQTVfdmN2dV8xYzhfNVVnZE1kVWxmWl9jZE9BcWotZk52RFgzWEtKY0VkZWtoNzdGVEl0ZTRhUWk0Q05HNkZ2emJKMm1UemFZZGdQQ0c4aXowMmF5Q0U3NWpQLUxaTmY3a1FBYjh1TnFOQXI3ZUM2Sw?oc=5",
+   "fecha": "2026-10-09T16:14:56+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Surges 14.2% on 100% Revenue Buyback Policy",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlbzZfNFVQRWljOGczNW4yZkxKeHoxb3Q1TkYyZEhUSFZiaUJIRTFLY1RIamRjOGRWVmxIbVRfanJ5MVBHdnIzM2JrUGpxSFFLOHctQVptZ2FJNWkzZDgzY2otWkVDT1ZZMFdWU2l1cHA?oc=5",
+   "fecha": "2026-10-09T16:05:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Binance",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Safdar Ali Trader(@Square-Creator-e78c5f5e9ac1a)'s insights",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GaGd4blBzcUVoZTB2VzFaNlhCQmU2alVtQmxIc195d1hNVVVoUS0wYkRURWhvaHlUMVhMbGU0NW5CeHN3MHowUnB5R2dJSmJSdkFKWUprd2V0bUZmMGNGWWxfMWc?oc=5",
+   "fecha": "2026-10-09T15:55:22+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "🚨 Standard Chartered’s Geoffrey Kendrick highlights altcoins to watch for 2030! • ARB: Tokenization • LINK: Blockchain data • UNI: Buybacks & burns • AAVE & MORPHO: Lending • ETH: Stablecoins & tokenization Can utility drive the next altcoin wave? 👀 #Altcoins #Ethereum #Crypto…",
+   "autor": "coinpedia.bsky.social",
+   "url": "https://bsky.app/profile/coinpedia.bsky.social/post/3mxh4m6w5tc2v",
+   "fecha": "2026-10-09T13:51:17+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X wow you think more heads would be turning on this one",
+   "autor": "Buddy44444444",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Buddy44444444/message/666143652",
+   "fecha": "2026-10-09T13:50:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coin Gabbar",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth News Today: Why the Pyth DAO Now Spends 100% of Revenue on PYTH",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUEV6cG9HUnZ0VnRNZklmak9WSmRRNTlLREotNmhFbUs3OWF6RXV3WFZOQmQ3ak4wbU0zVXZZS2hCekRvb0dtQ2xyTjhYWWU4WVdoaXNPaDd3N0JObzR2SUJHVUE4V0JTdks0T2l3bXdlVHZqT1pINWVGbW5FN3Q2ZnFTREtjNlh5WUM4?oc=5",
+   "fecha": "2026-10-09T13:45:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "The SEC Just Created a Five-Year Sandbox for Trading Tokenized Stocks on Public Blockchains",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcEI2TGN3ZnBXV2R0WUNPNWZkMWE5NzlUcnNYSzVfU2JMTWxmV2NGd2Z6OE5ROTUtMS1JR0NvMXdHZmxKWWNuQ0NWOEFCLU01RngtOVNjR0tvbjVHb1Y1dlFDcFc2ampvSVVjLUQzNENiN1dQYngybFRKeGVCNjk5R1ZHV3BvbnpqZkxOLXYzV3Y0Umhydkw1Ulk3VDVaUElOQnhhc01yQ1NsZVdJZDZVbS1UNWNvTTROYUkyZHpaTzdDd3Q5RDlHUg?oc=5",
+   "fecha": "2026-10-09T13:40:28+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZRO",
+   "titulo": "LayerZero partners with Blockaid to launch Bridge Sentinel, a DVN, for enhanced cross-chain message security. It uses real-time threat intel to screen for fraud & illicit flows BEFORE validation. Assets using LayerZero's OFT standard can opt-in for added security. #crypto…",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3mxh26e562h2m",
+   "fecha": "2026-10-09T13:07:43+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Cryptonomist",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Meteora Price Bullish Trend with Hourly Recovery Test",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVFsSkNvbzlCYnhXTGFJaVJ5aFIzcFd3RWFrSVk5bTJET0d6ZnVja25uNWZYQnRXOEllQkd6SHRtUHVMbVZUZjdXb2t6ME1YWTZCaXFJNUxwVEJSQnFkaFJTNnBJa25jMDRBQ0FuSnVZNUpFQU42WktURy10MFZTZUlBRFktT1ZOTDZ5X3E3WnMwTjJ0aWFwZWwwWFZYNmlBWFVuVXdVd00tb1U?oc=5",
+   "fecha": "2026-10-09T12:23:48+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AAVE",
+   "titulo": "AAVE sentiment is holding at 7.0/10, even with a -1.0 pt dip this week. The protocol maintains a high-conviction profile with relatively low editorial resistance compared to the broader market. It remains one of the cleaner signals in the current decentralized finance window.…",
+   "autor": "assetfeel.bsky.social",
+   "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mxgxab3hhy26",
+   "fecha": "2026-10-09T12:15:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Best Crypto To Buy Now: Meteora (MET) Jumps Over 40% as AlphaPepe Stage 21 Nears Sellout",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdGIycDlLdEJSUnJGQnA5YWhRNjdNUjhfVEtudjNnSFFybDZNdS1idXlUdEpJejVzYVFTTnlWbHBRN0hQbWhDQTg3MU9GcFR0b0k4RzYwYlR1bmg2Nkgtd2R2b2V5VXdiSXNMYkFtWjFnejlEX1R1dElwcVpPUWJuLUNfLVZrMTdpX0JmSThqcXJqV05JYUJiMThfaXJfQQ?oc=5",
+   "fecha": "2026-10-09T11:06:49+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "pintu crypto",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Token Unlocks and Crypto Catalysts in October 2026",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaEpsSEE2YVNDdkxsSU5hSEVBSVA2R2JTcmw5ZURDMFNlVDFmV0FJV19kYVBpSzBxQ3hid2VqRExRU2RJMTU0aDlGVUkxcXZIR1FFMlA5QmwtUGNkSXN0anRPWjRzSVlxTUYxRndPdFN5cEF0Wm9oRFNIRE90S2NuRWdzejJTR0ZUaEZST1RrZw?oc=5",
+   "fecha": "2026-10-09T08:37:11+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Pi Network Just Clarified Its Big Stablecoin Plans: Here’s What Pioneers Should Know",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcE5GLTBuYXpZNjAyM3VDS0dyc0xOQ1pLdUxEbjVoRFdsenBIbm5YS29rQWJLVTdzRVdEaW9YQUpZUU9mQmtMWEdrSE5qNC0wM29pc3Q3NmtNaDM4VWRZNmJyZ1ExMDk4RmR6N0RUSkkyRDR2b1l0TUhhbzhNRWRxdFVjZGFyMmtwX3ExMzFIN05iSWViZkJoRE5HOGg4UHViOWhIZzRIMnpRRWFXVmQ1T2RzTWJUYnRCS1FaMA?oc=5",
+   "fecha": "2026-10-09T08:35:19+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Altcoin Buzz",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "QNT Price Quant TA QNT Technical Analysis",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcjlGVTF1RlRLQllIMi1ZQjF3THhkS2FTRTlwQktqYU5odWxMM3VOT3RyY21ocmZJdHFYbkZCVml2aWN4Rk5Qb0pZVHBTc3lzbGVoczl4ZzN1d3V1ZEY3bDAxTWVkdTF0WE5WTzVabVBiLWdQYmFQRGlWcHJNaFN5bHc4cXhXY2xYSHlFMWZSakZGc1JTclFWOHVn?oc=5",
+   "fecha": "2026-10-09T08:02:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "Friday Monero Market Thread - October 09, 2026",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1x1fgwg/friday_monero_market_thread_october_09_2026/",
+   "fecha": "2026-10-09T08:00:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XMR",
+   "titulo": "$401JK.X Always bullish on this one $SOL.X $ZEC.X $XMR.X",
+   "autor": "RogerTheRetiree",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RogerTheRetiree/message/666126140",
+   "fecha": "2026-10-09T07:34:47+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X Finally got a $1.25 upgrade! Up we go!",
+   "autor": "Goldaltcoins",
+   "postura": null,
+   "url": "https://stocktwits.com/Goldaltcoins/message/666125437",
+   "fecha": "2026-10-09T06:41:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Apa.az",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Bitcoin price drops to $82,000",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xSVdITGhxTGhuMW94eFhSUFJOZXYzcy1aRC1DUkxDUk1jbHBxMHQxc2R6YkNFT2o4SkVoOUk3c0RhQ2c1WEhOcGdPcUFsNkg2dmxzSzgybnlpUEh1dDl4VDlmc0U0dlc0a24yQUVxSVdXVEJoSldDZnJjT1Nhdw?oc=5",
+   "fecha": "2026-10-09T04:48:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$NBIS when interest in $PYTH.X ? $VZ $T RWA 📈",
+   "autor": "Ver13",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Ver13/message/666123599",
+   "fecha": "2026-10-09T04:34:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Motorsport.com",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "2026 MotoGP Indonesian Grand Prix – How to watch, session times & more",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZUdYLW5KUWtmQ1NZTjA3aFl4OHFQMml4c1JjTGtlemg0RkN2VGI0LXZDYzlCMUlZTjVNN2xaNVlRSTlRaWZkRVQzYlhYcFl3Um90bEdOeEVRUlNlaHhERER3YVp5MVdqel9UdkRnRXlpQUJKZmNHWGRZY3NtOG41VDdrM3lHdGpXQjljNmZaYVFIYnhEaEZFUWFPQlBsSTRZRk9DZEtoU2hYRlFMT3c?oc=5",
+   "fecha": "2026-10-09T02:30:47+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$CRCL sheesh! $PYTH.X ”The Pyth DAO has approved a revenue buyback rule under OP-PIP-136 that directs 100% of funds received from Pyth products to accumulating PYTH in the Reserve, up from 33%. Stablecoin receipts fund open-market PYTH purchases carried out through a…",
+   "autor": "Ver13",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Ver13/message/666116961",
+   "fecha": "2026-10-09T00:46:02+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Peter Brandt Favors Monero Over XRP Despite Bullish Price Targets Veteran trader Peter Brandt identifies a potential XRP move to $2.16 but warns that overhead selling pressure could obstruct its advance. He favors monero’s chart setup, viewing all of its comparable supply…",
+   "autor": "crypto.at.thenote.app",
+   "url": "https://bsky.app/profile/crypto.at.thenote.app/post/3mxfnljgtgc24",
+   "fecha": "2026-10-08T23:49:46+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Howl.link",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "VLNS (@0xVLNS) on X",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBpUmNySVpnRU1jTXhnVGpmcTdJaC1EckZZQXBCdTVSMWlTQURvSTdYNkc1MWlISFByMUFJ?oc=5",
+   "fecha": "2026-10-08T21:25:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Santiment",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "Crypto Selloff Deepens, Few Tokens Avoid the Bloody Abyss",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMUFMOXN5YzFYMEtIcGZEMlIxNm5aem5Jb1FfTFRNQWxfbldjVVNPdGpVSkVjaFY4bjl4QjczYXlkNkc2S1h1QU5JWXBfQ1JkanBxUW5aYlpST1hhRFdfNDVPbkl0SEhINXY1OHVvb3lWNFdFeW14TmhwSHhPWGtIUlpuRDJ2bnBuejhYNlNSc3BCVXFWUktGUHdtMXBDeHBVZlp2Mg?oc=5",
+   "fecha": "2026-10-08T20:19:59+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Is a new ATH on the cards after MET’s price breakout pushes it by 58%?",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeldaYVNnbHBjUjBFb3gzZlhORnBhUkRlTDZEdDBCYnQydklOVUdaRUdWM0ozYzBVUmdZYWQ5c1FtRWZVM1hEbUNFOW9xQUhLWWZxN2xsT1UwSVJJa3BuWDVjc19qOEY4SllhZXpYLXR4bzRhT2s4U0tEdnVoYUo1VTBNbTFVc1UycDVPVEJES1diRUdH?oc=5",
+   "fecha": "2026-10-08T19:30:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "QNT",
+   "titulo": "Quant (QNT) price rises 4.14% in one hour but r...",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMll5aHd3YTlqVTloZkJkSl9NN0ZQWmJlNmdPakY1NWJuUUlYSlJuaHhXVUlSdG5KMkotRmctLVQyREVBVGQ3WUNkSlZYakVtSzFNcG5QYThJbXFIVDkyZHhUZ3pPbjVxbWJUSG9pci1RRkVWU2dOY05UaFBtUjE0eHB6SjNYQXhjR1J5NmlyQUdtR2k4dFh3?oc=5",
+   "fecha": "2026-10-08T19:05:29+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "LatestLY",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "BlackRock USD Institutional Digital Liquidity Fund Price (BUIDL INR)",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTnRMRnZTdS1IOTBnaDk1aW02UTNMZlpWT2g0RlpwTWY5WU9aemE5VDQ2VUR0M0hyUHVjWkhBZG03UnV1S200M2h2WGVPWlZETElCZFVwUWhIbHZjbEZnaUgtWW5sX3JpZzN1OVh5Tll5dkdoMzdyUHBCOGxBWVYtV1l5em44VkFidEhWUHZJcFNqS0xZYzNqNkZLUUZ1ZkJlcWRrSlUwZXp6XzFPMVM1elZFYi1ZSms?oc=5",
+   "fecha": "2026-10-08T18:28:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "IMDb",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "One Piece Officially Gets Replaced This Week by the Biggest Returning Anime",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqVEtCMVhEbVp0VWFlRUhYUFBqTktIRk1neGQ4T3lNN1J4QnEwLUNMRlI2aXlrTkZfckV1bVplR1JtSTA4Q0Q0amJVUDE0SGswZGxkZjYybFAyUllQb0xqU25lMGNrSUk?oc=5",
+   "fecha": "2026-10-08T18:21:09+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitcoinist.com",
+   "via": "Google News",
+   "moneda": "MET",
+   "titulo": "Binance Puts 400 BNB Behind A Meteora Trading Competition | Bitcoinist.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWRmVmU1aUtHclN0Y0JtdjV0V0ZhZzlCOHNfM2taZFRFX1N3ZWs0NDRUeWhQYndzWVdJRlFuVWtBTV9UNlZfb1NQaGMxMWJEc1hXUnViSzhsRjBHY0V0TE5xWnZOMHhLQjBiejJKSF85bEF2c1pIN2lHMmdsS1NQN0M2dzNaX2Za0gGOAUFVX3lxTFA5aHNGbXU0ZkxURmg2YXBCVXFMN18xMXI5ajdKY0VCa3NNMXRHdzk4ZnRCRGpfNUl0WkJEMUZ5amZLOFlmZGpTVjdYU2ROaTd6b0h3VHItOFBlZnZMQkFNcnVYdWZzYnAtMmtSY3AyRGdzT0pkOHNqWVRyNkUwaW1WMWVWZGtRSzVuVjlGM1E?oc=5",
+   "fecha": "2026-10-08T18:00:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Expert Unpacks Why $50 XRP Is No Fantasy, Just ‘Normal Bull Market Dynamics’",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjF0THJkMjFmR1EzeC02Y0F0b0tIN1YxZ01KWWFNUjBZWk84RWpxQkRPMWE2S2RNQjhPTElrRUVqbm1zdnotVzhGczVIYzQyeldRQ1hkbEhhZmhuZ0RCNFd1cWV6RGZLdXlYeVlJODFEeExaRE85bkZJVHZ0T2huY245bVlaaEVXTGJSbGwyLTRRWkNrQ3RyTjIxV0lQeEkzbVdjQnVVZTlwUGQ4VWdj?oc=5",
+   "fecha": "2026-10-08T17:28:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "OKB support pressure at $91.56: Technical outlook",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkxLd3hkdnlpTDJQdG5KUTNpNDJkdjJDOFVnSlNQZ3dHZ0FqQ0c3NmlHMHB6REpwXzFBVVJCVFU3akFGSTh6Rk5FbDVqQ1JpYlFNVExSMExoSEY0ZGdKUWpfeGwySUlLLV9DUGJpdjM4WFJkU0pZQS1HVVFxNDVfTnN5QnVKTW80X2xJdnhHaXp4ZWVpM0N0ag?oc=5",
+   "fecha": "2026-10-08T17:15:54+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "Jupiter leads crypto gains as most tokens fall, Bitcoin and Ether dip slightly",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN0dwb3l0SGxjeGllbnRqY2dPb3ZuZFlkNlRXTWRGeUFPRW51ODhtX0xNa3lNVWF5bk5tWHMxS3BjdmdBSVVpQXpfendEajZrVjMwODA3Vjl5WGZxUG9EeUlEX3lDT2xYUWZLd1VCVzBKYjN4TlZsQmttb19UM1RxMWcza1o5X1hWYklZUnkyaVlOWEJyRGk4?oc=5",
+   "fecha": "2026-10-08T12:21:33+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "Solana (SOL) Drops 3.46% Amid Broad Crypto Selloff",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwNEpER1d0ZGp0NlVjSHJZYVBhMHA4REgwLVZlYzdBSFFZTmJjNFBjcDduNlRmeUYzTjdfS2hMZmdrUUxDWi1PV1RRbVV4ajB5UU5lT0RubHVfZ25uQTY0RHFYLUstQnVHT3JrTHlXUnc?oc=5",
+   "fecha": "2026-10-08T12:04:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "OKB Drops 3.5% Amid Market Drift and Post-News Repricing",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyOHFjMVNLNURNbzJIUnZYV1o2UDh6NUZaYzdoVDdyZEhHS25RcjdjejBoYWg5SkJ6UVhjVGgwWmNpNjY1enRqOWJpSnA2V0hVSGNKSUhSNDNpaUVkblViQVJpNWZoQmg0M1JqOWdnNDQ?oc=5",
+   "fecha": "2026-10-08T05:05:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "LatestLY",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "OKB Price (OKB INR)",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FbHRuMUFUXzkxMnYxbERlbHlPNFJRcFExeGxGZS1sbUsweEZZdWdjNkx0MHRDNTRtWDZieU1DUU55Q1lfYVVFTm43ckh3TXpzWDhUY1QyMWJwY3lKMHNCcjh5cWU4SklBYU9PNVlOUnFCQWVrTG1FQw?oc=5",
+   "fecha": "2026-10-08T03:18:38+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Yahoo Finance",
+   "via": "Google News",
+   "moneda": "OKB",
+   "titulo": "OKB Ogaki Kyoritsu Bank Selects Box as Its Content Platform to Centrally Manage Unstructured Data and Accelerate Secure AI Adoption Across the Bank",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZE1FZTQ3S3R6dm9CUEo2MzBsTWxxVzl1UDlmVk5uWktQdkVSVXBpUmlnMXNZc1dzNDVBZ1c5eUs4aEpLTkZaeWhrbnItTFJGQklRWGpfVkc5UkM3MU1la055cHgtdTY5VTl6S0t4V1BmT01IVmV5Y0NYbVpOVUJRS3ZMT3hyNTNxbjZPa3NjaU5xMy0zTGhMamNZSQ?oc=5",
+   "fecha": "2026-10-08T02:00:00+00:00"
+  }
+ ],
+ "posturas_stocktwits": {
+  "AAVE": {
+   "Bullish": 6,
+   "Bearish": 1
+  },
+  "JST": {
+   "Bullish": 3,
+   "Bearish": 0
+  },
+  "ZRO": {
+   "Bullish": 2,
+   "Bearish": 0
+  },
+  "OKB": {
+   "Bullish": 5,
+   "Bearish": 1
+  },
+  "JUP": {
+   "Bullish": 14,
+   "Bearish": 0
+  },
+  "MET": {
+   "Bullish": 5,
+   "Bearish": 0
+  },
+  "PYTH": {
+   "Bullish": 13,
+   "Bearish": 0
+  },
+  "STRK": {
+   "Bullish": 9,
+   "Bearish": 1
+  },
+  "XMR": {
+   "Bullish": 6,
+   "Bearish": 0
+  },
+  "QNT": {
+   "Bullish": 12,
+   "Bearish": 1
+  }
+ },
+ "fallas": []
+}
