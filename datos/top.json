@@ -2,14 +2,14 @@
  "fecha": "2026-10-10",
  "monedas": [
   {
-   "coin_id": "jupiter-exchange-solana",
-   "simbolo": "JUP",
-   "nombre": "Jupiter"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "jupiter-exchange-solana",
+   "simbolo": "JUP",
+   "nombre": "Jupiter"
   },
   {
    "coin_id": "layerzero",
@@ -22,14 +22,14 @@
    "nombre": "Meteora"
   },
   {
-   "coin_id": "starknet",
-   "simbolo": "STRK",
-   "nombre": "Starknet"
-  },
-  {
    "coin_id": "aave",
    "simbolo": "AAVE",
    "nombre": "Aave"
+  },
+  {
+   "coin_id": "starknet",
+   "simbolo": "STRK",
+   "nombre": "Starknet"
   },
   {
    "coin_id": "okb",
