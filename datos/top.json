@@ -22,11 +22,6 @@
    "nombre": "Meteora"
   },
   {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
-  },
-  {
    "coin_id": "starknet",
    "simbolo": "STRK",
    "nombre": "Starknet"
@@ -35,6 +30,11 @@
    "coin_id": "aave",
    "simbolo": "AAVE",
    "nombre": "Aave"
+  },
+  {
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   },
   {
    "coin_id": "pyth-network",
