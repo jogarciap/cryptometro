@@ -22,19 +22,9 @@
    "nombre": "Meteora"
   },
   {
-   "coin_id": "aave",
-   "simbolo": "AAVE",
-   "nombre": "Aave"
-  },
-  {
    "coin_id": "jupiter-exchange-solana",
    "simbolo": "JUP",
    "nombre": "Jupiter"
-  },
-  {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
   },
   {
    "coin_id": "near",
@@ -42,14 +32,24 @@
    "nombre": "NEAR Protocol"
   },
   {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
+   "coin_id": "aave",
+   "simbolo": "AAVE",
+   "nombre": "Aave"
+  },
+  {
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
   },
   {
    "coin_id": "okb",
    "simbolo": "OKB",
    "nombre": "OKB"
+  },
+  {
+   "coin_id": "layerzero",
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
   }
  ]
 }
