@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-10",
+ "fecha": "2026-10-11",
  "monedas": [
   {
    "coin_id": "just",
@@ -7,14 +7,9 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "jupiter-exchange-solana",
-   "simbolo": "JUP",
-   "nombre": "Jupiter"
-  },
-  {
-   "coin_id": "layerzero",
-   "simbolo": "ZRO",
-   "nombre": "LayerZero"
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
   },
   {
    "coin_id": "starknet",
@@ -32,24 +27,29 @@
    "nombre": "Aave"
   },
   {
+   "coin_id": "jupiter-exchange-solana",
+   "simbolo": "JUP",
+   "nombre": "Jupiter"
+  },
+  {
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
+  },
+  {
+   "coin_id": "near",
+   "simbolo": "NEAR",
+   "nombre": "NEAR Protocol"
+  },
+  {
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
+  },
+  {
    "coin_id": "okb",
    "simbolo": "OKB",
    "nombre": "OKB"
-  },
-  {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
-  },
-  {
-   "coin_id": "quant-network",
-   "simbolo": "QNT",
-   "nombre": "Quant"
   }
  ]
 }
