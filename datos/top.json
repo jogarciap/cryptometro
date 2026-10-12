@@ -1,15 +1,45 @@
 {
- "fecha": "2026-10-11",
+ "fecha": "2026-10-12",
  "monedas": [
+  {
+   "coin_id": "wormhole",
+   "simbolo": "W",
+   "nombre": "Wormhole"
+  },
+  {
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
+  },
+  {
+   "coin_id": "near",
+   "simbolo": "NEAR",
+   "nombre": "NEAR Protocol"
+  },
+  {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
+   "coin_id": "layerzero",
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
+  },
+  {
+   "coin_id": "conflux-token",
+   "simbolo": "CFX",
+   "nombre": "Conflux"
+  },
   {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
   },
   {
    "coin_id": "starknet",
@@ -20,36 +50,6 @@
    "coin_id": "meteora",
    "simbolo": "MET",
    "nombre": "Meteora"
-  },
-  {
-   "coin_id": "near",
-   "simbolo": "NEAR",
-   "nombre": "NEAR Protocol"
-  },
-  {
-   "coin_id": "aave",
-   "simbolo": "AAVE",
-   "nombre": "Aave"
-  },
-  {
-   "coin_id": "jupiter-exchange-solana",
-   "simbolo": "JUP",
-   "nombre": "Jupiter"
-  },
-  {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
-  },
-  {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
-  },
-  {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
   }
  ]
 }
