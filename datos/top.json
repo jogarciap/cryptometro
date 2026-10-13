@@ -22,24 +22,24 @@
    "nombre": "LayerZero"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
    "coin_id": "bitway",
    "simbolo": "BTW",
    "nombre": "Bitway"
   },
   {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
    "coin_id": "blockstack",
    "simbolo": "STX",
    "nombre": "Stacks"
+  },
+  {
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   },
   {
    "coin_id": "near",
