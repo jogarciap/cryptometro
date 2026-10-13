@@ -2,6 +2,11 @@
  "fecha": "2026-10-13",
  "monedas": [
   {
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
@@ -17,9 +22,9 @@
    "nombre": "LayerZero"
   },
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
   },
   {
    "coin_id": "pyth-network",
@@ -27,9 +32,9 @@
    "nombre": "Pyth Network"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
+   "coin_id": "bitway",
+   "simbolo": "BTW",
+   "nombre": "Bitway"
   },
   {
    "coin_id": "blockstack",
@@ -40,11 +45,6 @@
    "coin_id": "near",
    "simbolo": "NEAR",
    "nombre": "NEAR Protocol"
-  },
-  {
-   "coin_id": "bitway",
-   "simbolo": "BTW",
-   "nombre": "Bitway"
   },
   {
    "coin_id": "celestia",
