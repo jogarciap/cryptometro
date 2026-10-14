@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-13",
+ "fecha": "2026-10-14",
  "monedas": [
   {
    "coin_id": "sonic-3",
@@ -7,19 +7,14 @@
    "nombre": "Sonic"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
    "coin_id": "starknet",
    "simbolo": "STRK",
    "nombre": "Starknet"
   },
   {
-   "coin_id": "layerzero",
-   "simbolo": "ZRO",
-   "nombre": "LayerZero"
+   "coin_id": "optimism",
+   "simbolo": "OP",
+   "nombre": "Optimism"
   },
   {
    "coin_id": "bitway",
@@ -27,29 +22,34 @@
    "nombre": "Bitway"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "blockstack",
-   "simbolo": "STX",
-   "nombre": "Stacks"
-  },
-  {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
    "coin_id": "near",
    "simbolo": "NEAR",
    "nombre": "NEAR Protocol"
   },
   {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
    "coin_id": "celestia",
    "simbolo": "TIA",
    "nombre": "Celestia"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "coin_id": "render-token",
+   "simbolo": "RENDER",
+   "nombre": "Render"
   }
  ]
 }
