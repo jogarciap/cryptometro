@@ -2,11 +2,6 @@
  "fecha": "2026-10-14",
  "monedas": [
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
-  },
-  {
    "coin_id": "starknet",
    "simbolo": "STRK",
    "nombre": "Starknet"
@@ -15,6 +10,11 @@
    "coin_id": "optimism",
    "simbolo": "OP",
    "nombre": "Optimism"
+  },
+  {
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
   },
   {
    "coin_id": "bitway",
@@ -32,11 +32,6 @@
    "nombre": "Aerodrome Finance"
   },
   {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
-  },
-  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
@@ -50,6 +45,11 @@
    "coin_id": "render-token",
    "simbolo": "RENDER",
    "nombre": "Render"
+  },
+  {
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
   }
  ]
 }
