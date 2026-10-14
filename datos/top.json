@@ -22,11 +22,6 @@
    "nombre": "Bitway"
   },
   {
-   "coin_id": "near",
-   "simbolo": "NEAR",
-   "nombre": "NEAR Protocol"
-  },
-  {
    "coin_id": "aerodrome-finance",
    "simbolo": "AERO",
    "nombre": "Aerodrome Finance"
@@ -37,19 +32,24 @@
    "nombre": "Bitcoin"
   },
   {
+   "coin_id": "near",
+   "simbolo": "NEAR",
+   "nombre": "NEAR Protocol"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
   },
   {
-   "coin_id": "render-token",
-   "simbolo": "RENDER",
-   "nombre": "Render"
-  },
-  {
    "coin_id": "filecoin",
    "simbolo": "FIL",
    "nombre": "Filecoin"
+  },
+  {
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   }
  ]
 }
