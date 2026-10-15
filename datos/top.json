@@ -1,25 +1,10 @@
 {
- "fecha": "2026-10-14",
+ "fecha": "2026-10-15",
  "monedas": [
   {
-   "coin_id": "starknet",
-   "simbolo": "STRK",
-   "nombre": "Starknet"
-  },
-  {
-   "coin_id": "optimism",
-   "simbolo": "OP",
-   "nombre": "Optimism"
-  },
-  {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
-  },
-  {
-   "coin_id": "bitway",
-   "simbolo": "BTW",
-   "nombre": "Bitway"
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   },
   {
    "coin_id": "aerodrome-finance",
@@ -27,14 +12,9 @@
    "nombre": "Aerodrome Finance"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
-   "coin_id": "near",
-   "simbolo": "NEAR",
-   "nombre": "NEAR Protocol"
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
   },
   {
    "coin_id": "just",
@@ -42,14 +22,34 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "coin_id": "bitway",
+   "simbolo": "BTW",
+   "nombre": "Bitway"
+  },
+  {
+   "coin_id": "blockstack",
+   "simbolo": "STX",
+   "nombre": "Stacks"
+  },
+  {
+   "coin_id": "starknet",
+   "simbolo": "STRK",
+   "nombre": "Starknet"
+  },
+  {
+   "coin_id": "basic-attention-token",
+   "simbolo": "BAT",
+   "nombre": "Basic Attention"
   }
  ]
 }
