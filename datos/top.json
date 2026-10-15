@@ -12,19 +12,14 @@
    "nombre": "Aerodrome Finance"
   },
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
   },
   {
    "coin_id": "whitebit",
@@ -32,9 +27,14 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "bitway",
-   "simbolo": "BTW",
-   "nombre": "Bitway"
+   "coin_id": "starknet",
+   "simbolo": "STRK",
+   "nombre": "Starknet"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
    "coin_id": "blockstack",
@@ -42,14 +42,14 @@
    "nombre": "Stacks"
   },
   {
-   "coin_id": "starknet",
-   "simbolo": "STRK",
-   "nombre": "Starknet"
+   "coin_id": "xdce-crowd-sale",
+   "simbolo": "XDC",
+   "nombre": "XDC Network"
   },
   {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   }
  ]
 }
