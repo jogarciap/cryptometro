@@ -47,9 +47,9 @@
    "nombre": "Celestia"
   },
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
+   "coin_id": "basic-attention-token",
+   "simbolo": "BAT",
+   "nombre": "Basic Attention"
   }
  ]
 }
