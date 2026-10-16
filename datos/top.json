@@ -12,11 +12,6 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
-  },
-  {
    "coin_id": "aerodrome-finance",
    "simbolo": "AERO",
    "nombre": "Aerodrome Finance"
@@ -27,14 +22,14 @@
    "nombre": "NEAR Protocol"
   },
   {
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
+  },
+  {
    "coin_id": "layerzero",
    "simbolo": "ZRO",
    "nombre": "LayerZero"
-  },
-  {
-   "coin_id": "starknet",
-   "simbolo": "STRK",
-   "nombre": "Starknet"
   },
   {
    "coin_id": "bitcoin",
@@ -47,9 +42,14 @@
    "nombre": "Celestia"
   },
   {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
+   "coin_id": "starknet",
+   "simbolo": "STRK",
+   "nombre": "Starknet"
+  },
+  {
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
   }
  ]
 }
