@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-15",
+ "fecha": "2026-10-16",
  "monedas": [
   {
    "coin_id": "pyth-network",
@@ -7,19 +7,24 @@
    "nombre": "Pyth Network"
   },
   {
+   "coin_id": "injective-protocol",
+   "simbolo": "INJ",
+   "nombre": "Injective"
+  },
+  {
+   "coin_id": "near",
+   "simbolo": "NEAR",
+   "nombre": "NEAR Protocol"
+  },
+  {
+   "coin_id": "filecoin",
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
+  },
+  {
    "coin_id": "aerodrome-finance",
    "simbolo": "AERO",
    "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
   },
   {
    "coin_id": "starknet",
@@ -27,9 +32,9 @@
    "nombre": "Starknet"
   },
   {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
+   "coin_id": "layerzero",
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
   },
   {
    "coin_id": "bitcoin",
@@ -37,19 +42,14 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
+   "coin_id": "sonic-3",
+   "simbolo": "S",
+   "nombre": "Sonic"
   },
   {
-   "coin_id": "xdce-crowd-sale",
-   "simbolo": "XDC",
-   "nombre": "XDC Network"
-  },
-  {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
   }
  ]
 }
