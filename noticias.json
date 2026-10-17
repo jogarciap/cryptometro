@@ -1,0 +1,1294 @@
+{
+ "generado": "2026-10-17T15:44:30+00:00",
+ "monedas": [
+  {
+   "simbolo": "INJ",
+   "nombre": "Injective"
+  },
+  {
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
+  },
+  {
+   "simbolo": "TIA",
+   "nombre": "Celestia"
+  },
+  {
+   "simbolo": "FIL",
+   "nombre": "Filecoin"
+  },
+  {
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
+  },
+  {
+   "simbolo": "A",
+   "nombre": "Vaulta"
+  },
+  {
+   "simbolo": "XMR",
+   "nombre": "Monero"
+  },
+  {
+   "simbolo": "XDC",
+   "nombre": "XDC Network"
+  },
+  {
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  }
+ ],
+ "items": [
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🔴 31.34M USDT (Tron) → Binance-Hot 4 From Binance-Hot 7. Stablecoin moving toward an exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3my3gg6tzyy2i",
+   "fecha": "2026-10-17T15:40:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin falls as downside momentum and selling pressure intensify",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTlR3Sy1iby1vZFVsSEFNbW1mWklSRVktc1FWNGd3bnNLbEJGenlxaGRuQXpaTDZwNW15RlFjeGxMQ2FjTGFwZWdiZFRNRDJEUXE5MU1FOElCUHJnNENuLU9EZDhCclZHWUE0WGNieU5PeXJLUnhMR0RUMm9pTlItQnBSRjYzQmtkS0Z4cHRCNG9XUS1yS0dnX0RXclAxUWww?oc=5",
+   "fecha": "2026-10-17T15:33:58+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "TRX",
+   "titulo": "Made this on Pinterest for my “hottest”/debatable take on tron, it’s probably gonna get me chased by an angry mob with torches and pitchforks",
+   "autor": "r/tron",
+   "url": "https://www.reddit.com/r/tron/comments/1x8czj9/made_this_on_pinterest_for_my_hottestdebatable/",
+   "fecha": "2026-10-17T15:26:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "🔥 Trending in crypto right now: 1. QTC Quantus 2. STRK Starknet 3. PRL Pearl 4. INJ Injective 5. NEAR NEAR Protocol Full list with live prices: https://cryptocurrency.com.tr/trending #Crypto #Trending #Trading #Bitcoin #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3my3fg4xhaw2o",
+   "fecha": "2026-10-17T15:22:10+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$INJ.X broke out of the September range and tagged the 9.27 extension. Now pulling back toward the old range top. 8.30 – 8.10 is the buying area to hold for the next leg higher to 9.89. A drop back below 8.10 would put the breakout at risk. Retest buy or fakeout?",
+   "autor": "AlienOvichO",
+   "postura": null,
+   "url": "https://stocktwits.com/AlienOvichO/message/666769640",
+   "fecha": "2026-10-17T15:21:25+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "Monero Vegas is officially back! 🚀 Relaunch update, new features and a big surprise! 🎁",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1x8cpj0/monero_vegas_is_officially_back_relaunch_update/",
+   "fecha": "2026-10-17T15:14:44+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin (FIL) trades near $1.15 ahead of its S...",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZDkyNVNaNTkyUFJFdFNRSXdPWnFrUTJ4MHRfa3h2THJpLXg1SjhoX1lIckh3QWI2ME82aUp4bFg2bGJFZDZhVWpiNkN2N3IxbDRraTNvemdyLXhlaHVyU3BsVXM0S3U2amRLMXRCTnVkbTRDeVk1bDBhSFdYTVBYdDd1VU5ReE16c0tmdTUzUmRNUTFPTlhsZDBvcGw1MWM?oc=5",
+   "fecha": "2026-10-17T14:33:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$INJ.X at $300 it would have a MC 30B. What is 30B in crypto during the bull run? Its nothing for crypto like $INJ.X",
+   "autor": "KK_79",
+   "postura": null,
+   "url": "https://stocktwits.com/KK_79/message/666767815",
+   "fecha": "2026-10-17T14:07:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CarTrade",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Compare Volvo EX90 vs Mercedes-Benz AMG E53 Cabriolet vs Audi e-tron",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNekhNSXVCRnQxeTFyQmxDRFVxdmYzSURES0l1cWZnc3dGMXMtTzc1ZW45MWxtSnZwdE1xUV9BQ0dtQTdJMjlBeHdUWjhzZkVFeE52S195dDJDRXE3ZFZuakYzdjg3bXhYZnd5TjY2bXprSjFULVF6WUZ2LVF4dTBKX2J3amt4YU5ERm5PNnktNGZnSFlWcTBDenBn?oc=5",
+   "fecha": "2026-10-17T14:06:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Businesses accepting USDT on TRON may face vari...",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb042aXVNODhPa3JMalA1NUZiY1JqUWF6cDlnVWxmNmk5VC00WVd1SXNFY0NiWi1CMF9fdW1MWHI5bEgwMnI3VHVKVFhyOVhTakRQeFdYOURFOTRqeWYzQmlNX2Z2TlpyNGVLUEVPNXpqb2J6MXYyenpkVFd1UWQ4eFY3M3NURFlGcG9MZTF6R2dvYTJTbGc?oc=5",
+   "fecha": "2026-10-17T14:05:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Hyperliquid, Monero or Bitcoin: Which Could Hit a New All Time High First?",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU0hmOHZCT1EwVkFYei1yWDJZaVhMMGxmWkFQLV9zMEhoVEtHRzZzLUdVS3g3UV9PNVFRR24xeWk2YmEwVGdBTl9IM19lMENVMlVueVFvU3RGcGpxN1N1VXNYb01fNGo2eXdfMUhOZWIyYlc5YlBxOGlMMENVbWg3c2loY2xmUVRuWUlCUlY3SVhFaDVwaW9hVXNmalFGZFpRX0JGVXFwalp0TGRua1dPdHVaT0hwdzBUU0JFVkRaN0ZNUFM5YTQ4UUV3?oc=5",
+   "fecha": "2026-10-17T14:00:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tron Price Prediction: $2.21T in Quarterly Stablecoin Settlement Highlights the Market Behind Remittix's PayFi Push",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV3RIcWE0dUdtY2tQb0lIQW1rbkZieDh4RjhSVzYwU3VmMnhuVnVneTlDUFdHU0VhVDd2cjg4V0VuQjFmSU5ubUdGTFlHcnYwZVFjbGhIT1ZtSkxMdVhVdWtyVFRNcU5MMzc1Q3ltRjBqZ2VPNW85cURRZXZwbXpBNWJoY3hjS3NFZ2xHamg0Y0w?oc=5",
+   "fecha": "2026-10-17T13:38:47+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AutoNext.co",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Audi Q4 e-tron loses more value than the average Chinese EV",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1rdTNJT2t2bndxMERxTjB3SllVYU83eHVCTTdsdV9ndGVFRFBTTlF2SVZaLUZ0MVNKVXlaTERVSXIxd0oyOFEwTkNJR1JUQV9yUlhRcTg2UGFPVFUwcEktNFM5d1JuYkJhUkFmNVY0aFkxVFBtUXc?oc=5",
+   "fecha": "2026-10-17T13:35:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "TRON's TRX nears October target price, trading at $0.3356 with resistance near $0.34",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWd1b0xXbUpJTWY3R28xM0JJU25wS3BqbjZvRDFuUUhQTUt5cHdXVGJoejRhS2ZnRjFQYTVPVm9zdDUwa2xFYnpKTXhURmhsYzNBN05hSXZQWjIzcC1naGdTc2hGdU82Z1ZzZXB1eWE3clNUX0taSGt3NjVRYzl4YlFiYTRONTBhSVdIQWhFUEw4TjRaZFFPdjRtaE1hM3J4Wi11M2ZEa19zVmVH?oc=5",
+   "fecha": "2026-10-17T13:35:11+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans Celestia jumped 16%, injective rose 7.7% and layerzero added 7.3% while bitcoin held little changed near $82,100 and Fed Chair Warsh gave no sign on interest rates. #altcoin #btc #crypto",
+   "autor": "crypto.at.thenote.app",
+   "url": "https://bsky.app/profile/crypto.at.thenote.app/post/3my377tgtc224",
+   "fecha": "2026-10-17T13:31:16+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZRO",
+   "titulo": "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans Celestia jumped 16%, injective rose 7.7% and layerzero added 7.3% while bitcoin held little changed near $82,100 and Fed Chair Warsh gave no sign on interest rates. #altcoin #btc #crypto",
+   "autor": "crypto.at.thenote.app",
+   "url": "https://bsky.app/profile/crypto.at.thenote.app/post/3my377tgtc224",
+   "fecha": "2026-10-17T13:31:16+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "TRON Is One of the Few Big Coins Up Over Two Weeks. Is TRX a Better Buy Than Ethereum?",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWGd0MkJuc2lXaHJxbS1Nb3ZfVWhiMmJFc2pqREk1cDN2S2t1eGh5X2V2QXJHVmhnV0x3bng3VGJSOVhzb0g5R1B4RlYtRlI1NTctZDdGOUJpS000RjNNb18zNlk0SVRud0VCeHlrUmFhc0dUbWhoLV9iVFhjLWVpNWpGX09HZUtlcVRwOWFGWUc0c2FaWHFlVzZLdExkNFZLbTdldTJISHFOVGtFQXlEc3VIMUZ6V3MxYWVrclZUV19jdHVJWGU0aXlzb2ZVODN6cXlveXEzLVRiZm8?oc=5",
+   "fecha": "2026-10-17T13:30:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Most top cryptocurrencies fell; LayerZero (ZRO) dropped nearly 13% while Celestia (TIA) gained 9%.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0VxVXQ2TmRFM0pPMGFCbkxlZ1RJTklwbGJQTlIwSnZRZGZmbkxIZ3lQRTlkN2dLUnNUQzFFeDhhZFVNdHBTMlp2SHctRWZIMWRIXzFHdldLd2c0TVQweGxtSTRKZTZFblNRWlh3NWFGZFBuOFVWRVpmU2pWU1gxbGs4ZnQzeXh3UTNta0oxeDhSZ3lhdzVWNkh0Zw?oc=5",
+   "fecha": "2026-10-17T12:46:48+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "Most top cryptocurrencies fell; LayerZero (ZRO) dropped nearly 13% while Celestia (TIA) gained 9%.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0VxVXQ2TmRFM0pPMGFCbkxlZ1RJTklwbGJQTlIwSnZRZGZmbkxIZ3lQRTlkN2dLUnNUQzFFeDhhZFVNdHBTMlp2SHctRWZIMWRIXzFHdldLd2c0TVQweGxtSTRKZTZFblNRWlh3NWFGZFBuOFVWRVpmU2pWU1gxbGs4ZnQzeXh3UTNta0oxeDhSZ3lhdzVWNkh0Zw?oc=5",
+   "fecha": "2026-10-17T12:46:48+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "U.Today",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "MoneyGram Joins XDC Network as Institutional Validator",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd182MVpQRHExNlNGS3h0M3ZlbkRZbFpySWhTN1B2cGlvbFNFWE9OdmV3Q3B0TXJzd0MwUUgyRzd4QWtTUTVqYWJWN0lWT3hTQXN2NG5rQUk4UFNqTUozOG54TEFFZ0ZKN0RFZlBoUUdwZ1BUd1doOXNEVGQ5TE5TOHFQQ1VNTVVabXQ4eTln?oc=5",
+   "fecha": "2026-10-17T12:41:11+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🟢 11.60M USDT (Tron) ← Kucoin 4 To TR8tHe…1oEu. Stablecoin withdrawn from exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3my34ecufi62i",
+   "fecha": "2026-10-17T12:40:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coinfomania",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Expands ETF Coverage with New Market Data",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd3RsWlI1ZnhBOHVPd1ZYdWhKLWpRRUgzVUJla0RmamkyeG83VmNQek96dENpaFhBd0EtRXQzdkdHLVJDd2JVT3I3NFIwU2xNa0E2QWxfdTRoRUpmWlN2UXFKeVNNXzlxcXdsWXRtNkxYYzJNbjRKMTI3UkRZR0Jxd3otcks5dw?oc=5",
+   "fecha": "2026-10-17T12:36:50+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero releases bug-fix update 0.18.5.4 as XMR price rises 6.93% amid regulatory challenges in Germany.",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZmlxT3h5ZTI0ZW5SQ3V4WHlhNGZyR1BXNC1VOU54a0hMNDlHYUE4Uy1rX3hqb2VSYzBmMlhHWGpyRHBUeGhldl9abnpNcHE3MTgwM1ZmalYtQndfdVg5TWtQelptd3VUUDFwdmRMVmt6OFhJOHZiYTAzTkJlSVB5VmpTYUl4R1JQRTN4dU5QOC1CNWJkaVp2dVJXZjU?oc=5",
+   "fecha": "2026-10-17T12:34:52+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Celestia (TIA) price jumps 18%, revealing stark gains and losses on leveraged positions.",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLWltcnlEMklMNng0NjlMblY2Y2VBRTJuTThxeTJ1SzVGdUlDTTdzTFRBc2RrVjVOSzVWMG1DYnlUX3l1VUY4OHppY3Z0aVI0UmtfVFN6aFZBcGJUclppZk43OENTNTNEMmlBWVFSTV9WNjhTYVVLb1dzcGlvMmRja3VhUzc1RTgza3JpYk02cmVpX0RjODJmaEIzNXpPalJvbldIRw?oc=5",
+   "fecha": "2026-10-17T12:34:50+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tron Price Prediction: $95B in Stablecoins Piles Onto Tron as $16,000 in Pepeto Eyes a 300x Run",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPajNmSExJeGVJVEh6MUJzaldLdWZMeUxwQ1doUlZDMHBqODZKVjF1VXRDZGRZYXcwamVLOWg3VGR6R0loTUJ6WVdYaHpBQ1JwTG5ORlNhcHhMMjRsQVBrYnk5THJlSnRDM1BQWG1pazUxaGp6d3BnQUdVQ21Ec1RIVEctZlRWajIzWE5oREZNM090WlpOVEJLeHRFUQ?oc=5",
+   "fecha": "2026-10-17T12:28:44+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoTicker",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero 0.18.5.4 update: XMR at $558 weekly high",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVUmg2bl91S1VuYU4tenQwVFRYalZoWndsaEtSOFpLYkoyLWpRRVJ4SzNfY0ZyT0d5QzF3MnNQaTBEQjJfbDVhX19oSXFnd1lPR1ctRnVrWExBMG1nYVg2aDNVeGNBMUIyQmNpNldn?oc=5",
+   "fecha": "2026-10-17T12:17:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Binance",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Shae Cassler Sw9r(@Mohammed438)'s insights",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tYmJMdEMyYVlSenU1S3dRZWx1ckRUSjhfWFRYUEtQWlV3bUlHcl80a3g1MlUzV055V0FPaDBrSC1Cb1V2TTF4ZEtYOW5EcHRMY29tQ0dDWHhIN2tJMWgzYk1PUGw?oc=5",
+   "fecha": "2026-10-17T11:53:41+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coin Gabbar",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "What Is Injective? Why a Thai Conglomerate Joined as Validator",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbTZLTmpmX1lpMjBnTDBSNzhNQkNjMGZqVHR1VjhFQWtHY1c2WFJoVUc1MENPd2lWb3Utd1hweUxmTXQ3TXVpNXVYZ3Y2Mk5qeGNBQTRfYzVoWHIzb21LSnhLTW5lZWdGcTlON3J3TU1ycEgtdzBrWlRmZjdCUmxRY3RWT3RyTEZq?oc=5",
+   "fecha": "2026-10-17T11:45:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Celestia (TIA) leads crypto gainers with a 21.7...",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDFfSWhlekNtRS1CcHVreFlMb2J6eGNNX1ZYS1o0YUpyUFZyVWNPOEhiUFI2djhmU2l1ZkZ1OW43a0VhVzJHdXd3b3NzQ0xvMzdkTklrZmJzMXF2VzJpdWg0bWJEYnFZX3JtWENKYTUwMEJKd05nQUZFRGt4UFZ3WEFrdTBNT1Y4UDJramNOYjNsZkZUbzh6NzJzd1M3eGtqRGV5cnl0bw?oc=5",
+   "fecha": "2026-10-17T11:24:55+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Binance",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Habib-00786(@Square-Creator-037a70acfcd7)'s insights",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNVm4yNlJ2ZVVkaGtBMjN3SVNGeGJoNnd0QXRxaVRockpaenFrVldnSFZFZEZ3VEZZYmtVTlBVT3ZJQVc4aXljU09zekU1TGI5T2pmNk85S0t3ci1weEdBbUh6TVU?oc=5",
+   "fecha": "2026-10-17T10:59:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Crypto News Today: Altcoins Outrun Bitcoin and Injective Jumps 25%, While Pepeto Buyers Chase a 150x Pepe Repeat",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUlZaGpFMVk0X3FxU2VKRjhkTzc5alcxdlJwSGZILW50T3Z3aWI4YVFpb3RpTmlnU0pmcV9FYk03QVZfQWlwbkdKZ3dLdUxXeEdXNjF3T0pwTXFSZkN2QXdZOHhIYjVrTGV2SFpOUGJCQU9hNjVObGl4d3lpLVBDdlppMlBua0NwUzloTXMyUVRwVTZUUlcwREJ3X3BJZw?oc=5",
+   "fecha": "2026-10-17T10:58:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🟠 Bitcoin price: $81,478 ⚪ Ethereum Price: $2,432 💰 Tron (TRX) price: $0.3355 📊 Bitcoin is now up 0.4% in the last 24 hours, down 1.5% in the last 7 days, up 6.7% in the last month and down 22% in the last year! 🤨 🤖 Generated by ChatGPT #Tron #Trx #ETH #BTC #crypto #trading…",
+   "autor": "holdtheton.bsky.social",
+   "url": "https://bsky.app/profile/holdtheton.bsky.social/post/3my2vhjhlb225",
+   "fecha": "2026-10-17T10:36:42+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3355 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3491 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3358…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/666764342",
+   "fecha": "2026-10-17T10:31:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "🐋 Big seller on $TIA $1.07M sold · price $0.6727 · 10:26 UTC",
+   "autor": "cryptodatanetwork.bsky.social",
+   "url": "https://bsky.app/profile/cryptodatanetwork.bsky.social/post/3my2uulnjl4ng",
+   "fecha": "2026-10-17T10:26:03+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "📊 Volume surge on $TIA 9.9× the usual · $9.82M in 5m · price $0.6917 (−3.1%) · 10:05 UTC",
+   "autor": "cryptodatanetwork.bsky.social",
+   "url": "https://bsky.app/profile/cryptodatanetwork.bsky.social/post/3my2tpemx4k2b",
+   "fecha": "2026-10-17T10:13:41+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "OneSafe",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective INJ Rises as Gulf Labs Leads Institutional Charge",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcVl4bjBmczNaQVFabTJyeDR4ZGZPS1hjMkhqRzNIRm85M0RKRnpnQXpFMk11MEpiMTJiUnM2RDZuQm5xNGo3OGdvTlJReUotdzNuRVJsdXY5SkpzS3VaLXVCQXlNSERqb3RNb0R1Uk5DdEFXYzVVYVZjYk5zdXdIN3o2RQ?oc=5",
+   "fecha": "2026-10-17T10:11:12+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network (PYTH) price drops nearly 9.5% ami...",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ0VReUNFTG1BSHRERm5ndWNhVXRTb25sTkk5c0dMb2FpZmRjQjVyQ1U5MERDY1RsOTBiLWtEb1hDM2JURlR2T040UU9wR2pDd2d6LWRzUmlFSXZ1bzJicmtSeFlqS1hUdk5iTGJyb3luQVZiRnp0VVJCTGNVMXR0bmdpckk?oc=5",
+   "fecha": "2026-10-17T10:08:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "🐋 $TIA whale sell $2.92M · price $0.6994 · 10:02 UTC",
+   "autor": "cryptodatanetwork.bsky.social",
+   "url": "https://bsky.app/profile/cryptodatanetwork.bsky.social/post/3my2tjz6zkxes",
+   "fecha": "2026-10-17T10:02:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Celestia (TIA) leads crypto gainers with a 16.5...",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSm85TXNURmVMV0x0WGRsbHZjc3NrZnJWVkswVFFERkFXekk5ZUc1NUhZcmFJVHVNemd0RnhtclhlVW5tSFZub25kejBLTG5iZEFpOG9UbExKX3ZkRVRlSzJhMVRSel9IaGdGaXV3blRPUVdCWkVwOUdTR0I3bUVXdVdxUEd6aFJENFpIa0xWZ1h0a1p0Y1V3REtuMklhVFRY?oc=5",
+   "fecha": "2026-10-17T09:46:22+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X key range between 0.10/0.11—getting through that could really set the tone here. Amongst the few cryptos that’s in a steady long term uptrend with a rising 200-D.",
+   "autor": "Momentum_SM",
+   "postura": null,
+   "url": "https://stocktwits.com/Momentum_SM/message/666763995",
+   "fecha": "2026-10-17T09:45:26+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective Price Targets $14 as RWA Markets Top 135 Live",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGhzNFg0dDBwdEkyMUVQYzR5NDdVN3FkSW5UaGtPU1RxRVktR1NtLV9FVVZlWGJ6SHZpZW5rbFU4X3I3S2k4OWI5Nm5VR0swV19DaFc0NXB4NTY5OGs1YlJBelZfTmhZaTJ6LU1uMzRacXdmbG05MXowVWxBQWp0aS1wLXVsZmNrT2tKOVMtT1pqUQ?oc=5",
+   "fecha": "2026-10-17T09:44:19+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🔴 35.56M USDT (Tron) → Binance-Hot 6 From Binance-Hot 7. Stablecoin moving toward an exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3my2scgvryc2q",
+   "fecha": "2026-10-17T09:40:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network data priced $2.04T of $2.16T in re...",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbEQtLWVEck1GU3k2TVBKVVVvUWJYZmhhWGVPRnljUWtKN1k4MlNmcU93cks4dHcwMWhhelBpNWN2VjBhVGdaM0diU25ycmp2M09SQVRvVkNURWx0UzBhNG5OeDU0bldiMG8tai15Rm0zSmJlS3BIWDE0OV8wWXRvdnlNNlRZTGg1U25rSnhB?oc=5",
+   "fecha": "2026-10-17T09:38:40+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective adds new USDC transfer route via LI.F...",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRXdsLXBXT3pmMTYxNWNROWp6dW9ac2NaekY4SVRmSGFrakFLNXdoVlFZN0dKdHY3Z09JT3p2bTdNZUtBWWtPckVHaXc4WHpMbVB0dmM4TjQzWTM0TnVxMjZWXzFjUU1WMEhXUUladzkxWUE3Q041eTZUZnRNV2JpRzYwTDY5a2NkMGo1X0kxN3dLWElMcHd2SnZIQXRkdkxnMUJZVUhoQmRCNkQzenc?oc=5",
+   "fecha": "2026-10-17T09:36:41+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Celestia Leads Crypto Gainers With 16.59% Rise as 59 Assets Fall",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HS3pRMktPSnVFM0JBdWhzeVVrS2ItMnVMSXhndmxJeS02S3c1MDQyY0xvUW9NRThENThxQWk0elJlaW5SOUswbHByeEp3aXN2R19xbzlwT1R4QQ?oc=5",
+   "fecha": "2026-10-17T09:25:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "TIA",
+   "titulo": "Celestia's TIA rises 23% following the Eden launch, faces resistance at $0.80",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLVBTS0ZlY2ZnWjdzczlwZFdwMU9aYjFpeU83YmpwZy1VdE03Z0lEUENGOEthQ1NUd1pHSS02ekwwcHRHcFR5RzAxSmJrXzJEVzZ1RW1mamc0bU5SQmotdWl4RXpvN1MtRGZNRG41bkxINlhMWW1KMHV2ek1HWFhzUXFSbFZWUlRobXlTclIxV1NfcFJ0NmdOeGVVMUluaVZrT0VJ?oc=5",
+   "fecha": "2026-10-17T09:23:49+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective Adds Jumper Route for USD Coin (USDC) as Transactions Top Three Billion",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqQTZUSkZScjJwWko4c0d5d0VjcUdnMWlYX3FFVDJzS2FSdU50VzkzbmVzcURQVncxTkVjc3lrcmZ6b0twVG9vR2k4UWN2a3JBbHZsRVVsY3F0MkE?oc=5",
+   "fecha": "2026-10-17T08:53:49+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero Price Today: ZRO to IDR = Rp34,610",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RdlJtNjNTVWYzVjZTdmpEeXdpRTVkN3BZZFpON0ZYeEo4cDJGS2tiSW1HMENObnV5b1h1allkNkw5blFtc2FXOExlOHhXc1ZYTHVsYUdFTQ?oc=5",
+   "fecha": "2026-10-17T08:46:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "LEO, HYPE tokens trade below benchmarks; TRON n...",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXpZQlFURTl2d0s2cnVRQUxoSjVBa0tGVFJCY2QzVi1lRzNYa2ZQZF9nZVp3bTRXV3d6dXJrNnpyMU5HVzFWY19hQTVnVEdaSko2SEt3Ri1CLUNtOXotYW1zdFA3blJMWGRQUlBWTEx0a1ppUlZPWElEYUhxZjJ0UXVOS1N4Zi1aR01ON3RB?oc=5",
+   "fecha": "2026-10-17T08:36:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TIA",
+   "titulo": "$TIA.X is approaching a make-or-break moment… Will $0.80 unlock the next move or trigger a surprise reversal? https://coinpedia.org/price-analysis/celestias-eden-launch-sends-tia-price-higher-but-0-80-resistance-looms/",
+   "autor": "Cryptomartin",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Cryptomartin/message/666763233",
+   "fecha": "2026-10-17T07:40:39+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "🔥 Top gainers: TIA +15% LIT +7% WLD +5% 👀 Negative funding rates and rising open interest could trigger a short squeeze, pushing BTC toward $82,000 2/2",
+   "autor": "hype-economics.bsky.social",
+   "url": "https://bsky.app/profile/hype-economics.bsky.social/post/3my2ktaw27k2e",
+   "fecha": "2026-10-17T07:26:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "🔥 Trending in crypto right now: 1. DACITY Dacity Coin 2. TIA Celestia 3. QTC Quantus 4. PRL Pearl 5. PONS Pons Full list with live prices: https://cryptocurrency.com.tr/trending #Crypto #Trending #Trading #Bitcoin #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3my2klrfu7f2e",
+   "fecha": "2026-10-17T07:22:08+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AERO",
+   "titulo": "$AERO.X is it me or this looks like it wants ton run in the weekend while bitcoin chopss",
+   "autor": "_bagholder",
+   "postura": null,
+   "url": "https://stocktwits.com/_bagholder/message/666763012",
+   "fecha": "2026-10-17T07:09:36+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero Rose 6.5% This Week While Zcash Fell 6%. Which Privacy Coin Is the Better Buy?",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlNxMTVZMmNSeVVIZmJlVS1ZUy1zM1JkaFMydTZGMTh6a21LRF9NeFZTRHZFRDBzZm4yUWctdEdRLUZPTFc3NmtWdS1XaDdNeGxfRmVkdWJJUTI0eDZ6VWN0R1RtYXFzS3RBMndJVlVqVmRkSENtVF9NdkRnRHkzeVJWOGQ2ejlNZGhKMF9naDRkbEFmLWIza2ZJTjRXNk93T0k1RDhUYTQ5OWFfa0xlcS14M01xUXhic0J5UFZueUx0emplbkhGMTBQbUx4dVhEUGgxS2NDYw?oc=5",
+   "fecha": "2026-10-17T07:06:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TIA",
+   "titulo": "Overnight in crypto. 📊 • 24h movers: TIA +12.0%, PYTH -10.9% • Starknet opens STRK holder vote on possible Ethereum L2 exit over quantum… — Cointelegraph • Market cap: $2.59T (-0.8% 24h) More → mycryptosignal.com Data, not advice.",
+   "autor": "mycryptosignal.bsky.social",
+   "url": "https://bsky.app/profile/mycryptosignal.bsky.social/post/3my2jh2k57m24",
+   "fecha": "2026-10-17T07:01:36+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "/r/Monero Weekly Discussion – October 17, 2026 - Use this thread for general chatter, basic questions, and if you're new to Monero",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1x83l6u/rmonero_weekly_discussion_october_17_2026_use/",
+   "fecha": "2026-10-17T07:01:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "FXStreet",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Top 7 crypto gainers this week: Celestia, Bitway, Injective",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEt3dGFMQ2ZuSHNPQXpGeEZXSWdnRTVhNG5mWDhnTklmXzNUYm1xMDhYTDVqYnJMWEw1NnNDU3Q4WFFLcGptdVVjQU1Pcjg1V1NOR1BOVGo5emhNWGNYdlI1dTFVaG9sVmlVRGhpaE5ZSEJpWlR2bzBSSm9DRS1XU2xSMjlqbkdiQVU2TFZhNUdnNFY1UUpBbDVBSzN3aV9ZUGhkZTlzaFNNVUFuYXFSQkZkV1lYa29lc3pMbmhSNEhIQQ?oc=5",
+   "fecha": "2026-10-17T05:56:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TIA",
+   "titulo": "$TIA.X Told you to get in. Had a whole year to stack. I have followers for a reason.",
+   "autor": "AmericanEvil",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/AmericanEvil/message/666761521",
+   "fecha": "2026-10-17T04:40:16+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coin Gabbar",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective News: INJ ETF Expands as Pentiv Brings $1B Mortgages Onchain",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcjFGNzltOGxUa1pZUkFRZFV3UHlwelBjUmYzNzBzejFpWGs5Wm5qVHNUc0FMdlM1R3BKRzJKUDR0dm5jcVBkTHlVUnFPTU1GaEYxWEdjWUJKYUprZWx6XzRXWUkzX3J3NTZ6Q1JZRExVdHpzcFVGckpqaWxNYUdvcUwwakR5WHc?oc=5",
+   "fecha": "2026-10-17T04:39:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3347 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3491 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3327…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/666761014",
+   "fecha": "2026-10-17T04:01:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AERO",
+   "titulo": "$AERO.X Big merger coming next week. This opportunity is endless. Loading up on as many coins as possible. 👆👆👆👆👆👆⬆️⬆️⬆️⬆️⬆️",
+   "autor": "Gojaime69",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Gojaime69/message/666760718",
+   "fecha": "2026-10-17T03:43:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin prepares Solstice upgrade, cutting dai...",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSWdDeklFT0ZmVFVRUHRUa2toX0xTM1k1N3FBRmJqeXRWTDYxZ3FxRFlCT081dmV2ODliNUlaOHIxaUQ0UnltMHJaeFkxV0RCUjZZNVBsdDhjUnlFM0txQUpUYWEyNTEyQ1NpVUsycmVHbS1OY3EwSjVULVVxY3ByRWZ0eVFGMGEzRzNiX0hvWQ?oc=5",
+   "fecha": "2026-10-17T03:15:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$INJ.X nice MC. forgot to mention. lotsa up",
+   "autor": "UCIdidmyDD",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/UCIdidmyDD/message/666758816",
+   "fecha": "2026-10-17T01:57:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$INJ.X i should have sooner , but adding to the RWA / token burn basket. stoke",
+   "autor": "UCIdidmyDD",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/UCIdidmyDD/message/666758785",
+   "fecha": "2026-10-17T01:55:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "New Network Features for Filecoin Aim to Attract Enterprises",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tOGIzRlhmWFRPeTJ1TDEwaElnVE5qZjlHeWtHd2dEc2VFNDVLS2o1MTFmLTNDc2FqUHVuM2FQNnZYUzYyUGRsZlI2RnFSallETFpsdDNhTk5tQQ?oc=5",
+   "fecha": "2026-10-17T00:39:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "markets.businessinsider.com",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "New Cryptocurrency: Remittix Locks In November 24 RTX Launch as XRP Price Prediction Targets $25 and Monero Bulls Build a $5,000 XMR Case",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQT3JkUVBzcFFSbkQxNHRkZDFONjhKQWtmeVN4LUp4dzlvemZSeWgzWWNicFhiY05jRk9XNEdBYkMyZ3hrT3N6WDFlMjFhUm9xQVNTVF80WkNabGw3QU5oSGNYZUlsY0xWU1RRdjF0LVJ1MWxwX1dNaFRGVGRkeU13ZnZuenVFNVZTUGdjS09uTFBZOGZRNXF3bVE1U09rUHNJRDJ4LVdxdVUzbVZYWUZROWY1RC02SmNLTExBei1pNGJqc3d5SHlvODR2UW8tZ1pIMFhvNjR4Tllwa2NrcldLNFo2anhXSlZpRWlyUnVXY3hZTTBSRFhHQ3EzMmRHWkJxdmpyc2pmRDkyeklLanhlWmpGa054S1JfWEJiN2RB?oc=5",
+   "fecha": "2026-10-17T00:17:02+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZRO",
+   "titulo": "LayerZero, w/ @a16z, CMU, Imperial College, unveils Aerie, a post-quantum sig aggregation system. Uses lattice crypto & Akita scheme. Aggregates 32,768 Falcon-512 sigs in 0.65s on M4 Max chip! Verification ~10x faster. Boosts quantum-resistant adoption in blockchain for…",
+   "autor": "blockchainreport.bsky.social",
+   "url": "https://bsky.app/profile/blockchainreport.bsky.social/post/3mxzsej3fas26",
+   "fecha": "2026-10-17T00:08:34+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "🔥 Trending in crypto right now: 1. DACITY Dacity Coin 2. INJ Injective 3. PUMP Pump.fun 4. PRL Pearl 5. STRK Starknet Full list with live prices: https://cryptocurrency.com.tr/trending #Crypto #Trending #Trading #Bitcoin #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3mxzprg375o2e",
+   "fecha": "2026-10-16T23:22:06+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XMR",
+   "titulo": "$XMR.X Continues to look solid this year 💪",
+   "autor": "spitnshine",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/spitnshine/message/666753566",
+   "fecha": "2026-10-16T23:09:04+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3345 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3491 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3327…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/666748508",
+   "fecha": "2026-10-16T21:31:09+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Launches Live Metric Pools for Tokenized Stocks",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42bzRVRko4U09iYmJ6OUhEVi0weWlmY19xdzJNMDFucFVGcHF3TGJiWDRXdTc0dDhCcTlSTlZsNU0tLWl1UzZyZlVLZ1g4V3hKTHg5aFJYRlR3dG1p?oc=5",
+   "fecha": "2026-10-16T21:29:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Brave New Coin",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "The 7 Best USDC on Solana to XMR Swap Platforms in 2026",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOakxlN0w3d0lFVms5UV9yOVF1MmpfRXpVd0VkYXNvZjk0elNqeFlodHQ2MlBfUkdOM01YTDd3bmdkLXNsYjdialdUSXUxeHUxOXVIRzVaU3c5SFFMZEhxb3pEeExGYjVnb3hNMGdWcU1XdmxHWGltZTB4VjVuYldldTRManE1RUdvcXJHTWpxZUNrVEM3bjhaRnBmSGlHT28?oc=5",
+   "fecha": "2026-10-16T21:02:18+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "ad-hoc-news.de",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero network logged 29,920 transactions: What it means for the Monero price",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUElScWN4U3l0X05XRkItV05MajBrVkFrLVFrdnR5Y2hWbDBtdFF2MU9jaGVtWk9CZTFGcDJaSzFjR2w4R09KdmcyRmNqdk1mWm1PZ2l2Z21yVmdLUzF3bzQzQTVtVWVJaU1SSnIwa1RjS2tWeklwWXBCVkFQek5DMmN2UUFBcFliRjhwQjlsdkV5YVhhSmtqSGtUZnZoU2d2Y1pJYTFlalJDZmU5VXRmQzZhcW5nNXJsZFhvcnFUdjVVNndIUUFFbEluMmg1VW9nalRvSg?oc=5",
+   "fecha": "2026-10-16T20:49:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin Plans to Shift Block Rewards Toward Paid Storage",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwdG5FUW5Kc19tZUdYWWFaZExxZ3BXall2UGdtQ05tZ0pnVEh0aFBPTWpPV3g2Yk5nN2JJZzJhZTMzRzg1VDNGR0c3RFNGYVh1Wll6azk3enNmQQ?oc=5",
+   "fecha": "2026-10-16T20:29:02+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "1/2 📡 MARKET EVENT 📉 -6.3% · #INJ/USDT · 4h 💥 Active dump · Steady decline INJ dropped -6.3% in 12h with above-average candle volume. ⚠️ Opposing 12h and 24h moves — 24h: +2.9% vs 12h: -6.3% ⚠️ Not financial advice https://t.me/rawcryptosignals · $INJ #Injective #L1",
+   "autor": "rawcryptosignals.bsky.social",
+   "url": "https://bsky.app/profile/rawcryptosignals.bsky.social/post/3mxzfo7yesu2r",
+   "fecha": "2026-10-16T20:21:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Crypto News",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero unveils Aerie with 0.65-second quantum-safe signature benchmark",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGMmhSWG9SbjRFSDhMN05IeU1UT1pNVEJLam5UTDktcDVEZ3pqN1p1NzN4Y1JOd05JVTVTZTFIbm1wVERPUTVTZGlmdWpKcnl3N3Rtd1dFWHRKa3drZWV0eng0dTZFZklhMHdSQTAzaF9tUENOTHBaT0xfbVNLS2M?oc=5",
+   "fecha": "2026-10-16T20:18:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero surges 23% – Why ZRO’s price rally faces THESE risks",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ycVowVE9jeGhFdklFd3VuMktTQXVWZGp3eXBudWxrOThseUtTaHlTVk9PNDBnSEwwSGxzWUhCMTBoSE5QdzJRcnZMZjgxMlBGNl9mUFdWRzA1cDA?oc=5",
+   "fecha": "2026-10-16T19:44:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero (ZRO) faces resistance at $2.14 and $2.27, with support near $1.99; token release set for Oct 20.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQREJZeFo0MlFJVUp5TWljQnJRdlVsUWVBc0VBLXIxbWtSVFVqM2FRbTBZbW1IZWlveUJUcFhzRkh0a2xPeXdvOF9uTTRXc3JQZTN3Ynppa01ZS3hPNUpSY1pjUFd6dXU2LXBOM015UzJncUZGN0lNOTZ3Q0FsTUVGT09nOVNuVXNsSWQ3UEMwRXBJSEl6TFBn?oc=5",
+   "fecha": "2026-10-16T19:13:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZRO",
+   "titulo": "ZRO: market cap rank 86rank per CoinGecko. \"LayerZero (ZRO) rank #86\" per CoinGecko.",
+   "autor": "tradingobservation.bsky.social",
+   "url": "https://bsky.app/profile/tradingobservation.bsky.social/post/3mxzb4zc3nf2z",
+   "fecha": "2026-10-16T19:00:09+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Crypto Times",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "PYTH Price Drops to $0.084 After 10.4% Daily Loss",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQW8yNXFqUWZKZXJtRlZLdHNiMF9CdXlrTHRGb092dnRmOVF0eXU4aG5hdUN6LWszcFhGOUFDODhwT1ZFc3JqWmE5YUx4NWhGYnlEMERSYXNNZ0E4X0hUclNSNmVOWXVYT0dWRDJVcDVvYXpLbzRqcjh3Tnp0eXJPRXhxdlkyeDlOU3FGZ0VXYw?oc=5",
+   "fecha": "2026-10-16T18:56:42+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network Launches Live Pools Tracking Tokenized Stocks, FX and Gold",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1waVYxdVMtRno5U01XOFpIS3dHYUFBa1l4TEplMFYwWlpQdTNqQ0lCX1pzQWctUWhjUWQ5ZjJWelBlWUZ6S3doTlBtVkJYdE1xTFM1M2dFZmxtbEU?oc=5",
+   "fecha": "2026-10-16T18:52:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Aerodrome Finance tests $0.9528 resistance as bullish trend holds",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3NWg2aElLcDlrTEtZa1hRbkE2WmdobGVXZkUyZ2dab09LZFNnNVBLaXdydkNiLXk5V3VodHdodG5SbV9Ib2dsbEF1QU45dWM2YVZlU3ZKd2pWNkE?oc=5",
+   "fecha": "2026-10-16T18:44:25+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero’s bullish daily setup faces fading hourly momentum",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TengzZGo2MDliSEhiVTN2ZWV1RUFPdHBCSTJRTUFkWlE3NlZfZHNMZ1cwMERWQjFHQjRleU80dkVnX2xNLWJ0NWp1enFnZnpqZkszMUkyWVREQTg?oc=5",
+   "fecha": "2026-10-16T18:44:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "BigGo Finance",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Pyth Network's AI Data Server Update Sends PYTH Token Up 20%",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yRXdKWWR6MFVqNlctQlVQNkx3Q3VrZkhmVldsSWg2UDRJNEVmWXhKN3VTZmJhUXF3bXR0cTlSTFcyRkg5cFU1M1kyMzV0WTJGX2tDeHhmTFo3Nk9WU0VuV0daemw0RDJOdjNmTERKd2FBSzhXb2c?oc=5",
+   "fecha": "2026-10-16T18:26:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero (ZRO) Faces Two Resistance Levels Before a Possible $2.30 Retest",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYTlI4TVV2RlJKQ25oTHNTVTE0cUlSNlBpMjRwNkNWbzhMWHUwM0ttZ0VIV1NySXJqN1BZRkR5M0xYV3pUek9vNGo2Z0h1T3dwWWpoOTBzNkpOUQ?oc=5",
+   "fecha": "2026-10-16T18:00:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X How low does it go .075? After hitting. 10 and what about the tokens released in May?",
+   "autor": "rebel6",
+   "postura": null,
+   "url": "https://stocktwits.com/rebel6/message/666723021",
+   "fecha": "2026-10-16T17:58:44+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Crypto Briefing",
+   "via": "Google News",
+   "moneda": "ZRO",
+   "titulo": "LayerZero’s Aerie tackles the post-quantum signature bloat problem",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbTRkZERaT3p2c2ZrcXFXRWhsZlBDVjFQc1BYNGs3UnFoR0tGeFhMOHdSZ3pWanBYb2gtaERzeHdKM25QWk0tNGs2d0QtOF9NV1dUZmxENkQxWi05TUNIM1lpMXlxTU1EdWpBVkVEOTNwV2ZlUW40dVhUbGtLNU1NRHZpUkY?oc=5",
+   "fecha": "2026-10-16T17:30:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Aerodrome Finance (AERO) Faces Short-Term Pressure Amid Binance Merger News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZjFvZU5KZzdnTkFuRmVLUWZoMWNya0pDMVJiYTVzT1FXVUU1T0MxQV8zLUV2UHlTWEFleGNfYjd2MGwtUHFyS08zZ3dZZWlhN09yS0lQM2dJUWlJOHE5NXoxVGZERWRQMUZBV0JVcG4?oc=5",
+   "fecha": "2026-10-16T17:10:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XDC",
+   "titulo": "$XDC.X MoneyGram Joins XDC Network As Institutional Validator https://www.timesofblockchain.com/news/moneygram-joins-xdc-validator/",
+   "autor": "SmallPearl",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/SmallPearl/message/666712727",
+   "fecha": "2026-10-16T16:51:13+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "ad-hoc-news.de",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero price stands at 529.99 USD on October 16, 2026, with 29,920 transactions",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOEhzdEw0cUhncnBCQkhCekhpa2JHMWFoTldiazlLNEdkZm1vUGprZG1QSzQ5STN4UG5YUmhTNkhWc3huNEFhcy1FOUZvekVrcG51X1hhSjZGRlBjRW9kdUprR09LdG5BVWlPMzFQRzNVQWZVVWR0c3NlVjZBQU9sdUVuaG02N1FUX1pydVhnaVlSWDFPakN2cEhOX0ZnVjA3OEdKUm1HOXRwMkxfb0hSM3QxdlRGNkxuMEhIeFRUaVl6VFdwTzJuc1JwTjlSTFpZTW1DYXZ3?oc=5",
+   "fecha": "2026-10-16T16:42:11+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin – How rising whale demand could extend FIL’s 14% gains",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMTBPZTRxNlpUdzE4YlBCdEhmSGJuWkdsYmRYOEV3SFdPb3dTa0JiMkZta3QzNUJwUXUyX2c2SWNmWGNVZ2YwVVJMdklqUUp4eTRubkxlMXBacGVIQVJ3TDNkUENrdVNNNUhobEZtNmpNRGdYNk5KTUVlcW9TRG9NdlNpRjEydS1xTWc?oc=5",
+   "fecha": "2026-10-16T16:00:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "FF News",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "Sibos 2026: XDC Network's Atul Khekade on Tokenised Infrastructure and AI",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQzhMT2ZHcURlZXdfdW5BZ1JXZ1hadklJNmVlWjZWY2Y4TDBuRm80dGZRQlJNcjR0aFdEOVc1Rjh3UFhJVFdZNDNTLVdKYUxOenMzMWFlaW5lRHJRWTJDV01sVkZJS0FEM1R0NTQzUUItM0VvN1BJNnlLNnFtVzNyemcyRFYxNUZtZFFxQ0k5Q1RjdFBFcFV4STdQY3RqQQ?oc=5",
+   "fecha": "2026-10-16T15:30:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin upgrades with Solstice to boost rewards for paying services and cut new coin supply by 75%.",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObGx1ZUt2aE1wUEFkRTY3dHNGMnlEbVprODZDTy03R2ozdElLSFR0ZHJQMmZoT01Ub2RlcVFjWkJIdmlXY2dSa2FXNHpMd3RxZ0N4eVhKU1F1ZG14cGtYdGdKUkJkMmtSX3FWTTU5N29rMmNrT1JYUXV6WkdYc1NlY2JxNUtmYWdXNzVycnFqMUJPaWM?oc=5",
+   "fecha": "2026-10-16T14:10:17+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "FIL",
+   "titulo": "Filecoin to Roll Out Tokenomics Changes in October",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObFN0ZkhRcDNZbUVURzRjb1Q1MVZ2ZkNfb2RIZnNhRnlnYm9tdkk0TkpKOFRfVFVrSHVidEhnZk5jd3RXbFpZNjlCd3FicGV4NnBmbC1ueHA3SmZaYmtmcU9rTlpwUWxid2ZkcVJLZWN3Vk1wbko5WlJ3V0pYRWlQSHY4UV8xMGJmUHg5Nk9hMDNjQU44aUE4amtKQkFWYXowV3U4OVNCd2t0VWlt?oc=5",
+   "fecha": "2026-10-16T13:03:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "PYTH",
+   "titulo": "Why PYTH crypto faces a crucial $0.10 test after 45% volume surge",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWFSWmFELUpHeGpfMDFYcGFUdjh1Vi05RDlWUTdJOWFzOXplbGRPV1ZfT2VEVDJJeS1LVDB3MmItaUdxdFhBUl9TZy1WUFNlcnFqYlpkRTZzV1Z1alpOb183ZlN5Y2VoZ2h6M294SGxrZ1piSXJjRUljQmFBWldZeV9MMWJIMjF6VGctXzRPQQ?oc=5",
+   "fecha": "2026-10-16T12:45:26+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Crypto Price Analysis, BTC, ETH, INJ, AERO and ZEC, October 16: Zcash Rebound, Injective Gains 25%, ETH Remains Below 50-Day EMA as Bitcoin Reclaims...",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tTzR1VkNneEp5X3BWUmkwU0xNSXM2LXRkZHdENW9fMVFEdl9HekVoVm1vNjdPTkx6MURrWFR3RVhOQmhGQ3FBVW02NW53ZFM2U051Mk9Qa0VRazA?oc=5",
+   "fecha": "2026-10-16T09:43:44+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Aerodrome Finance technical analysis: Buyer support underpins upward price move",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY2RyZ0F0WTNnSmlURVNHcGt2TVUtWWtPaTFHeGVZQlpTLTJLUUEzaWoycGhkcm1xZVdEY21jdmhaeG5VMk1DbTI1X1pCVnUxenFMRTE4TUVGUG1HMlFZRUwzZHNzZDkxUE5WMFN3aDMwc1NHQ1M2YWhpVEdaQWdOUHVXcmxqNkdwb1hXTXR3SzVCZDNLZUtEeGJieWg0eUpBdGtJRXgwUU5aZw?oc=5",
+   "fecha": "2026-10-16T09:17:30+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Crypto Reporter",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC now listed on Robinhood, expanding access to millions of U.S. users",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVDlRUHZsLUxMX0dlRUdJd2s1bVM4SmowdkdGSnF5SzFrb2JWU0JfWjVmWDB5aWxuTWM4YkE3RFhQa08wUEtIUVlXTWdGTHFRR051S2p4SlBQS2xqMHMtZTMtSEViOGJmSkhBT2RpdzRGMXNTTU0xYk5wWF9qcDBOSUFEZ1NmZHdQc3FUYTRQVHVkVUV0aVFUUk5WMXFTNXZRbVVzRnJob01SUmZ6ajBjTVpFUlFQNHV6QVE?oc=5",
+   "fecha": "2026-10-16T08:51:40+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coin Gabbar",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "MoneyGram XDC Network: Why Is This Validator Move a Big Deal?",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLTIxYWRwTENHSXR4Tno0Q2s3UzJ2cHBEU2RDaGV2UGo3VlhUSXNFcDEzZE9yV29vdkljMjYzb29aWWJ2WW1Sd3FjWHBRbEVqdDhPVkpzNXE1dTh6TVd2Z25GTzloRWx0V2FYRUhRbUFkY2VaSkhmUFNCazdaN21ldlViNHdZUEU?oc=5",
+   "fecha": "2026-10-16T08:25:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Why is Aerodrome Finance price up 14.4% today?",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3NHalU5Q0RMRXZPY2dlbnIybFFIcmhfQTdFdDlGRG5WYV9iWWxnaU82SWpFMElWRERpMW1idjY0VDFTSHF5N1hOQldZNW41MlhjM0ttT1ViU0Q3ZnZ5YkM5UlhjQ05MaHRwREFWZUEycGN5UTNtNkRYYmpQbXBqR1hvTzd6SVVTUHRRN2c5OUxWZlZ3TndNM05sYjQ4b3NvSWJQeWFpRm9sUnM?oc=5",
+   "fecha": "2026-10-16T07:05:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AERO",
+   "titulo": "$AERO.X GOD candle... but can it break the 1 dollar?",
+   "autor": "royvanderwal",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/royvanderwal/message/666665849",
+   "fecha": "2026-10-16T06:50:29+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XDC",
+   "titulo": "$XDC.X XDC Network has selected Concordium as the exclusive identity verification layer for XDC AI, its agent payments marketplace. https://www.concordium.com/article/concordium-identity-verification-layer-xdc-ai",
+   "autor": "SmallPearl",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/SmallPearl/message/666665804",
+   "fecha": "2026-10-16T06:46:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "FIL",
+   "titulo": "Filecoin overhauls incentives, sending more rewards to services with paying customers & burning unclaimed FIL. Genesis token release ending means ~75% less daily FIL circulation. New enterprise/AI products launch, incl. Integral Spacetime cloud storage. #crypto #blockchain #news",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3mxxvhcaeby2k",
+   "fecha": "2026-10-16T05:58:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X get ready Doginal Dogs are giving ￼ Massive long-term support to this project !",
+   "autor": "Dramakings",
+   "postura": null,
+   "url": "https://stocktwits.com/Dramakings/message/666660943",
+   "fecha": "2026-10-16T02:48:26+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XDC",
+   "titulo": "$XDC.X Has anyone really zoomed out, like really very. 1 month scale.. That is a 3.72 year long M formation.",
+   "autor": "ThomSquires",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/ThomSquires/message/666656778",
+   "fecha": "2026-10-16T01:05:37+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bybit",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Convert 10 IDR (Indonesian Rupiah) to AERO (Aerodrome Finance)",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TTFo2TzYyNEhVQVp0d1hnTjl3enFLeEVuLTkyRUJkSk1reFlobzVzcGlEcnZEeVpFWFctaFI5eDREZTJzQXl6OWlQNHp2ajV4NDN1WVlkQlo3SUtR?oc=5",
+   "fecha": "2026-10-16T00:00:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Heh, according to the news articles it’s usually BTC or Monero.",
+   "autor": "jenonymous.bsky.social",
+   "url": "https://bsky.app/profile/jenonymous.bsky.social/post/3mxxa7neqyc2r",
+   "fecha": "2026-10-15T23:38:25+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AERO",
+   "titulo": "$AERO.X crazy strength against the market $BTC.X $ETH.X",
+   "autor": "AltTechTrader",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/AltTechTrader/message/666650629",
+   "fecha": "2026-10-15T22:39:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X can we close above 0.010?",
+   "autor": "WhatsTheNext10x",
+   "postura": null,
+   "url": "https://stocktwits.com/WhatsTheNext10x/message/666646287",
+   "fecha": "2026-10-15T21:19:55+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X let’s break through that .10",
+   "autor": "Toakes",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Toakes/message/666637342",
+   "fecha": "2026-10-15T19:49:57+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X $BTC.X QUICK all eyes and strong buys to LCX to explode to 20$ Updated valuation! NICE!! THE TRAIN IS LEAVING!!!!",
+   "autor": "Goldaltcoins",
+   "postura": null,
+   "url": "https://stocktwits.com/Goldaltcoins/message/666633199",
+   "fecha": "2026-10-15T19:22:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "FIL",
+   "titulo": "IPFS users have a new path as well. New migration tools make Filecoin a first-class destination for pinned content, tied to a wallet rather than a user account. NFT platforms and institutions with compliance obligations are already moving data. www.filecoin.io/products/ipfs",
+   "autor": "filecoin.io",
+   "url": "https://bsky.app/profile/filecoin.io/post/3mxwr7gjols2g",
+   "fecha": "2026-10-15T19:09:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "FIL",
+   "titulo": "Together, these close the loop. Customer pays → payment settles onchain → storage provider earns and locks FIL → unearned incentives are burned → the network draws the next customer \"The Filecoin flywheel is connected end to end now, and it's starting to build momentum.\"…",
+   "autor": "filecoin.io",
+   "url": "https://bsky.app/profile/filecoin.io/post/3mxwr7bgxks2g",
+   "fecha": "2026-10-15T19:09:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "FIL",
+   "titulo": "Vesting for Protocol Labs and Filecoin Foundation allocations ends today, as scheduled at launch in 2020. With vesting complete, the daily amount of new FIL entering circulation drops by roughly 75%, according to FilecoinTLDR's modeling. filecointldr.io/tokenomics",
+   "autor": "filecoin.io",
+   "url": "https://bsky.app/profile/filecoin.io/post/3mxwr7bgun22g",
+   "fecha": "2026-10-15T19:09:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "FIL",
+   "titulo": "Six years ago today, Filecoin mainnet went live 🎉 Three big shifts in tokenomics and strategy this month: 1. New reward mechanics that pay for bringing in and keeping customers 2. Genesis vesting ends, slowing daily supply growth 3. New products open a live path for enterprises…",
+   "autor": "filecoin.io",
+   "url": "https://bsky.app/profile/filecoin.io/post/3mxwr76qjws2g",
+   "fecha": "2026-10-15T19:09:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC Partners with Concordium for Privacy-Preserving AI Agent Verification",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYkpwY2pDOWlUZUtmTUtoOTJqeXc1V3FnUjB4SzU5VmJMQlc5MENlcjVHZEExX2ZOM0swb1hzNDM3VVNEUFBCR1RCSHU4ZlZlQ1VwZzVBR0xiUDVyYm83eG9wVHF1OEZuYlp6czRrZVNvUmZBakdaNS1tb3dZVFhBbjZVODNXalJTUHE3WWxHd2NTX2drd2g1alVveFZRaExtNE9YdnM1UjhHVEE?oc=5",
+   "fecha": "2026-10-15T18:55:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X a rare victory in a poo poo market. long 50k part of the tokenization basket emeritus.",
+   "autor": "UCIdidmyDD",
+   "postura": null,
+   "url": "https://stocktwits.com/UCIdidmyDD/message/666626902",
+   "fecha": "2026-10-15T18:31:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZRO",
+   "titulo": "$290M. That's what Kelp DAO reportedly lost through its LayerZero setup, the biggest bridge exploit of 2026 so far. If your copy calls a partner bridge secure, check its incident history first. The source is vendor content, so verify the figures. #web3",
+   "autor": "analytickit.bsky.social",
+   "url": "https://bsky.app/profile/analytickit.bsky.social/post/3mxwkbhk5a62t",
+   "fecha": "2026-10-15T17:05:43+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitget",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC Network selects Concordium for AI agent identity verification",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oX0Rad2JEOTlydHQzMkVmTlBBQ1dnWkI1aloxTDN1N1VPOTd1VmVSbE9qWlczaktjMy16elA4WE9FWEhXcW9rV1lVODEyZ19mSWEwTnFwWTh0WHFlaW5MZjFWcw?oc=5",
+   "fecha": "2026-10-15T16:59:20+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AERO",
+   "titulo": "$AERO.X 21st can't come soon enough!!!",
+   "autor": "mybestfriendlou",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/mybestfriendlou/message/666612432",
+   "fecha": "2026-10-15T16:24:12+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Aerodrome Finance Volatility: 4.78% Swing Amid Merger",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81MjdIN0p1STdtZ19veFZfQkNQcFczS2xhbFIyUmVySDZGbjNKVHdRNldEMTNzZWx0T3lWcnZTRXFkQmJWekEyUkU4b1BVaEpTSzZWZHVrUGNwc3NkTkJyWkRjbW54VkZ1U1E3T1JIT3Y?oc=5",
+   "fecha": "2026-10-15T16:04:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PYTH",
+   "titulo": "$PYTH.X vs $STRK.X who wants a dollar first??",
+   "autor": "Viper_Gizz",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Viper_Gizz/message/666608916",
+   "fecha": "2026-10-15T15:55:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC Network Partners with Concordium for AI Agent Identity Verification",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNnFvWVBjVmJmM2QyUUR0LWtzZ3Q3OHdwTDF4SnFUd214alJVOGtVc19QWGtUVXVkdERTMEhITExNN2pjSWNocXd4R2ozS0JHVWZ2QXlXMU1hRDFfbWNNUnItNGplYm41REhnSWp0eU05UWQ3TjNudllSVXl5UmxuSmtWOFRVU01ua1lSd0tlNWxLM2VaWHBCVTdUZDM2SjdPdWRJcVpvQVg?oc=5",
+   "fecha": "2026-10-15T15:14:35+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Invezz",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC Network selects Concordium as identity verification layer for AI agents",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2JPZm41bEs3dmZsMC14RXl4VnNTSFJ3d244dTZMcU14anFUVmlpOEtCTGlqbm82WC05MWlrS0s4dkp4VmtDd2xvREo2czBGcno1S3ZnZ2stX2JDdnVpR2lYRmM4OFE2WWdmZElUMGVjQ2swckI3d1RKX2JGZTNDOGt6ZE9hRlhmZGIyWERBUDd6LVlId0JyRDcwN3U5V2xhUS10c1RVWUJ2N0J2cmFfcA?oc=5",
+   "fecha": "2026-10-15T14:51:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Market Periodical -",
+   "via": "Google News",
+   "moneda": "AERO",
+   "titulo": "Nvidia Stock Falls 9% as Anthropic Growth Slows: Is $200 Next?",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QbUZVNWZ0NzRJRTV4NWktTTF0WU54SVY2ZkVtc05tMm5ad0J4bnRReGh2blpPNEhVenNSUGZBSTVsWjlVZjZmSF9laFRfRGIwaEZOdEtyc2NzTmpHZjRyVmUyVzJOV1lOMWJDRlo3a1cwNV81dnp5RFlYQUc?oc=5",
+   "fecha": "2026-10-15T13:04:19+00:00"
+  }
+ ],
+ "posturas_stocktwits": {
+  "AERO": {
+   "Bullish": 6,
+   "Bearish": 0
+  },
+  "PYTH": {
+   "Bullish": 6,
+   "Bearish": 0
+  },
+  "INJ": {
+   "Bullish": 8,
+   "Bearish": 1
+  },
+  "FIL": {
+   "Bullish": 13,
+   "Bearish": 0
+  },
+  "ZRO": {
+   "Bullish": 2,
+   "Bearish": 0
+  },
+  "TIA": {
+   "Bullish": 13,
+   "Bearish": 0
+  },
+  "XMR": {
+   "Bullish": 6,
+   "Bearish": 0
+  },
+  "XDC": {
+   "Bullish": 17,
+   "Bearish": 0
+  },
+  "A": {
+   "Bullish": 8,
+   "Bearish": 2
+  },
+  "TRX": {
+   "Bullish": 22,
+   "Bearish": 0
+  }
+ },
+ "fallas": []
+}
