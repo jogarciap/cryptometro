@@ -2,14 +2,14 @@
  "fecha": "2026-10-17",
  "monedas": [
   {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
    "coin_id": "injective-protocol",
    "simbolo": "INJ",
    "nombre": "Injective"
+  },
+  {
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   },
   {
    "coin_id": "celestia",
@@ -32,6 +32,11 @@
    "nombre": "LayerZero"
   },
   {
+   "coin_id": "vaulta",
+   "simbolo": "A",
+   "nombre": "Vaulta"
+  },
+  {
    "coin_id": "monero",
    "simbolo": "XMR",
    "nombre": "Monero"
@@ -42,14 +47,9 @@
    "nombre": "XDC Network"
   },
   {
-   "coin_id": "vaulta",
-   "simbolo": "A",
-   "nombre": "Vaulta"
-  },
-  {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   }
  ]
 }
