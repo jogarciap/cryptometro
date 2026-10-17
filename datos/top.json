@@ -2,14 +2,14 @@
  "fecha": "2026-10-17",
  "monedas": [
   {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
    "coin_id": "injective-protocol",
    "simbolo": "INJ",
    "nombre": "Injective"
+  },
+  {
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
   },
   {
    "coin_id": "celestia",
@@ -22,16 +22,6 @@
    "nombre": "Filecoin"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "layerzero",
-   "simbolo": "ZRO",
-   "nombre": "LayerZero"
-  },
-  {
    "coin_id": "vaulta",
    "simbolo": "A",
    "nombre": "Vaulta"
@@ -42,14 +32,24 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "xdce-crowd-sale",
-   "simbolo": "XDC",
-   "nombre": "XDC Network"
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
+   "coin_id": "layerzero",
+   "simbolo": "ZRO",
+   "nombre": "LayerZero"
   },
   {
    "coin_id": "basic-attention-token",
    "simbolo": "BAT",
    "nombre": "Basic Attention"
+  },
+  {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   }
  ]
 }
