@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-16",
+ "fecha": "2026-10-17",
  "monedas": [
   {
    "coin_id": "pyth-network",
@@ -12,14 +12,9 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
-  },
-  {
-   "coin_id": "near",
-   "simbolo": "NEAR",
-   "nombre": "NEAR Protocol"
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
   },
   {
    "coin_id": "filecoin",
@@ -27,29 +22,34 @@
    "nombre": "Filecoin"
   },
   {
+   "coin_id": "aerodrome-finance",
+   "simbolo": "AERO",
+   "nombre": "Aerodrome Finance"
+  },
+  {
    "coin_id": "layerzero",
    "simbolo": "ZRO",
    "nombre": "LayerZero"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   },
   {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
+   "coin_id": "xdce-crowd-sale",
+   "simbolo": "XDC",
+   "nombre": "XDC Network"
   },
   {
-   "coin_id": "starknet",
-   "simbolo": "STRK",
-   "nombre": "Starknet"
+   "coin_id": "vaulta",
+   "simbolo": "A",
+   "nombre": "Vaulta"
   },
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
+   "coin_id": "basic-attention-token",
+   "simbolo": "BAT",
+   "nombre": "Basic Attention"
   }
  ]
 }
