@@ -7,11 +7,6 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "vaulta",
-   "simbolo": "A",
-   "nombre": "Vaulta"
-  },
-  {
    "coin_id": "injective-protocol",
    "simbolo": "INJ",
    "nombre": "Injective"
@@ -20,11 +15,6 @@
    "coin_id": "celestia",
    "simbolo": "TIA",
    "nombre": "Celestia"
-  },
-  {
-   "coin_id": "bitway",
-   "simbolo": "BTW",
-   "nombre": "Bitway"
   },
   {
    "coin_id": "just",
@@ -42,14 +32,24 @@
    "nombre": "TRON"
   },
   {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
+   "coin_id": "bitway",
+   "simbolo": "BTW",
+   "nombre": "Bitway"
   },
   {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "coin_id": "basic-attention-token",
+   "simbolo": "BAT",
+   "nombre": "Basic Attention"
   }
  ]
 }
