@@ -12,14 +12,14 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
   },
   {
    "coin_id": "pyth-network",
