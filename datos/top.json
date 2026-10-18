@@ -1,25 +1,10 @@
 {
- "fecha": "2026-10-17",
+ "fecha": "2026-10-18",
  "monedas": [
   {
-   "coin_id": "injective-protocol",
-   "simbolo": "INJ",
-   "nombre": "Injective"
-  },
-  {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
-  },
-  {
-   "coin_id": "filecoin",
-   "simbolo": "FIL",
-   "nombre": "Filecoin"
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   },
   {
    "coin_id": "vaulta",
@@ -27,19 +12,34 @@
    "nombre": "Vaulta"
   },
   {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
+   "coin_id": "injective-protocol",
+   "simbolo": "INJ",
+   "nombre": "Injective"
   },
   {
-   "coin_id": "aerodrome-finance",
-   "simbolo": "AERO",
-   "nombre": "Aerodrome Finance"
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
   },
   {
-   "coin_id": "layerzero",
-   "simbolo": "ZRO",
-   "nombre": "LayerZero"
+   "coin_id": "bitway",
+   "simbolo": "BTW",
+   "nombre": "Bitway"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "coin_id": "pyth-network",
+   "simbolo": "PYTH",
+   "nombre": "Pyth Network"
+  },
+  {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   },
   {
    "coin_id": "basic-attention-token",
@@ -47,9 +47,9 @@
    "nombre": "Basic Attention"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   }
  ]
 }
