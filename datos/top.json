@@ -32,24 +32,24 @@
    "nombre": "TRON"
   },
   {
-   "coin_id": "mx-token",
-   "simbolo": "MX",
-   "nombre": "MX"
-  },
-  {
    "coin_id": "bitway",
    "simbolo": "BTW",
    "nombre": "Bitway"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
+   "coin_id": "mx-token",
+   "simbolo": "MX",
+   "nombre": "MX"
   },
   {
    "coin_id": "basic-attention-token",
    "simbolo": "BAT",
    "nombre": "Basic Attention"
+  },
+  {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   }
  ]
 }
