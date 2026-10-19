@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-18",
+ "fecha": "2026-10-19",
  "monedas": [
   {
    "coin_id": "monero",
@@ -12,6 +12,11 @@
    "nombre": "Injective"
   },
   {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
@@ -22,29 +27,24 @@
    "nombre": "Celestia"
   },
   {
-   "coin_id": "pyth-network",
-   "simbolo": "PYTH",
-   "nombre": "Pyth Network"
-  },
-  {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
    "coin_id": "tron",
    "simbolo": "TRX",
    "nombre": "TRON"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
+   "coin_id": "mx-token",
+   "simbolo": "MX",
+   "nombre": "MX"
   },
   {
    "coin_id": "bitway",
    "simbolo": "BTW",
    "nombre": "Bitway"
+  },
+  {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "basic-attention-token",
