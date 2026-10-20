@@ -22,6 +22,11 @@
    "nombre": "Bitcoin"
   },
   {
+   "coin_id": "celestia",
+   "simbolo": "TIA",
+   "nombre": "Celestia"
+  },
+  {
    "coin_id": "curve-dao-token",
    "simbolo": "CRV",
    "nombre": "Curve DAO"
@@ -30,11 +35,6 @@
    "coin_id": "sonic-3",
    "simbolo": "S",
    "nombre": "Sonic"
-  },
-  {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
   },
   {
    "coin_id": "binancecoin",
