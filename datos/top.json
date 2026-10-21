@@ -17,14 +17,14 @@
    "nombre": "Curve DAO"
   },
   {
-   "coin_id": "compound-governance-token",
-   "simbolo": "COMP",
-   "nombre": "Compound"
-  },
-  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "compound-governance-token",
+   "simbolo": "COMP",
+   "nombre": "Compound"
   },
   {
    "coin_id": "worldcoin-wld",
@@ -32,14 +32,14 @@
    "nombre": "Worldcoin"
   },
   {
-   "coin_id": "pepe",
-   "simbolo": "PEPE",
-   "nombre": "Pepe"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "pepe",
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
   },
   {
    "coin_id": "celestia",
