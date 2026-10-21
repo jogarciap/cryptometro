@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-20",
+ "fecha": "2026-10-21",
  "monedas": [
   {
    "coin_id": "monero",
@@ -12,9 +12,14 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "curve-dao-token",
+   "simbolo": "CRV",
+   "nombre": "Curve DAO"
+  },
+  {
+   "coin_id": "compound-governance-token",
+   "simbolo": "COMP",
+   "nombre": "Compound"
   },
   {
    "coin_id": "bitcoin",
@@ -22,9 +27,19 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "curve-dao-token",
-   "simbolo": "CRV",
-   "nombre": "Curve DAO"
+   "coin_id": "worldcoin-wld",
+   "simbolo": "WLD",
+   "nombre": "Worldcoin"
+  },
+  {
+   "coin_id": "pepe",
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   },
   {
    "coin_id": "celestia",
@@ -32,24 +47,9 @@
    "nombre": "Celestia"
   },
   {
-   "coin_id": "sonic-3",
-   "simbolo": "S",
-   "nombre": "Sonic"
-  },
-  {
    "coin_id": "binancecoin",
    "simbolo": "BNB",
    "nombre": "BNB"
-  },
-  {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
-  },
-  {
-   "coin_id": "basic-attention-token",
-   "simbolo": "BAT",
-   "nombre": "Basic Attention"
   }
  ]
 }
