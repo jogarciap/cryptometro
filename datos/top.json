@@ -22,11 +22,6 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "compound-governance-token",
-   "simbolo": "COMP",
-   "nombre": "Compound"
-  },
-  {
    "coin_id": "worldcoin-wld",
    "simbolo": "WLD",
    "nombre": "Worldcoin"
@@ -35,6 +30,11 @@
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
+  },
+  {
+   "coin_id": "compound-governance-token",
+   "simbolo": "COMP",
+   "nombre": "Compound"
   },
   {
    "coin_id": "near",
@@ -47,9 +47,9 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "convex-finance",
-   "simbolo": "CVX",
-   "nombre": "Convex Finance"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
   }
  ]
 }
