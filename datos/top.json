@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-21",
+ "fecha": "2026-10-22",
  "monedas": [
   {
    "coin_id": "monero",
@@ -32,24 +32,24 @@
    "nombre": "Worldcoin"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
   },
   {
-   "coin_id": "celestia",
-   "simbolo": "TIA",
-   "nombre": "Celestia"
+   "coin_id": "near",
+   "simbolo": "NEAR",
+   "nombre": "NEAR Protocol"
   },
   {
    "coin_id": "binancecoin",
    "simbolo": "BNB",
    "nombre": "BNB"
+  },
+  {
+   "coin_id": "convex-finance",
+   "simbolo": "CVX",
+   "nombre": "Convex Finance"
   }
  ]
 }
