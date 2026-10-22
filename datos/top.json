@@ -7,6 +7,11 @@
    "nombre": "Monero"
   },
   {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
    "coin_id": "injective-protocol",
    "simbolo": "INJ",
    "nombre": "Injective"
@@ -15,11 +20,6 @@
    "coin_id": "curve-dao-token",
    "simbolo": "CRV",
    "nombre": "Curve DAO"
-  },
-  {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
   },
   {
    "coin_id": "worldcoin-wld",
