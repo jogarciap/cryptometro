@@ -7,11 +7,6 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
@@ -22,9 +17,9 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "worldcoin-wld",
-   "simbolo": "WLD",
-   "nombre": "Worldcoin"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "binancecoin",
@@ -32,9 +27,9 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "xdce-crowd-sale",
-   "simbolo": "XDC",
-   "nombre": "XDC Network"
+   "coin_id": "worldcoin-wld",
+   "simbolo": "WLD",
+   "nombre": "Worldcoin"
   },
   {
    "coin_id": "pepe",
@@ -42,14 +37,19 @@
    "nombre": "Pepe"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "xdce-crowd-sale",
+   "simbolo": "XDC",
+   "nombre": "XDC Network"
   },
   {
    "coin_id": "curve-dao-token",
    "simbolo": "CRV",
    "nombre": "Curve DAO"
+  },
+  {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   }
  ]
 }
