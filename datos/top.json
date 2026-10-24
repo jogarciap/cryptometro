@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-23",
+ "fecha": "2026-10-24",
  "monedas": [
   {
    "coin_id": "monero",
@@ -7,19 +7,9 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
-  },
-  {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
+   "coin_id": "pepe",
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
   },
   {
    "coin_id": "binancecoin",
@@ -27,14 +17,9 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "pepe",
-   "simbolo": "PEPE",
-   "nombre": "Pepe"
-  },
-  {
-   "coin_id": "worldcoin-wld",
-   "simbolo": "WLD",
-   "nombre": "Worldcoin"
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
    "coin_id": "just",
@@ -42,14 +27,29 @@
    "nombre": "JUST"
   },
   {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
    "coin_id": "xdce-crowd-sale",
    "simbolo": "XDC",
    "nombre": "XDC Network"
-  },
-  {
-   "coin_id": "curve-dao-token",
-   "simbolo": "CRV",
-   "nombre": "Curve DAO"
   }
  ]
 }
