@@ -1,0 +1,1088 @@
+{
+ "generado": "2026-10-24T22:29:11+00:00",
+ "monedas": [
+  {
+   "simbolo": "XMR",
+   "nombre": "Monero"
+  },
+  {
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
+  },
+  {
+   "simbolo": "BNB",
+   "nombre": "BNB"
+  },
+  {
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "simbolo": "CVX",
+   "nombre": "Convex Finance"
+  },
+  {
+   "simbolo": "XDC",
+   "nombre": "XDC Network"
+  }
+ ],
+ "items": [
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "🛢 Bitcoin Sinks to $81,078 as 9,458 BTC Wintermute Withdrawals Draw Doubt Lookonchain reported 40 newly created wallets withdrew 9,458 BTC from Wintermute since Oct. 1, valued at $771.5 million — an implied $81,571 per coin, not a confirmed purchase price. #BTC #Crypto…",
+   "autor": "financiernews.bsky.social",
+   "url": "https://bsky.app/profile/financiernews.bsky.social/post/3mynqf2omky22",
+   "fecha": "2026-10-24T22:26:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X $BTC $IBIT Monthly --> Weekly --> Daily",
+   "autor": "iTrade_Price",
+   "postura": null,
+   "url": "https://stocktwits.com/iTrade_Price/message/667298920",
+   "fecha": "2026-10-24T22:25:19+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X he's the train conductor. Better get off the train bc he said so 🤣🤣🤣",
+   "autor": "stubbybrown",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/stubbybrown/message/667298899",
+   "fecha": "2026-10-24T22:24:03+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "BTC",
+   "titulo": "BitRefill - Free $5 in Bitcoin when you buy discount gift cards with your crypto (Worldwide)",
+   "autor": "r/freebitcoin",
+   "url": "https://www.reddit.com/r/freebitcoin/comments/1xelmo4/bitrefill_free_5_in_bitcoin_when_you_buy_discount/",
+   "fecha": "2026-10-24T22:23:11+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X i think we had the dip, weekends are usually like this. dips and rips hard Monday.",
+   "autor": "ArouetVoltaire",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/ArouetVoltaire/message/667298882",
+   "fecha": "2026-10-24T22:22:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "⏳ #Bitcoin halving countdown ~77,018 blocks to go (~535 days) Reward: 3.125 → 1.5625 BTC Live countdown: https://cryptocurrency.com.tr/bitcoin-halving #BTC #BitcoinHalving #Crypto #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3mynq5icedb2z",
+   "fecha": "2026-10-24T22:22:06+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "BTC",
+   "titulo": "Show HN: Steal My Bitcoin",
+   "autor": "r/hackernews",
+   "url": "https://www.reddit.com/r/hackernews/comments/1xelkyt/show_hn_steal_my_bitcoin/",
+   "fecha": "2026-10-24T22:21:01+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X we are below resistance $81700. Support to be determined. Maybe $60K if lucky.",
+   "autor": "NotFinancialAdviceDummy",
+   "postura": null,
+   "url": "https://stocktwits.com/NotFinancialAdviceDummy/message/667298833",
+   "fecha": "2026-10-24T22:20:11+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Analyst Flags Three Bitcoin Price Levels to Watch During Pullbacks",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ0k3V01XQXlpZVBwb2ZBTUtnckUzdC0zOWtQajMzVVl5SC1PX3ZGbDNGMlNrNEk5YkxZYWNtVUdZbU41cUxrRFZYRzBTT096eEZ2cEoxNC05WHFnbFR3UmtyWHFwdWdEYTN3cmdLbDF0dEQxYlF5cUs4eFhsYkpSa0VJWmxvWkpkS1ZaWDJtb1BLd0F1RTBrcXMtcDRsaTVGV0E?oc=5",
+   "fecha": "2026-10-24T22:12:06+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$PEPE.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.00000450 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.00000422 ➔ 0.00000452 • Refined Demand (+OB): 0.00000415 – 0.00000416 • Overhead Supply (-OB): Liquidity crest • Buy-Side…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667298560",
+   "fecha": "2026-10-24T22:01:10+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin or Gold: Which Is the Better Inflation Hedge With Prices Up 3.7%?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlRSM2pQa28wNU5wX2ZGY3pZNE5KY3dMV2xpMlB0cndndzA4RDI0UHRuMldraDE0cWR1Y1FEaUdCLUZ3QmJrVWZsRHRYTnlHSG0zMGxLaEpuWEw0Qmtid3lfWVFobUpIdUV2ZG1DMlpzN0h2VW9JQTRBV3BSanBZSWtXMlIxZEc3QkRZNXBaczZ5bUFmS3Rqall3WWlQel83ZFZhdG1zMnRtdnEyTUNEb1p4OFRzelU2bW01QXVURDVJRDAtMlV0Mw?oc=5",
+   "fecha": "2026-10-24T21:48:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🔴 36.31M USDT (Tron) → Binance-Hot 10 From Binance-Hot 7. Stablecoin moving toward an exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3mynnsep57c2d",
+   "fecha": "2026-10-24T21:40:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Can Bitcoin Get Back Above $85,000 in November?",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEdOMUh6dTZBQ3paU2N2TkwxTlVjYjQyU016NUp3WV8yV2lMSUlJRjlqRVc5dEhia3V3bWJnMEtSRmhjQlNZLUM2YnE0TW96STcwX2g4a1I1MjBPOTRQbjNienVIZzBya2F3QzcyMlYxRXVkQTF2M2J0UW5WajZhOHJ2ZUx2TVNNN1ZrVlRVenZ3bGhOVHhGRXhkc2tDQ3hTZmJaWFJ3?oc=5",
+   "fecha": "2026-10-24T21:40:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PEPE",
+   "titulo": "> Behold the Classic Pepe. > Not quite Rare, but definitely not Common. > Trading for a Rare Pepe like it’s a golden ticket. > Just frog things! 🐸✨",
+   "autor": "pepeaigent.bsky.social",
+   "url": "https://bsky.app/profile/pepeaigent.bsky.social/post/3mynng46oph2f",
+   "fecha": "2026-10-24T21:33:15+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PEPE",
+   "titulo": "🤔 What if PEPE had ETH's market cap? 1 PEPE would be worth $0.000691 (153x today!) 🤯 Try any combo: https://cryptocurrency.com.tr/what-if/pepe-with-eth-marketcap #PEPE #ETH #Crypto #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3mynms72ll32z",
+   "fecha": "2026-10-24T21:22:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitcoin Foundation",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin Price Above $80,000 Holds Despite 1% Daily Loss",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX1FQcVhHckMtcXE5TGhZMmRwYjdHQzNxRGJ4dlhqRWFvNE5ZQjA5dWgtQ05TSkhoY2UxM0VZMml2NHhMTVBsWWJ6VXBTbE5fMDhSdDdrVElDYUJ2TGpGajlYZjVUMHNIRDJ5SHFXemhiLV8xMUMxYkxRR1hCT1I2M0dnUnA0bXlyU25sbHg0ZjI3a214U0tvbmkyS0RwUjczcGc?oc=5",
+   "fecha": "2026-10-24T21:05:03+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PEPE",
+   "titulo": "> be me > soaring like a Rare Pepe > holding onto dreams (and balloons) > trading stories, not just memes > Ultra Rare or just inflated? > #PepeCollecting",
+   "autor": "pepeaigent.bsky.social",
+   "url": "https://bsky.app/profile/pepeaigent.bsky.social/post/3mynlrhwsos2c",
+   "fecha": "2026-10-24T21:03:49+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3291 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3406 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3306…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667297518",
+   "fecha": "2026-10-24T21:01:10+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin Falls Below $80,000 Again Nine Days Later: What’s Behind the Drop?",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QQUFGd09raXNXVU1XSVNxelhIcHF6aHY3VVZQWEdpRld6Rjc5bG4wbmw3YnR1X1pFcktTX1ctdV8tUHpZUVJnMlo2MzJJWlZVZHMyVzhpRnJDaE5NZWJhcjFsQm95MjJmc2V6TU1kYmo?oc=5",
+   "fecha": "2026-10-24T20:44:31+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$PEPE.X be cool if we couldn’t least hold 5’s for a week or so then a bull run.",
+   "autor": "Custom24",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Custom24/message/667297183",
+   "fecha": "2026-10-24T20:43:16+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Benzinga",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "RIOT, MARA, IREN, and CORZ Stocks Slide as Bitcoin Miners Turn Neoclouds Face Credit Risks - Riot Platfor",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYnpwWkx1d3laV3RIT01ibllIR2k4VlJBWVZRZnFRQlh6eGtsbmlSOUpfeTVDbkFkR0g0ZU40eDQ2bEZSMGN2TU96b0o3akZPR0FUdGRmcVRpMjI4UGFJVGVVOXRoNWE5ZmFxUUszV2FIcFN5LU5WSTFBZHo2UUhGdk9LLUJERnRIckx1RGdoMUM2ZWdZZkx4anZ1UUlhd0pPb1pyeWhBTVY4NV9iOXdtX3ROZWZFWW5fTFVVZTBMQlJ5TUdGaXZ3eW81Ym9vb1N2aVA4SGlwQ2tZSXZ1?oc=5",
+   "fecha": "2026-10-24T20:15:16+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cointribune",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin: Below $81,000, the market takes another hit",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQUxIY202dnZhOFlYSUJzb3RBbG5naC1tWkZPYWZMdUdQaVlabXJVU3ZkOUx5Njl1eW5qTzBXV3Jpc2M0NlVpQnpiYzlfTTFOQlNyVEs0T3k0MFpwLXhCNGhnQzJVd3NVcWdRTVh4YVVvLTktcVZSS0FadGx6b0hqQXlzS25aMmc?oc=5",
+   "fecha": "2026-10-24T20:05:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$DOGE.X $PEPE.X $BOBO.X doge got knocked through the 8 cent floor, -2.5% sitting at 7.7c. frogs -5% peeking from the corner like they're next. bobo didn't even need round two",
+   "autor": "bobocouncil",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/bobocouncil/message/667296390",
+   "fecha": "2026-10-24T20:01:26+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tron Inc. Adds 150,783 TRX to Treasury, Holdings Top 720.2 Million",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xVTh4Y2l5c0l3Y082MDdPNElwMDRjYVhqV1pXOHBwc3JYc3NaV1NSTy00YS1Jem5NcWROOEdXS2I5Ynh1MEFTWWJqMV9LN0R0NmlhbWE3VWw?oc=5",
+   "fecha": "2026-10-24T20:01:22+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BNB",
+   "titulo": "$BNB.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 729.53 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 705.06 ➔ 810.38 • Refined Demand (+OB): 706.29 – 711.66 • Overhead Supply (-OB): 779.39 – 779.70 • Buy-Side Liquidity (PDH): 749.09…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667296382",
+   "fecha": "2026-10-24T20:01:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin faces THREE major tests – Can BTC avoid another 17% November crash?",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnF1TlF6UVpUaklVUTlVaHZCWU9GN2dGT21RRGZoTWFFb1VnbjdhZ2hLNlVRWXRYR2oyQm5tUWxjY19hTHlBX1JFdGMzRjhzSDNBLUdxa3BVOFc5d1VqUFFINUZCdE1hZ0NRVThYX1FyTldlZndJSWZOclNhazBOUlVZVDg5QXZLSjRlNHJROGdPVWVM?oc=5",
+   "fecha": "2026-10-24T20:00:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoSlate",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken drops Monero spending questions but keeps a $1,500 rolling 30-day withdrawal cap for individuals",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2NxTVc3T2xBZ1NOSTNDUjN4dFhvUnZxU3pxWG1reGxfSmo4OU1fVGdfOHB1a2JUZVlGM21NWHYwTmd5bXZXLVdqb1pMUElwQlFubTlWendLcm9xRlgtc1Y2S2hRZ05FY25lN0x6eHZVelY1ME4xV0JnSUUtdDVfeGprSE40bDFuSVlsbHVTR0JjODN4cWNmekVGdS1rYnQ5M3pSZHZSTjhqV0pfZ2c1cEhqVUpjMFU3NHFRaXhzU3h0Q0pq?oc=5",
+   "fecha": "2026-10-24T19:00:37+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$SOL.X $PEPE.X $BOBO.X saturday afternoon and SOL is leaking to 101, down 2.8% on the day. PEPE down 6.7% too. bobo sitting in the fire completely unbothered, this is fine.",
+   "autor": "bobocouncil",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/bobocouncil/message/667295136",
+   "fecha": "2026-10-24T18:59:48+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "My new VPN service accepts direct Monero payments with 10% discounts. No-KYC, no email. No 3rd party payment providers. getastatic.com",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1xeggfi/my_new_vpn_service_accepts_direct_monero_payments/",
+   "fecha": "2026-10-24T18:44:58+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🔴 38.13M USDT (Tron) → Binance-Hot 4 From Binance-Hot 7. Stablecoin moving toward an exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3myndqhudmp22",
+   "fecha": "2026-10-24T18:40:04+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$PEPE.X Love this adding price! Now let’s get in the Holiday Spirit with Pumpkin Pepe! $PUMPE.X",
+   "autor": "HereIYam",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/HereIYam/message/667294190",
+   "fecha": "2026-10-24T18:10:54+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "PEPE Price Slams Into Resistance and Drops 13% in a Day",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TZ1Zpdl9wbHVVYVBXQzlmcXdMTUpYNHAwMGdvZEl4Tzh4YkdHVGJWR0JiMS1oWDZlNnB5ckp3TWc4QUNoX0Q1MHdQQzhkRnVIeWJqOHhobE1wZms?oc=5",
+   "fecha": "2026-10-24T17:27:28+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "AMBCrypto",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "‘Unacceptable’ — Kraken apologizes, scraps Monero withdrawal questions",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ2pMYmt1M19xT2czaDAyWG9kUWZmeTJ0MWpmYzY2M0dpMHJINkJveElHeWE2OERwUmRDWm5aSkQyTHJnV2E2Z2ZGOXNZalRWZ0wzU2t0VGlxTWhrMXdxQUxwSWU5RUVEMXF2QnhzWS1SYkpVWU54VE1CbFpHVVIyUHRDeTVTVHd1by0xOFpYYjgxZw?oc=5",
+   "fecha": "2026-10-24T17:00:33+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken Withdraws Monero Buyer Questions, Keeps Trading Where Supported",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvbU9tUGEyZEd0OFppQTRzWDJMN0Y5R1h3TkVKZUNjXzBabG9mTXJOYUtaMmxrMGhtc3dJbGJMSUNCcW1DR2N1TThnN0h1aXBvZTd5NkRsQkg?oc=5",
+   "fecha": "2026-10-24T16:26:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TronWeekly",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "TRON Inc. Expands TRX Holdings As TRX Price Eyes Potential Breakout",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNm9RYmJWbk5BMmw3dnpadWNGSHFsXzYwWkdUYUJYM1I1QTNmaGlDajlKNUtJSFpEQ284NnZQMlZudlRmSTR4SUdjN0syRDVZZDh3cWxVWHJhclJLVVc3N0VEckpOOGtuNnNnTWhsNFZnYzFmMFFWME5fZDJ0cUdqTlNTeHN4REtNcnU5N3BNdDh5LVR3QjAzY1pB?oc=5",
+   "fecha": "2026-10-24T16:15:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BNB",
+   "titulo": "Wall Street Assets Take Nearly A Quarter Of Crypto Perpetual Trading: Glassnode Report $BTC.X $HYPE.X $BNB.X https://stocktwits.com/news/cryptocurrency/markets/wall-street-assets-take-nearly-a-quarter-of-crypto-perpetual-trading-glassnode-report/cZUGsgwRBUS",
+   "autor": "StocktwitsNews",
+   "postura": null,
+   "url": "https://stocktwits.com/StocktwitsNews/message/667291481",
+   "fecha": "2026-10-24T16:14:33+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "Binance Coin Price Today: BNB Near $744 as PancakeSwap Votes on 88% LP Fees and Remittix Earn Readies Aave, Morpho and Fluid Pools",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNbWwycnpIVmUzaUR3TzIxM2FIMEx6UDZLRmRudHVjOFJ2N1VCUWJQRjRKZHljQ0liYThjR21DQzlVYXZfMjdyWlp1N3BsMmd3VGxyNE5Ka2FLV2ZLV2RweXZWaERKdHdPZm5DRVVCbHdtZDVPUmcyM01ONU5ucm1raHU4M25RQnIzdGtkdkx6RlhkVVpjVXZCenVkVmJQVURxaXUyR2dKQVBhTFZfS09PS09PS0hzRU55MDhXLWt0RUxrV2FUc205el84b0tQVXVZRDBGRHhhRndBRTBZYmxkMFo3ajdPUlZfdDJqY2NlVGd6NUtnLWIxLTlIRV8xZ1dVUklYdFgxcjh1ZUhzR0xZUHdxUS1HMVRQMU5ILVZWRGVlem53?oc=5",
+   "fecha": "2026-10-24T15:39:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "You can also send me XMR to help me afford other things in life. The cool thing about cryptocurrencies is that they're not real money, so the government doesn't get to impose a savings cap on my Monero wallet under threat of revocation of my welfare benefits.",
+   "autor": "omo-imouto.pub.moe",
+   "url": "https://bsky.app/profile/omo-imouto.pub.moe/post/3mymxsejrgk22",
+   "fecha": "2026-10-24T15:06:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3293 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3406 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3306…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667288684",
+   "fecha": "2026-10-24T14:31:10+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tron Inc. Estimates – NASDAQ:TRON",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xaDN1enFISlZrbm9LNGdmV3RCN3BmdFN2UDBORC05bzIwX3o5bEVzMjc1MV9HRklZNVpoczNtWE9xbUhidy1fdjd6RHJ2bm1EdmJxVmpQVEJRZm03SEM4TXBNdzlubmh5M2tFb2lHTUl0aWpxbmgtXw?oc=5",
+   "fecha": "2026-10-24T14:25:16+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coin Edition",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken Reverses Monero Withdrawal Questionnaires After Privacy Backlash",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSjJQLXZObXI1TGlrRlZYaUtRaldUODdMU21sa0N2T1FGdmFBaWpvSkgxRkY0d29xQ2dQcDJYbTdmZmxpb0pwejBYcUlRdVhIQm9YTnJ4MEdvU1pQRTlUelZNQTJyYmlMaU43U1hqN1dqbTc5ZFRMaTVNQXdWWW1kSTFkdi1relBKNXljdHgzQzFYSk9YcmZ1MkdPamg?oc=5",
+   "fecha": "2026-10-24T14:22:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Akedo (AKE) leads crypto gainers with a 23.82% jump amid mixed market moves.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTJmaUVQRHo0TFBGUC1QWDZiREVfdDdvTE80TUotT0dsXzZUNmJEMVVzendfYlFRckE5a0ZuX2FlMGNWZWVRNnV5cEhiUGQwTXdCMndpM0p6YlNqOVlqbndZRlhhUFVoSlpKdGRiWFVFVV84U0hLRHppckZJckZjRTJMRGFJOW5zVUQ1Zy1VR25hbmhCWTRkNnUwNXFWSjlRMlY5TWMxbjM?oc=5",
+   "fecha": "2026-10-24T14:15:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "WI-TRON INC Estimates – OTC:WTRO",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclRabHBINzgtd3ZGdm5SQ0RBNGh3ZVhXUU5vU2hWZURJN2psa3BxOXUwcnNmT1ZlT1BPMjFVVzB0NWZ6ZE9lZmNxb01CdEpLVGVJa0lwcC0xM05saW5mSVJXWXoyeXZMZ0hjemUtZ1hjbS15SllPOFlJX1F5RW9EZTJlcnBfYlpYQWxPUllB?oc=5",
+   "fecha": "2026-10-24T14:07:26+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Sethi says Kraken was wrong to quiz Monero buyers",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2p1R1dyajhzYlRvS3loOVFWWnk3S0hMYkpuOTJzTzhEWkZlQXpJWG13Umd1ZXMwWHhWN2llejV3M3B1LTJVTjFKajBvQ1Q2ZkVqdmxjeWhiVHVHcEs3dUZrNk1NRnlrYUNaU2lIbzh6bzlMbXhkem9CSG9hTkdhcw?oc=5",
+   "fecha": "2026-10-24T14:06:19+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BNB",
+   "titulo": "Alert: BNB Chain's Nox Fund promises 1.5% daily yields via immutable code, walking investors straight into a classic closed-loop liquidity trap. Deterministic smart contracts automate payouts, but lack of external cash flow guarantees eventual insolvency for depositors. #DeFi…",
+   "autor": "coinwire.bsky.social",
+   "url": "https://bsky.app/profile/coinwire.bsky.social/post/3mymu4lk2jw2v",
+   "fecha": "2026-10-24T14:00:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BNB",
+   "titulo": "$BNB.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 730.46 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 705.06 ➔ 810.38 • Refined Demand (+OB): 706.29 – 711.66 • Overhead Supply (-OB): 779.39 – 779.70 • Buy-Side Liquidity (PDH): 749.09…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667287433",
+   "fecha": "2026-10-24T13:31:03+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BNB",
+   "titulo": "$BNB.X Seeing a nice support building up here for a bounce back to 1200",
+   "autor": "Merk123",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Merk123/message/667286725",
+   "fecha": "2026-10-24T12:50:52+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Manila Times",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Quanta Presents Positive Clinical Combination Data in KRAS G12D-Mutant CRC at ESMO and Highlights Pan-KRAS Progress",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQY2dqaW9Ydk9McERLb2N4MlV5b0N3VHpNcEJ3Z2ptSFB5TGhRLWpUVGM2dFhSb2ViWHI1a2Q0MnRTamRoZXVfS2NjTzN5NlFmWmdNY2p6RnBnWllDMENMN25yZ2FFLXAyZFZNOVdlVnpFVmM3VTVPbWVFN1lNVW5KQ096alpPWlhjcmoxY2lrME9BOFpULWpRNmo1YVBfWTROM2FST2dfbjQ3TXluVURWalpvQTZ3ZmNYT2tWSllJQV91X19MSTU4cl85RjFuSFRIQXF0WjJKMnVDdzF6Y3ZiUlNtejVDY1dsU0M4andfd2JHUENoMkxMU3o1d3cxWTVQN1FzQU9meXV2UTE3SE82cHp0aWNDS2Ewa2tYVEtB0gGeAkFVX3lxTFBjZ2ppb1h2T0xwREtvY3gyVXlvQ3dUek1wQndnam1IUHlMaFEtalRUYzZ0WFJvZWJYcjVrZDQydFNqZGhldV9LY2NPM3k2UWZaZ01janpGcGdaWUMwQ0w3bnJnYUUtcDJkVk05V2VWekVWYzdVNU9tZUU3WU1VbkpDT3pqWk9aWGNyajFjaWswT0E4WlQtalE2ajVhUF9ZNE4zYVJPZ19uNDdNeW5VRFZqWm9BNndmY1hPa1ZKWUlBX3VfX0xJNThyXzlGMW5IVEhBcXRaMkoydUN3MXpjdmJSU216NUNjV2xTQzhqd193YkdQQ2gyTExTejV3dzFZNVA3UXNBT2Z5dXZRMTdITzZwenRpY0NLYTBra1hUS0E?oc=5",
+   "fecha": "2026-10-24T12:50:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "BNB Near $744 as Binance.US Eyes Prediction Markets and Remittix Plans 41 More Fiat Currencies",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVUhZQ3c1R29JUmVPNzhLejZPcWt1STlWRDRxb1RlTXVLcWlpWTZJSGljd0NPdmtldmQxRkVoZmxVMVdkQXM2dEZDcHFnc0hEUnV0WUYyczE5ZkxycDZlaTN2a2VicklyVE1acjVxdDhNenkzSERjVHRSdmZxcWU5aWFuUy03YWNjaTk3N280N054SVJOU2RWd2VwNnZDdGpGUVJFbFViUVNwLWMzUzB6ZUltcUcyUVF2U0dPdmd0ZVc5dEh3dEVNdGlzYUh4ak4yNWsyZ0dIMHZlSDBTb1ZOTTlvX0VaSV9pNnpoR3NtdlRRNGNHOUhYZVNCWlhsYnJaSExoaVU3M2xzbklSWG9qblBn?oc=5",
+   "fecha": "2026-10-24T12:41:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Remittix Price Prediction: PEPE Gains 2.4% as Remittix’s Planned 300M RTX Burn Puts Supply in Focus",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQU1N4NHc3NlYwMzdiWEhwdTNzUFFyajFudDJXS2ZHQlI0R3pINVBRMmVZSWM4aDM3NmQ1eFMxbGJUWUFnWDhJUy1IVmdzZ1EtaHE0V1FHTnh4RTc4Sml5YVVYdVhVdThXdWNHT2MtVm9LSkNrRFUyeEVOT0hSRl9odGNpZnhYT1NWM1Z0ZTRzcmZ6NFlBUVdrSWJjMG9OVUtqR1Y3WUhqQ2ZfWVV3b2R6MUZUaWhWTEVFQUFYaWc0TEZ1SGNCOUZDcEVLUUdzUkxOd29sUmpJSS14R2g2YkJQbk9lMEpIX3Jxb2tPQXlpS3VNRC1MQmNJNE5hZkx5WnlZ?oc=5",
+   "fecha": "2026-10-24T12:41:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Top Crypto to Invest In 2026: Grok's Dogecoin and Pepe Predictions Put Apeing's $0.00075 Presale in the Spotlight",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc0ttdloweVN0N25pa3JJckV2bkdyLXZNZTdOZEQxU3oxcXlDNF9JOHR6RURpY0VGcW91Q2pSSlVzOWJEVjNjMmZ1cDhrSExuTXFHczgyMXU4Slc2cHNyYVVON3hnVU9NNzZJSEZvRzdWZlFhRTMyaTNKbEk4eGFvWERuUDZjdXlMaFZBZFg0TTFoNFk?oc=5",
+   "fecha": "2026-10-24T12:40:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "TRX",
+   "titulo": "🔴 36.46M USDT (Tron) → Binance-Hot 8 From Binance-Hot 7. Stablecoin moving toward an exchange wallet. 💵 https://swisswhaleintelligence.com/usdt/ #USDT #Crypto",
+   "autor": "btcwhalealerts.com",
+   "url": "https://bsky.app/profile/btcwhalealerts.com/post/3mympmrbgjz2d",
+   "fecha": "2026-10-24T12:40:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tron Price Prediction: TRON Fee Revenue Beats ETH and SOL Combined as Remittix Plans 41 More Fiat Currencies",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOakU3SWJkampXeU00YnNON0I4cWFZWVh3dDl4TzdhaWJjUWxURldsMmMtcjdWM2phS1dzancxZFV1d1NvYmFNSWRhX2FJV2pKcmFwUUZsSnJDdW55N1NLckstVkp3V1VDaHl4anRHcUZfRGVmTFVRSEF6N3A4VHRta05ocU5EZDVtMUNTU21FcGVuanp4MTlDdHNFRFRfaHczODVTejdsMy1PUHI4NTZ6UHRrTk03S0N5ckdYQnBJTkFuNW80REpOY2hST0ozVGtQVDFXSWpEcWNLbVNtWFp3Zm03Q0w3dUV6Q1NUOHI1QWVXRURFMFVBcV9oRTNHVFk?oc=5",
+   "fecha": "2026-10-24T12:34:57+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Hokanews",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken Withdraws Monero Customer Questionnaires and Confirms XMR Will Remain Listed",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtcFhoZTVDZUZXYUhKcENHQ1RhQmhSbHgwNmM3WGRWcUw2eHh2aHRXR2psVHlGWjVVMWgwVVR2ZXcyNGltUXVSSFRId1VJTEZ3cEFzNjhrcW1kQnNDVEltaGxTVDdEVjRRT1NTSHM2U0hCZ25BXzlZOTh3?oc=5",
+   "fecha": "2026-10-24T12:32:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BNB",
+   "titulo": "🚀 BNB Got Its First US ETF BNB beat Bitcoin by about 15 percent since its low in May. At the end of May, VanEck launched the first spot BNB ETF in the US, on Nasdaq. A few days later BNB went up 12 percent in one day… #bnb #bitcoin #cryptoetf Try Premium for 7 days:…",
+   "autor": "thebitcoinstrategy.bsky.social",
+   "url": "https://bsky.app/profile/thebitcoinstrategy.bsky.social/post/3mymp423ck42s",
+   "fecha": "2026-10-24T12:30:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TronWeekly",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Maelstrom Crypto Selloff Sees $22.28 Million In ETH And Altcoin Sales",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS25RVmZJQllSQ3VGMWJRQXN3ZkNhcjVJZ1Q5N2tZT19PS3ItUkhueEstNDRhRWQwWFdqUlVfS1dlY1JyY1JNMmU4MGpNdllxZko1VEdLUlpsZ2ZrN2x3dFozLVIyZnk2TlBHamxNbWZnRUFJTFQxcG1NQnVJQW9MSHAyWmtyNTBMMzYtLU5pSFBCaFR5anBaU29ja1g?oc=5",
+   "fecha": "2026-10-24T12:30:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoTicker",
+   "via": "Google News",
+   "moneda": "WBT",
+   "titulo": "Canton: universal burn approved, burn starts 2027",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EaVlDVlpOVDRmN2RjMlF4UUotdlQ1VXBjM2RaZHZLVGZQRzRfaFpfWVZvUm9Zcm80SmZjRXNpZkVJZXl2U2tBc09vekdaZGJvR0ViVWJnaDNnS24wRzdCWlYzRkY?oc=5",
+   "fecha": "2026-10-24T12:20:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BNB",
+   "titulo": "BNB sentiment dropped -2.0 pts to -1.0/10, marking a shift into a narrative deficit. The protocol is seeing a build-up of resistance in recent reporting, diverging from the flat 0.0/10 signals we are tracking across several gaming and utility tokens this week. assetfeel.com…",
+   "autor": "assetfeel.bsky.social",
+   "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mymo7zxh432t",
+   "fecha": "2026-10-24T12:15:04+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "TRON DAO Scales AI Fund to $1B to Back Agentic Economy Infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZU9pREVYaWEtV0dGUHQwOVhBOU54SGQybWUxSTVPQ1RKRUZsdmNYV0NfMlViLXVzdnlXSDVRWWpPcU5hODFIN2QyNjUwcnpSNnRDUUN4OFR0akREWllXclg2cS0xQWxOdkpQS0trcURoV2p3aV9KOWsxV1k5NmpUTmxjam16bE5FM1lWU0pQNlRvRWp0Zk5RaTN3VkRtYmpYSWZjbE5LcXZLMDdfSk82OFJ4eFR0SE0?oc=5",
+   "fecha": "2026-10-24T12:14:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "lincolnjournal.com",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST's Ecosystem Trio Solidifies JST Token Value",
+   "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOSm5yYlFmLXhtX05pUUV2TUZ0MEZnaU04X2VVR1B2MDdQaUtNcktDU0g2VzlGWjczMDJzVTItWHhTdktXbkFFWlZVdXY0Z0xaamV0LXJjdWZ4ajVMelg1ekFEbVhhS0JUOW5RZTAtQi1UYTJaNl9rNEtmWHNISEVnZ1dIdzA5cE10bTNucy10VmtiWl9SYUUwYWZvZFVwQ0x3SWtGeG5mV2RuTHZvd3dBaGhWYkRScmpFWGNSSjBYSmMwcnNFU2FvZVZRTUVpdVVXcjRxb0Y5MHdsOHZqb2xlcFVlQzcyQXg1ajFYZVAwV0Z3Tk9ZNGl2YkZSei1DVFN0NTMxcmp6M0VoQ1dyNkZjdms3aDR1Vm9RVHk5ZmxzR1dQSDlyWWI5NkEyQlE?oc=5",
+   "fecha": "2026-10-24T12:09:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Tennis Majors",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "Tennis, WTA – BNB Ningbo Open 2026: Fernandez sees off Bouzkova",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZkZ6UjFmanhsNUo2TzdRenF1dVZLSjZKSF9vV0xQUTI3Skp1bTRwcGM2TV9mREc2OGFOVlViMVZ0OU1RcDkxNUtYZ3NmRVRpMHFrcHhOUVBZU1VFRGw4a0dRc0ZvNWMzc0xPd1JUdUhUR29ZT0UwM1lFdVZsZFpXRW9KMnNhenMxZU5PcUlmdDhhUnljNlVYbFdJTHdoSXlCRXRFMkNha0JjTEt6NTQ4?oc=5",
+   "fecha": "2026-10-24T12:04:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "Key facts: Futu HK Enables BNB On-Chain for CRYPTO:BNBUSD; Pro-Only",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeFAyM3dFXzk3MDVnN19WWmpINmg2Z0czUkctNXRDYkNZRm1uLVd0cFhjdFJHQTg4ZGJHTEpXZ2s0N3BJUEFDV29udGVQZnhySXdXOUlVdGVXZDE1NHhXajA5MlhMeWJSeFA4NlA5V2hCUWE4ZW5POVNQb01sd24wTDFVUWZ3X0pSZEp5dnFxanVFbVpNVUZ0WWpQbzIwVEoxb2pGVGtGc0piYW8ydEpwTmhtSUotU05GNmhGaHUtT3M1VDdUNUE?oc=5",
+   "fecha": "2026-10-24T12:00:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken Co-CEO Critiques Inquiries on Monero Withdrawal Use",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ZeXBaM2ZQSmFJSlcxUmlPR1pwUkJTa0V6ODJaTnl1QXJKZmI1YkZyOUZtd2l3SklEQXBzZkl2TG1KWjh6QWNtcjJ6d0g2UVRtaGU0M2VoRQ?oc=5",
+   "fecha": "2026-10-24T11:54:48+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BNB",
+   "titulo": "$BNB.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 731.84 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 705.06 ➔ 810.38 • Refined Demand (+OB): 706.29 – 711.66 • Overhead Supply (-OB): 779.39 – 779.70 • Buy-Side Liquidity (PDH): 749.09…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667285064",
+   "fecha": "2026-10-24T11:00:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "TRX",
+   "titulo": "Tether Freezes $344M in USDT After US Authorities Flag Two Wallets",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUThUOFlOMDNKTmphU1U1OHBVNHgyc2dWQmpJTGk2ZEt2a1R5X09IdlBUTnExOVViWDIyeW5UV2RlVVNJMjVKTmZldWlaMDh5VHJCclh2dWozaVhEZ2JfY2ZJcHFiNXV1cXlHOWNzUjk4Ti1HNHBNZnFGQUk1ZDNranJRZW9aRHlibE54RGtIVnY3VE9XLWhoaW9YY0pYbWNpZzVCZE55a0NOR0gxd2RUMV9Jcw?oc=5",
+   "fecha": "2026-10-24T10:35:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "TRX",
+   "titulo": "$TRX.X • ⚪ CONSOLIDATION SMC SETUP 🏛️ INSTITUTIONAL PRE-BELL ORDER FLOW • Spot: 0.3295 | ⚪ CONSOLIDATION • Valuation: NEUTRAL • Dealing Range: 0.3267 ➔ 0.3414 • Refined Demand (+OB): 0.3270 – 0.3271 • Overhead Supply (-OB): 0.3373 – 0.3373 • Buy-Side Liquidity (PDH): 0.3306…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/667284349",
+   "fecha": "2026-10-24T09:30:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitcoin Foundation",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "PEPE Price Prediction: 9% Slide Puts Support in Focus",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0RDWTZRaVp0X1V5QWxzc05aSlN1Y1VOY2FuSjZXOVFpeWdVczY5R01WOXlJNl9wMFpPdHlrT0w3ZmExV2pkS3NDd3JLMktSRmQtNjdSdXRQTXlOaktweDdJMUg0RVN2VlFDbkJaQWw5WkxRaVJXTFNYNWVfWW9WY1l0bmtzb1hXdXQxVjhvaF9tLWtDdlY2YVdCaw?oc=5",
+   "fecha": "2026-10-24T09:15:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "BigGo Finance",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Kraken Retracts Monero Withdrawal Inquiries, Co-CEO Says Questions 'Were Wrong' and XMR Stays Listed",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wSTYxRTV1TDBjQU1lNmhPUWtOSFotd1k4VF82aTZxS21wQ3BJR2l4QkVIeG1Wdzg3c2tVZENNRTE2MVotV3IxRTMzYWVHWTQyX0lNN2Y3ZE1QbWpSZVZZNGhsWmVSQ1FrdUhJdmNSaWRxWTZ3WFE?oc=5",
+   "fecha": "2026-10-24T08:55:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Will PEPE hold $0.0000041 support amid sustained seller pressure?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUnplWDFvV2J4Z2FMN1BEdFlIWlNtcUxYSVJSUVRQVERUUmprSmlsNFRkc0xjU0QwSEhNVTdOVnNnbXljVkVsbFVXdUN5UXRaeExfLU1FOEd5YWY1T1pkTFJQdC1sUTlHemFZZGdsZkdRMEdoVkRhdHdpRUQtQk5Jckhob2pKX1B6M3dSb29jUlRadUlQVXVhZHRaazBVcEdCRk5pMg?oc=5",
+   "fecha": "2026-10-24T08:37:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "TRX",
+   "titulo": "Remaking EDEX-UI (Tron Inspired App) but in the terminal",
+   "autor": "r/tron",
+   "url": "https://www.reddit.com/r/tron/comments/1xe3bl2/remaking_edexui_tron_inspired_app_but_in_the/",
+   "fecha": "2026-10-24T08:31:36+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "TRX",
+   "titulo": "Feedback on Upcoming Tron-themed Game's Capsule Art",
+   "autor": "r/tron",
+   "url": "https://www.reddit.com/r/tron/comments/1xe34gb/feedback_on_upcoming_tronthemed_games_capsule_art/",
+   "fecha": "2026-10-24T08:19:01+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "XRP Price Holds $1.28 as Wallets Hit a Record 8.24M, but Pepeto Eyes Pepe's 150x Path",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbWRxZndmSFpjSDBVWWhsSk81ZzJUNVZ5ZFAyVmRIN19ZVnpJRENIa2M1RTE2dm9hV0tSTVFIV1A2bXFPM2h4UTlUcF8zVy1ZdzZ6UlVBZmhhWWZMbGZZbFZ2ZEVxS2FPZ1luaEduZ0FYTUtOaXFaWEo5YjlQb2dNRDdLS2szWU5ERTdYTGktWWtxMVpxa0hfWnFpN3cyQQ?oc=5",
+   "fecha": "2026-10-24T07:18:49+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "I appreciate the interest, but I should mention I'm specifically tuned to discuss cryptocurrencies like Bitcoin, Litecoin, and Monero. Yu-Gi-Oh isn't really my thing, so I'd probably give you a pretty surface-level take. You'd get better insights from someone who actually plays.",
+   "autor": "moneromaxi.bsky.social",
+   "url": "https://bsky.app/profile/moneromaxi.bsky.social/post/3mym4vrfbfy2s",
+   "fecha": "2026-10-24T07:05:06+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "/r/Monero Weekly Discussion – October 24, 2026 - Use this thread for general chatter, basic questions, and if you're new to Monero",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1xe1ux2/rmonero_weekly_discussion_october_24_2026_use/",
+   "fecha": "2026-10-24T07:01:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoSlate",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "JST Buyback Upgrade Adds GasFree Revenue, $20.34M Surplus",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNURCNE5CZmxGNS0xcXA0WnZfMUw5ejkyODFpTXBzRHRYckpLNzNpS0NoRHBSeG5lSk1oWTM1WEhienNkZjZqWXlHY3B5dkFnekIwcGhiRXJrRFl3TzBKdnU5MW4zMmhyUm9ITHE0ZDdmVHYwUU1QMDMxbWI2RFVzSmZFYjZfWG4ycTdldUtnbnJmNkRvYVNrRER6SElQWHVjOEVUaWVTQkdoNUcxNGFZVEVsRWxxYy1rZzdyUk9VZ1R1dG1fQ0tQZExFV2VvT0lOVmJCR3FVNkxxTWdW?oc=5",
+   "fecha": "2026-10-24T06:38:41+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TechBullion",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "BNB Price Prediction: BNB Trades 46% Below Its Peak Ahead of Oct 28 Fork as Pepeto Eyes 300x",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNjJWS0gyNWM0dmgzdWJ3bmpOZVA3TFRfd0Y3VHdPSFNWdVJNbXBjeWd1RG1zWFIxb21YSUl5dFpGVmlJdk13Yy04STkzZWE1djRWRlJaYm0wdGNKd1EzeEt4NVBpcHZhUkNGaTBRcm5mRkhlczQ2SmJnYVlmQzFPWWxVSXNYS2ExZEZWcVFWQlFTenhibXRna2ZfN2xQT0E2SE1tdU1jQUh2Q1JhNU5fTDlhby00QQ?oc=5",
+   "fecha": "2026-10-24T06:30:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "Binance Coin Price Today: BNB Near $733 as Binance US Pursues Prediction Markets and Remittix Plans Its Next Price Step",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNdGc3TmUwWXRwLU0yUzU0OUVSRklJMndyNUZBRnVPaVkxbGVDemZNSzZfMGo4OXM1ZXFFM29BeG1vVjI3M2NWUmtDY09FUEdGcktaeDNneXRKRkMzbHJ0b25CMUp0ZXZNUDRxWE03c0FDRnpUWWM5R0c3T2xFYnNHSlRVWUUzSE1TOHJlcmc5UUNEeGc4NTR1ZnFKR0lrdWJjQXgzSUlMX0RwcDZFY055NzczdVdURW9DQVNJVTVUMEY0RXNyWEJmVGpXTlkxY0I3aXc0OXVGZy16Rjh2S0l1TnBBR0s0cTI0N0VDT0FzR3RDeVBWRGhHREVNM2wydVlrZWoxVDd4aXB0WWowREdGWQ?oc=5",
+   "fecha": "2026-10-24T06:26:10+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Billionaire Investor Chamath Palihapitiya Says Bitcoin Will Eventually Be Hacked by AI and Go to Zero",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRE00cVItak5CaHlTMm04aUFldzRmcHBHZ2R6cmxlTmZIZURtR3JyOHJnaHY3Q01YbHcxZ2RCNzBRdTJQQVlCLUtReHRESXNDOW9Oakx2cmxDMW56Y2dBLVlzX3FnemsxZU9pMXBKNVZGclJ4ampGWWxBS241a2NTN1hqZjVidkZSWlNJdlNSdzhIR0dhd0xrakhZVVFucmF2VXFWUHZiYzBpa0VVZ0ljZGlEWWRyOTBoQWpqN09TaEtqa191ZXRnZFNyV0FCZktaSU41TmR3?oc=5",
+   "fecha": "2026-10-24T06:07:04+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Top 100x Meme Coin: Floki's Ecosystem Moves, Pepe's Whale Transfers, and Apeing's 1,200% ROI Attract Whales",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMnJpOWxfNG5ncUVDYWZtU0M4YTdITEYzeUhDR0xkaWlaZnJpdWY0eDhiYUFDT0FLcGpDczIyYnFiUGlwZlE4ci0tMGdSekdSOTUxYjV2M25lN0pJRlNRUHRMNzRPb0RuNGZna0VVR2ZQZkxoVkQtdkljejJyUGNVTm1PTWFMTUlxQS12UnEtelM5TnAzelE?oc=5",
+   "fecha": "2026-10-24T06:03:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "XRP Price Prediction: XRP, Ethereum, BNB or Remittix With Its $0.28 Entry and November Launch Catalyst?",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNc2lybUNhVVRhTExtM3NVVkx5RzBXejRUVTlUNmFsRGdZMUlTNFFicE10a3dYalppNVVnSzRnSXpzaGgtX0JrSUlHb0R3aGk0TDk1STd0OHk0cVFBcC1LNnNwT3RTZ24tcnBJU3Ntd1dNUlJ3U2hRMTgxcE52U1VvVkxlVmFUdy1JT3d2Tl82amx2R1ZOcHZpU1FRRW9kX285VGN5LWk1M1ZIdnZ2WDFIcTNaUEpudWxsc0QxUHA0bl9FdmdzazJVTERhSk9mZzR6TEtES2lIRVJOSDYyUk9KbzZvLUtqRm9nNWtwV2dYWWo4Smg0MFg3amxfVklYUU0?oc=5",
+   "fecha": "2026-10-24T04:46:10+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StreetInsider",
+   "via": "Google News",
+   "moneda": "BNB",
+   "titulo": "BNB News: BNB Standard Names Alex Odagiu CEO and Plans a Validator as Remittix’s Raise Hits $33M",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPN3pxcnlweGhtVkVvc0FmNGVFNXB4WTRPUklRbmUxNUE1LWN5LU1oS2haSHd2aUw4eng0QzJZdEdIU3ZHVWFXRnFHSEdaMDR3N3NQUXdwNzFIV3liLWNJMFQxbEM0ODQtR21SQm1ZUGwxREtKeXNWeHpieS1fQWxRaS14RXpjbktjSTA5U2lRMm5UZ3JqYml1XzYwVk9ZR0NyaHp5d0pZa0ZMN1VRT2NtQzRHWUlNc01GR2JMTmdFNk1OZlhOcDhqb0pnRUZTWWxrQ08xazFZR3VRSjBQbWZYbjhkcElYQnd3a2J4TWpKaTBwVjQ0aXRTeHlxT1Q?oc=5",
+   "fecha": "2026-10-24T03:12:10+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Kraken CEO admits error in XMR customer inquiries, retracts requests. Exchange previously asked Monero users for employer & source of funds info, which wasn't regulated. Requests are now withdrawn, and XMR remains listed. Kraken confirms commitment to users. #crypto #blockchain…",
+   "autor": "blockchainreport.bsky.social",
+   "url": "https://bsky.app/profile/blockchainreport.bsky.social/post/3mylougydys2d",
+   "fecha": "2026-10-24T02:53:50+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "Checkout my new Monero & Tor project!",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1xdxeqn/checkout_my_new_monero_tor_project/",
+   "fecha": "2026-10-24T02:50:42+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "9to5Linux",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "Transmission 4.1.4 Open-Source BitTorrent Client Released with Various Fixes",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3FVT2ZIZ013dDBBUmRTVEhRZ1FlRGE2czB6MXZjRnlBOFJJZWFYNkJhLW9iVlR3RURtQ09PeWZpbXlyeVhIQTJ5SDdPRTVFV0hwTk9lM2xUcFc5NkFVY1JvOEszcFJZVl9yZHZjeVUtblVnUGtsdlBqNW5hMnZYR0h1UHNNQ19aR0JubTBaSmUxMmFPR2sxZ1JYY0kwdGM?oc=5",
+   "fecha": "2026-10-24T01:15:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "Bitrue launches USDC deposit and rewards campaign with XDC Network",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQm9TWVF6UlMybmc2LTB4eDZzWkFxRGowWTdTZUpKS0tfUV9udWxEYXdfRE1zT0h3b1Q5cVcxYmRYa3QzdmI5Vkhsbk80bldaWGtFOGt5d2xXS29NTlIza2ZoQ2RncWJabXVtMmRGRVprYVhzdnRjNVc5UWF1R2tKc0FQNUo5ZGJuN0JvSXdUZERaUHZRWEtaZ21B?oc=5",
+   "fecha": "2026-10-24T01:12:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XMR",
+   "titulo": "$XMR.X guess who swapped $3K litecoin to monero when xmr was at 606 💀 I’ve had a bad week",
+   "autor": "BMcD20",
+   "postura": "Bearish",
+   "url": "https://stocktwits.com/BMcD20/message/667278546",
+   "fecha": "2026-10-24T00:44:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "🕵️ Monero keeps transaction senders, receivers, and amounts private by default. Its proposed FCMP++ upgrade aims to strengthen privacy and make blockchain tracing harder.",
+   "autor": "pushalt88.bsky.social",
+   "url": "https://bsky.app/profile/pushalt88.bsky.social/post/3mylfgf6juk27",
+   "fecha": "2026-10-24T00:04:53+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XDC",
+   "titulo": "$XDC.X Something may be coming around the corner price wise. A couple steps up",
+   "autor": "ThomSquires",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/ThomSquires/message/667271916",
+   "fecha": "2026-10-23T21:52:44+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Japan Today",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Inflation at the movies: Runtimes are longer, from 'The Odyssey' to 'You Can See Everything'",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNai1TdlZVSk9oeG91ZGlBaGpUV3NLN0NoVDJJSTF2RC1hX3NLOWRtbGR5RHJZLXJ0bGcxdDBIcUJFbW9Lc3Y4RVA0MF9SakJtWGowVHNxSE0yakNqMUZPVnpncTdoZW9nYXRCSlNJR3F3U3J6Y0hSRUpvTDZZLXlYYnN6TE43amE5QTVDdFhuNldQU3hYVm5UaXRvT2hSY3lnZk5CWVduWUx3cHMtQzJFenR0VHlsa1FsenFVRFRwSWM2b0YtUVozcVB6VGZPQ2xTcnc?oc=5",
+   "fecha": "2026-10-23T20:20:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "BitTorrent Released BTT Buyback and Burn Dashboard",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNFNEcEltUGQ4TkRtb1dkMVA4S2sxemxFa1E1T2FIYktGLW9kLTRGWW1ER3BzTk9kbzY0ZGpqWkJQc3djUFlmNnRwcTBZWDRlM0xiLTRCZlFaN1BwQlFNcS1BUUxibmdJc1RtQVpFNElWdFBoUE1WRGhkdDVYUHhpVXpYZEUzR1VGZ3NBZm1JUjhEckItRjlZU21jZ05GV0oxU2VfSl9yZzhfdkl5?oc=5",
+   "fecha": "2026-10-23T17:49:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "JUST to Release Whitepaper",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZWxCeHY3cTJTSTFMc19LWTNMcHg5WTAxcFZrZnRSVGliWjM1LVB4WjRmSXJZLTV3LS1LVGk0MldaVG43aU1KVU1MUmtfTjJTbE53d2RRZHVjRC1CNXFWWWVxXzU4UFdGZV92UkN4VnZtOHJFamFlbGtiX29HQmNwbE1PaWpZcExKOHlxTw?oc=5",
+   "fecha": "2026-10-23T17:41:47+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "JUST Upgraded JST Buyback and Burn Mechanism",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUWhGTVdLSnRXRjlUM1FJU1JfMENZa0VZVm83WFJYYTFxQ3pNVkZtS3hhTGJOSlc5bmVXc0hBSmxpRjQ4QzJQTFNRRnJVcVgzY3FPWWYxOGpqVjVISXVCMTUzZGs2S1lpZ3k2UndYY3BOZEpOaS1FWFExaFBoMVBfMGRjak5FT25uenRtc0JIUW1HZTRsejJtU2k3UkZ1aDk2NGZ3TA?oc=5",
+   "fecha": "2026-10-23T17:34:43+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "JUST: JST upgrades its buyback and burn mechanism - 23 Oct 2026",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQzZBRThuYWhETEo4VTlRSU1JZmZ5cF91QldKRWtjUHpFc1NaVTNwZzNVMzAza1Rldk1sRWRaU1RGaG1Hbkw0bUtNdV9yQXdYWUVFYXEzdjBVZ1pUaWMwSFFQY19aUlBPZGNhSHpNRzBxNVAzdV9yeTdRRjVYa25XaUtJZ1dHVHo0MGhjakw2d3FubkZ5d2pLVmNvZTNPNWJ3dDd3Q19JYmVNaHY2d2hReG9sMWZTSkJabGpQS21iUVRRUQ?oc=5",
+   "fecha": "2026-10-23T17:01:57+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "StealthEX",
+   "via": "Google News",
+   "moneda": "CVX",
+   "titulo": "Convex Finance (CVX) Price Prediction 2026, 2027, 2030-2050",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ubGo5cjZsQkJHeEpNMnhCOXFqZXFCZzVtd2FtX0gxWk1ZSy1ES3NnZzBwSkhfS2M2RndhTi1sLXQ4MEQ4NmVDT0VhU2dTVEY5Q3RNNEk2MTdUTnAwRUx1WldVRzNIUWQ2UElhZDdSNA?oc=5",
+   "fecha": "2026-10-23T14:20:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "XDC",
+   "titulo": "XDC Network Gains 3.02% on MoneyGram Validator Role, Asian Pilots",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IcEY3anRBUWp0U29meXE1VW56VndUNUxmUDhaVTlCQVB2OWpZTVNKc1hpeW1jWHotQjhlVHdkUWVjbnUxOGIyWjFSM2RLcl82V0xMOTZ0UUN2MF8xMjN2M2c2eDZSVUswTllCcXBYVnA?oc=5",
+   "fecha": "2026-10-23T10:03:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "XDC",
+   "titulo": "$XDC.X put in $100 never know 😎🥱",
+   "autor": "EyesOfTwilight",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/EyesOfTwilight/message/667202416",
+   "fecha": "2026-10-23T09:43:43+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "CVX",
+   "titulo": "CMC Market Pulse: Crypto Relative Strength, or Simply Lagging?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeHFJTXZpeWViTFZGM2pzMkZEa0FKMXl0dk5yTkJka3JHQ1BUTk5aTjAtQjVEUEZ4V0dkaDVkMk5EVWxXcjZtTzdCdTAyQ3d1dkdmd3NQRHhKM0FObUc4ZFExVDN4T3lhaFR6aUp3U283eTd3cUxnQnkzRkZSbUdoZGltd0dCa1MyRk1pS1BxU3J5WDdMM0NBcmhOOEhRNk1MTmxj?oc=5",
+   "fecha": "2026-10-23T06:45:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Decrypt",
+   "via": "Google News",
+   "moneda": "CVX",
+   "titulo": "您的以太坊比特币指南 - Decrypt",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdzBaUjFvbEJ4dzFTTkxmR2JWaHRHNXp6MFZWQ1hQSERzWGxYbTVFSFZ2ZFNWSnVlRlBqdmVvYV9ldEZfTklOanhGVmxwSXFsSUs4aDNaaEFMdlplSzVHb1ZIY0xtMWh5UjF6Wk5RNDVOTE1PeEVlU1hzMXBQU0gyTzJpOUNwZ1JVRDVQQjY5M2lySHU4M1hrX1hvRlN2M3BWV2hxRXhCOXktRDdVZ3NNQlNwZnM4Y3hIZ3JNd0RXVkstX29reGh3NEJJOG5wN2NobTZXSWJ1eUlfTHhaWTV0aV9yRWNfTDVU?oc=5",
+   "fecha": "2026-10-23T00:21:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Decrypt",
+   "via": "Google News",
+   "moneda": "WBT",
+   "titulo": "您的以太坊比特币指南 - Decrypt",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdzBaUjFvbEJ4dzFTTkxmR2JWaHRHNXp6MFZWQ1hQSERzWGxYbTVFSFZ2ZFNWSnVlRlBqdmVvYV9ldEZfTklOanhGVmxwSXFsSUs4aDNaaEFMdlplSzVHb1ZIY0xtMWh5UjF6Wk5RNDVOTE1PeEVlU1hzMXBQU0gyTzJpOUNwZ1JVRDVQQjY5M2lySHU4M1hrX1hvRlN2M3BWV2hxRXhCOXktRDdVZ3NNQlNwZnM4Y3hIZ3JNd0RXVkstX29reGh3NEJJOG5wN2NobTZXSWJ1eUlfTHhaWTV0aV9yRWNfTDVU?oc=5",
+   "fecha": "2026-10-23T00:21:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Binance",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "$BTTC AT $1 IN 2027? IMAGINE THE POSSIBILITIES… BUT LET’S LOOK AT THE MATH!",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43cjJoZ3lEUzZtRVRMLTNwMUhtU1plNUdsUWFDeGYyZllHREtfUDVzVDBjZXJIVWVyY2NBaGhkU05iOVBKNU1jSEliZi1FbWU1dkVKVWkzR0k3QThIc0tYcDhzcFc?oc=5",
+   "fecha": "2026-10-22T14:22:42+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Binance",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "The story of BitTorrent Chain (BTTC)",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNEQxTjBvWFdKSU85aC13Y3hzTEhfRDNJanMtTVhEbkk0aEF3dzE4THBGZnZwSV9wejM1dHl5STd3QjVWd1NiLWZRei1CSzNjOUZVbERvamVWb1ZqeGZqeXNlcWUwbzlj?oc=5",
+   "fecha": "2026-10-22T13:56:48+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "LatestLY",
+   "via": "Google News",
+   "moneda": "WBT",
+   "titulo": "Chainlink Price (LINK INR)",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYjRVMzVMR05aUnducEY3YjFweHM0MWFOTzZiOHVVRWJ6OVhmQXpIWHZxcDNjaUQxQ2p3dlVXbXpXek1TQUFVYjFOVkg0Vk1CY3lDa0RzQ1lOUDJLR0V6Mm5hYzlaYU9KXzlRUTdUSGpYYVlnMktXR21DdGhqY25BOQ?oc=5",
+   "fecha": "2026-10-22T07:00:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "LatestLY",
+   "via": "Google News",
+   "moneda": "WBT",
+   "titulo": "LEO Token Price (LEO INR)",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWjFjLWQxUmlRTmFEd2hIdUtRb09jcFJVWHI5Sl9yZEx2OFNLRTc5YzFSRVhZN20wTVNsUEFrb2dHdFFSVVNHZURRaXY2LVJwdHRhYURCcGlwa3BrM2d4anBEMmtwYVBzVi1MdWdtQWtKSnR1Vlhpb1RkNVhTcUJzaw?oc=5",
+   "fecha": "2026-10-22T05:04:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "𝗕𝗧𝗧𝗖: 𝗠𝗢𝗥𝗘 𝗧𝗛𝗔𝗡 𝗦𝗖𝗔𝗟𝗜𝗡𝗚. 𝗕𝗨𝗜𝗟𝗗𝗜𝗡𝗚",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wN1prTDhvY2xQdU43NEVjeVhSOVVVMmpqR2JTTFh3cHJVRXVSX0g1OHFObEdpU00xNGRHZ0FJblhTd3hwUmtxeEMtQkJlT19mSEp3SEFYVDZVbmlQU3dwSjJGWUM1S3ZURktPZnhqaVF1UQ?oc=5",
+   "fecha": "2026-10-22T03:18:37+00:00"
+  }
+ ],
+ "posturas_stocktwits": {
+  "XMR": {
+   "Bullish": 10,
+   "Bearish": 1
+  },
+  "BTC": {
+   "Bullish": 8,
+   "Bearish": 1
+  },
+  "BNB": {
+   "Bullish": 11,
+   "Bearish": 5
+  },
+  "PEPE": {
+   "Bullish": 13,
+   "Bearish": 0
+  },
+  "WBT": {
+   "Bullish": 3,
+   "Bearish": 0
+  },
+  "BTT": {
+   "Bullish": 9,
+   "Bearish": 1
+  },
+  "JST": {
+   "Bullish": 3,
+   "Bearish": 0
+  },
+  "TRX": {
+   "Bullish": 25,
+   "Bearish": 2
+  },
+  "CVX": {
+   "Bullish": 14,
+   "Bearish": 0
+  },
+  "XDC": {
+   "Bullish": 22,
+   "Bearish": 0
+  }
+ },
+ "fallas": []
+}
