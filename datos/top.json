@@ -47,9 +47,9 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "convex-finance",
-   "simbolo": "CVX",
-   "nombre": "Convex Finance"
+   "coin_id": "curve-dao-token",
+   "simbolo": "CRV",
+   "nombre": "Curve DAO"
   }
  ]
 }
