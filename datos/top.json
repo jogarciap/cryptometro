@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-24",
+ "fecha": "2026-10-25",
  "monedas": [
   {
    "coin_id": "monero",
@@ -17,6 +17,11 @@
    "nombre": "BNB"
   },
   {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
@@ -27,9 +32,9 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
   },
   {
    "coin_id": "tron",
@@ -37,19 +42,14 @@
    "nombre": "TRON"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
-  },
-  {
    "coin_id": "convex-finance",
    "simbolo": "CVX",
    "nombre": "Convex Finance"
   },
   {
-   "coin_id": "xdce-crowd-sale",
-   "simbolo": "XDC",
-   "nombre": "XDC Network"
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   }
  ]
 }
