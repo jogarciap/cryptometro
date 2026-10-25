@@ -37,19 +37,19 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
-  },
-  {
    "coin_id": "convex-finance",
    "simbolo": "CVX",
    "nombre": "Convex Finance"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
   }
  ]
 }
