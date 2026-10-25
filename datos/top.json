@@ -17,19 +17,24 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
   },
   {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   },
   {
    "coin_id": "whitebit",
@@ -40,11 +45,6 @@
    "coin_id": "convex-finance",
    "simbolo": "CVX",
    "nombre": "Convex Finance"
-  },
-  {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
   },
   {
    "coin_id": "aster-2",
