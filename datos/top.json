@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-25",
+ "fecha": "2026-10-26",
  "monedas": [
   {
    "coin_id": "monero",
@@ -12,6 +12,11 @@
    "nombre": "BNB"
   },
   {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
@@ -22,14 +27,14 @@
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
    "coin_id": "whitebit",
@@ -37,19 +42,14 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   },
   {
    "coin_id": "aster-2",
    "simbolo": "ASTER",
    "nombre": "Aster"
-  },
-  {
-   "coin_id": "xdce-crowd-sale",
-   "simbolo": "XDC",
-   "nombre": "XDC Network"
   }
  ]
 }
