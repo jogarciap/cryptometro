@@ -22,14 +22,19 @@
    "nombre": "Pepe"
   },
   {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   },
   {
    "coin_id": "bitcoin",
@@ -42,14 +47,9 @@
    "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
-  },
-  {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
   }
  ]
 }
