@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-27",
+ "fecha": "2026-10-28",
  "monedas": [
   {
    "coin_id": "monero",
@@ -12,11 +12,6 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
    "coin_id": "tron",
    "simbolo": "TRX",
    "nombre": "TRON"
@@ -25,6 +20,16 @@
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
   },
   {
    "coin_id": "bittorrent",
@@ -37,19 +42,14 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   },
   {
    "coin_id": "ripple",
    "simbolo": "XRP",
    "nombre": "XRP"
-  },
-  {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
   }
  ]
 }
