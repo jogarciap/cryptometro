@@ -32,24 +32,24 @@
    "nombre": "Figure Heloc"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "ripple",
    "simbolo": "XRP",
    "nombre": "XRP"
+  },
+  {
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   }
  ]
 }
