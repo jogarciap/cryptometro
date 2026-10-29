@@ -12,19 +12,24 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
-  },
-  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
   },
   {
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "figure-heloc",
@@ -37,19 +42,14 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "ripple",
    "simbolo": "XRP",
    "nombre": "XRP"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
+   "coin_id": "ondo-us-dollar-yield",
+   "simbolo": "USDY",
+   "nombre": "Ondo US Dollar Yield"
   }
  ]
 }
