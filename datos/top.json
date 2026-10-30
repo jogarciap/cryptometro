@@ -17,6 +17,11 @@
    "nombre": "Pepe"
   },
   {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
    "coin_id": "binancecoin",
    "simbolo": "BNB",
    "nombre": "BNB"
@@ -27,16 +32,6 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
-   "coin_id": "ondo-us-dollar-yield",
-   "simbolo": "USDY",
-   "nombre": "Ondo US Dollar Yield"
-  },
-  {
    "coin_id": "aster-2",
    "simbolo": "ASTER",
    "nombre": "Aster"
@@ -45,6 +40,11 @@
    "coin_id": "beam-2",
    "simbolo": "BEAM",
    "nombre": "Beam"
+  },
+  {
+   "coin_id": "ondo-us-dollar-yield",
+   "simbolo": "USDY",
+   "nombre": "Ondo US Dollar Yield"
   },
   {
    "coin_id": "figure-heloc",
