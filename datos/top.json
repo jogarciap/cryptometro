@@ -1,15 +1,10 @@
 {
- "fecha": "2026-10-29",
+ "fecha": "2026-10-30",
  "monedas": [
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
-  },
-  {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
   },
   {
    "coin_id": "pepe",
@@ -17,19 +12,24 @@
    "nombre": "Pepe"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   },
   {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
    "coin_id": "aster-2",
@@ -42,14 +42,14 @@
    "nombre": "Figure Heloc"
   },
   {
-   "coin_id": "ondo-us-dollar-yield",
-   "simbolo": "USDY",
-   "nombre": "Ondo US Dollar Yield"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
   },
   {
-   "coin_id": "ripple",
-   "simbolo": "XRP",
-   "nombre": "XRP"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   }
  ]
 }
