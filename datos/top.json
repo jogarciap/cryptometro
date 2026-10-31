@@ -17,16 +17,6 @@
    "nombre": "TRON"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
-  },
-  {
-   "coin_id": "thorchain",
-   "simbolo": "RUNE",
-   "nombre": "THORChain"
-  },
-  {
    "coin_id": "binancecoin",
    "simbolo": "BNB",
    "nombre": "BNB"
@@ -35,6 +25,11 @@
    "coin_id": "beam-2",
    "simbolo": "BEAM",
    "nombre": "Beam"
+  },
+  {
+   "coin_id": "thorchain",
+   "simbolo": "RUNE",
+   "nombre": "THORChain"
   },
   {
    "coin_id": "bitcoin",
@@ -50,6 +45,11 @@
    "coin_id": "zcash",
    "simbolo": "ZEC",
    "nombre": "Zcash"
+  },
+  {
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
   }
  ]
 }
