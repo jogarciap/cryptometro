@@ -22,14 +22,14 @@
    "nombre": "Figure Heloc"
   },
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
-  },
-  {
    "coin_id": "thorchain",
    "simbolo": "RUNE",
    "nombre": "THORChain"
+  },
+  {
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   },
   {
    "coin_id": "beam-2",
