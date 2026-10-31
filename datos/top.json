@@ -1,11 +1,6 @@
 {
- "fecha": "2026-10-30",
+ "fecha": "2026-10-31",
  "monedas": [
-  {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
-  },
   {
    "coin_id": "monero",
    "simbolo": "XMR",
@@ -17,9 +12,14 @@
    "nombre": "Pepe"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "tron",
+   "simbolo": "TRX",
+   "nombre": "TRON"
+  },
+  {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
   },
   {
    "coin_id": "binancecoin",
@@ -27,14 +27,9 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
+   "coin_id": "thorchain",
+   "simbolo": "RUNE",
+   "nombre": "THORChain"
   },
   {
    "coin_id": "beam-2",
@@ -42,14 +37,19 @@
    "nombre": "Beam"
   },
   {
-   "coin_id": "ondo-us-dollar-yield",
-   "simbolo": "USDY",
-   "nombre": "Ondo US Dollar Yield"
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
+   "coin_id": "ape-and-pepe",
+   "simbolo": "APEPE",
+   "nombre": "Ape and Pepe"
+  },
+  {
+   "coin_id": "zcash",
+   "simbolo": "ZEC",
+   "nombre": "Zcash"
   }
  ]
 }
