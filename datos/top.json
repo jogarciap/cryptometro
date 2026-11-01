@@ -22,19 +22,14 @@
    "nombre": "Aster"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
   },
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "bitcoin",
@@ -42,14 +37,19 @@
    "nombre": "Bitcoin"
   },
   {
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
+  },
+  {
    "coin_id": "zcash",
    "simbolo": "ZEC",
    "nombre": "Zcash"
   },
   {
-   "coin_id": "morpho",
-   "simbolo": "MORPHO",
-   "nombre": "Morpho"
+   "coin_id": "okb",
+   "simbolo": "OKB",
+   "nombre": "OKB"
   }
  ]
 }
