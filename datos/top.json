@@ -1,5 +1,5 @@
 {
- "fecha": "2026-10-31",
+ "fecha": "2026-11-01",
  "monedas": [
   {
    "coin_id": "monero",
@@ -12,24 +12,14 @@
    "nombre": "Pepe"
   },
   {
-   "coin_id": "tron",
-   "simbolo": "TRX",
-   "nombre": "TRON"
-  },
-  {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
-  },
-  {
    "coin_id": "beam-2",
    "simbolo": "BEAM",
    "nombre": "Beam"
   },
   {
-   "coin_id": "thorchain",
-   "simbolo": "RUNE",
-   "nombre": "THORChain"
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
   },
   {
    "coin_id": "bitcoin",
@@ -37,9 +27,9 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "ape-and-pepe",
-   "simbolo": "APEPE",
-   "nombre": "Ape and Pepe"
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   },
   {
    "coin_id": "zcash",
@@ -47,9 +37,19 @@
    "nombre": "Zcash"
   },
   {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "coin_id": "morpho",
+   "simbolo": "MORPHO",
+   "nombre": "Morpho"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   }
  ]
 }
