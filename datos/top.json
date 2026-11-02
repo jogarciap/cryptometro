@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-01",
+ "fecha": "2026-11-02",
  "monedas": [
   {
    "coin_id": "monero",
@@ -15,11 +15,6 @@
    "coin_id": "beam-2",
    "simbolo": "BEAM",
    "nombre": "Beam"
-  },
-  {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
   },
   {
    "coin_id": "gmt-token",
@@ -42,14 +37,19 @@
    "nombre": "BNB"
   },
   {
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
    "coin_id": "zcash",
    "simbolo": "ZEC",
    "nombre": "Zcash"
-  },
-  {
-   "coin_id": "okb",
-   "simbolo": "OKB",
-   "nombre": "OKB"
   }
  ]
 }
