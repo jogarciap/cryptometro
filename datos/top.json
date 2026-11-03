@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-02",
+ "fecha": "2026-11-03",
  "monedas": [
   {
    "coin_id": "monero",
@@ -17,21 +17,6 @@
    "nombre": "GoMining Token"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
-  },
-  {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
-  },
-  {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
-  },
-  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
@@ -42,14 +27,29 @@
    "nombre": "Aster"
   },
   {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
   },
   {
-   "coin_id": "zcash",
-   "simbolo": "ZEC",
-   "nombre": "Zcash"
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
+  },
+  {
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
+  },
+  {
+   "coin_id": "ethereum",
+   "simbolo": "ETH",
+   "nombre": "Ethereum"
   }
  ]
 }
