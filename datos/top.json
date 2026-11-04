@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-03",
+ "fecha": "2026-11-04",
  "monedas": [
   {
    "coin_id": "monero",
@@ -7,14 +7,14 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "pepe",
-   "simbolo": "PEPE",
-   "nombre": "Pepe"
-  },
-  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
+  },
+  {
+   "coin_id": "pepe",
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
   },
   {
    "coin_id": "just",
@@ -22,14 +22,14 @@
    "nombre": "JUST"
   },
   {
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
+  },
+  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
-  },
-  {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
   },
   {
    "coin_id": "bitcoin",
@@ -37,19 +37,19 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
   },
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
   },
   {
-   "coin_id": "ethereum",
-   "simbolo": "ETH",
-   "nombre": "Ethereum"
+   "coin_id": "ripple",
+   "simbolo": "XRP",
+   "nombre": "XRP"
   }
  ]
 }
