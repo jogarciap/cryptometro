@@ -7,11 +7,6 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "gmt-token",
-   "simbolo": "GOMINING",
-   "nombre": "GoMining Token"
-  },
-  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
@@ -37,19 +32,24 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
-  },
-  {
    "coin_id": "aster-2",
    "simbolo": "ASTER",
    "nombre": "Aster"
   },
   {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
    "coin_id": "ripple",
    "simbolo": "XRP",
    "nombre": "XRP"
+  },
+  {
+   "coin_id": "ethereum",
+   "simbolo": "ETH",
+   "nombre": "Ethereum"
   }
  ]
 }
