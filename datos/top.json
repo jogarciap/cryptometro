@@ -22,6 +22,11 @@
    "nombre": "Pepe"
   },
   {
+   "coin_id": "gmt-token",
+   "simbolo": "GOMINING",
+   "nombre": "GoMining Token"
+  },
+  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
@@ -32,16 +37,6 @@
    "nombre": "Aster"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
-  },
-  {
    "coin_id": "binancecoin",
    "simbolo": "BNB",
    "nombre": "BNB"
@@ -50,6 +45,11 @@
    "coin_id": "ripple",
    "simbolo": "XRP",
    "nombre": "XRP"
+  },
+  {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   }
  ]
 }
