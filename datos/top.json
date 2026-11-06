@@ -37,6 +37,11 @@
    "nombre": "Injective"
   },
   {
+   "coin_id": "zcash",
+   "simbolo": "ZEC",
+   "nombre": "Zcash"
+  },
+  {
    "coin_id": "beam-2",
    "simbolo": "BEAM",
    "nombre": "Beam"
@@ -45,11 +50,6 @@
    "coin_id": "bitcoin",
    "simbolo": "BTC",
    "nombre": "Bitcoin"
-  },
-  {
-   "coin_id": "zcash",
-   "simbolo": "ZEC",
-   "nombre": "Zcash"
   }
  ]
 }
