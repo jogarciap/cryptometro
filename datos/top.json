@@ -27,11 +27,6 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
-  },
-  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
@@ -47,9 +42,14 @@
    "nombre": "Aster"
   },
   {
-   "coin_id": "ethereum",
-   "simbolo": "ETH",
-   "nombre": "Ethereum"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "coin_id": "beam-2",
+   "simbolo": "BEAM",
+   "nombre": "Beam"
   }
  ]
 }
