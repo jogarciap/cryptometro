@@ -1,0 +1,1050 @@
+{
+ "generado": "2026-11-07T08:32:01+00:00",
+ "monedas": [
+  {
+   "simbolo": "XMR",
+   "nombre": "Monero"
+  },
+  {
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
+  },
+  {
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
+   "simbolo": "ZEC",
+   "nombre": "Zcash"
+  },
+  {
+   "simbolo": "INJ",
+   "nombre": "Injective"
+  },
+  {
+   "simbolo": "GOMINING",
+   "nombre": "GoMining Token"
+  },
+  {
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
+   "simbolo": "ASTER",
+   "nombre": "Aster"
+  }
+ ],
+ "items": [
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "Bitcoin Silent Payments (BIP-352), Explained: Reusable Static Codes #Learn #BTC #Blockchain #BIP352",
+   "autor": "basisdesknews.bsky.social",
+   "url": "https://bsky.app/profile/basisdesknews.bsky.social/post/3mzpiavcrnz2v",
+   "fecha": "2026-11-07T08:31:22+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "Bitcoin ₿ +0.31 %. In Asia, the biggest move: WTI oil −0.35 %. 3 of 9 markets fell. Biggest gain: Bitcoin +0.31 %. Full Asia session report. swiftedge.uk?utm_source=b... #Bitcoin #Oil #crypto",
+   "autor": "swiftedge.bsky.social",
+   "url": "https://bsky.app/profile/swiftedge.bsky.social/post/3mzphx3but22s",
+   "fecha": "2026-11-07T08:25:55+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Investing.com",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin rebounds to $76,000, but $1.3 billion ETF exodus tests recovery",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnRQT0ZEYmNURXdxZkUydWI1STlUU1dwVkxQbTFrdGI1NjNURVlvcEthd25LM24waHcxSnF6T1ctd0pIMmtCMllnbEhHcHdvQXVGVFVrQW9pZHBlNGVQV3NKS2cwNEo1YldneHBENTBtWDBIR2p4dXBBeThfcWJ2dEtFWHZndXFSQjdlYWpJVjJiNVdCXzhGSXVxaWM5bm9WUkpncWZETnJWcFpSWWEzM2xaSzQtaU5YZlB5ejV2cVFKYlU?oc=5",
+   "fecha": "2026-11-07T08:23:20+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "\"this is good for bitcoin!\"",
+   "autor": "dashwallkick.bsky.social",
+   "url": "https://bsky.app/profile/dashwallkick.bsky.social/post/3mzphq5bc5c2i",
+   "fecha": "2026-11-07T08:22:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "BTC",
+   "titulo": "A trap for quantum thieves: $BTC developer Cory Fields reportedly proposed \"quantum landmines,\" decoy outputs hidden in transactions. If an attacker hits vulnerable coins, owners could reclaim stolen $BTC and seize the attacker's collateral. #Bitcoin #Crypto",
+   "autor": "financemaxnet.bsky.social",
+   "url": "https://bsky.app/profile/financemaxnet.bsky.social/post/3mzphouyfnj2z",
+   "fecha": "2026-11-07T08:21:17+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "BTC",
+   "titulo": "A memecoin will go trillions. Study SPX6900 for a couple of hours by NOT chart watching but by watching the fundamentals around it. NYC meetup today and conferences around the world. SPX goes harder than early BTC.…",
+   "autor": "r/spx6900",
+   "url": "https://www.reddit.com/r/spx6900/comments/1xq1cf5/a_memecoin_will_go_trillions_study_spx6900_for_a/",
+   "fecha": "2026-11-07T08:20:45+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X $MSTR $ETH.X $XRP.X “It’s called drainage Eli I own everything around it so of course I get what’s underneath it.” — Daniel Plainview",
+   "autor": "BoomerDeathclock",
+   "postura": null,
+   "url": "https://stocktwits.com/BoomerDeathclock/message/668483522",
+   "fecha": "2026-11-07T08:20:28+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "BTC",
+   "titulo": "$BTC.X only haters don’t want this to succeed Don’t be a hater buy bitcoin",
+   "autor": "doctorwho",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/doctorwho/message/668483515",
+   "fecha": "2026-11-07T08:19:47+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "BTC",
+   "titulo": "Erasing the Honeypot. How Air-Gapped Bitcoin PSBTs Defeat the EIP-7702 Attack Vector and Render the $6.4 Billion Hot-Wallet Breach Mathematically Impossible. (x-post from /r/Cryptocurrency)",
+   "autor": "r/CryptoCurrencyClassic",
+   "url": "https://www.reddit.com/r/CryptoCurrencyClassic/comments/1xq1an8/erasing_the_honeypot_how_airgapped_bitcoin_psbts/",
+   "fecha": "2026-11-07T08:17:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Crypto News",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Binance recovery, US crypto bill talks, Bitcoin ETF exits | Weekly recap",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iaGJ1OVg1WnhyVGl6aU81dXYzSG50SUVMckpIaE1MbTRjODE0Tmx3cjh6RkhiQUg5MWlIMUVVQ3p1SjZuNnRzcTFmbGhQMU8tZDdRSjRZX0daZXZRLV9XdzZlMGh1YmpydThNck5EeDJiRUUybVhvbzdqM0ZpNU0?oc=5",
+   "fecha": "2026-11-07T07:57:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "‘Extreme Fear’ Hits Bitcoin for the First Time in 3 Months as BTC Plummets",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSFp6RlBydk1pNDZpNWxsRUpnSEFKZWRnVnJpTm93VVB3NXViWmJuRjhRSlR1R3BHY2psRmJVNlVJVFQ3SFJRZi0zYm1LU3ZRT3hWRGlMdEJLNEt1TjhETG1CM0lDbVZZZWhjMWl0TG9EYU13bF9UZHBfX0hMZ1duT0F6TE5jS3BWQjgyUEhPRTJDY2RDV0hINDREMkRCV2ZwTll2aFQ1OVFjV2h0cHh3?oc=5",
+   "fecha": "2026-11-07T07:10:36+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "South Florida Reporter",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin Halving Explained: What It Means for Australian Investors",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVXNNVzZ0OWhjaE9Ta0RHX2tCZEF5bWtCVUZ6RUVTX0NvdEZ2Y2ZzOEJFeXRQbExtLVI4VllrWFJIUHFtdlY1TEVUa1l3amtMT2JxTnl2RVY5dFE1T0ZleGFjZVJ2YUtPM1FMTkFvSkljNGJRR2hPZEZwWEJ3OUdtU1h3UV9lbE1BeUlwRnFVd1dDVGhXcnM1c0xFcENzZnM?oc=5",
+   "fecha": "2026-11-07T07:02:19+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "bloomingbit",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "US Spot Bitcoin ETFs Post $411.92 Million in Net Outflows",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iM1FBcG5vVjRZbzQ0R2dwNFVycmhZN3NSd2gyVWsyNzJWNWN0N0I1WUVYX0p5ejFvMFV3N0p5bkJGVjJEaklrMXdpNnBhc1BzNjZJQg?oc=5",
+   "fecha": "2026-11-07T05:31:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin spot ETFs shed $411.92 million in second straight session of outflows",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OMFNRNVZ3eU1ReGVmc3BkMFFVa0t4dVdEV05GaVB1U1dpZUk2V21hQkFISlpRaTJKQ2c0cHAyX1BiTDRaTkxTdk5iVEdCc2RQMWc3cDZiSDBwUQ?oc=5",
+   "fecha": "2026-11-07T05:20:51+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoTicker.io",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Bitcoin Price: Fear and Greed Index Hits Extreme Fear",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94YW1wT3pLb2wtRDcyN0xwVXluRDh5YWlnclVGa1VsQmVzZzhNTnNPa1pEazFPUllxV3RVZUZpNzktS3BlSFJiTTVCMUFDX2ROaTBXMXlSZjJxUUJwRDg3dHZDdnQ4R1pOcm1UWGN0NUh5d0t2ZXI0cHpCcw?oc=5",
+   "fecha": "2026-11-07T05:12:38+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Stocktwits",
+   "via": "Google News",
+   "moneda": "BTC",
+   "titulo": "Mike McGlone Doubles Down On $10K Bitcoin Doom Call: 'Stock Bear Market Has Started'",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQzdhMUw4dUNIbk1VT3lRRmtwZjFRaWxraS1rcmZ4cWUwMG0teHlHNTlDRXNPLVdXcVBvVlNVS2I1VzhEbDhZZlZXT1ZBdWloUU9wYl9OWDlFQ3pQZVZKakZSNDQ4bV8zM1ZHTS1jejdpdmpaTHJPYVRrN0JZWEM1U2VOcktXU3hiRkszWDBMYTdqcTV0b21ZUmdnQUswZUxIR2VhWVpJQ0lmb05scXc0VHJmX08yeXhjOEtoRk8waGExOEpaUXVkUlFFVkhzeVF0YXI1RXNmTG9OcE5NeGFEdlpjYmM3TlZIMnc?oc=5",
+   "fecha": "2026-11-07T05:07:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$PYTH.X Only growing MoM “Pyth October Report: ARR Jumps 18.9% as Data Expansion Accelerates 08:40 - Nov 6 @ PYTHUSD Pyth Network's October numbers suggest its business is gaining traction, even as the crypto market keeps competing for attention. The latest report puts annual…",
+   "autor": "Ver13",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Ver13/message/668481417",
+   "fecha": "2026-11-07T04:38:48+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ZEC",
+   "titulo": "More & more sex workers keep joining the @z.cash Community Forums to share their stories of how zecsy.com outreach changed their perception of crypto by making it immediately useful, real, and empowering. The newest one: forum.zcashcommunity.com/t/zip-zcash-... All the haters…",
+   "autor": "violetrollergirl.com",
+   "url": "https://bsky.app/profile/violetrollergirl.com/post/3mzozxev2h227",
+   "fecha": "2026-11-07T04:15:33+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "PEPE",
+   "titulo": "Bitway gained 19.58% - An orc would like a word. Still. Headline: Russia finalizes crypto trading rules ahead of Nov. 17 rollout Fresh price updates inside the infographic. Start your zero-investment portfolio here: Our Linktree #btw #pepe #cc #xlm #eth",
+   "autor": "zerotocrypto.bsky.social",
+   "url": "https://bsky.app/profile/zerotocrypto.bsky.social/post/3mzoznaidn22p",
+   "fecha": "2026-11-07T04:09:50+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "🆕 Onchain Lens: an unknown address transferred assets from MEXC to Binance after a year of inactivity; transactions include 405,000 ASTER, 227,270 FF, and 1.47 million OP totaling approximately $444,700 #OP #BNB #crypto",
+   "autor": "cryptovka.com",
+   "url": "https://bsky.app/profile/cryptovka.com/post/3mzozjscdyn24",
+   "fecha": "2026-11-07T04:07:54+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "🏛 Onchain Lens: неизвестный адрес перевел активы с MEXC на Binance после года бездействия; транзакции включают 405 000 ASTER, 227 270 FF и 1,47 млн OP на общую сумму около 444 700 $ #OP #BNB #биржи",
+   "autor": "cryptovka.bsky.social",
+   "url": "https://bsky.app/profile/cryptovka.bsky.social/post/3mzozjc2xud2g",
+   "fecha": "2026-11-07T04:07:37+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$CYPH $ZEC.X this situation is just like SBET/Ethereum. These actual companies transformed to crypto companies only end up making company management and warrant holders money. Shareholders get sold a great story and watch their value get drowned away by relentless dilution",
+   "autor": "Michael73w",
+   "postura": null,
+   "url": "https://stocktwits.com/Michael73w/message/668480742",
+   "fecha": "2026-11-07T03:51:51+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$XRP.X sell this trash and buy $ZEC.X ?",
+   "autor": "TickleMyMACD",
+   "postura": null,
+   "url": "https://stocktwits.com/TickleMyMACD/message/668480320",
+   "fecha": "2026-11-07T03:26:53+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash Falls 2.01% in One Hour to $1,330 on Binance Spot Market",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEZjMxYjBBMXl0eUI0dHhmZU53TUtHZEF2RFJQcWpFcWJYcW1tYy10UmhTTHZHRmpnVEpmU3pjUmNiQThJVDdIYXptM2I4S203Q1hBS2xnM3M3QQ?oc=5",
+   "fecha": "2026-11-07T03:25:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Cryptocurrency News: Injective's Staked ETF Debuts on Nasdaq",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0NfVDBuSmVjSm1Tbm5nVG0yU0VHVU5aYWg2WlFLa01fd09ubXRPaGFjamdGeDNUZkRVUlVLTEVIaUtEV19wSjVhczd3eEtIeFd5UHFvMGFMRHhBa2YwRHd3bmFJOUlvc3lFQlNsMWt5bjFyMUI5ZEp0cDl1MFZ2ZzZySWpDRWNLY2NzUkZ4ZVJBd3pSdmJLY2k2dw?oc=5",
+   "fecha": "2026-11-07T03:13:12+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Canary Capital Brings Injective to Nasdaq With New INJ Staked ETF Canary Capital has launched an exchange-traded fund for Injective’s INJ token, allowing investors to gain exposure to the cryptocurrency and earn potential staking rewards. Meeting Demand for Speciali……",
+   "autor": "crypto.at.thenote.app",
+   "url": "https://bsky.app/profile/crypto.at.thenote.app/post/3mzow6o35ts2r",
+   "fecha": "2026-11-07T03:08:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$CYPH this is so stupid. This is down 9% over the past month while $ZEC.X is up 13% in the same time. This is totally not reality. Makes no sense.",
+   "autor": "Brian7",
+   "postura": null,
+   "url": "https://stocktwits.com/Brian7/message/668479450",
+   "fecha": "2026-11-07T02:44:18+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "PEPE Coin Price Prediction: Meme Asset Shifts for Next 14 Days",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObUF3VTJ6QmR1Y0NuejRyQWhtUE1TY2l3VTI1T1cwdk5QSDVaaE1jZWRkYlRfeENaV0pCZGozTUtDeUFxOXkzWm8ycEd4ZXlzMjQ1MGF4WXFaUDhFWFZKYnpiNHB4WWliV0FiVm9CVGpKVXBoMWVvMzBNRnVxRjhSNnZsT1ktSWdPamNFYXpxZnB2ckZYSk9temJnaHlUUQ?oc=5",
+   "fecha": "2026-11-07T02:21:12+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$ZEC.X 1379 / 1450 / then it’s off to new heights",
+   "autor": "TraderDude69",
+   "postura": null,
+   "url": "https://stocktwits.com/TraderDude69/message/668478925",
+   "fecha": "2026-11-07T02:18:05+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$CYPH It will happen and sooner than you think !! $ZEC.X $ETH.X $SOL.X",
+   "autor": "CJJay",
+   "postura": null,
+   "url": "https://stocktwits.com/CJJay/message/668478438",
+   "fecha": "2026-11-07T01:58:08+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ZEC",
+   "titulo": "$CYPH When this happens > CYPH will be $33 + ✌️ >>>>Zcash Reach $10,000? Cypherpunk Sees Long-Term Potential McEvoy said Cypherpunk shouldn't be valued like a typical crypto treasury company. With the warrants included, the company had an enterprise value of about $1 billion,…",
+   "autor": "CJJay",
+   "postura": null,
+   "url": "https://stocktwits.com/CJJay/message/668478409",
+   "fecha": "2026-11-07T01:56:57+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Ether.fi Leads Crypto Decliners With 13.45% Drop to $0.526",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YOWhPdjRBbUJpcndHd1c4NnQwUF9KcEp6czdYVTFyY0NwclFhQ1h5dnpianoxemNacFRRdzhybDM5OUlBVjhTV191cmw3S1lnNl9uVlZ4a09oQQ?oc=5",
+   "fecha": "2026-11-07T01:27:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Monero vs Zcash: Which Wins by 2028? https://www.byteseu.com/2503196/ Zcash just flipped the switch on NU7 and surged, while Monero quietly climbs toward its record. With $1,000 riding on each coin, the winner depends on a few price levels and one surprising advantage for the…",
+   "autor": "byteseu.bsky.social",
+   "url": "https://bsky.app/profile/byteseu.bsky.social/post/3mzoqj732wm2o",
+   "fecha": "2026-11-07T01:26:31+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Bitcoin News",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash Rises After Upgrade Freezes $16M in ZEC, Establishes Security Reserve",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNUxOZDRtaDBqblhnVnctNXRpQjR3V1o5X0x2SkVwaGpyQkJlaUFKaUQtZ1NrX2tDUnBWcXlRc2VSeHVHdEZ2ZEJqekNnRWtWWkRFa1RDWWxEX0JQUnVWRVdTNFhad1pPSVZQVm9mM3BkX1FYTkVKUjVmTDY0M20xamFUdzY3c3F0RGpmQ2R5VkF2cnM?oc=5",
+   "fecha": "2026-11-07T01:09:57+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "$1,000 in Pepe or Dogecoin: Which Wins by 2030?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmw5Z3lzOXVWZjE1T0NrbmdZU24xWWN2Qm4zOU1oVmFma0ZuNjB3ODA2NmJ6UmEzTHBueUhOQ19HM2dKQkpmVmp6b09MUTFieUxQQ2RFYTV1Y0txZHVQMXVIQVRPME1XT1J3RjJoeXRhZERHeFdsa1MySjkwVzdtRmxhdGs4SElmaWlaNEpUZDRISTlPclZJMXhQdVVjaFYxSHRSQQ?oc=5",
+   "fecha": "2026-11-07T00:47:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero vs Zcash: Which Wins by 2028?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYi1na2ZqbTAwa1gyNkd5NVI4OUdweFlOb2ZJb0k0RF91S3NkMU1tOGZVb1dtLUxHNlBYdFhNMzF2ZWJtdmxDOWRwckVnYzNYQm5CS3RkM1JodmxHdThJeHAyczQwcjVpd1E4UUJMTFY1eHlVSzJEb2ZhM3l0RUo0LVJQdmNlU2ZTbWJ3VnhHV2hDQzZtQldobw?oc=5",
+   "fecha": "2026-11-07T00:01:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Monero vs Zcash: Which Wins by 2028?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYi1na2ZqbTAwa1gyNkd5NVI4OUdweFlOb2ZJb0k0RF91S3NkMU1tOGZVb1dtLUxHNlBYdFhNMzF2ZWJtdmxDOWRwckVnYzNYQm5CS3RkM1JodmxHdThJeHAyczQwcjVpd1E4UUJMTFY1eHlVSzJEb2ZhM3l0RUo0LVJQdmNlU2ZTbWJ3VnhHV2hDQzZtQldobw?oc=5",
+   "fecha": "2026-11-07T00:01:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash Votes for 25-Second Blocks, Pushes NSM Reissuance to 2031",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVy12NnJ2b3NJYkRKMkZJVi1hSThYZVVua1Ryc1BTUGxzODk2WkhIbTNsNnIydlBLbnFXUXRfLVhxbDFTaTcwSkhSVzF6ak84UXVZWUtJUEpsQTh0QTRBOWJPQVMxUEdOMF8yekdjTXI3OXpSTXpOc01OQmItTENjbFJ1OFBVdw?oc=5",
+   "fecha": "2026-11-06T23:46:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash needs an hourly close above $1,321.94 to confirm breakout",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82V0lHNXNBUHQxX1I3SW8xaEtYaGVfYUNabUIzNnZIakNSVzNGNmgzY1I0YUxETzl3QW9SdGlYaksyREdzTlZzNThQQ0RYM1dteXdaNVkxdFc3bXM?oc=5",
+   "fecha": "2026-11-06T23:30:35+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash NU7 Upgrade Goes Live, Slashing Block Times From 75 Seconds to Just 25 Seconds",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQejFZSEQ4Z0hqb3dVVVV4ZWpXS083dmRlQnB5VFV0YXVkYU5UV3JOb0tjZDVldzFfNmc3V0dybDE3aG05YTIyUGlzTmxyZHFmOEdqamZXNFJpX2NLSTl2M1Z5VllDSVFQUUFSUmJjbTdXaGdBUFl3ZU9iX2VDcGxYSzdMTFdiV2M5YnJEaGFxUm1hVVN3QkZhckl2MVpWMnlPajZnSk5IVnZOWnRtYllBd1JCNTF4YXRPSTJjUUFR?oc=5",
+   "fecha": "2026-11-06T23:26:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "📈 Altcoin traders are waking up! Injective (INJ), PEARL, and Zcash (ZEC) are posting strong gains as market momentum shifts back toward alternative cryptocurrencies. Could the next altcoin rotation be starting?",
+   "autor": "pushalt88.bsky.social",
+   "url": "https://bsky.app/profile/pushalt88.bsky.social/post/3mzoivfdzss2i",
+   "fecha": "2026-11-06T23:10:08+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "PEPE Surges 3.6% Amid Market Stabilization and Social Hype",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iVGFjWk9CdUUzWkc3d0NUQVpjVUNRWTRWS2VkczVMR2c3TDRKZWEtdzRFZXZKYWl1bDdxQkptdTIta2c4MjdQZDlWRk01NlZfNjVUcE9nXzFHZ01Kc3JmZWQ3NGFKOEozX29nVE5KeFQ?oc=5",
+   "fecha": "2026-11-06T23:04:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash (ZEC) OI Down 7.8% as NU7 Upgrade Goes Live",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QaVhpNWJXb0V2eEYxT1loaTRwN1dxZ25lbXRfT2Rhc3Y3dUVTOUtVLUdfNWZETzZDYnoxcVI3bUczbWlubER3bUEzRGFRMU55OWFBMVZoeHBMRzQ?oc=5",
+   "fecha": "2026-11-06T22:53:35+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Pineapple Financial Tokenizes $1B in Mortgages on Injective Blockchain",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ2w1TnBqQnUtZjM4dnIteFVkaDl3RkdJZy1JaE5ZUGNsWmNjLVFQcnpvODdOQ2JGc3JvUkpxeG9SRi1qOHVxS1ZTRE1VLVhPQXZZMlZCNHk4RHFlLTJZSDBUdXNCLTJqUmxtcFlaN2k0OWNBNmVGNUtHSi1jRmZGRnVjN2NqSU5kc2YtSFhJVUFpdmpHaFJLM0d3?oc=5",
+   "fecha": "2026-11-06T22:47:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Crypto Price Analysis, BTC, XRP, NEAR, INJ and HYPE, Nov. 6: Bitcoin Holds Its Prior Low, XRP falls as Momentum Weakens, NEAR Breaks Below...",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QWVctNkxmanZsWDZ2VF9LaExEX09lZ3Z6YkxaZ3M5c1ppcEpxVFk4NkNPdFk5dDI0WExaTnd3bjdiVmdOWWdDRlNpdWJsTEdZdUtDOWJSLXplc2c?oc=5",
+   "fecha": "2026-11-06T22:40:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ZEC",
+   "titulo": "Zcash Price Prediction After NU7 Goes Live — Can ZEC Rally?",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FeXdBZWJHV05SUm84TXRKVVVWUG5rdi14ZmVrNkk5M21wZTdKSm13Q0VBRFVrS2duTkdFMUNrUnlsdmZEWjZGeGkyOGRCX1RQbEZKVm1OQ2k5eG8?oc=5",
+   "fecha": "2026-11-06T22:39:45+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Grok Predicts the Future of 3 Meme Coins: PEPE and TRUMP Coin Face",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFBuQ00xcTJJV3N5NFZMT0xUeE0xRXFiLWEwaU84OFF0VzY3TnBKaUJEWlNFUWFRekVwbWMzNEZOYUZzUmlXQlNVSUFXWXV5Rmd1QTBqeVhpTTF2cmluT05kWnRQV1E0d1J4RURSRHlrdHJvYklackhmcVhIZFhheHNLT0xVemNGWGJudFlVN0dkSFdnby1INHl1S1R6bkxCQWFR?oc=5",
+   "fecha": "2026-11-06T22:30:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$INJ.X will be one of the big runners next bull cycle",
+   "autor": "dkm11",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/dkm11/message/668466773",
+   "fecha": "2026-11-06T21:33:30+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Pepe (PEPE) Exchange Flows Show $16.5 Million in Seven-Day Net Withdrawals",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qUWVhcEZfWDFOb3hNVlU2MVB1Ymd5VzVOMjRTbENkWkhGek1kelpSX3N2N1BKVU80ODgxLW1ZaEgwVDNlWlZMSmZoQkNfamQ0cnJ6SUZMQ2RnQQ?oc=5",
+   "fecha": "2026-11-06T21:32:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Best Crypto to Buy in November 2026: Ondo Tops $4 Billion as Pepe's Cofounder Draws Buyers to Pepeto",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZkhPX3RHUnV6ZWZ3aTR5Y3NRanY3eWVkWkJKNkxMR1AxS3ppZ256eW43Rm5aSEpSM1ZOQkFubTYzS3YxVFlUZ1R0eVkxdVA2aDNEVGJlY3BQUV95OW9SbkRTUTdyalR4MGplT3V3S1ZTRDRENnJEeHlaQ2FfcW1kWkd4U0NoVzRHWmV1YnJ0MDRIU0MtMy1abUN6VVV2dGh4eDgw?oc=5",
+   "fecha": "2026-11-06T21:17:52+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Yahoo! Finance Canada",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Aster DM Quality Care Ltd (BOM:540975) (Q2 2027) Earnings Call Highlights: Record Revenue of ...",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pampiaWFKTDkwdEN5Rmplc1BWRmxGRkJEWkpHWTBtZ0gtSTFVYzNrQVZtMTJjRG5SYUdhRnJzUUtIaUhFTjR4Nlo2d2tHSWtIODdFS3g3czN1Mk5DODlteDczd19CVTBaVG5YSUJXaDVBZ1NweEV0dllBSzR5R3c?oc=5",
+   "fecha": "2026-11-06T21:15:55+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$DOGE.X $PEPE.X $BOBO.X doge limping a soft green after yesterday's faceplant while pepe actually bouncing. shiba army already calling recovery. sure, come on",
+   "autor": "bobocouncil",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/bobocouncil/message/668463429",
+   "fecha": "2026-11-06T21:00:40+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "openPR.com",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "Missed Pepe and Dogecoin Before Their Explosive Rallies? Here's",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc2RKYWhkRVMxM2pnZHVLLWcwMEs5RUhJMlVFUnE3S1VRSjZETHVsSDYzNmN3Wm14U1ZNR1V3dWpjalJEZGtETWdLRXpfV0VEdFB0YzhtZzVCelVDTXZrWU9RMVVrM3preW1HM0RpV21xbGxiMkdVYnlvQjlTY3YyS2s4cnRaTkwyNVRoSDZGTWQ5ZjIzQnJzY2xHaGk5ZmM?oc=5",
+   "fecha": "2026-11-06T20:57:28+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$PEPE.X whats goin on with shib? Are we going to move past shiba? Seems like the gap is closing",
+   "autor": "whaleSurfing",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/whaleSurfing/message/668457895",
+   "fecha": "2026-11-06T20:13:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$PEPE.X • 🔍 FAIR VALUE GAP (FVG) & TAPE READING 💡 SMART MONEY INEFFICIENCY & FLOW Algorithmic delivery has carved an active liquidity imbalance on Pepe with Consequent Encroachment (50% CE) resting at 0.00000483. Price action seeks equilibrium rebalancing before the next wave…",
+   "autor": "RajatPatel",
+   "postura": "Bearish",
+   "url": "https://stocktwits.com/RajatPatel/message/668457502",
+   "fecha": "2026-11-06T20:10:06+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$SOL.X $PEPE.X $BOBO.X sol flatlined at ~90 after yesterday's 6% dump. frogs still printing green. bobo's dead stare on the chop",
+   "autor": "bobocouncil",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/bobocouncil/message/668456843",
+   "fecha": "2026-11-06T20:04:58+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$RETIRE.X $BTC.X $ETH.X $PEPE.X SHES WITH ME NOW BULLTURD",
+   "autor": "MstzKING",
+   "postura": "Bearish",
+   "url": "https://stocktwits.com/MstzKING/message/668453448",
+   "fecha": "2026-11-06T19:33:03+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "@UltraInstinct $RETIRE.X She looks tooooo good $BTC.X $PEPE.X",
+   "autor": "primekingz02",
+   "postura": null,
+   "url": "https://stocktwits.com/primekingz02/message/668453112",
+   "fecha": "2026-11-06T19:30:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TronWeekly",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Canary Staked INJ ETF Reaches Bloomberg Terminals As INJ Price Eyes Breakout",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04ejMxbWR4Wk05Z2FWdjluMDB0QXJZUTVGa0tVYzBIOXFINGoxZWhBYi1kME5yN0lEMC1ITkhVaTZqajN1cjNDODFPRmc4Wlp5WTNQaFhjRlROd1ZhRXJEel9EYWNIMEFaVVF2b2pPUzBDWnFzY1E?oc=5",
+   "fecha": "2026-11-06T19:30:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Changelly",
+   "via": "Google News",
+   "moneda": "PEPE",
+   "titulo": "PepeCoin Cryptocurrency (pepecoin) Price Prediction 2026 2027 2028 - 2040",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQmt3REpXcXZNTnlqXzFHSDlldXprZDdjWWdNdUxlRkdEUGpLX0pQc21rZXJxM0FtYTk5aUdFSXl1cFNfeEM5R1V4N2trZVVDTms3amU3V2dXRlU4a0ZXc3lVR05yZmZWb2pfdTlaZ2Q3RXBFM2pydmU4anlYUkt3Nmdycw?oc=5",
+   "fecha": "2026-11-06T19:13:35+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$PAPL COMPANY VALUE AROUND 100 MILLION WITH $INJ.X ASSETS. FAIR SHARE PRICE ACCORDING TO VALUE : 5 TIMES CURRENT PRICE = FAIR SHARE PRICE $ 4-5 PER SHARE",
+   "autor": "Ge8888",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/Ge8888/message/668450231",
+   "fecha": "2026-11-06T19:04:23+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Reddit",
+   "via": "Reddit",
+   "moneda": "XMR",
+   "titulo": "Monero got merged into Anthropic OSS scanner",
+   "autor": "r/Monero",
+   "url": "https://www.reddit.com/r/Monero/comments/1xpl6oq/monero_got_merged_into_anthropic_oss_scanner/",
+   "fecha": "2026-11-06T19:04:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coinfomania",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective Celebrates $INJC Listing at Nasdaq Opening Bell",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR1ZBZVlzVEJSQXJ4c3dzWG1NOTJDTGZiRS1YUXZpekdDVHJ6UWlIaTVDSHNya0ZHdFhZaEdYNHp0Z283WWdCcGxBdXkyU0RHcThwSk9mV3JISzR0RjRDWk5vYW01MW5GSFNCaEJBM21zUF9Va1RKUmV6U2dLVDItQVl1OHJRb2U1?oc=5",
+   "fecha": "2026-11-06T19:03:43+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "PEPE",
+   "titulo": "$RETIRE.X My baby came to play today!!! $BTC.X $ETH.X $PEPE.X",
+   "autor": "UltraInstinct",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/UltraInstinct/message/668449684",
+   "fecha": "2026-11-06T18:59:19+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective: Adds an SEC-registered transfer agent to its ecosystem - 06 Nov 2026",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMGlvNktYaTg5djZFWlVfQ3VjRHVMdXRXR2NGeGFnMTVhaXZJNHF3TkJtNlFISlEzRm9CLVRoQV9ybl9lcFQ5LVNjZUJjazFERlUwWGhxb0xfRzd5UWlRVGw2TUJLV1dFd09yRkRkZVpnUENnSnY1SWJMaGVhOVBLQmNjSDlmeGVLS0loME1rVEhDUTNJTnNDeFNOakdfTHZEVDBpTmV5X092akVPSGt1OTRYS01QNm1VOVk5MDAtY3JtQkVCOEhORTR5eUMxbzJCVldQdVIySQ?oc=5",
+   "fecha": "2026-11-06T18:52:57+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "🔥 Trending in crypto right now: 1. DENIM DENIM 2. REBOOT Reboot 3. BTC Bitcoin 4. INJ Injective 5. LIT Lighter Full list with live prices: https://cryptocurrency.com.tr/trending #Crypto #Trending #Trading #Bitcoin #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3mznoqhrdf52s",
+   "fecha": "2026-11-06T15:22:07+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Bitcoin holds above $80,000 after Wednesday’s jump as injective rallies on staked ETF listing Bitcoin slipped 0.2% to around $80,250 since midnight UTC, holding above $80,000 after Wednesday’s jump, as spot ETFs ended a three-day outflow streak. #btc #crypto #cryptoetf",
+   "autor": "crypto.at.thenote.app",
+   "url": "https://bsky.app/profile/crypto.at.thenote.app/post/3mznnzqy7is2r",
+   "fecha": "2026-11-06T15:09:25+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$PAPL how are we opening today??? $INJ.X still holding strong. 🥳",
+   "autor": "CMDC1023",
+   "postura": null,
+   "url": "https://stocktwits.com/CMDC1023/message/668408292",
+   "fecha": "2026-11-06T14:28:51+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Taking Monero privacy to the next level. 💻 We're diving into hosting a local node over I2P and setting up a Grafana dashboard for better monitoring. Check out the new video. #Monero #I2P #Cybersecurity https://www.youtube.com/watch?v=SLufpvoXTf4",
+   "autor": "chiefgyk3d.com",
+   "url": "https://bsky.app/profile/chiefgyk3d.com/post/3mznkfaeiau2v",
+   "fecha": "2026-11-06T14:04:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Canary Capital Launches the First U.S. Spot Staked INJ ETF (Ticker: INJC)",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFGZ1p1anlQd1doNjQ0ckFJWVBjMElzdVRFM2VlTUN4Y25QNU5HY2lKTFlGRWVTUXJJdTNSUlJxNEtOQXpxaWZkeFZIUmx5WEV2U255UWJIR3I3OWE0OERTTkstejFBaWtXNDVkVDhhamctRHRnZnlXUVkxZF9pdzY0NU9FN3pvdlVHQkxEV1RoZGtJajhxRDYxUEwyOHVKeW82b09Sc1FlREh4OThyc1JGckpkZFg0bDBnWTlhbkxEYTZIbm9kMUJPcw?oc=5",
+   "fecha": "2026-11-06T14:00:13+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Altcoin Buzz",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Canary’s INJ ETF Goes Live on Nasdaq With Staking Rewards",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NRTBDY3lHNzd3NTd0V2g1c3dFRHp4c2JSLU10aFdBNkFOaUt6X1JhR2poOGc5eDQwOG5YY2oxMzlKWWhGbnVOZkFrNEFEcWx5RE1WZHR5dnhQUmxHVHpWSWFuOFhBZ3QwVWkwX1ZzLW5IWDJrY1lIaw?oc=5",
+   "fecha": "2026-11-06T13:14:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Binance is targeting next week to restore withdrawals for HYPE, INJ, APT, PLASMA, NEAR and LTC as it continues phased recovery following the $6.3 billion October hack. The exchange has already reopened withdrawals for Bitcoin, @solana.com and @ethereum.org.",
+   "autor": "bscn.bsky.social",
+   "url": "https://bsky.app/profile/bscn.bsky.social/post/3mznfy2mdnf2t",
+   "fecha": "2026-11-06T12:45:18+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "▼ $ASTER SHORT · 7 days · 5x 🎯 63% chance to hit +13% (price +2.6%) 🛑 Stop: −23% (price −4.6%) 🏁 Target: +69% (price +14%) or close day 7 Typical close +7.3% · liquidated 4% 1,055 similar setups + ASTER's history · not financial advice pattern.plus/token/aster-aster?h=7d #crypto",
+   "autor": "patternplus.bsky.social",
+   "url": "https://bsky.app/profile/patternplus.bsky.social/post/3mzndaygsoj2d",
+   "fecha": "2026-11-06T11:56:37+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "New VaultX review: Monero scores 62/100 (Mixed). Working privacy coin since 2014, no company behind it; crime-laundering links and uneven exchange access https://vaultx.llc/reviews/monero",
+   "autor": "vaultx.bsky.social",
+   "url": "https://bsky.app/profile/vaultx.bsky.social/post/3mzn6kjho642d",
+   "fecha": "2026-11-06T10:32:28+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "Hey!❣️ There's only 4 left of My 3d boob mousepad designed by @aster-kitty.bsky.social Slashed 25‰ of the price to 29.67€!🎈🎈 tr.ee/XVdmqc They cooked! #merch #vtuber #nonbinarystreamer #art #mousepad",
+   "autor": "cyborgjestertv.bsky.social",
+   "url": "https://bsky.app/profile/cyborgjestertv.bsky.social/post/3mzn2szrbdc2b",
+   "fecha": "2026-11-06T09:25:40+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Aster (ASTER) Drops 3.26% Amid Airdrop, Market Sell-Off",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94TE5qZDRic3lHY2xZdTl3Nk9PQllhb0xSbEE3VUNqeFQ1ZmJSb1E2SDBlcUx0M0Z6bnVlTUJCZnZUeTVuaFYtek9UUGRaSGNDOEYxN1drbEd5QWtSMWFYRTBReFV4OGpDeGZDV1Etai0?oc=5",
+   "fecha": "2026-11-06T09:04:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "Liquidity drop: $ASTER on Solana Pool liquidity fell 100% in about an hour, $50.4K → $0. ratekite.com/token/solana/Ctjm…8X4W Automated data, not advice. Powered by CoinGecko",
+   "autor": "ratekite.com",
+   "url": "https://bsky.app/profile/ratekite.com/post/3mzmx3tzi3p2n",
+   "fecha": "2026-11-06T08:19:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "Trade with me on Kraken: invite.kraken.com/JDNW/37rsmhdm Support the work: ko-fi.com/imahyperian #Crypto #Monero #XMR #Privacy",
+   "autor": "imahyperian.bsky.social",
+   "url": "https://bsky.app/profile/imahyperian.bsky.social/post/3mzmuhdyqx226",
+   "fecha": "2026-11-06T07:31:46+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "🕐 Thursday Nov 5, 2026 · 11:28 PM PT NEW — Crypto Top 10 to Hold: #8 Monero (Don Christopher Edition) Privacy by default since 2014. They delisted it, pressured it, wrote it off — eleven billion dollars still standing. Educational, not financial advice.",
+   "autor": "imahyperian.bsky.social",
+   "url": "https://bsky.app/profile/imahyperian.bsky.social/post/3mzmuhdyl3k26",
+   "fecha": "2026-11-06T07:31:46+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "� Thursday Nov 5, 2026 · 11:23 PM PT NEW — Crypto Top 10 to Hold: #8 Monero Privacy by default since 2014. They delisted it, pressured it, wrote it off — eleven billion dollars still standing. Educational, not financial advice.",
+   "autor": "imahyperian.bsky.social",
+   "url": "https://bsky.app/profile/imahyperian.bsky.social/post/3mzmu7bgkjs26",
+   "fecha": "2026-11-06T07:27:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Analytics Insight",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto Prices Today: Bitcoin Slips to USD 75,500 as Tech Selloff Erases Midterm Gains",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQVhIQzh6Z1AwLWNKaGdJQzVkMmVxLTJQX28yM2pDNU9sMVZxMGpHNGJEenEySUxVTHVBbmtOd2E3ejYtZGdFZEFxemlkT0hWdUNrQUJ2Y2VNSmpaOC1HS01JX29uM2oycFBVV0tzSDMtS0tNdExPRW43VGVMR0F3MEdxbmRaa29nUnMzZEhwUGcwMTRXMDliNVZkTXNWaVB6dFN6Q2pHbjhEWVdxS2l1NldtNnN5ZGpjOFZJQUZsbFJLaGhzcXBaODZCMVhqQjl3OU1TRFhzdk3SAdgBQVVfeXFMTkFYSEM4emdQMC1jSmhnSUM1ZDJlcS0yUF9vMjNqQzVPbDFWcTBqRzRiRHpxMklMVUx1QW5rTndhN3o2LWRnRWRBcXppZE9IVnVDa0FCdmNlTUpqWjgtR0tNSV9vbjNqMnBQVVdLc0gzLUtLTXRMT0VuN1RlTEdBdzBHcW5kWmtvZ1JzM2RIcFBnMDE0VzA5YjVWZE1zVmlQenRTekNqR244RFlXcUtpdTZXbTZzeWRqYzhWSUFGbGxSS2hoc3FwWjg2QjFYakI5dzlNU0RYc3ZN?oc=5",
+   "fecha": "2026-11-06T06:48:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "XMR",
+   "titulo": "aaaaaAAAAA okay I use NanoGPT because I don't want to use propietary credit card networks (so I aim to use Monero/Nano) But! I also want to use @inference.coop because I kept harping on starting one but never did But if I join, and suggest crypto payment, I highly suspect…",
+   "autor": "1gn15.com",
+   "url": "https://bsky.app/profile/1gn15.com/post/3mzml73swvc2d",
+   "fecha": "2026-11-06T04:46:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Chainlink, XRP, Monero, and Zcash Price Analysis on November 6: Bullish Sentiment Returns",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTVRQaG9aWEZ5N3ZsMzRVMThST2NHR1dxOGgyclN2V2FQaGJ6bEplNENmVm1EWmJoNS04YVlxSnd1TzgxWkl1Zmc4dTJtSVlvR1RwYVBJWDh3aG9VSFpWVlNfT3BnX2tFZ3lZbEdDUU1raHNWNmdLT2l3SEtrdkJlenFFbDNxYUI2cnlwSUlGSmlfZG9TUTFrODI5UnlJZFJSTmJKOHROSEZsUkNhTVVPOS1YbHVPVXk2aEVz?oc=5",
+   "fecha": "2026-11-06T02:43:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Motley Fool",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto Market Today, Nov. 5: Bitcoin Erases Post-Election Rally as Wall Street Suffers Worst Day in 18 Months",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQMU00Y1IwSWtzSWhNcnZ0aldPazFpM0hILVdJWE9MSDlGemZBd1lZZFY4eUR3TmNzbUJ3UDJXVEZKNHFScG9hbGN6N043Y2xWVXRERVZDSkpKWFQxSzJXanJpaGpXRjQtbDBFTWtmZWk4Y29FcUlBSW9ncTlNTEl5RnZtTTdwWHpBby05bC1HQnM1aEFtU3RiWmlBWXcyNVpocUZSRnRQZzFTdXV0ckpKcE0zN3doYUFCbFZGbnNNaUFHd1UxS1dHQTlrNDJ6ZGxRY2VwZ3A1c3JtQVVMNGFBdnN4ODZMWTM5ckxpVHVNa2JUczZWUkdqUlp6NWN1TmtUSXgxOWJqalNuc3hoM09oWHdhc0d4aE5XTnc?oc=5",
+   "fecha": "2026-11-05T22:25:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero Price Today: XMR to IDR = Rp1.93M",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5yTGhTRDJRVWtQdG5qeEkzaGFrR1owODNQS0NQSVhncFRFY2RvVlpfdFZGdUNPWm9YMlVpMDZkakVYOFlEU0NjWC1XT3Z4VWRUcVJ1WEpqVQ?oc=5",
+   "fecha": "2026-11-05T20:55:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Crypto News",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto crash liquidates $954M in longs and $127M in shorts",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwMG81cWdaUUJOb2dhSk16SkMwWDVqUzNuWDJMWXdDTkw4VFV0cUlEemZSSGxPelBfN1NGeDc0RlMyMWxMRzR3NUJpZzFLVktqV2x2azJkOU1QTERFdTAtaU5YRXlZLWNWZ3V0UnZyNlBsaGpNMDR5WjVhMU0?oc=5",
+   "fecha": "2026-11-05T19:02:38+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Pluang",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Aster (ASTER) price forms tightening triangle; key levels at $0.74-$0.78 and $0.66 watched for breakout or weakness.",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc1huRHFWSVRQSGdYOXVDRzdhWjVSeTlwbk1ZNV9sQzlpRlkxYVYtVmZqaWpRZ1FSckpHNnhOcWVXbkM4VjQ5QlFXZEs4WVZxVkwwZmNRdXctWFFPVHZCXzZueTFhbnV1Wm04WFRRRnloTXNDOTZONS05UGMwNXlnUloxMVl1TktZRFJPLTJPMA?oc=5",
+   "fecha": "2026-11-05T18:25:25+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Aster Chart Shows Tightening Triangle Between Rising Support and Descending Resistance",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rNU1QZW5XZXJvSS15Vk1fZ3k0ckV5bURzLVpOZkNBXzRyb1hnaUJreS1BamFQMTBkc1JMVGtBVkNNOHV2MkFMd2ZRM2N4MHNRX3VRMjRSTElMZw?oc=5",
+   "fecha": "2026-11-05T17:16:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "Brale Stablecoins Expand to Chia Blockchain",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jRVJYUnExX3hkejZwaG5YekY4d0pBcFFfSHE0LU1ONHA2Z0xpbEx2NUE2eGtybXlfam5kRmNZUVR5ZVdMSE9ReWNSbk5aYW9teFRJRXRXeDBHUQ?oc=5",
+   "fecha": "2026-11-05T16:09:30+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KuCoin",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "BitTorrent's ecosystem continues to demonstrate strong user",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LUEFPTlJteWFXU2F4R0NkTDJLTGxJbjFHTDBsaEZxZDZvNkZuUjU2cVZXT0VjQTkza1c4V0lZNHcwclVaSFJvZmR1Qk9pbVZGWXk2cm5Sb3ZiM3VIRF9LeG5abVBNbURVX1FaNTZiRkUyZw?oc=5",
+   "fecha": "2026-11-05T15:49:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Tokenist",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "South Korea Delays Its Crypto Tax to 2029, a Fourth Postponement That Still Needs Lawmakers’ Approval",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUVHRRdlprcXlPcDRtbWVMenoybDUtaWFoVEN1T3RZOHBoOGNKTk44MHk0VFJuZ0pFUGpnV3pxdmZXZFZhMkx5T3pWYWduczhJcHBuNzQ2clZqbW1NajN2TjFMQkQwZw?oc=5",
+   "fecha": "2026-11-05T15:22:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Tokenist",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Bitcoin Whale and Miner Signals Spike: Is a Rally Next?",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOZHJXREdZdGpOVmZYa0FYVzZ2X2MwdHpFa0ZMQ0YyMGZsNFNjMERBRzRCenNtR0ljUzBhTFowbmY1SVlZR0RuZkhQVVZEcS1FU19VZXZ2T2F1Q2hQc1ZTM2FSRHhBVGxIMlE?oc=5",
+   "fecha": "2026-11-05T13:17:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TradingView",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "SafePal Added New Aster Trading Controls",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmprdFppQ0ZxMUY2Tkx5NVJINVlRSlVyQ3Q1a0UzUE1ia2MwTjh3eVVSS1V1Vk1keTBtNEVDYXV3VVhuQUtzUlZxZFFUYnI2ejFiaXJGNDViU0JZQVFZOTF0NGQ4WEFYSk1hQ2NhTE5DN1hrY0JKelhINlRhWXBNRWQwbzB3LUdpS3pNTTNmRW9mTjhxX2JodWdUeExxb00?oc=5",
+   "fecha": "2026-11-05T12:27:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Tokenist",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Perplexity AI Predicts ASTER Crypto to Overtake Hyperliquid",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGJaUTR1SlZtOUlCcG5JVW9oeHhnbno0Rk1jT0NoNy04R1FJdThUTFNYaG56LXhhTlZGTTNnNlF2dlhOc1hwWERLTVM3anlxOVJiLW83enEwbktjcGlSM3ZHbnhROXIwVGpheDNlNVFsQ2MwanhHVXlxdGRTVjNpZ0JsQ1c?oc=5",
+   "fecha": "2026-11-05T09:47:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TechBullion",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Best Crypto to Buy in 2026: Monero Holds $638 as Smart Money Backs Pepeto",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR1plZXN3V1hpUTBrdEJpZXdNd3IyTWZhdGdfSW9EQkM3b1VxbmdZb0RZa3RsSTZieV9sbGdyWFQwdXg3czlxcW1zRXc0Y0RBNXc1RlpnRmFQVzA5dVcwN1lqYms1U1BGdHUyaW4zZkh2cTdkS0ZfNEt0alI0ZjFlSXN4UE4yREpQVG1JQnVCdkJrRnV2N0xnUFp4Y3g?oc=5",
+   "fecha": "2026-11-05T09:25:03+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "quasa.io",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Monero Web Wallets in 2026: Private, Browser-Based, and Easier Than Ever",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NcVpEang3Q3JoMFNRVHJEZW1FdzNuMGpkUHJuMWRtOU1yUl9CR1ZtQ0dpMEI3STBfazh6TFFyd2tYUGpLU2ctb0J2c1VJS28zZ0ZYOHVBTnIxNmJT?oc=5",
+   "fecha": "2026-11-05T08:07:29+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Yahoo! Finance Canada",
+   "via": "Google News",
+   "moneda": "BTT",
+   "titulo": "BitTorrent JPY (BTTOLD-JPY) Seasonal Returns Chart",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10d2JLUlVpZWpPMklhYWY5MkdyaUViWVBjOGx4Rm1OakhnOC0tbHNKUUF1RVFuSnhMdUY1MmV2M3FoS3VqdlZ6QmxFLTZSa3ZnZVVvRlVBQXdSdHZsM3B1c3lwdmJKT3FJRHc?oc=5",
+   "fecha": "2026-11-05T03:38:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "OneBullEx",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Zcash (ZEC) vs Monero (XMR): Which Privacy Coin Is Better for Anonymous Transactions?",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoQno1azMxb1J4WldfOVVxNGRJQnI2VVNXdHREYnBFVG5Kc0d0czRKR1NZb0dyUVgtZ2FLbFVRQlBna0daak9rNmdXbDIwTzItcW1na2VEdFhhZEZocDlaUXZHMUwwMGoxR2FueUptVXg4V1pnUEItX1I3bkpGdw?oc=5",
+   "fecha": "2026-11-05T02:56:17+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinMarketCap",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Many Cryptocurrencies Try to Dethrone Bitcoin, but Will Any Succeed?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM04yaFMxQnpOeEpON294YXpDVXY3emRJTy14bFV5dDJpaGIxVkpTN0ttSkZLbUZGMzlWemhVSVFxRVNOR0ljaHdhTU1aNTlLOGdnMVV6QzJTNzRKZjNCZktyeERzQ3Z3ZjRtX2FaVkhXU2t6T1V0Sy0xcm13SGhJNzc3R0l2eGoyTFNNS3pxWXR6U2lKbTI1eFM3aVNmQQ?oc=5",
+   "fecha": "2026-11-04T23:35:13+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "XMR",
+   "titulo": "Crypto Price Analysis, ETH, XRP, XMR, LINK and PEPE, Nov. 4: Monero Clears Resistance as XRP Pulls Back and Chainlink Weakens",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT1ktVldWMHJoNnFFWjJfOUlzSF95SDkxSkF1ZWREZ0Jub1ZmTXRtRG5QTnF1Yk51cHRnVm0zWnZDLThJYk5zVml2S2pyYlZNbWc3TEpPQzJWMW4yV2txSUx4YnZ2Y0h1M1BIbTB2S1ItNnFEVkhNMndoa29WcDloZG82aUVwZzBwVzVBenNWSFFlTjNnZFI2S0V4RUpHMVpibzd6dHZ6NlRVRldVYkxaY0hkb3d0UVdEUF9tbThQUUE0amZuVlBjdWI2S0txdEdhS09fRC1haVJvVVlYYllsRFVSUzJBaXdHeDJJMA?oc=5",
+   "fecha": "2026-11-04T22:47:43+00:00"
+  }
+ ],
+ "posturas_stocktwits": {
+  "XMR": {
+   "Bullish": 10,
+   "Bearish": 2
+  },
+  "BTC": {
+   "Bullish": 2,
+   "Bearish": 0
+  },
+  "PEPE": {
+   "Bullish": 12,
+   "Bearish": 5
+  },
+  "ASTER": {
+   "Bullish": 10,
+   "Bearish": 0
+  },
+  "BTT": {
+   "Bullish": 11,
+   "Bearish": 1
+  },
+  "INJ": {
+   "Bullish": 10,
+   "Bearish": 0
+  },
+  "ZEC": {
+   "Bullish": 5,
+   "Bearish": 1
+  },
+  "JST": {
+   "Bullish": 3,
+   "Bearish": 0
+  },
+  "GOMINING": {
+   "Bullish": 5,
+   "Bearish": 0
+  }
+ },
+ "fallas": []
+}
