@@ -7,19 +7,14 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
-  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   },
   {
    "coin_id": "zcash",
@@ -32,14 +27,14 @@
    "nombre": "Injective"
   },
   {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
-  },
-  {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
   },
   {
    "coin_id": "bitcoin",
@@ -50,6 +45,11 @@
    "coin_id": "aster-2",
    "simbolo": "ASTER",
    "nombre": "Aster"
+  },
+  {
+   "coin_id": "ethereum",
+   "simbolo": "ETH",
+   "nombre": "Ethereum"
   }
  ]
 }
