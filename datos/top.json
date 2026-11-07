@@ -7,9 +7,9 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
   },
   {
    "coin_id": "pepe",
@@ -17,9 +17,9 @@
    "nombre": "Pepe"
   },
   {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
   },
   {
    "coin_id": "zcash",
