@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-07",
+ "fecha": "2026-11-08",
  "monedas": [
   {
    "coin_id": "monero",
@@ -7,19 +7,9 @@
    "nombre": "Monero"
   },
   {
-   "coin_id": "pepe",
-   "simbolo": "PEPE",
-   "nombre": "Pepe"
-  },
-  {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
-  },
-  {
-   "coin_id": "zcash",
-   "simbolo": "ZEC",
-   "nombre": "Zcash"
   },
   {
    "coin_id": "injective-protocol",
@@ -27,14 +17,24 @@
    "nombre": "Injective"
   },
   {
+   "coin_id": "zcash",
+   "simbolo": "ZEC",
+   "nombre": "Zcash"
+  },
+  {
+   "coin_id": "pepe",
+   "simbolo": "PEPE",
+   "nombre": "Pepe"
+  },
+  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   },
   {
    "coin_id": "aster-2",
@@ -47,9 +47,9 @@
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "beam-2",
-   "simbolo": "BEAM",
-   "nombre": "Beam"
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
   }
  ]
 }
