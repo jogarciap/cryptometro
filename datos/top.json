@@ -27,6 +27,11 @@
    "nombre": "Pepe"
   },
   {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
@@ -42,14 +47,9 @@
    "nombre": "Aster"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "gatechain-token",
+   "simbolo": "GT",
+   "nombre": "Gate"
   }
  ]
 }
