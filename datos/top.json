@@ -2,14 +2,14 @@
  "fecha": "2026-11-09",
  "monedas": [
   {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
-  },
-  {
    "coin_id": "pepe",
    "simbolo": "PEPE",
    "nombre": "Pepe"
+  },
+  {
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   },
   {
    "coin_id": "just",
@@ -27,29 +27,29 @@
    "nombre": "BNB"
   },
   {
-   "coin_id": "gatechain-token",
-   "simbolo": "GT",
-   "nombre": "Gate"
-  },
-  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "zcash",
-   "simbolo": "ZEC",
-   "nombre": "Zcash"
+   "coin_id": "gatechain-token",
+   "simbolo": "GT",
+   "nombre": "Gate"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "pieverse",
+   "simbolo": "PIEVERSE",
+   "nombre": "Pieverse"
   },
   {
    "coin_id": "gmt-token",
    "simbolo": "GOMINING",
    "nombre": "GoMining Token"
+  },
+  {
+   "coin_id": "zcash",
+   "simbolo": "ZEC",
+   "nombre": "Zcash"
   }
  ]
 }
