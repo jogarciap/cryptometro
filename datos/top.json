@@ -27,11 +27,6 @@
    "nombre": "Gate"
   },
   {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
    "coin_id": "arbitrum",
    "simbolo": "ARB",
    "nombre": "Arbitrum"
@@ -42,14 +37,19 @@
    "nombre": "BNB"
   },
   {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
    "coin_id": "pieverse",
    "simbolo": "PIEVERSE",
    "nombre": "Pieverse"
-  },
-  {
-   "coin_id": "spacex-bstocks-tokenized-stock",
-   "simbolo": "SPCXB",
-   "nombre": "SpaceX (bStocks Tokenized Stock)"
   }
  ]
 }
