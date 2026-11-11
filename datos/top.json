@@ -22,24 +22,24 @@
    "nombre": "Injective"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
-  },
-  {
    "coin_id": "bittorrent",
    "simbolo": "BTT",
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "ape-and-pepe",
-   "simbolo": "APEPE",
-   "nombre": "Ape and Pepe"
-  },
-  {
    "coin_id": "monero",
    "simbolo": "XMR",
    "nombre": "Monero"
+  },
+  {
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "coin_id": "ape-and-pepe",
+   "simbolo": "APEPE",
+   "nombre": "Ape and Pepe"
   },
   {
    "coin_id": "figure-heloc",
