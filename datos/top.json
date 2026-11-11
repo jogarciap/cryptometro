@@ -1,5 +1,5 @@
 {
- "fecha": "2026-11-10",
+ "fecha": "2026-11-11",
  "monedas": [
   {
    "coin_id": "pepe",
@@ -12,29 +12,19 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "injective-protocol",
-   "simbolo": "INJ",
-   "nombre": "Injective"
-  },
-  {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
-  },
-  {
    "coin_id": "gatechain-token",
    "simbolo": "GT",
    "nombre": "Gate"
   },
   {
-   "coin_id": "arbitrum",
-   "simbolo": "ARB",
-   "nombre": "Arbitrum"
+   "coin_id": "injective-protocol",
+   "simbolo": "INJ",
+   "nombre": "Injective"
   },
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
   },
   {
    "coin_id": "bittorrent",
@@ -42,14 +32,24 @@
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "bitcoin",
-   "simbolo": "BTC",
-   "nombre": "Bitcoin"
+   "coin_id": "ape-and-pepe",
+   "simbolo": "APEPE",
+   "nombre": "Ape and Pepe"
   },
   {
-   "coin_id": "pieverse",
-   "simbolo": "PIEVERSE",
-   "nombre": "Pieverse"
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
+  },
+  {
+   "coin_id": "figure-heloc",
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   }
  ]
 }
