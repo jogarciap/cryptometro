@@ -7,24 +7,14 @@
    "nombre": "JUST"
   },
   {
-   "coin_id": "midnight-3",
-   "simbolo": "NIGHT",
-   "nombre": "Midnight"
-  },
-  {
    "coin_id": "ape-and-pepe",
    "simbolo": "APEPE",
    "nombre": "Ape and Pepe"
   },
   {
-   "coin_id": "figure-heloc",
-   "simbolo": "FIGR_HELOC",
-   "nombre": "Figure Heloc"
-  },
-  {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
+   "coin_id": "midnight-3",
+   "simbolo": "NIGHT",
+   "nombre": "Midnight"
   },
   {
    "coin_id": "ondo-us-dollar-yield",
@@ -37,9 +27,9 @@
    "nombre": "Gate"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
   },
   {
    "coin_id": "bitcoin",
@@ -47,9 +37,19 @@
    "nombre": "Bitcoin"
   },
   {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "coin_id": "spacex-bstocks-tokenized-stock",
+   "simbolo": "SPCXB",
+   "nombre": "SpaceX (bStocks Tokenized Stock)"
+  },
+  {
+   "coin_id": "binancecoin",
+   "simbolo": "BNB",
+   "nombre": "BNB"
   }
  ]
 }
