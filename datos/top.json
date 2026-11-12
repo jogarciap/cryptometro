@@ -1,40 +1,10 @@
 {
- "fecha": "2026-11-11",
+ "fecha": "2026-11-12",
  "monedas": [
-  {
-   "coin_id": "pepe",
-   "simbolo": "PEPE",
-   "nombre": "Pepe"
-  },
   {
    "coin_id": "just",
    "simbolo": "JST",
    "nombre": "JUST"
-  },
-  {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
-   "coin_id": "injective-protocol",
-   "simbolo": "INJ",
-   "nombre": "Injective"
-  },
-  {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
-  },
-  {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
-  },
-  {
-   "coin_id": "gatechain-token",
-   "simbolo": "GT",
-   "nombre": "Gate"
   },
   {
    "coin_id": "ape-and-pepe",
@@ -47,9 +17,39 @@
    "nombre": "Figure Heloc"
   },
   {
-   "coin_id": "binancecoin",
-   "simbolo": "BNB",
-   "nombre": "BNB"
+   "coin_id": "midnight-3",
+   "simbolo": "NIGHT",
+   "nombre": "Midnight"
+  },
+  {
+   "coin_id": "bittorrent",
+   "simbolo": "BTT",
+   "nombre": "BitTorrent"
+  },
+  {
+   "coin_id": "ondo-us-dollar-yield",
+   "simbolo": "USDY",
+   "nombre": "Ondo US Dollar Yield"
+  },
+  {
+   "coin_id": "gatechain-token",
+   "simbolo": "GT",
+   "nombre": "Gate"
+  },
+  {
+   "coin_id": "whitebit",
+   "simbolo": "WBT",
+   "nombre": "WhiteBIT Coin"
+  },
+  {
+   "coin_id": "bitcoin",
+   "simbolo": "BTC",
+   "nombre": "Bitcoin"
+  },
+  {
+   "coin_id": "monero",
+   "simbolo": "XMR",
+   "nombre": "Monero"
   }
  ]
 }
