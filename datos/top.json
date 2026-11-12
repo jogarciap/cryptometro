@@ -7,6 +7,11 @@
    "nombre": "JUST"
   },
   {
+   "coin_id": "midnight-3",
+   "simbolo": "NIGHT",
+   "nombre": "Midnight"
+  },
+  {
    "coin_id": "ape-and-pepe",
    "simbolo": "APEPE",
    "nombre": "Ape and Pepe"
@@ -15,11 +20,6 @@
    "coin_id": "figure-heloc",
    "simbolo": "FIGR_HELOC",
    "nombre": "Figure Heloc"
-  },
-  {
-   "coin_id": "midnight-3",
-   "simbolo": "NIGHT",
-   "nombre": "Midnight"
   },
   {
    "coin_id": "bittorrent",
