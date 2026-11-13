@@ -22,9 +22,9 @@
    "nombre": "Midnight"
   },
   {
-   "coin_id": "aster-2",
-   "simbolo": "ASTER",
-   "nombre": "Aster"
+   "coin_id": "spacex-bstocks-tokenized-stock",
+   "simbolo": "SPCXB",
+   "nombre": "SpaceX (bStocks Tokenized Stock)"
   },
   {
    "coin_id": "gatechain-token",
@@ -32,9 +32,9 @@
    "nombre": "Gate"
   },
   {
-   "coin_id": "spacex-bstocks-tokenized-stock",
-   "simbolo": "SPCXB",
-   "nombre": "SpaceX (bStocks Tokenized Stock)"
+   "coin_id": "aster-2",
+   "simbolo": "ASTER",
+   "nombre": "Aster"
   },
   {
    "coin_id": "monero",
@@ -47,9 +47,9 @@
    "nombre": "BitTorrent"
   },
   {
-   "coin_id": "whitebit",
-   "simbolo": "WBT",
-   "nombre": "WhiteBIT Coin"
+   "coin_id": "ether-fi",
+   "simbolo": "ETHFI",
+   "nombre": "Ether.fi"
   }
  ]
 }
