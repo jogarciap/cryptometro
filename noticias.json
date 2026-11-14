@@ -1,0 +1,958 @@
+{
+ "generado": "2026-11-14T09:25:36+00:00",
+ "monedas": [
+  {
+   "simbolo": "FIGR_HELOC",
+   "nombre": "Figure Heloc"
+  },
+  {
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
+   "simbolo": "INJ",
+   "nombre": "Injective"
+  },
+  {
+   "simbolo": "APEPE",
+   "nombre": "Ape and Pepe"
+  },
+  {
+   "simbolo": "NIGHT",
+   "nombre": "Midnight"
+  },
+  {
+   "simbolo": "SPCXB",
+   "nombre": "SpaceX (bStocks Tokenized Stock)"
+  },
+  {
+   "simbolo": "AVAX",
+   "nombre": "Avalanche"
+  },
+  {
+   "simbolo": "ASTER",
+   "nombre": "Aster"
+  },
+  {
+   "simbolo": "ICP",
+   "nombre": "Internet Computer"
+  },
+  {
+   "simbolo": "JUP",
+   "nombre": "Jupiter"
+  }
+ ],
+ "items": [
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "If the SpaceX–Tesla merger chatter ever gets real, ignore the synergy slide decks. The number to watch is bitcoin. Tesla holds ~11,500 BTC. SpaceX reportedly sits on ~30,000 more. Merge them and you get one of the largest corporate bitcoin treasuries on Earth — held by a…",
+   "autor": "greatmatrix.bsky.social",
+   "url": "https://bsky.app/profile/greatmatrix.bsky.social/post/3n2b5lkijtw2s",
+   "fecha": "2026-11-14T09:08:23+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Motley Fool",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "Prediction: 2 Stocks That Will Be Worth More Than SpaceX 5 Years From Now",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNmUtQlZLMDN6b3FOdVhMSjA0NDV4aDJTM0NVZG8yVUMzR0RxWXo3RFdBMjNXRl9MbkI2TkNOUkRySml5andPbmFDX3ltTmpMU2lVZ1BCUmhZQVk0V2FnN2x6VFdDVUk0THdvMHpMaU5YeENJZU1OaUJyY3Q5aWpEYWFsOXJBckZwZFdULWpsVTZtbzNuejctZw?oc=5",
+   "fecha": "2026-11-14T09:05:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Bitway Leads Crypto Decliners With 16.31% Drop as 76 Assets Fall",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VVHlqVjBYVDVhODhYYm1NLUhpTjlOWHc2UGxZVV8zLWZTXy01Y3h3NHNTeVRjV0NkQ05KQVFNdHRxallDX191R3hNazAtb2RRaEdVanVGVVFHQQ?oc=5",
+   "fecha": "2026-11-14T08:07:33+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coinpedia",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective Bulls Target $10 as INJ Price Approaches a Critical Resistance Zone",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUVGVlpWMzFnM2MwLW1rTHZuRGxrc1dxNlRWdFd3TGI2M2lVdjFqYVdhVFUwSHdNODItOHpyeDFKeVNCWTJWMlZ0OVg2cEMyVDFXSXM0QVVCeDU4aTZqZjM1VE5SdTBveXIwVHd2Wl9JRGlMVHU2UmctVTZYQ2xqaXdkX28xX2prem16RHFSbmNONHAzTmdaX3JPWURwc29uY2ZhWWxTSmFiTU1MWU9rMmJ2TFPSAboBQVVfeXFMTU9nSE04YkszR1VHUHJadzZ0eUo4SVhDd0hZSTZZNkt1RmlGUzZtLWtOQUxxU2VlazVvczd6VmEtcHlwZTJ6MXFfVVJ3U2pVMWFnLWNWWFROUHphVk9NSHR4Z0JfbkpYbWdPakV3VmNURTlkNnotem43bHpSbnMwSnRyZDdFNHRkUHhVeVNlaVB3bUZhWnZFc2VhVmRJWE9UajFUdmN1LTZvaTJBYWpYcXJFekFQeTAwU1V3?oc=5",
+   "fecha": "2026-11-14T08:03:34+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Macau Business",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX’s Starship enters Earth’s orbit, but booster catch aborted",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaTBBYWk0Tk1USnR6T1VWZkIyNUhOc05yMVRXZ2g2LWwta3RfRUNoMWZ3NU9xUXRDNzB4aXhFZXNpM1lmRFdRRzBHWlFUZGVVNnppR3hCckotRnJ0c2dydGl1ZW82aHI1TGtyVEFrQ0Z5RllZZ1NSTGVkRzhyeXY5MWZ4ZVQyRG1aQ0JKQlRuODdOLW8?oc=5",
+   "fecha": "2026-11-14T07:48:22+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Startup Fortune",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX Starship Flight 15 reaches orbit but loses its booster before the ship catch",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEk3a0JLak80aWp5TUx5Y3dOSnBHRV9iUl9heG1EcUhsOFJfUnlsd2xFa2FweW9vY01KLTlHcDlsWkZ6bHRrQkdWa2pRTXRGTFc5M3ZGaVRfMHg2UWhWT3pCOGhQOXNDcW1aMksza3E2LXQ5Qy1RbDRGYlhvZHV2ZklQNE5aZ3VyY2ZQRWFNbk9WRVRyUmNMVTVyZUNCNFhQY0pUb3lVdWczX25KS3NaVw?oc=5",
+   "fecha": "2026-11-14T07:23:48+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Defiant",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "dYdX Proposes USDC Backing Shift From Noble to Injective",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaFJwc1I2SVAwUXhNX2s2bVBHeGVUcW9TRGZraUhVclVNWGtLUDlQVFEtc1c1aUZQdWVUbkVHRFZvUDZtaUlzVUdiMDBqdVlxZkV3cnhNUl9Nd1A3bnc3Ym9VamVoRF93ZlEtaVRzRXVhcndsTURTWGFMbGlSZDZabmxmZUc3UGVYVjVmSXJaV1N6dw?oc=5",
+   "fecha": "2026-11-14T07:22:16+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "🔥 Trending in crypto right now: 1. AKE Akedo 2. BTC Bitcoin 3. INJ Injective 4. SOL Solana 5. XRP XRP Full list with live prices: https://cryptocurrency.com.tr/trending #Crypto #Trending #Trading #Bitcoin #CryptoNews",
+   "autor": "cccomtr.bsky.social",
+   "url": "https://bsky.app/profile/cccomtr.bsky.social/post/3n2axnkj24c2m",
+   "fecha": "2026-11-14T07:22:08+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ICP",
+   "titulo": "📉 $ICP -9% in 24 hours At $2.39 now, with nothing on our calendar to explain it. On 116 days since 2021, ICP fell 8%+. A week on, it was higher after 45 of them (39%; any week: 44%). Typical week after: -4.2%. Our data, not financial advice.…",
+   "autor": "patternplus.bsky.social",
+   "url": "https://bsky.app/profile/patternplus.bsky.social/post/3n2axmrwh4s2d",
+   "fecha": "2026-11-14T07:21:43+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Aerospace Global News",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX Diverts Super Heavy Booster into Gulf, Upper Stage Reaches Orbit on Flight 15",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTm52dXU5Zk5FSEF2OWJUTk94YzJrR051a0prUVRZMmQyNjJua0I5X2pZU2E5dDhGN1VWTjFmcUJiUjhaSVhLSU5nZ0liTXA1ZXEtRDl1RlZoUG1vT2ZTaFZkVGxJR1ZBQW1VMjVrS1A3S2pLTmJUZ2NlRmE4X0o4NG1sWWtIN0dRcGNNdlppRE5fQQ?oc=5",
+   "fecha": "2026-11-14T07:01:37+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "ICP",
+   "titulo": "Internet Computer price forecast: Downward momentum signals risk of further declines toward $2.27 support",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcDlxUDFZcDJSNVhPcmRUY1g5djlvZWRVRGZpWWNYNFgyOXlPQ2xvN1FpLWxjOVM2UmVSd2stVDVjOFJUdXc5N0VteXhHOE5aX05EYnRJOW5rNzI1Z3RyVzMwdXhZTk0zZUp4LU9JM1F1WFU2MHlxTktGZ3dUV3BZcUZzYWQ0OXhFck9IVDZybUdleldNMWZrTXdlS1ZDX3ZGVl9vWXpHN2dkdw?oc=5",
+   "fecha": "2026-11-14T07:01:18+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Українські Національні Новини (УНН)",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX’s attempt at a unique double capture using Starship failed",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOWNKR2NyckxUMWRsV3NCWmNhdjJvaXV6ZllCNDFJbUl6LWJPSU9QZ1ZzaDhzOXdhWVY3RXVyZG0zdWFiYkkxRDY2VGVMMGR2c2k1MlZ1b284TnJxaHJLVlBaQW5sckVkQkJ1M1poaVRxZ3RKQWY2QlFyOGdPbFVMVWhMdE5CR1FjVGhZZm5xdUjSAY8BQVVfeXFMTWRrQ3EtYktnNUFzeEpjRGszeHpjUGVDYjBCV3M3QlVMT0paVDBEbjFJTFBaYWFiM25RN2Nldjc2eGJUYWhvWUhNSGpvVVFsQlVfaXE2bmlYalRiVXhNbUVNbGpLYUhuTTFVVlU2d2dQd05HOThlLXhIYzBZeHl3ekdUX0pFc19qdTduRlZ2TDg?oc=5",
+   "fecha": "2026-11-14T06:39:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Free Press Kashmir",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX Super Heavy booster explodes after failed catch attempt during Starship test flight",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX2R4S0pXRFJxYUpaaTM4YUZUWkpBeHBYME5RYmI0bEpaS0hWclk4aS1lNXBFdTVKM0dYTGZuZHJyV3NSaHNoMXNJR3BYXzdSZndTV2ZZMlNsRlJFb1kwWjVETlhFQkl2S0hKRlhkM1MwMjdJakdMcTdITjFhVkw4N2tqdlN5dHV1X1ViMHBjQUhHVG5SQnNGUUladHZaNl9IcUdKT0V1RFRLSVdlOXcwVTI0UnZpWmVJZ0NpdjBkVjZLNlJOQmp0bnJmTl_SAdIBQVVfeXFMT0pObFlxYnVJRHhFZnF5b0luTVYtUmVGUnBiMzRrV3NOOGpTRHdJQmZ3eWQ2czlDTEwzbldDc0x5UDRwZW92S1E3MnhnR2RSSHAwbndVLWxYZmxyUnA3ckVWUDFQc3hXRDQwTmJ5cGxpdThSMjRnMlVsUE1PdXFfX3BrUUM3WlZmQXdyOXdzUmtQNlRDbTVZLXEwT2tlTTZFYW1JSUVaXzhvVG5ZenVUTzBIbkpZVF9BZGJDQmh0RVMxTXpEZGJ3UEVicDVBRTlzemNn?oc=5",
+   "fecha": "2026-11-14T06:27:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TRT World",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX aborts booster recovery as Starship reaches orbit",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83aVROeG1hTDVhQ29GXzZ4QlhxNXE0QXR2VzIxdTBOZTloNnAwenJFWVgxTlBfQmtZRUlONUl6LUNYeHRRTTZUWkh3czVYX05FZ2t5MmpqOG8?oc=5",
+   "fecha": "2026-11-14T06:26:14+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Starlust.org",
+   "via": "Google News",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX launches Starship Flight 15: Booster catch called off, history still on the cards",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRDBNcWJiT1pVTDBHVXE4Z1BVM3ZEb0NaOFI3R2V2X0JWMV9nNjNJX3l2MFMzblZEc2s3WGZ3SGNzNlZYaGpzbWpWV0xXeDJ0aXlaakZWXzNvcGdhVWNwTzBhV19sSGlqOVlWb3dDVjBsdnFOOWVVblR1U3ZkOXhPOUJ1b1hacHFiamVKSnVqcXdyM0dXUk9NT1oyNE1tZ3NPeFd4RGN0MG1Zc1VI?oc=5",
+   "fecha": "2026-11-14T06:20:11+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AVAX",
+   "titulo": "$AVAX.X I started accumulating some, got 2k AVAX currently.",
+   "autor": "NovaKnights",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/NovaKnights/message/669124114",
+   "fecha": "2026-11-14T06:17:27+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "1/2 📡 MARKET EVENT 📉 -6.4% · #ASTER/USDT · 4h 🟡 Slowing · Accelerating ASTER dropped -6.4% in 12h with downside momentum becoming extended. 📈 Move 3.0× ATR(14) · 24h -4.9% · RSI 30.6 (neutral-bearish) ⚠️ Not financial advice https://t.me/rawcryptosignals · $ASTER",
+   "autor": "rawcryptosignals.bsky.social",
+   "url": "https://bsky.app/profile/rawcryptosignals.bsky.social/post/3n2atksxlzy2e",
+   "fecha": "2026-11-14T06:09:02+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Traders Union",
+   "via": "Google News",
+   "moneda": "INJ",
+   "titulo": "Injective stakers vote on Veyra upgrade: Can INJ sustain its upward move?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVUzYUdfVW9NMkdiUTJnMmdJYXBXdkFyVlR6VFRET25LWDUwV3M1eGVHN2xIU0NqLXhUekl0dzd5cFNpdzItNjF3a3BhM1REbkFRRWlYQjMtMDktX3dtOXQya0FmZXBQVmI2cjVMbHJIdEFBeHhDanNnckpUaFc5bmtoVjNFN2piQUJpTG9kLWc3dGZSYzBQODNXOTA1dXd6cURV?oc=5",
+   "fecha": "2026-11-14T06:07:21+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Yahoo Sports",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Midnight Mania! Platinum Perry Announces UFC Return",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONVpyNm5Xd1MwTDZLUWUzWUFZYVdEWGhiUmhrbXRGOUU2WkpJUlAyd0hhMWd6VV83Y2pJRkFhMlpZN1BqelFjMWNZZ25ZMUQ4ZGVKNTZkcHdydVJxZ3Y5ZFloa0VGT0ZhSTlESldWYjVOeFl0cGswSFdKWDBzWDdsNUx2VFZaMjBURmNQdHh2eGIxQQ?oc=5",
+   "fecha": "2026-11-14T04:59:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Palm Beach Post",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Jupiter football no match for Palmetto in FHSAA playoff opener",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMGo2OTAwSndsWFdjclBRX2VDT0phVzMzWGRRZGJIWXlxd19VQWw5a0pmUnFvY2lJMWp1b01mY1JsMFR0VHRWcEJBWlhBWDlDZ2lzOWV2TjBVSldBYUQxS0FYRTVCOVdsWUtHTFJ4TG1EVEpNcVh5SWQtTGhFa0JfME9UQUw4WFBKQU1wbVNtb2VQcmt5SEp0d040S01aeTAwM3J0TzNqcUlyZXFSMlp6bHVRbE5ic2ZWYmVpcS1EQTRIeWlzUWFkQTJWdXN6X1lQdDd0YVEydnVIelpBUGJ4U0Z3?oc=5",
+   "fecha": "2026-11-14T04:57:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Charles Hoskinson Says He Is Not Leaving Cardano as Input Output Shifts Focus to Midnight",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1TakIyYUdqaG5EOUVGYkpyRktDTWttV3FMRURxeU8zT1pHdUdWU0tVOXg4aVRrNTU2eWc0WjhhRm9teDlKTXRkWi1PbXRnYnlHR29OMFA4c0RNZw?oc=5",
+   "fecha": "2026-11-14T04:52:40+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "The Palm Beach Post",
+   "via": "Google News",
+   "moneda": "JUP",
+   "titulo": "Best photos: Jupiter vs. Palmetto, FHSAA football playoffs",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWV9NaHJtQ2lKNUhrX2tRZ29iRFVWQTdJU1hHWC1qS21KVnRLakE2SUE3Y0tJR2FGYm5NdjlxUzRHdDd2SFpKeVJUNkRIN3dJUlhpWG1XY0xhYzh6QTNvZ1g4M3huOVNwOFAxYkRCLWdIZmdoSmNJNVBBUDF2a1JyeHZMVFBtaV8taXdsbWE5dXVrTkI2TUttSGlHQjlGSEZMNzdEdWRDWmdqdkVkOVVTXzJiclJPRGpXM2dSckxjREs0Zktnam15MlZBa282Ty1ZVm9pVnR5X3p0TlFkeXpKTjhqY0pyOFk?oc=5",
+   "fecha": "2026-11-14T04:52:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Metalheads Forever Magazine",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "BÖLLVERK Releases New Single \"Midnight Sun\" Ahead Of Album Release",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNG9sbGN0Q3RtdDRrSDFTbXBmWHQ5LXhNc3R6TG5NSFhvVVY0M0p6UDBIUWtkWjVMT2VuSm9vRWdObVJQTFJ6TTJFekRaZWM2dDRyZ0JueElIanhmczE3Y1Q5eEVrLVRQNmRMQjZ5R0M1NXMwYVp0dEZRZnFsWDJURVg2Y1hRNmM5eUwyQlBR?oc=5",
+   "fecha": "2026-11-14T04:36:47+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Pearl Leads Listed Crypto Gainers With a 13.64% Rise to $1.53",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nRVh0c0ZfUzRMWFMxVDdobWtaN2gzbHllMjBFNDd1RHlYa2gzN2VKdU5YZVBkamhrVmwzYlRYSnVGWE5IYl9ubGM3SVVJNzJzUWVVb0pqdkFQZw?oc=5",
+   "fecha": "2026-11-14T04:06:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AVAX",
+   "titulo": "Binance restored withdrawals on 87 networks this week (APT, HYPE, LTC, NEAR, ADA, AVAX, etc.). Full restoration targeted by end of next week. Temporary delays possible due to high traffic. Check withdrawal/network status pages for updates. #Binance #Crypto #Withdrawals",
+   "autor": "blockchainreport.bsky.social",
+   "url": "https://bsky.app/profile/blockchainreport.bsky.social/post/3n2am5lr3322i",
+   "fecha": "2026-11-14T03:56:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "Friday the 13th, day of Venus, at the Venus hour (just after 12:30); The same pattern appears as the Lear Jet crash - Aquarius is ascending, North Node ☌ Asc. line, trining Venus and opposing Jupiter ☌ Mars. The Mars / Jupiter conjunction sextiles Venus. Mars/Jupiter Hex 17…",
+   "autor": "symboleyes.bsky.social",
+   "url": "https://bsky.app/profile/symboleyes.bsky.social/post/3n2akxn66ks2b",
+   "fecha": "2026-11-14T03:35:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "Plus Jupiter & Mars on the South Lunar Node, of course, with Sun in ♏️ applying to square it all—and Moon in ♑️ to “bring it all home”😬 I’ve seen Venus play that role of “Oops, nope!” many times. The taking away of a thing, so we are forced to address the loss of its value to…",
+   "autor": "astro-puppy.bsky.social",
+   "url": "https://bsky.app/profile/astro-puppy.bsky.social/post/3n2akoemmkc2h",
+   "fecha": "2026-11-14T03:29:57+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "JUP",
+   "titulo": "11/1/2026 at 1:51PM Palm Springs, FL Sunday, hour of the Sun Aquarius on the horizon, Asc ☌ North Node Jupiter and Mars descending. The Sun #55 \"Correct Action\" Saturn #13 \"Union\" North Node #59 \"Disintegration\" Jupiter #17 \"Adjusting\"",
+   "autor": "symboleyes.bsky.social",
+   "url": "https://bsky.app/profile/symboleyes.bsky.social/post/3n2ajs7u6pk2e",
+   "fecha": "2026-11-14T03:14:32+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "Aster launches Anthropic perpetual contract trading competition with 20,000 USDT prize pool! 🏆 🗓️ Nov 13 - Dec 12, 2026 💰 Prizes for Taker Volume, Net Profit & Participation! Trade ANTHROPICUSDT or ANTHROPICUSD1 on Aster. Disable privacy settings to enter. More info: link to…",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3n2aj7ee5l62i",
+   "fecha": "2026-11-14T03:03:39+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "NIGHT",
+   "titulo": "$ADA.X $NIGHT.X https://coinmarketcap.com/community/articles/6af7b870d636d05fa6ebbff9",
+   "autor": "StockIt21",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/StockIt21/message/669120515",
+   "fecha": "2026-11-14T02:53:58+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X digital and tech isn’t helping crypto’s case at the moment… brutal week",
+   "autor": "HogHogan",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/HogHogan/message/669119992",
+   "fecha": "2026-11-14T02:36:52+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X crashed harder than everything else bears own this coin",
+   "autor": "1hunitk333",
+   "postura": null,
+   "url": "https://stocktwits.com/1hunitk333/message/669119637",
+   "fecha": "2026-11-14T02:26:19+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X $MSFT The global Microsoft outage shows how vulnerable our digital economy has become. Millions of businesses depend on a handful of centralized technology companies. When one fails, the consequences can be felt worldwide. That is why I find the Internet Computer (ICP)…",
+   "autor": "Utreggg",
+   "postura": null,
+   "url": "https://stocktwits.com/Utreggg/message/669118022",
+   "fecha": "2026-11-14T01:36:58+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AVAX",
+   "titulo": "$AVAX.X this pumped to 8,61 then faded again",
+   "autor": "ebbeeebeerus",
+   "postura": null,
+   "url": "https://stocktwits.com/ebbeeebeerus/message/669114591",
+   "fecha": "2026-11-14T00:16:14+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AVAX",
+   "titulo": "($AVAX) #Avalanche. #AVAX's price is accumulating above the key $8 level. If price holds above this level as it moves, a new upward move will follow. The main target for future growth is the liquidity at the previous high of $10. LINK IN BIO FOR MORE TRADES 🆓🔝",
+   "autor": "jcu917.bsky.social",
+   "url": "https://bsky.app/profile/jcu917.bsky.social/post/3n2a64uyzhs2u",
+   "fecha": "2026-11-13T23:45:34+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "The Injective Veyra Mainnet Upgrade is now live for voting. Our final major upgrade of 2026 introduces new institutional RWA infrastructure, expanded enterprise gateways, and lays the foundation for native privacy with CypherOS. The new age of finance will be on $INJ.X . Vote…",
+   "autor": "Injective_Official",
+   "postura": null,
+   "url": "https://stocktwits.com/Injective_Official/message/669112125",
+   "fecha": "2026-11-13T23:33:18+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X $NEAR.X Need to RuN NeaR and into the ground",
+   "autor": "CoffeeRocks",
+   "postura": null,
+   "url": "https://stocktwits.com/CoffeeRocks/message/669110447",
+   "fecha": "2026-11-13T23:06:57+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AVAX",
+   "titulo": "$AVAX.X • ⚖️ 50% EQUILIBRIUM & VALUATION STUDY 📊 MACRO DEALING RANGE ANALYSIS Avalanche is navigating a structured macro dealing range (7.7690 ➔ 10.51), currently pricing at a 10.2% discount beneath 50% Equilibrium (9.1380). Institutional algorithmic models track discount…",
+   "autor": "RajatPatel",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/RajatPatel/message/669109669",
+   "fecha": "2026-11-13T22:55:09+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "Preparing to watch a SpaceX launch. Initiating bourbon protocol.",
+   "autor": "mylittlebloggie.bsky.social",
+   "url": "https://bsky.app/profile/mylittlebloggie.bsky.social/post/3n2a2im5ffs2h",
+   "fecha": "2026-11-13T22:40:24+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X cloud no engines Back down we go",
+   "autor": "1hunitk333",
+   "postura": null,
+   "url": "https://stocktwits.com/1hunitk333/message/669108483",
+   "fecha": "2026-11-13T22:36:56+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX trying a double catch of the starship stack. I predict epic fail of both booster catch and ship catch. It's a terrible design all around. It's Elon's design. Just like the failed Cybertruck. $SPCX www.youtube.com/watch?v=9XM0...",
+   "autor": "mechanicaleye.bsky.social",
+   "url": "https://bsky.app/profile/mechanicaleye.bsky.social/post/3n2a24ukwlk2f",
+   "fecha": "2026-11-13T22:33:56+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Grayscale Says Bitcoin Explains Just 30%-46% of Crypto Sector Returns, Market Diversifies",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVVzdjRteUgwd3UyS1hCU2d6REdOQjY5enQzUWpYU0Z4dWJQaC1hRGJleUl5aERMdVB5dXlUWnBSaVlyZWZ3Uk82ZFdoQXJDbVBBOVV4RC04RGdQaDM3eU1qeGxzclpWaDNFTVpCZFg0bFVrVUtyRkpnWVlQQl84TnIyVnEtcnVJaUpUd0FsODJrV3htdWJGTXY2by1SWm1vd0xXYzluZFV0NU9WQ2tuZm90UzJfRzlPdWZsUmZuR0h0Zw?oc=5",
+   "fecha": "2026-11-13T21:16:12+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$ICP.X Trash. So much for Cloud Engines. WTF?!!",
+   "autor": "CryptoAtlas",
+   "postura": null,
+   "url": "https://stocktwits.com/CryptoAtlas/message/669100857",
+   "fecha": "2026-11-13T21:13:37+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "AVAX",
+   "titulo": "Can Avalanche (AVAX) Reach $100 in 5 Years?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQjdjMGdTMnNPVUFzRHBFX3FydjhyVDVQTVVmcXhIUjljRi1COUJtaTNhZ3IwMkQwbWl0ZTdVcS1nSmJUU3Job0IzaDRfYWtaMm94em9EWWlka2RRZC03aU1acDFoTF9OcVpHMjNyVThuWDlmRnM2U09xNVJDU3ZCMTdsN1kxdVhjc3F5dng0WklzekZLODdJYnl2akExd28?oc=5",
+   "fecha": "2026-11-13T20:57:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "24/7 Wall St.",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Cardano Price Prediction: Where Will Cardano (ADA) Be in 2030?",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbDVFLUN3QTU4X0Y3bDN6cmQ0YVZrV0lURmxuT1NXbnR3RERzWmlLZDlkQnR3OG1kSUFrMFRrN1p1cC05VU9OODRRMXJ2aFhnMnMzb1d2SUhHNU9zOUFoTWk4emwtNEFHLTRFOHFNdkJRU2pPWFg3ZW42U1d1UWJFMC1PM3VaSG1Vd29hZEUzbkppTlQyVC1NRUFMckdsRTAyM0FYLWloME1OTXhrZWp1Q2l4azcwa0Q4?oc=5",
+   "fecha": "2026-11-13T19:33:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "NIGHT",
+   "titulo": "The Savage Ebony Battle Turtle mount that was part of a 2024 SteelSeries promo will be added in the Trading Post in Midnight 12.1.7 🐢 #Warcraft #worldofwarcraft #MMO #gaming",
+   "autor": "msyanig.bsky.social",
+   "url": "https://bsky.app/profile/msyanig.bsky.social/post/3n27piphxms2n",
+   "fecha": "2026-11-13T19:23:37+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AVAX",
+   "titulo": "$AVAX.X We've outperformed ETH nearly 15% this week.",
+   "autor": "williams048",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/williams048/message/669082368",
+   "fecha": "2026-11-13T18:37:19+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Patch",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Holiday Tree Lighting, Midnight Madness Return To Historic Ellicott City",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc3hheVhHVWVyckt2MTVTR3FyNEVxNXE0WGdhenVKV01XdlBPRVluTWhwSXdRcm0yLWZIY1NGMHhBZ2t1dVlxWDFfOV9zOW5BZTNrSG9TeXZaa3FmYjJZVXBxYm15WU0xNTZIN2l3NGVWOGhSQnplV2RKeXNIMDFVdEdMaWdpWEdKLWFCSVpYTFlnbTlsTzlheTBZU2l3MXJ5QWpoYW50UXhEVXc30gHCAUFVX3lxTE03b19zTzdsMXBKWTAzVHNEQTI1bWx1cGhlb2N0Zk9LYkNzWjc5RVVKT2I3dzY0X2laX3JCd0xjRFNfa19wNHA4NVNqM1hOMGZ0c2dsbjI0TUhWU3VoMy1pVTI1ZEJubEJoYVRYMTI5THVvQ0NwQ3h1eUVabDJaRnJ5Q1Y4eUVNZVhGT1l4ZjVJcXVjQnBNbW43b3VRVEtid2Z5NXFzWkxLRGNlMGNzTzhZZWJoWHRZaG5ZZjVEdm1JczRn?oc=5",
+   "fecha": "2026-11-13T17:50:37+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "WCAX",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Pets with Potential: Meet Midnight & Eclipse, Athena, and Griffin",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUG9Bekx4c2wxZXd1TWNGZjVYR2hRcGVUNW1rU3V3Z1BNOGQ2bzdOUm9Jajh2bVkyT09YYzFVdzQyYlRvLTBORWd0eXNWNUgwU1BkVFEwNVZwNF9BMkxDOGg1ZkVXZTIzZU1rQ3JDT3Z0OWFoanV4bUhOZlBJVFZHY1ZJazhIVXVfai1mdGxTZklJMTQ?oc=5",
+   "fecha": "2026-11-13T17:38:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "INJ",
+   "titulo": "$PAPL $INJ.X Buying more PTIV with discount now, while looking at INJ pricing also.",
+   "autor": "ZabDad",
+   "postura": null,
+   "url": "https://stocktwits.com/ZabDad/message/669067011",
+   "fecha": "2026-11-13T16:41:10+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "ICP",
+   "titulo": "$NVDA $ICP.X $AMZN Let’s see some good news 📰 Make AmericA great again",
+   "autor": "CoffeeRocks",
+   "postura": null,
+   "url": "https://stocktwits.com/CoffeeRocks/message/669065631",
+   "fecha": "2026-11-13T16:32:07+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Comic Book Resources",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "Reed Richards Asks The Most Difficult Questions As Midnight Fantastic Four Teases The Negative Zone",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUzFjRnBWcWhNUHRCc3FwY1dkdUpGbnNuelQ2RDk3NFJTYkhfNXhiZ1hValk3ek13cEZNZFZtX3cyTmExYmlTcDNaNVh4OWtRYW1pVjByTU5hbF9vcGc3WUFNZW8wbmQzSmoxWEJsQ200cE42emU3SzJFUW9TUjhlRFdZVUdnYlE?oc=5",
+   "fecha": "2026-11-13T16:22:28+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Montana Outdoor",
+   "via": "Google News",
+   "moneda": "NIGHT",
+   "titulo": "16 Bison, One Midnight Release, and a Prairie Reborn",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2xaSG5Ka3BidktYMC1GU19PRTdZck41WFNoMGNneTg5dC1nNzBtaFFic2pBX0RvNVh0bjJrT3BMZEdla09uUUt2M19fNnlWWDBLMklSTVp2QjYzVVZpZFp0Tkc4YWF3NGl1OUZKWWJ2aVdoek5Rc2g2RW5vUTMxNjB4WEVVN0RFX3ZhdkEtazE4Yk9K?oc=5",
+   "fecha": "2026-11-13T16:01:19+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Yahoo",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "KCAS Pets of the Week: Aster and Fuzzers",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR2lfNmwxT0RsWm13N2RIMjZiUk1kdWlxWnE4WnBiLTVyYjJsVXV5TS1venVnTzg2dUozbHRiTzVZZmRGV09IY2V4MWJ0N2dFMHN4Y1lnbGUyMUZUdExIV2VCVzBvaG1xZm96clFkRUQ5V2ZqaTVjZUZqWGU3YU9uc2h3Tll1Mk82UWJPaA?oc=5",
+   "fecha": "2026-11-13T15:28:05+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "How Crypto Reacted to Nvidia CEO Resignation",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlFRZkd2djdiX1RWTkk2eWdEeHZlcW1SUXVLMzhlVzVyVjFYSWhLeXJsVTNhaEZ6dUhzdkxyak5EZ2NlSHVaQzRicFhwS0ZNcUprU0pxZmsxQjVqeXRtVUFlYUtOd0xVUGtFNEZ6cDBUOEUtdUlnSUZzWVVBZ2FmYkVTaWpKem9sd1dqcTl3?oc=5",
+   "fecha": "2026-11-13T15:12:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "dYdX v9.9 upgrade vote live! Key change: USDC reserves move from Noble to Injective due to Circle's service discontinuation. New deposits MUST go via Injective. Existing balances/history untouched. Withdrawals still ok via Noble/Injective. Vote ends Nov 16. #crypto #blockchain…",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3n276oq2j3d24",
+   "fecha": "2026-11-13T14:22:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "NIGHT",
+   "titulo": "$NIGHT.X I see Charles bragging about Night! Every time he opens his mouth he hurts ADA and Night! imo He’s very immature and needs to be quiet!🤫 He doesn’t understand most of the Crypto World doesn’t like him: Honest truth. I love him, but most don’t!",
+   "autor": "GypsyGirl2",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/GypsyGirl2/message/669030765",
+   "fecha": "2026-11-13T13:04:16+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "NIGHT",
+   "titulo": "$NIGHT.X Binance spot is whacking it down: Shorts are playing it!",
+   "autor": "GypsyGirl2",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/GypsyGirl2/message/669029797",
+   "fecha": "2026-11-13T12:52:05+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "AVAX",
+   "titulo": "$AVAX.X Maybe today will be another great example of sucking in people with a dcb then fleecing them later. We will see.",
+   "autor": "tyytss",
+   "postura": null,
+   "url": "https://stocktwits.com/tyytss/message/669027437",
+   "fecha": "2026-11-13T12:18:08+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "NIGHT",
+   "titulo": "$NIGHT.X Important for it to hold: .0436",
+   "autor": "GypsyGirl2",
+   "postura": "Bullish",
+   "url": "https://stocktwits.com/GypsyGirl2/message/669026810",
+   "fecha": "2026-11-13T12:07:32+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Esports.gg",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Playoffs at R6 Osaka Major 2026: Three-win path to the trophy",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBna1A4YlVLemhtNEZHRVVjWXZWU2x1TlRUR0tqcHJXaUhPYzFvUkc1b0VJMXlDbkkwckUyUjRkb0FfSlFGU1FPWGhtNVdLeXpwSHFHUFZzajNhSVBzd1N0RnU4aGRvblZILVBDeTAwQ2ZPYXJGQS1XbERGSQ?oc=5",
+   "fecha": "2026-11-13T11:41:01+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "AVAX",
+   "titulo": "AVAX One (AVX) reports strong Q3: revenue up to $2.445M, net profit $49.9M (driven by digital asset gains). They're pivoting from data centers to focus on AVAX treasury expansion. Convertible debt eliminated! #AVAX #Crypto",
+   "autor": "blockchainreport.bsky.social",
+   "url": "https://bsky.app/profile/blockchainreport.bsky.social/post/3n26tz7bjrg2m",
+   "fecha": "2026-11-13T11:11:45+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "SpaceX is not overvalued. It may be undervalued. We’ll see with anthropic, but it probably will be valued close to perfection. It’s original price has dropped significantly with the market downturn. It’s made more money faster than any company in history.",
+   "autor": "daledavis58.bsky.social",
+   "url": "https://bsky.app/profile/daledavis58.bsky.social/post/3n26njrjoqc25",
+   "fecha": "2026-11-13T09:15:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "📒 RECEIPTS · the plays we posted that ended at the Nov 12 close ▼ $ASTER short · 7 days · 5×: +12% $1,000 a play, $2,000 on the strong ones, since Oct 7: +$16,348, +10% on the money staked Misses included, every one scored. pattern.plus/receipts #crypto #aster",
+   "autor": "patternplus.bsky.social",
+   "url": "https://bsky.app/profile/patternplus.bsky.social/post/3n26mghbs6s2g",
+   "fecha": "2026-11-13T08:56:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "But SpaceX today trades higher than its IPO price, and NASA looks like a wholly owned subsidiary of Musk. No other company has transport to space in the US. Remember our astronauts stranded on the space statio? He is daring Democrats to defund SpaceX. He has become too big to…",
+   "autor": "staidwinnow.bsky.social",
+   "url": "https://bsky.app/profile/staidwinnow.bsky.social/post/3n26lperp4s27",
+   "fecha": "2026-11-13T08:43:05+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Injective's Veyra mainnet upgrade aims to boost institutional RWA expansion with new RFQ infrastructure & enhanced cross-chain features. Targeting Nov 24, 2026. 🚀 #Injective #RWA #Blockchain #DeFi",
+   "autor": "cryptovka-news.bsky.social",
+   "url": "https://bsky.app/profile/cryptovka-news.bsky.social/post/3n26ki7btge2r",
+   "fecha": "2026-11-13T08:21:11+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Injective's Veyra Mainnet Upgrade proposal voting is LIVE! If passed, the upgrade will execute on Nov 24, 2026. This aims to boost institutional adoption, expand the RWA market, & support next-gen tokenized financial products. Details: link to article",
+   "autor": "cryptofox.news",
+   "url": "https://bsky.app/profile/cryptofox.news/post/3n26khzluuk2r",
+   "fecha": "2026-11-13T08:21:05+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "INJ",
+   "titulo": "Injective's Veyra mainnet upgrade proposal is now open for voting! Targeted for Nov 24, 2026, it aims to boost institutional adoption, expand RWA markets, and integrate new IBC functionalities. Features include enhanced atomic swaps & RFQ infrastructure. Prepares for CypherOS!…",
+   "autor": "cryptonews-poster.bsky.social",
+   "url": "https://bsky.app/profile/cryptonews-poster.bsky.social/post/3n26khfxin624",
+   "fecha": "2026-11-13T08:20:44+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "Elon Musk’s SpaceX and Tesla are negotiating merger terms that could bring 30,221 Bitcoin worth $2.09 billion under one corporate treasury. #elon #musk #elonmusk https://mu.sk/sHhK",
+   "autor": "elon.mu.sk",
+   "url": "https://bsky.app/profile/elon.mu.sk/post/3n26jg3xy7224",
+   "fecha": "2026-11-13T08:02:06+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Analytics Insight",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto Prices Today: Bitcoin at USD 68,521, Ethereum at USD 1,919 as XRP, Solana Decline",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMHJrZ2llRzdNNm93X2Zvd1RFU2Rpa0l5RmNSV3RSR2NkekgxTDc1VWZXbGVsSmZpdHlHdnIzTGliVlFJWWg4RHZNWDVnOWJKc2NORHgwU2o0NEg5SGUyR3FZNTlodWxfWGcyeVhLb0pNcUJMbTZlTGFxM2JKTnhPa181Z0hqb1ozb3VzWUJEdWVIX1dPY3ZYaTF5QWJOTDdCcm8xSHJHODhjVWJfYnhVTnExMWxSS3dVZUloWnMzLVl5NE1ha0NjSTNPck1KbkdmUW5heV8zMGLSAdgBQVVfeXFMUDBya2dpZUc3TTZvd19mb3dURVNkaWtJeUZjUld0UkdjZHpIMUw3NVVmV2xlbEpmaXR5R3ZyM0xpYlZRSVloOER2TVg1ZzliSnNjTkR4MFNqNDRIOUhlMkdxWTU5aHVsX1hnMnlYS29KTXFCTG02ZUxhcTNiSk54T2tfNWdIam9aM291c1lCRHVlSF9XT2N2WGkxeUFiTkw3QnJvMUhyRzg4Y1ViX2J4VU5xMTFsUkt3VWVJaFpzMy1ZeTRNYWtDY0kzT3JNSm5HZlFuYXlfMzBi?oc=5",
+   "fecha": "2026-11-13T07:08:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Crypto Market Capitalization Falls 8.22% to $2.33 Trillion",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15dXM0OGxzS082NFhRNnJOaXJ3a2xMUlJmbzdOSldQeEwyWUpaUXFWRF80NWd6RWdMN0Qyd3UySzVHMFp2ZzZ2b3U5TzF0LVB3NGRfdldLSmNXUQ?oc=5",
+   "fecha": "2026-11-13T05:09:30+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "ASTER",
+   "titulo": "World Liberty Financial has bought 21 million WLFI tokens on Aster DEX in under 72 hours, marking the first purchases under its new buyback program announced earlier this month.",
+   "autor": "bscn.bsky.social",
+   "url": "https://bsky.app/profile/bscn.bsky.social/post/3n266g476nu2o",
+   "fecha": "2026-11-13T04:45:15+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "www.tokenpost.com",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Bitway Drops 15.51% to $0.883 as 77 of 90 Cryptocurrencies Fall",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbWZ6N0RCQ3U4T1hQSERzcHpQWGxlMjdrOE12bHduZVZET0hVeFNQZVVubWZlNDRyb291R2pPQmZFQmxXV0kwVmxpYXdjUnA2S2xhM04wZHh4QQ?oc=5",
+   "fecha": "2026-11-13T04:09:00+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "NIGHT",
+   "titulo": "I have a few, actually. It's difficult to choose one. Old Gods Of Appalachia Welcome To Night Vale Midnight Burger Welcome To The Horizon Hello From The Hallowoods The Magnus Archives The Magnus Protocol",
+   "autor": "motherofbears.bsky.social",
+   "url": "https://bsky.app/profile/motherofbears.bsky.social/post/3n25uet3ias27",
+   "fecha": "2026-11-13T01:45:36+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "Elon and his Autocrat pals have big $plans for us news.oilandgaswatch.org/post/spacex-...",
+   "autor": "glacierlily.bsky.social",
+   "url": "https://bsky.app/profile/glacierlily.bsky.social/post/3n25ubr4ez22o",
+   "fecha": "2026-11-13T01:43:55+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "Bluesky",
+   "via": "Bluesky",
+   "moneda": "SPCXB",
+   "titulo": "A potential merger between Elon Musk’s SpaceX and Tesla faces a growing problem: SpaceX’s falling share price could leave Tesla investors owning a much bigger piece of the combined company. Shares of SpaceX (NASDAQ:SPCX) have fallen about 13% since Oct....",
+   "autor": "some-news.bsky.social",
+   "url": "https://bsky.app/profile/some-news.bsky.social/post/3n25tuem2dj2y",
+   "fecha": "2026-11-13T01:36:24+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "KKTV",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Cape Fear Gardening: Adding Climbing Aster to your landscaping",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeUZpbXhwSjItZno3TkdPU0h2bXozS2ZNaFZVSWk1UWU1MXcxbTRNWUtPVDJxT2djZkxCejlBNmozOHNFYVprYlNPZ3VpSm51Y0I3S0JhaW5xVTNDSkFHTGNxWVl6LUZDVTFaMFhtZnJSYmVWZWdJSTVTdldlWkdyVzdMYWNKcDUxWE93OTJqVVZKMEV2OGR1Q1JrdkYwQQ?oc=5",
+   "fecha": "2026-11-12T23:21:00+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Stacks Drops 10.97% as 76 of 90 Major Cryptocurrencies Fall",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxbS1HdUdEQTBraEJqQUNicUYxLU9HVC16Z3JVOVJBLW0yMjlRYURkcllWVmRwTEhRdjIzcjVvY25IQVQ5WmZ5ekJudmhHMzVKck41UDhONGRrdw?oc=5",
+   "fecha": "2026-11-12T22:14:17+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoRank",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "South Korea Moves to Let Crypto Exchanges Block Withdrawals Before Hacks Are Confirmed",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVd3REJsYWhwckFDd3BqZXF1Z0R4TmtQS19LMUowaXlTbDl3d2xoTzFPRXJfbDRRM1NNbmhtR3A2NmpTWGRNODBCOEp0R25JMVJLTGhEZ0ROVzYxQW1wYXFYQjhMY1FtV0h5N293QUZHa04tcTdqZEhpNGRvbkg5RDhhek5ZQXBtdFNNUEFuTVhJMWsyd1VTdWRHalNJZ1hCcktDQWloUjB3c3QyQjYwbFp4aF9CZ0hiNWZCYjhpZDNBUQ?oc=5",
+   "fecha": "2026-11-12T21:15:54+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Pepe Leads Crypto Losses as 76 of 90 Assets Fall in Nov. 12 Snapshot",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EdVJWLWlMWFNLbURULVBzRUxUb0JWdjZ4QzVkSndVVmR6cG8wd0FHbklnelFVeHhJWGZTM2xmTGtlNVJsQzQyZlF1VGtrd244NEw2QWNRQmNDUQ?oc=5",
+   "fecha": "2026-11-12T19:51:42+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "JST",
+   "titulo": "Pepe Leads Crypto Losses as 76 of 90 Assets Fall in Nov. 12 Snapshot",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EdVJWLWlMWFNLbURULVBzRUxUb0JWdjZ4QzVkSndVVmR6cG8wd0FHbklnelFVeHhJWGZTM2xmTGtlNVJsQzQyZlF1VGtrd244NEw2QWNRQmNDUQ?oc=5",
+   "fecha": "2026-11-12T19:51:42+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "World Liberty Financial Executes First WLFI Buyback on Aster via BNB Chain Wallet",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jbFp2TGItb2dfQTh5bEZvc2xuam5PVmk5R0k1ZmJBR3NadW5IUmhsaXBlbV9RaEJsQnEtb3RhYkI5MV80VjJiWExXQWVGZEpOOGxNWFRMTjlrQQ?oc=5",
+   "fecha": "2026-11-12T19:19:48+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Cryptonews.net",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Crypto Price Analysis, BTC, ETH, VVV, ONDO and ASTER, Nov. 12: Bitcoin Stabilizes as Ethereum Holds Below Lower Band",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJajhhaldmZkozeXRiRnluNWQ4aU14TDRLa0V3VjB5RDNKMkVvWWx1a09VQ1hvSG1lVkVQbGRDdEg3NEJvWEdQV01BcjdscVlYSFZCY1RQSUdILWc?oc=5",
+   "fecha": "2026-11-12T12:09:21+00:00"
+  },
+  {
+   "tipo": "social",
+   "red": "StockTwits",
+   "via": "StockTwits",
+   "moneda": "NIGHT",
+   "titulo": "$NIGHT.X one month chart of BTC vs NIGHT says it all…",
+   "autor": "SabaiSabai",
+   "postura": null,
+   "url": "https://stocktwits.com/SabaiSabai/message/668892575",
+   "fecha": "2026-11-12T12:00:33+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto Decliners Reach 66 as Pepe Leads Late Nov. 11 Snapshot",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pVTdTc1E5elJBUWtfZ25SRmkwQXFpZ0o2eWxBV255R0dzY01UN0dtTjVtd2Q0dWdCeWFFNXZSQzU4aDFobW9qQWJaOThxWVdqT2ZKR0hpbllNZw?oc=5",
+   "fecha": "2026-11-12T11:56:29+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "TOKENPOST",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Pepe Falls 16.17% to Lead Crypto Decliners in Nov. 11 Snapshot",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HcndXTUhfZXlRaTNSVkFWc2Q1RGJHMmlhR1poRFhYaXA0VjhWMFNIeUhiT0pPMUtreEpSTWhwOFVfdWNiSGcxOFlQaHBNUUxiQjBWYTRkY0lwZw?oc=5",
+   "fecha": "2026-11-12T10:08:30+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CryptoDnes.bg",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Trump Media Has Pledged Most of Its Bitcoin Just as Note Holders Can Demand Cash",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmdEakU0ak1LS1ZNRFpoNmxqcUwyaEF5dm0telRBN3otYjExSm1Fa01KM0l1UGZ6SUh0SlFxcG41NlhhZEZEOHJHdVpEWWZ3WndvUmpDRzBDU3Q3cnlrYzRMTXB3VkotbW92M1N6QkczYlZ0NkJYYnNhYWVscFNodg?oc=5",
+   "fecha": "2026-11-12T09:00:09+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Coinbase",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Oklahoma City vs Portland: 2nd Quarter Total",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnNJd1owRlhrZ29aU2lsM3pIMUpmQW50SGoyUU9NQktqdGxnTVdxQ3FtSHVQQi16WEt0Z1A3a0ZKaGowTVZ4VncyWkVJT2p4YzBnMjFleHl5eXU4YWlDRW5lSWxod1ZNVmM5Q1ZIV1NOeFVmRGNtTmd1dTBkLXZPWg?oc=5",
+   "fecha": "2026-11-12T06:49:55+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "Analytics Insight",
+   "via": "Google News",
+   "moneda": "FIGR_HELOC",
+   "titulo": "Crypto Prices Today: Bitcoin Holds Near USD 73,600 as Zcash Falls 3.5%",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMWRQVFVzdWxQSURpX2JlS0QwSkwwTWlIR2tVZkZlOXlJMzN2T3duY2gxY3JyX1hKRzlZVVFqdVpFbE9pakhHd1psc2NhWEV3OWN2THh6U1FrSTBnTEFxLWlrZy1ZUW5tQW5RMEdUOG9FUTEtOWY2WXdmb09aMlFBSDdNekdsc0JIR2ZfZ2ptRmhRRWlxZlpfMWI3THUwbm9MRThETnduUWlzSWdZRzRBby1WMnhpT0R0NGZEemM4RjRHQdIBwgFBVV95cUxQMWRQVFVzdWxQSURpX2JlS0QwSkwwTWlIR2tVZkZlOXlJMzN2T3duY2gxY3JyX1hKRzlZVVFqdVpFbE9pakhHd1psc2NhWEV3OWN2THh6U1FrSTBnTEFxLWlrZy1ZUW5tQW5RMEdUOG9FUTEtOWY2WXdmb09aMlFBSDdNekdsc0JIR2ZfZ2ptRmhRRWlxZlpfMWI3THUwbm9MRThETnduUWlzSWdZRzRBby1WMnhpT0R0NGZEemM4RjRHQQ?oc=5",
+   "fecha": "2026-11-12T06:26:58+00:00"
+  },
+  {
+   "tipo": "noticia",
+   "red": "CoinGecko",
+   "via": "Google News",
+   "moneda": "ASTER",
+   "titulo": "Best Perp DEXes and On-Chain Trading Platforms in 2026",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2FYdGt0dUhmc2ZxaEN3cXVPaWZfalp6UWtvU2lla1JSWnRmSk80dXp1dzBid3Ftb0VTWWY0X3lkM0NvS3IyWXc4ZDY2UzJpemdyQ2EtOVVCa1czXzJ1UmxWLXh6RkZJVG15UHRBX1BSRE9OeW0wTGE2Q1VXVy1HTzAwUmE?oc=5",
+   "fecha": "2026-11-11T15:12:47+00:00"
+  }
+ ],
+ "posturas_stocktwits": {
+  "JST": {
+   "Bullish": 3,
+   "Bearish": 0
+  },
+  "NIGHT": {
+   "Bullish": 16,
+   "Bearish": 0
+  },
+  "SPCXB": {
+   "Bullish": 1,
+   "Bearish": 0
+  },
+  "ASTER": {
+   "Bullish": 10,
+   "Bearish": 0
+  },
+  "INJ": {
+   "Bullish": 11,
+   "Bearish": 1
+  },
+  "AVAX": {
+   "Bullish": 9,
+   "Bearish": 1
+  },
+  "ICP": {
+   "Bullish": 6,
+   "Bearish": 1
+  },
+  "JUP": {
+   "Bullish": 14,
+   "Bearish": 0
+  }
+ },
+ "fallas": [
+  "Reddit: HTTPError 403"
+ ]
+}
