@@ -1,20 +1,25 @@
 {
- "fecha": "2026-11-13",
+ "fecha": "2026-11-14",
  "monedas": [
-  {
-   "coin_id": "just",
-   "simbolo": "JST",
-   "nombre": "JUST"
-  },
   {
    "coin_id": "figure-heloc",
    "simbolo": "FIGR_HELOC",
    "nombre": "Figure Heloc"
   },
   {
+   "coin_id": "just",
+   "simbolo": "JST",
+   "nombre": "JUST"
+  },
+  {
    "coin_id": "ape-and-pepe",
    "simbolo": "APEPE",
    "nombre": "Ape and Pepe"
+  },
+  {
+   "coin_id": "injective-protocol",
+   "simbolo": "INJ",
+   "nombre": "Injective"
   },
   {
    "coin_id": "midnight-3",
@@ -27,9 +32,14 @@
    "nombre": "SpaceX (bStocks Tokenized Stock)"
   },
   {
-   "coin_id": "gatechain-token",
-   "simbolo": "GT",
-   "nombre": "Gate"
+   "coin_id": "ondo-us-dollar-yield",
+   "simbolo": "USDY",
+   "nombre": "Ondo US Dollar Yield"
+  },
+  {
+   "coin_id": "avalanche-2",
+   "simbolo": "AVAX",
+   "nombre": "Avalanche"
   },
   {
    "coin_id": "aster-2",
@@ -37,19 +47,9 @@
    "nombre": "Aster"
   },
   {
-   "coin_id": "monero",
-   "simbolo": "XMR",
-   "nombre": "Monero"
-  },
-  {
-   "coin_id": "bittorrent",
-   "simbolo": "BTT",
-   "nombre": "BitTorrent"
-  },
-  {
-   "coin_id": "ether-fi",
-   "simbolo": "ETHFI",
-   "nombre": "Ether.fi"
+   "coin_id": "internet-computer",
+   "simbolo": "ICP",
+   "nombre": "Internet Computer"
   }
  ]
 }
